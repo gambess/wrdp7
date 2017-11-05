@@ -1,0 +1,99 @@
+.tblro0{
+	background-color:#EEE;
+}
+.tblview{
+	border:1px solid #EEE;
+	border-collapse:collapse;
+}
+.tblview td, .tblview th{
+	border:1px solid #DDD;
+	padding:3px 5px;
+	text-align:center;
+	}
+.tblview  .blteamname{
+	text-align:left;
+	padding-left:15px;
+}
+.tblview th{
+	font-size:80%;
+	
+}
+.tblview .clear{
+	border:0px;
+	padding:5px;
+
+}
+.embl_in_tblmod{
+	height:25px;
+}
+div.team-embl{
+	border:1px solid #ccc;
+	width:29px;
+	height:29px;
+	background-color:#FFF;
+	/*line-height: 29px;*/
+    text-align: center;
+	display: table-cell;
+	vertical-align:middle;
+}
+.cansorttbl.table .img-thumbnail {
+    margin-right: 15px;
+    max-width: 35px;
+}    
+
+.jsmodtbl_responsive td, .jsmodtbl_responsive th{
+    text-align: center;
+    vertical-align: middle;
+}
+.jsmodtbl_responsive .jsNoWrap{
+    white-space: nowrap;
+}
+.jsmodtbl_responsive .table-responsive {
+  min-height: .01%;
+  overflow-x: auto;
+}
+@media screen and (max-width: 767px) {
+  .jsmodtbl_responsive .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+  .jsmodtbl_responsive .table-responsive > .table {
+    margin-bottom: 0;
+  }
+  .jsmodtbl_responsive .table-responsive > .table > thead > tr > th,
+  .jsmodtbl_responsive .table-responsive > .table > tbody > tr > th,
+  .jsmodtbl_responsive .table-responsive > .table > tfoot > tr > th,
+  .jsmodtbl_responsive .table-responsive > .table > thead > tr > td,
+  .jsmodtbl_responsive .table-responsive > .table > tbody > tr > td,
+  .jsmodtbl_responsive .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  .jsmodtbl_responsive .table-responsive > .table-bordered {
+    border: 0;
+  }
+  .jsmodtbl_responsive .table-responsive > .table-bordered > thead > tr > th:first-child,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  .jsmodtbl_responsive .table-responsive > .table-bordered > thead > tr > th:last-child,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  .jsmodtbl_responsive .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .jsmodtbl_responsive .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}

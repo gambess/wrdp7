@@ -1,0 +1,529 @@
+/** div.sitable - Standings table - BEGIN **/
+
+
+div.sitable table tr.odd,
+div.sifixtures table tr.odd,
+div.siresults table tr.odd {
+	background-color: #F1F1F1;
+}
+
+div.sitable .wpsi_tb_con,
+div.sifixtures .wpsi_tb_con,
+div.siresults .wpsi_tb_con {
+	font-size:10px;
+	text-decoration:none;
+	color:inherit;
+	white-space:normal;
+}
+div.sitable .wpsi_tb_con a,
+div.sifixtures .wpsi_tb_con a,
+div.siresults .wpsi_tb_con a {
+	font-size: inherit;
+	text-decoration:none;
+	color:inherit;
+	font-weight:inherit;
+}
+
+div.sitable {
+	font-size: 12px;
+	line-height: 20px;
+	width: 320px;
+	color: #444 !important;
+}
+div.sitable.siwidget {
+	width: auto;
+}
+div.sitable table {
+	border: none;
+	border-spacing: 0px !important;
+	width: 100%;
+	border-color: transparent !important;
+}
+div.sitable table thead th,
+div.sitable table tbody td {
+	padding:2px;
+	text-align:center;
+	color: #444 !important;
+}
+div.sitable table thead th.team,
+div.sitable table tbody td.team {
+	text-align:left;
+}
+div.sitable table tbody td.rank {
+	padding-right:4px;
+	text-align:right;
+}
+
+div.sitable table thead,
+div.sitable table thead th {
+	background-color: #DDD;
+}
+div.sitable table tr.highlight {
+	background-color: #EEE;
+	font-weight: bold;
+}
+
+/** div.sitable - Standings table - END **/
+
+
+/** div.sitable - Fixtures table - BEGIN **/
+
+div.sifixtures {
+	font-size: 12px;
+	line-height: 20px;
+	float:left;
+	width: 320px;
+	color: #444 !important;
+}
+div.sifixtures.siwidget {
+	float:none;
+	width: auto;
+}
+div.sifixtures table {
+	border: none;
+	border-spacing: 0px !important;
+	width: 100%;
+	border-color: transparent !important;
+}
+div.sifixtures table tbody td {
+	padding:2px;
+	text-align:left;
+}
+div.sifixtures table tbody td.team_a {
+	width: 40%;
+	text-align:right;
+}
+div.sifixtures table tbody td.team_b {
+	width: 40%;
+	text-align:left;
+}
+div.sifixtures table tbody td.time {
+	white-space:nowrap;
+	text-align:center;
+}
+
+div.sifixtures table tr.date {
+	background-color: #DDD;
+}
+div.sifixtures table tr.highlight {
+	background-color: #EEE;
+}
+
+/** div.sitable - Fixtures table - END **/
+
+
+/** div.sitable - Results table - BEGIN **/
+
+div.siresults {
+	font-size: 12px;
+	line-height: 20px;
+	float:left;
+	width: 320px;
+	color: #444 !important;
+}
+div.siresults.siwidget {
+	float:none;
+	width: auto;
+}
+div.siresults table {
+	border: none;
+	border-spacing: 0px !important;
+	width: 100%;
+	border-color: transparent !important;
+}
+div.siresults table tbody td {
+	padding:2px;
+	text-align:left;
+}
+div.siresults table tbody td.team_a {
+	width: 40%;
+	text-align:right;
+}
+div.siresults table tbody td.team_b {
+	width: 40%;
+	text-align:left;
+}
+div.siresults table tbody td.team_bold {
+	/*font-weight: bold;*/
+	color: #090;
+}
+div.siresults table tbody td.result {
+	white-space:nowrap;
+	text-align:center;
+}
+
+div.siresults table tr.date {
+	background-color: #DDD;
+}
+div.siresults table tr.highlight {
+	background-color: #EEE;
+}
+
+/** div.sitable - Results table - END **/
+
+
+/** blue-grey - style - BEGIN **/
+
+div.sitable.blue_light,
+div.sifixtures.blue_light,
+div.siresults.blue_light {
+	color: #444 !important;
+}
+
+div.sitable.blue_light table tr td,
+div.sifixtures.blue_light table tr td,
+div.siresults.blue_light table tr td {
+	border: none;
+	border-bottom: solid 1px #E5E5E5 !important;
+	color: #444;
+	background-color: transparent;
+}
+
+div.sitable.blue_light table tr td.team,
+div.sifixtures.blue_light table tr td.team_a,
+div.sifixtures.blue_light table tr td.team_b,
+div.siresults.blue_light table tr td.team_a,
+div.siresults.blue_light table tr td.team_b {
+	color: #336699 !important;
+}
+
+div.sitable.blue_light table thead,
+div.sitable.blue_light table thead th,
+div.sifixtures.blue_light table thead,
+div.sifixtures.blue_light table thead th,
+div.siresults.blue_light table thead,
+div.siresults.blue_light table thead th {
+	background: none;
+	background-color: #B1CBE4 !important;
+	border: none;
+}
+
+div.sitable.blue_light table tr.highlight,
+div.sifixtures.blue_light table tr.highlight,
+div.siresults.blue_light table tr.highlight {
+	background-color: #CBDCED !important;
+}
+
+div.sitable.blue_light table tr.date,
+div.sifixtures.blue_light table tr.date,
+div.siresults.blue_light table tr.date {
+	background-color: #B1CBE4;
+}
+
+div.siresults.blue_light table tbody td.team_bold {
+	font-weight: bold;
+}
+
+/** blue-grey - style - END **/
+
+
+/** green_light - style - BEGIN **/
+
+div.sitable.green_light,
+div.sifixtures.green_light,
+div.siresults.green_light {
+	color: #444 !important;
+}
+
+div.sitable.green_light table tr td,
+div.sifixtures.green_light table tr td,
+div.siresults.green_light table tr td {
+	border: none;
+	border-bottom: solid 1px #E5E5E5 !important;
+	color: #444;
+	background-color: transparent;
+}
+
+div.sitable.green_light table tr td.team,
+div.sifixtures.green_light table tr td.team_a,
+div.sifixtures.green_light table tr td.team_b,
+div.siresults.green_light table tr td.team_a,
+div.siresults.green_light table tr td.team_b {
+	color: #6EAE00 !important;
+}
+
+div.sitable.green_light table thead,
+div.sitable.green_light table thead th,
+div.sifixtures.green_light table thead,
+div.sifixtures.green_light table thead th,
+div.siresults.green_light table thead,
+div.siresults.green_light table thead th {
+	background: none;
+	background-color: #A1CA59 !important;
+	border: none;
+}
+
+div.sitable.green_light table tr.highlight,
+div.sifixtures.green_light table tr.highlight,
+div.siresults.green_light table tr.highlight {
+	background-color: #CBE2A3 !important;
+}
+
+div.sitable.green_light table tr.date,
+div.sifixtures.green_light table tr.date,
+div.siresults.green_light table tr.date {
+	background-color: #A1CA59;
+}
+
+div.siresults.green_light table tbody td.team_bold {
+	font-weight: bold;
+}
+
+/** green_light - style - END **/
+
+
+/** red_light - style - BEGIN **/
+
+div.sitable.red_light,
+div.sifixtures.red_light,
+div.siresults.red_light {
+	color: #444 !important;
+}
+
+div.sitable.red_light table tr td,
+div.sifixtures.red_light table tr td,
+div.siresults.red_light table tr td {
+	border: none;
+	border-bottom: solid 1px #E5E5E5 !important;
+	color: #444;
+	background-color: transparent;
+}
+
+div.sitable.red_light table tr td.team,
+div.sifixtures.red_light table tr td.team_a,
+div.sifixtures.red_light table tr td.team_b,
+div.siresults.red_light table tr td.team_a,
+div.siresults.red_light table tr td.team_b {
+	color: #CF2323 !important;
+}
+
+div.sitable.red_light table thead,
+div.sitable.red_light table thead th,
+div.sifixtures.red_light table thead,
+div.sifixtures.red_light table thead th,
+div.siresults.red_light table thead,
+div.siresults.red_light table thead th {
+	background: none;
+	background-color: #E45C5C !important;
+	border: none;
+}
+
+div.sitable.red_light table tr.highlight,
+div.sifixtures.red_light table tr.highlight,
+div.siresults.red_light table tr.highlight {
+	background-color: #E97D7D !important;
+}
+
+div.sitable.red_light table tr.date,
+div.sifixtures.red_light table tr.date,
+div.siresults.red_light table tr.date {
+	background-color: #E45C5C;
+}
+
+div.siresults.red_light table tbody td.team_bold {
+	font-weight: bold;
+}
+
+/** green_light - style - END **/
+
+
+/** for dark backgrounds - BEGIN **/
+
+div.sitable.blue_dark table tr.odd,
+div.sifixtures.blue_dark table tr.odd,
+div.siresults.blue_dark table tr.odd,
+div.sitable.green_dark table tr.odd,
+div.sifixtures.green_dark table tr.odd,
+div.siresults.green_dark table tr.odd,
+div.sitable.red_dark table tr.odd,
+div.sifixtures.red_dark table tr.odd,
+div.siresults.red_dark table tr.odd {
+	background-color: #121212;
+}
+/** for dark backgrounds - END **/
+
+
+/** blue_dark - style - BEGIN **/
+
+div.sitable.blue_dark table,
+div.sifixtures.blue_dark table,
+div.siresults.blue_dark table {
+	background-color: #011241 !important;
+	border-color: #011251 !important;
+}
+
+div.sitable.blue_dark table tr td,
+div.sifixtures.blue_dark table tr td,
+div.siresults.blue_dark table tr td {
+	border: none;
+	border-bottom: solid 1px #011251 !important;
+	color: #999 !important;
+	background-color: transparent;
+}
+
+div.sitable.blue_dark table tr td.team,
+div.sifixtures.blue_dark table tr td.team_a,
+div.sifixtures.blue_dark table tr td.team_b,
+div.siresults.blue_dark table tr td.team_a,
+div.siresults.blue_dark table tr td.team_b {
+	color: #0033AA !important;
+}
+
+div.sitable.blue_dark table thead,
+div.sitable.blue_dark table thead th,
+div.sifixtures.blue_dark table thead,
+div.sifixtures.blue_dark table thead th,
+div.siresults.blue_dark table thead,
+div.siresults.blue_dark table thead th {
+	background: none;
+	background-color: #0044AA !important;
+	border: none;
+}
+
+div.sitable.blue_dark table tr.highlight,
+div.sifixtures.blue_dark table tr.highlight,
+div.siresults.blue_dark table tr.highlight {
+	background-color: #012161 !important;
+}
+
+div.sitable.blue_dark table tr.date,
+div.sifixtures.blue_dark table tr.date,
+div.siresults.blue_dark table tr.date {
+	background-color: #0044AA;
+}
+div.sitable.blue_dark table thead th,
+div.sitable.blue_dark table tr.date td,
+div.sifixtures.blue_dark table tr.date td,
+div.siresults.blue_dark table tr.date td {
+	color: #222 !important;
+}
+
+div.siresults.blue_dark table tbody td.team_bold {
+	font-weight: bold;
+}
+
+/** blue_dark - style - END **/
+
+
+/** green_dark - style - BEGIN **/
+
+div.sitable.green_dark table,
+div.sifixtures.green_dark table,
+div.siresults.green_dark table {
+	background-color: #012101 !important;
+	border-color: #013101 !important;
+}
+
+div.sitable.green_dark table tr td,
+div.sifixtures.green_dark table tr td,
+div.siresults.green_dark table tr td {
+	border: none;
+	border-bottom: solid 1px #013101 !important;
+	color: #999 !important;
+	background-color: transparent;
+}
+
+div.sitable.green_dark table tr td.team,
+div.sifixtures.green_dark table tr td.team_a,
+div.sifixtures.green_dark table tr td.team_b,
+div.siresults.green_dark table tr td.team_a,
+div.siresults.green_dark table tr td.team_b {
+	color: #007700 !important;
+}
+
+div.sitable.green_dark table thead,
+div.sitable.green_dark table thead th,
+div.sifixtures.green_dark table thead,
+div.sifixtures.green_dark table thead th,
+div.siresults.green_dark table thead,
+div.siresults.green_dark table thead th {
+	background: none;
+	background-color: #008800 !important;
+	border: none;
+}
+
+div.sitable.green_dark table tr.highlight,
+div.sifixtures.green_dark table tr.highlight,
+div.siresults.green_dark table tr.highlight {
+	background-color: #014101 !important;
+}
+
+div.sitable.green_dark table tr.date,
+div.sifixtures.green_dark table tr.date,
+div.siresults.green_dark table tr.date {
+	background-color: #008800;
+}
+div.sitable.green_dark table thead th,
+div.sitable.green_dark table tr.date td,
+div.sifixtures.green_dark table tr.date td,
+div.siresults.green_dark table tr.date td {
+	color: #222 !important;
+}
+
+div.siresults.green_dark table tbody td.team_bold {
+	font-weight: bold;
+}
+
+/** green_dark - style - END **/
+
+
+/** red_dark - style - BEGIN **/
+
+div.sitable.red_dark table,
+div.sifixtures.red_dark table,
+div.siresults.red_dark table {
+	background-color: #310101 !important;
+	border-color: #410101 !important;
+}
+
+div.sitable.red_dark table tr td,
+div.sifixtures.red_dark table tr td,
+div.siresults.red_dark table tr td {
+	border: none;
+	border-bottom: solid 1px #410101 !important;
+	color: #999 !important;
+	background-color: transparent;
+}
+
+div.sitable.red_dark table tr td.team,
+div.sifixtures.red_dark table tr td.team_a,
+div.sifixtures.red_dark table tr td.team_b,
+div.siresults.red_dark table tr td.team_a,
+div.siresults.red_dark table tr td.team_b {
+	color: #880000 !important;
+}
+
+div.sitable.red_dark table thead,
+div.sitable.red_dark table thead th,
+div.sifixtures.red_dark table thead,
+div.sifixtures.red_dark table thead th,
+div.siresults.red_dark table thead,
+div.siresults.red_dark table thead th {
+	background: none;
+	background-color: #AA0000 !important;
+	border: none;
+}
+
+div.sitable.red_dark table tr.highlight,
+div.sifixtures.red_dark table tr.highlight,
+div.siresults.red_dark table tr.highlight {
+	background-color: #410101 !important;
+}
+
+div.sitable.red_dark table tr.date,
+div.sifixtures.red_dark table tr.date,
+div.siresults.red_dark table tr.date {
+	background-color: #AA0000;
+}
+div.sitable.red_dark table thead th,
+div.sitable.red_dark table tr.date td,
+div.sifixtures.red_dark table tr.date td,
+div.siresults.red_dark table tr.date td {
+	color: #222 !important;
+}
+
+div.siresults.red_dark table tbody td.team_bold {
+	font-weight: bold;
+}
+
+/** red_dark - style - END **/

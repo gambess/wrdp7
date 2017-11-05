@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+.drawBracketContainerBE
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.drawBracketContainerBE .table>thead>tr>th, .drawBracketContainerBE .table>tbody>tr>th, .drawBracketContainerBE .table>tfoot>tr>th, .drawBracketContainerBE .table>thead>tr>td, .drawBracketContainerBE .table>tbody>tr>td, .table>tfoot>tr>td {
+	vertical-align: middle !important;
+}
+
+.drawBracketContainerBE .table, .table>thead>tr>th {
+	border: none;
+}
+.drawBracketContainerBE .table tr td {
+	min-width: 180px;
+	border: none !important;
+	line-height: 30px !important;
+        padding: 0px 20px 0px 0px !important;
+	z-index: 1;
+	position: relative;
+        height:30px !important;
+        text-align: left;
+        padding-bottom: 10px !important;
+        white-space: nowrap;
+}
+.drawBracketContainerBE .table td.first .player {
+	min-width: 180px;
+	min-height: 32px;
+	background: #f6f6f6;
+	padding: 0px 0px 0px 0px;
+        border: 1px solid #ccc;
+	border-radius: 4px;
+	border-collapse: separate; 
+	color: #666;
+        display: table;
+}
+.drawBracketContainerBE .table td.even .player {
+	min-width: 180px;
+	min-height: 32px;
+	background: #f6f6f6;
+	padding: 0px 0px 0px 0px;
+        border: 1px solid #ccc;
+	border-radius: 4px;
+	color: #666;
+        border-collapse: separate; 
+        display: table;
+}
+
+.drawBracketContainerBE .table .ml9 {
+	margin-left: 9px;
+}
+
+.drawBracketContainerBE .table tr{
+    background: none;
+}
+.drawBracketContainerBE .knockbot{
+    vertical-align: top;
+}
+.drawBracketContainerBE .knocktop{
+    vertical-align: bottom;
+    border-bottom: 1px solid #ccc !important;
+}
+.drawBracketContainerBE .knockbot.player{
+    border-radius: 0px 0px 4px 4px !important;
+    border-top: 0px !important;
+}
+.drawBracketContainerBE .knocktop.player{
+    border-radius: 4px 4px 0px 0px !important;
+    //border-bottom: 0px !important;
+}
+.drawBracketContainerBE td{
+    text-align: left;
+}    
+.drawBracketContainerBE .table tr td.knocktop:first-child div.player{
+    margin-top: 5px;
+}  
+.drawBracketContainerBE .table tr td.knockbot:first-child div.player{
+    margin-bottom: 5px;
+} 
+.drawBracketContainerBE td{
+    border-right: 1px solid transparent !important;
+}
+.drawBracketContainerBE .borderKnRight{
+    border-right: 1px solid #ccc !important;
+}
+.drawBracketContainerBE .borderKnTop{
+    border-top: 1px solid #ccc !important;
+}
+.drawBracketContainerBE div.knockscore{
+    min-width: 30px;
+    background-color: #eee;
+    border-left: 1px solid #ccc;
+    display:table-cell;
+    text-align: center;
+    line-height: 31px;
+    font-weight: bold;
+    height:  32px;
+}
+.drawBracketContainerBE .knockbot div.knockscore{
+    border-radius: 0px 0px 3px 0px;
+}    
+.drawBracketContainerBE .knocktop div.knockscore{
+    border-radius: 0px 3px 0px 0px;
+}   
+.drawBracketContainerBE .first div.knockscore{
+    background-color: #ddd;
+}    
+
+.drawBracketContainerBE .knockplName{
+    padding:0px 10px;
+    display:table-cell;
+    width:100%;
+    text-align: left;
+}
+.drawBracketContainerBE div.kntmprow{
+    display:table-row;
+}    
+    
+.knIsHover{
+    background-color: #ddd;
+}
+.seasonTable .jsborderI{
+    height: calc(100% + 1px);
+    //margin-top:32px;
+}
+.seasonTable .drawBracketContainerBE .knockplName{
+    padding:0px;
+}    
+.jsborderI{
+        width: 100%;
+    height: calc(100% - 1px);
+    position: absolute;
+    /* top: 50%; */
+    /* margin-top: -10px; */
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-top:33px;
+    z-index:-1;
+}
+.jsborderIFin{
+    border-top: 1px solid #ccc;
+    margin-top:33px;
+    position: absolute;
+        width: 30px;
+    height: calc(100% - 1px);
+    z-index:-1;
+}
+.drawBracketContainerBE .table td .fa-arrow-circle-right{
+   position: absolute;
+    right: 0;
+    margin-top:18px; 
+    color:#666;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.drawBracketContainerBE .table td .fa-plus-square {
+    position: absolute;
+    right: 2px;
+    margin-top: 35px;
+    color: green;
+    font-size: 1em;
+    cursor: pointer;
+}
+.drawBracketContainerBE .fa-minus-square{
+    color:red;
+    position:absolute;
+    bottom: -15px;
+    right: 3px;
+    display: none;
+    cursor:pointer;
+}
+.drawBracketContainerBE .table td .fa-plus-square.facirclebot{
+    margin-top: 20px;
+}
+/*
+.drawBracketContainerBE .table td .fa-cog{
+    position:absolute;
+    margin-top:27px;
+    left:2px;
+    color:#666;
+    font-size: 1.3em;
+    cursor: pointer;
+}*/
+.drawBracketContainerBE .jsmatchconf2{
+    position:absolute;
+    left:3px;
+    bottom: -15px;
+    display: none;
+    cursor: pointer;
+}
+.drawBracketContainerBE .table td .facirclebot{
+    margin-top: 35px;
+}
+.jsOverXdiv {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.seasonTable .drawBracketContainerBE  .table>tbody>tr{
+    background: none;
+}
+.drawBracketContainerBE div.js_div_particName{
+    display: inline;
+    padding:0px 10px;
+}
+.drawBracketContainerBE div.js_div_particName{
+    vertical-align: top;
+}
+.drawBracketContainerBE input.mglScore{
+    width: 40px;
+    height:20px;
+    text-align: center;
+}
+.drawBracketContainerBE .knockscoreItem{
+    display: inline;
+    position:relative;
+}
+.drawBracketContainerBE .knockplName{
+    min-width: 150px;
+    position: relative;
+}
+#jsKnockTableBe tt, #jsKnockTableBe td{
+    overflow:visible;
+}
+#joomsport-container .drawBracketContainerBE .knockscore a{
+    display:block;
+    text-decoration: none;
+}
+.drawBracketContainerBE .mglScoreAway{
+    padding-top:1px;
+}
+.jsknockwinnerDiv{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 24px;
+    height:24px;
+    background-image: url('../../../assets/images/cup.png');
+}

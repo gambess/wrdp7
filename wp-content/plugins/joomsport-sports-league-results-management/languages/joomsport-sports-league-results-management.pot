@@ -1,0 +1,1944 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-11-15 13:45+0300\n"
+"PO-Revision-Date: 2016-11-15 13:48+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;classJsportLanguage::getTranslation\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: sportleague/assets\n"
+
+#: includes/classes/joomsport-class-match.php:28
+#: includes/classes/joomsport-class-match.php:29
+msgid "Undefined"
+msgstr "Undefined"
+
+#: includes/classes/joomsport-class-match.php:34
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:51
+#: includes/helpers/joomsport-helper-ef.php:25
+#: includes/joomsport-widgets.php:366 includes/joomsport-widgets.php:563
+#: includes/meta-boxes/joomsport-meta-season.php:113
+#: includes/meta-boxes/joomsport-meta-season.php:403
+#: includes/meta-boxes/joomsport-meta-season.php:407
+#: includes/meta-boxes/joomsport-meta-season.php:468
+#: includes/pages/joomsport-page-extrafields.php:600
+#: includes/pages/joomsport-page-extrafields.php:605
+#: includes/pages/joomsport-page-extrafields.php:610
+#: includes/pages/joomsport-page-extrafields.php:615
+#: includes/pages/joomsport-page-settings.php:86
+#: includes/posts/joomsport-post-season.php:415
+#: includes/posts/joomsport-post-season.php:495
+msgid "No"
+msgstr "No"
+
+#: includes/classes/joomsport-class-match.php:35
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:52
+#: includes/helpers/joomsport-helper-ef.php:26
+#: includes/joomsport-widgets.php:367 includes/joomsport-widgets.php:564
+#: includes/meta-boxes/joomsport-meta-season.php:114
+#: includes/meta-boxes/joomsport-meta-season.php:404
+#: includes/meta-boxes/joomsport-meta-season.php:469
+#: includes/pages/joomsport-page-extrafields.php:601
+#: includes/pages/joomsport-page-extrafields.php:606
+#: includes/pages/joomsport-page-extrafields.php:611
+#: includes/pages/joomsport-page-extrafields.php:616
+#: includes/pages/joomsport-page-settings.php:87
+#: includes/posts/joomsport-post-season.php:416
+#: includes/posts/joomsport-post-season.php:496
+msgid "Yes"
+msgstr "Yes"
+
+#: includes/classes/joomsport-class-match.php:49
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:96
+msgid "Score"
+msgstr "Score"
+
+#: includes/classes/joomsport-class-match.php:71
+#: includes/pages/joomsport-page-settings.php:335
+msgid "Extra Time"
+msgstr "Extra Time"
+
+#: includes/classes/joomsport-class-match.php:80
+msgid "Score in Extra time"
+msgstr "Score in Extra time"
+
+#: includes/classes/joomsport-class-match.php:123
+#: includes/posts/joomsport-post-player.php:146
+#: includes/posts/joomsport-post-team.php:160
+msgid "Bonus points"
+msgstr "Bonus points"
+
+#: includes/classes/joomsport-class-match.php:133
+msgid "Enable manual match points"
+msgstr "Enable manual match points"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-knockout.php:88
+#: includes/classes/matchday_types/joomsport-class-matchday-knockout.php:127
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:239
+msgid "Select participiant"
+msgstr "Select participiant"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-knockout.php:93
+#: includes/classes/matchday_types/joomsport-class-matchday-knockout.php:112
+#: includes/classes/matchday_types/joomsport-class-matchday-knockout.php:132
+#: includes/classes/matchday_types/joomsport-class-matchday-knockout.php:152
+#: includes/classes/matchday_types/joomsport-class-matchday-knockout.php:268
+#: includes/classes/matchday_types/joomsport-class-matchday-knockout.php:293
+msgid "BYE"
+msgstr "BYE"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-knockout.php:171
+msgid "Select winner"
+msgstr "Select winner"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-knockout.php:372
+msgid "Final"
+msgstr "Final"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:57
+#: includes/joomsport-widgets.php:441
+#: includes/meta-boxes/joomsport-meta-match.php:501
+#: includes/posts/joomsport-post-season.php:443
+msgid "Fixtures"
+msgstr "Fixtures"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:58
+#: includes/joomsport-widgets.php:155 includes/joomsport-widgets.php:442
+#: includes/meta-boxes/joomsport-meta-match.php:502
+#: includes/meta-boxes/joomsport-meta-season.php:284
+#: includes/meta-boxes/joomsport-meta-season.php:412
+#: includes/posts/joomsport-post-season.php:316
+#: includes/posts/joomsport-post-season.php:444
+msgid "Played"
+msgstr "Played"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:88
+#: includes/posts/joomsport-post-season.php:195
+msgid "Group"
+msgstr "Group"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:93
+msgid "Home participant"
+msgstr "Home participant"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:99
+msgid "Away participant"
+msgstr "Away participant"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:103
+msgid "ET"
+msgstr "ET"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:108
+#: includes/meta-boxes/joomsport-meta-match.php:513
+#: includes/pages/joomsport-page-extrafields.php:90
+#: includes/pages/joomsport-page-settings.php:347
+msgid "Status"
+msgstr "Status"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:113
+#: includes/meta-boxes/joomsport-meta-match.php:519
+#: includes/meta-boxes/joomsport-meta-season.php:788
+#: includes/pages/joomsport-page-settings.php:358
+msgid "Date"
+msgstr "Date"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:118
+#: includes/meta-boxes/joomsport-meta-match.php:525
+#: includes/pages/joomsport-page-settings.php:369
+msgid "Time"
+msgstr "Time"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:124
+#: includes/meta-boxes/joomsport-meta-match.php:531
+#: includes/pages/joomsport-page-extrafields.php:113
+#: includes/pages/joomsport-page-extrafields.php:580
+#: includes/pages/joomsport-page-settings.php:380
+#: includes/posts/joomsport-post-venue.php:26
+#: includes/posts/joomsport-post-venue.php:27
+msgid "Venue"
+msgstr "Venue"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:219
+#: includes/pages/joomsport-page-events.php:587
+#: includes/pages/joomsport-page-extrafields.php:369
+#: includes/pages/joomsport-page-stages.php:310
+msgid "Details"
+msgstr "Details"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:255
+msgid "Select Participiant"
+msgstr "Select Participiant"
+
+#: includes/classes/matchday_types/joomsport-class-matchday-round.php:311
+#: includes/taxonomies/joomsport-taxonomy-club.php:24
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:25
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:26
+msgid "Add New"
+msgstr "Add New"
+
+#: includes/helpers/joomsport-helper-objects.php:206
+msgid "(no parent)"
+msgstr "(no parent)"
+
+#: includes/helpers/joomsport-helper-objects.php:266
+msgid "Group name"
+msgstr "Group name"
+
+#: includes/helpers/joomsport-helper-objects.php:270
+#: includes/posts/joomsport-post-season.php:88
+msgid "Participiants"
+msgstr "Participiants"
+
+#: includes/helpers/joomsport-helper-objects.php:271
+#: includes/meta-boxes/joomsport-meta-season.php:551
+#: includes/meta-boxes/joomsport-meta-season.php:576
+#: includes/meta-boxes/joomsport-meta-team.php:148
+#: includes/pages/joomsport-page-settings.php:455
+#: includes/posts/joomsport-post-player.php:135
+#: includes/posts/joomsport-post-season.php:325
+#: includes/posts/joomsport-post-team.php:149
+msgid "Add item"
+msgstr "Add item"
+
+#: includes/helpers/joomsport-helper-selectbox.php:14
+#: includes/helpers/joomsport-helper-selectbox.php:80
+msgid "Select"
+msgstr "Select"
+
+#: includes/joomsport-admin-install.php:30
+msgid "JoomSport"
+msgstr "JoomSport"
+
+#: includes/joomsport-admin-install.php:33
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/joomsport-admin-install.php:35
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:20
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:34
+msgid "Tournaments"
+msgstr "Tournaments"
+
+#: includes/joomsport-admin-install.php:38
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:20
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:48
+msgid "Matchday"
+msgstr "Matchday"
+
+#: includes/joomsport-admin-install.php:38
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:19
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:33
+msgid "Matchdays"
+msgstr "Matchdays"
+
+#: includes/joomsport-admin-install.php:41
+#: includes/pages/joomsport-page-extrafields.php:112
+#: includes/taxonomies/joomsport-taxonomy-club.php:19
+#: includes/taxonomies/joomsport-taxonomy-club.php:50
+msgid "Club"
+msgstr "Club"
+
+#: includes/joomsport-admin-install.php:41
+#: includes/taxonomies/joomsport-taxonomy-club.php:18
+#: includes/taxonomies/joomsport-taxonomy-club.php:32
+msgid "Clubs"
+msgstr "Clubs"
+
+#: includes/joomsport-admin-install.php:46
+#: includes/pages/joomsport-page-stages.php:17
+msgid "Game stage"
+msgstr "Game stage"
+
+#: includes/joomsport-admin-install.php:46
+#: includes/pages/joomsport-page-stages.php:18
+#: includes/pages/joomsport-page-stages.php:190
+#: includes/posts/joomsport-post-season.php:100
+msgid "Game stages"
+msgstr "Game stages"
+
+#: includes/joomsport-admin-install.php:50
+msgid "Game stage New"
+msgstr "Game stage New"
+
+#: includes/joomsport-admin-install.php:50
+msgid "Game stages New"
+msgstr "Game stages New"
+
+#: includes/joomsport-admin-install.php:53
+#: includes/pages/joomsport-page-extrafields.php:17
+msgid "Extra field"
+msgstr "Extra field"
+
+#: includes/joomsport-admin-install.php:53
+#: includes/pages/joomsport-page-extrafields.php:18
+#: includes/posts/joomsport-post-match.php:86
+#: includes/posts/joomsport-post-player.php:72
+#: includes/posts/joomsport-post-season.php:92
+#: includes/posts/joomsport-post-team.php:83
+#: includes/posts/joomsport-post-venue.php:70
+msgid "Extra fields"
+msgstr "Extra fields"
+
+#: includes/joomsport-admin-install.php:57
+msgid "Extra field New"
+msgstr "Extra field New"
+
+#: includes/joomsport-admin-install.php:60
+#: includes/meta-boxes/joomsport-meta-match.php:114
+#: includes/pages/joomsport-page-events.php:17
+msgid "Event"
+msgstr "Event"
+
+#: includes/joomsport-admin-install.php:60
+#: includes/pages/joomsport-page-events.php:18
+#: includes/pages/joomsport-page-events.php:461
+#: includes/pages/joomsport-page-settings.php:152
+msgid "Events"
+msgstr "Events"
+
+#: includes/joomsport-admin-install.php:64
+msgid "Event New"
+msgstr "Event New"
+
+#: includes/joomsport-admin-install.php:66
+msgid "Help"
+msgstr "Help"
+
+#: includes/joomsport-admin-install.php:368
+#, php-format
+msgid ""
+"Tournament (league) required to create Season. Let's %s add tournament %s "
+"first."
+msgstr ""
+"Tournament (league) required to create Season. Let's %s add tournament %s "
+"first."
+
+#: includes/joomsport-widgets.php:10 includes/joomsport-widgets.php:11
+msgid "JoomSport Standings"
+msgstr "JoomSport Standings"
+
+#: includes/joomsport-widgets.php:73
+msgid "Standing"
+msgstr "Standing"
+
+#: includes/joomsport-widgets.php:90 includes/joomsport-widgets.php:374
+#: includes/joomsport-widgets.php:604
+#: includes/posts/joomsport-post-season.php:300
+#: includes/posts/joomsport-post-season.php:423
+#: includes/posts/joomsport-post-season.php:506
+msgid "Select season"
+msgstr "Select season"
+
+#: includes/joomsport-widgets.php:103 includes/joomsport-widgets.php:387
+#: includes/joomsport-widgets.php:617
+#: includes/posts/joomsport-post-season.php:352
+msgid "Select group"
+msgstr "Select group"
+
+#: includes/joomsport-widgets.php:112
+#: includes/posts/joomsport-post-season.php:308
+msgid "Display places"
+msgstr "Display places"
+
+#: includes/joomsport-widgets.php:131 includes/joomsport-widgets.php:146
+#: includes/joomsport-widgets.php:411 includes/joomsport-widgets.php:426
+#: includes/joomsport-widgets.php:641 includes/joomsport-widgets.php:656
+#: includes/posts/joomsport-post-season.php:367
+#: includes/posts/joomsport-post-season.php:390
+#: includes/posts/joomsport-post-season.php:405
+msgid "Select participant"
+msgstr "Select participant"
+
+#: includes/joomsport-widgets.php:155
+#: includes/meta-boxes/joomsport-meta-season.php:284
+#: includes/posts/joomsport-post-season.php:316
+msgid "Win column"
+msgstr "Win column"
+
+#: includes/joomsport-widgets.php:155
+#: includes/meta-boxes/joomsport-meta-season.php:284
+#: includes/posts/joomsport-post-season.php:316
+msgid "Lost column"
+msgstr "Lost column"
+
+#: includes/joomsport-widgets.php:155
+#: includes/meta-boxes/joomsport-meta-season.php:284
+#: includes/posts/joomsport-post-season.php:316
+msgid "Draw column"
+msgstr "Draw column"
+
+#: includes/joomsport-widgets.php:156
+#: includes/meta-boxes/joomsport-meta-season.php:285
+#: includes/posts/joomsport-post-season.php:317
+msgid "ET Win column"
+msgstr "ET Win column"
+
+#: includes/joomsport-widgets.php:156
+#: includes/meta-boxes/joomsport-meta-season.php:285
+#: includes/posts/joomsport-post-season.php:317
+msgid "ET Lost column"
+msgstr "ET Lost column"
+
+#: includes/joomsport-widgets.php:156
+#: includes/meta-boxes/joomsport-meta-season.php:285
+#: includes/posts/joomsport-post-season.php:317
+msgid "Diff column"
+msgstr "Diff column"
+
+#: includes/joomsport-widgets.php:156
+#: includes/meta-boxes/joomsport-meta-season.php:285
+#: includes/posts/joomsport-post-season.php:317
+msgid "GD column"
+msgstr "GD column"
+
+#: includes/joomsport-widgets.php:157
+#: includes/meta-boxes/joomsport-meta-season.php:286
+#: includes/posts/joomsport-post-season.php:318
+msgid "Point column"
+msgstr "Point column"
+
+#: includes/joomsport-widgets.php:157
+#: includes/meta-boxes/joomsport-meta-season.php:286
+#: includes/posts/joomsport-post-season.php:318
+msgid "Win percent"
+msgstr "Win percent"
+
+#: includes/joomsport-widgets.php:157
+#: includes/meta-boxes/joomsport-meta-season.php:286
+#: includes/posts/joomsport-post-season.php:318
+msgid "Goals scored"
+msgstr "Goals scored"
+
+#: includes/joomsport-widgets.php:157
+#: includes/meta-boxes/joomsport-meta-season.php:286
+#: includes/posts/joomsport-post-season.php:318
+msgid "Goals conceded"
+msgstr "Goals conceded"
+
+#: includes/joomsport-widgets.php:157
+#: includes/meta-boxes/joomsport-meta-season.php:286
+#: includes/posts/joomsport-post-season.php:318
+msgid "Win home"
+msgstr "Win home"
+
+#: includes/joomsport-widgets.php:158
+#: includes/meta-boxes/joomsport-meta-season.php:287
+#: includes/posts/joomsport-post-season.php:319
+msgid "Win away"
+msgstr "Win away"
+
+#: includes/joomsport-widgets.php:158
+#: includes/meta-boxes/joomsport-meta-season.php:287
+#: includes/posts/joomsport-post-season.php:319
+msgid "Draw home"
+msgstr "Draw home"
+
+#: includes/joomsport-widgets.php:158
+#: includes/meta-boxes/joomsport-meta-season.php:287
+#: includes/posts/joomsport-post-season.php:319
+msgid "Draw away"
+msgstr "Draw away"
+
+#: includes/joomsport-widgets.php:158
+#: includes/meta-boxes/joomsport-meta-season.php:287
+#: includes/posts/joomsport-post-season.php:319
+msgid "Lost home"
+msgstr "Lost home"
+
+#: includes/joomsport-widgets.php:158
+#: includes/meta-boxes/joomsport-meta-season.php:287
+#: includes/posts/joomsport-post-season.php:319
+msgid "Lost away"
+msgstr "Lost away"
+
+#: includes/joomsport-widgets.php:159
+#: includes/meta-boxes/joomsport-meta-season.php:288
+#: includes/posts/joomsport-post-season.php:320
+msgid "Points home"
+msgstr "Points home"
+
+#: includes/joomsport-widgets.php:159
+#: includes/meta-boxes/joomsport-meta-season.php:288
+#: includes/posts/joomsport-post-season.php:320
+msgid "Points away"
+msgstr "Points away"
+
+#: includes/joomsport-widgets.php:159
+#: includes/meta-boxes/joomsport-meta-season.php:288
+#: includes/posts/joomsport-post-season.php:320
+msgid "Win in group"
+msgstr "Win in group"
+
+#: includes/joomsport-widgets.php:159
+#: includes/meta-boxes/joomsport-meta-season.php:288
+#: includes/posts/joomsport-post-season.php:320
+msgid "Lost in group"
+msgstr "Lost in group"
+
+#: includes/joomsport-widgets.php:159
+#: includes/meta-boxes/joomsport-meta-season.php:288
+#: includes/posts/joomsport-post-season.php:320
+msgid "Win percent in group"
+msgstr "Win percent in group"
+
+#: includes/joomsport-widgets.php:159
+#: includes/meta-boxes/joomsport-meta-season.php:288
+#: includes/posts/joomsport-post-season.php:320
+msgid "Current form"
+msgstr "Current form"
+
+#: includes/joomsport-widgets.php:163
+#: includes/posts/joomsport-post-season.php:324
+msgid "Choose columns"
+msgstr "Choose columns"
+
+#: includes/joomsport-widgets.php:214 includes/joomsport-widgets.php:215
+msgid "JoomSport Matches"
+msgstr "JoomSport Matches"
+
+#: includes/joomsport-widgets.php:344
+msgid "matches"
+msgstr "matches"
+
+#: includes/joomsport-widgets.php:369
+#: includes/posts/joomsport-post-season.php:418
+msgid "Layout 1"
+msgstr "Layout 1"
+
+#: includes/joomsport-widgets.php:370
+#: includes/posts/joomsport-post-season.php:419
+msgid "Layout 2"
+msgstr "Layout 2"
+
+#: includes/joomsport-widgets.php:433
+#: includes/posts/joomsport-post-season.php:435
+msgid "Matches quantity"
+msgstr "Matches quantity"
+
+#: includes/joomsport-widgets.php:437
+#: includes/posts/joomsport-post-season.php:439
+msgid "Display matches"
+msgstr "Display matches"
+
+#: includes/joomsport-widgets.php:440
+#: includes/pages/joomsport-page-extrafields.php:594
+#: includes/posts/joomsport-post-season.php:442
+#: includes/taxonomies/joomsport-taxonomy-club.php:20
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:21
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:22
+msgid "All"
+msgstr "All"
+
+#: includes/joomsport-widgets.php:448
+#: includes/posts/joomsport-post-season.php:450
+msgid "Display emblems"
+msgstr "Display emblems"
+
+#: includes/joomsport-widgets.php:453
+#: includes/pages/joomsport-page-settings.php:1187
+#: includes/posts/joomsport-post-season.php:457
+msgid "Display venue"
+msgstr "Display venue"
+
+#: includes/joomsport-widgets.php:458
+#: includes/posts/joomsport-post-season.php:464
+msgid "Display season name"
+msgstr "Display season name"
+
+#: includes/joomsport-widgets.php:463
+#: includes/posts/joomsport-post-season.php:471
+msgid "Enable slider"
+msgstr "Enable slider"
+
+#: includes/joomsport-widgets.php:468
+#: includes/posts/joomsport-post-season.php:477
+msgid "Layout"
+msgstr "Layout"
+
+#: includes/joomsport-widgets.php:502 includes/joomsport-widgets.php:503
+msgid "JoomSport Player Statistic"
+msgstr "JoomSport Player Statistic"
+
+#: includes/joomsport-widgets.php:579
+msgid "Player statistic"
+msgstr "Player statistic"
+
+#: includes/joomsport-widgets.php:599
+#: includes/posts/joomsport-post-season.php:501
+msgid "Select event"
+msgstr "Select event"
+
+#: includes/joomsport-widgets.php:663
+#: includes/meta-boxes/joomsport-meta-match.php:124
+#: includes/posts/joomsport-post-season.php:518
+msgid "Quantity"
+msgstr "Quantity"
+
+#: includes/joomsport-widgets.php:668
+#: includes/posts/joomsport-post-season.php:522
+msgid "Display photo"
+msgstr "Display photo"
+
+#: includes/joomsport-widgets.php:673
+#: includes/posts/joomsport-post-season.php:528
+msgid "Display team name"
+msgstr "Display team name"
+
+#: includes/meta-boxes/joomsport-meta-match.php:99
+msgid "No players added to selected teams in the season."
+msgstr "No players added to selected teams in the season."
+
+#: includes/meta-boxes/joomsport-meta-match.php:117
+#: includes/pages/joomsport-page-events.php:353
+#: includes/pages/joomsport-page-events.php:810
+#: includes/pages/joomsport-page-extrafields.php:108
+#: includes/pages/joomsport-page-extrafields.php:575
+#: includes/posts/joomsport-post-player.php:27
+#: includes/posts/joomsport-post-player.php:28
+#: sportleague/views/default/widgets/players.php:14
+msgid "Player"
+msgstr "Player"
+
+#: includes/meta-boxes/joomsport-meta-match.php:121
+#: includes/meta-boxes/joomsport-meta-match.php:333
+#: includes/meta-boxes/joomsport-meta-match.php:401
+msgid "Event time (minute)"
+msgstr "Event time (minute)"
+
+#: includes/meta-boxes/joomsport-meta-match.php:147
+#: includes/meta-boxes/joomsport-meta-match.php:344
+#: includes/meta-boxes/joomsport-meta-match.php:412
+#: includes/pages/joomsport-page-settings.php:186
+#: includes/pages/joomsport-page-settings.php:505
+msgid "Delete"
+msgstr "Delete"
+
+#: includes/meta-boxes/joomsport-meta-match.php:171
+msgid "Select Player"
+msgstr "Select Player"
+
+#: includes/meta-boxes/joomsport-meta-match.php:212
+#: includes/meta-boxes/joomsport-meta-match.php:376
+#: includes/meta-boxes/joomsport-meta-match.php:444
+#: includes/pages/joomsport-page-settings.php:531
+msgid "Add"
+msgstr "Add"
+
+#: includes/meta-boxes/joomsport-meta-match.php:236
+msgid "Line up"
+msgstr "Line up"
+
+#: includes/meta-boxes/joomsport-meta-match.php:237
+msgid "Substitute"
+msgstr "Substitute"
+
+#: includes/meta-boxes/joomsport-meta-match.php:238
+msgid "Not participated"
+msgstr "Not participated"
+
+#: includes/meta-boxes/joomsport-meta-match.php:247
+#: includes/meta-boxes/joomsport-meta-match.php:276
+msgid "Line up for all"
+msgstr "Line up for all"
+
+#: includes/meta-boxes/joomsport-meta-match.php:248
+#: includes/meta-boxes/joomsport-meta-match.php:277
+msgid "Not participated for all"
+msgstr "Not participated for all"
+
+#: includes/meta-boxes/joomsport-meta-match.php:327
+#: includes/meta-boxes/joomsport-meta-match.php:395
+msgid "Player in"
+msgstr "Player in"
+
+#: includes/meta-boxes/joomsport-meta-match.php:330
+#: includes/meta-boxes/joomsport-meta-match.php:398
+msgid "Player out"
+msgstr "Player out"
+
+#: includes/meta-boxes/joomsport-meta-match.php:489
+#, php-format
+msgid "There are no match events. Create new one on %s Extra fields list %s"
+msgstr "There are no match events. Create new one on %s Extra fields list %s"
+
+#: includes/meta-boxes/joomsport-meta-match.php:592
+#: includes/meta-boxes/joomsport-meta-player.php:131
+#: includes/meta-boxes/joomsport-meta-season.php:273
+#: includes/meta-boxes/joomsport-meta-team.php:129
+#: includes/meta-boxes/joomsport-meta-venue.php:104
+#, php-format
+msgid ""
+"There are no extra fields assigned to this section. Create new one on %s "
+"Extra fields list %s"
+msgstr ""
+"There are no extra fields assigned to this section. Create new one on %s "
+"Extra fields list %s"
+
+#: includes/meta-boxes/joomsport-meta-matchday.php:22
+#: includes/meta-boxes/joomsport-meta-matchday.php:98
+#: includes/pages/joomsport-page-extrafields.php:111
+#: includes/pages/joomsport-page-extrafields.php:578
+#: includes/posts/joomsport-post-season.php:42
+#: includes/posts/joomsport-post-season.php:43
+msgid "Season"
+msgstr "Season"
+
+#: includes/meta-boxes/joomsport-meta-matchday.php:29
+msgid "Please select season related to this matchday"
+msgstr "Please select season related to this matchday"
+
+#: includes/meta-boxes/joomsport-meta-matchday.php:34
+msgid "Matchday Type"
+msgstr "Matchday Type"
+
+#: includes/meta-boxes/joomsport-meta-matchday.php:38
+#: includes/meta-boxes/joomsport-meta-matchday.php:118
+msgid "Round Robin"
+msgstr "Round Robin"
+
+#: includes/meta-boxes/joomsport-meta-matchday.php:40
+#: includes/meta-boxes/joomsport-meta-matchday.php:118
+msgid "Knockout"
+msgstr "Knockout"
+
+#: includes/meta-boxes/joomsport-meta-matchday.php:47
+msgid "Please select matchday type"
+msgstr "Please select matchday type"
+
+#: includes/meta-boxes/joomsport-meta-matchday.php:52
+msgid "Select format"
+msgstr "Select format"
+
+#: includes/meta-boxes/joomsport-meta-matchday.php:67
+msgid "Please select knockout format"
+msgstr "Please select knockout format"
+
+#: includes/meta-boxes/joomsport-meta-matchday.php:95
+#: includes/meta-boxes/joomsport-meta-tournament.php:32
+#: includes/pages/joomsport-page-events.php:341
+#: includes/pages/joomsport-page-extrafields.php:87
+#: includes/pages/joomsport-page-settings.php:139
+#: includes/pages/joomsport-page-settings.php:165
+#: includes/pages/joomsport-page-stages.php:87
+#: includes/taxonomies/joomsport-taxonomy-club.php:25
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:26
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:27
+msgid "Name"
+msgstr "Name"
+
+#: includes/meta-boxes/joomsport-meta-matchday.php:99
+#: includes/pages/joomsport-page-extrafields.php:88
+msgid "Type"
+msgstr "Type"
+
+#: includes/meta-boxes/joomsport-meta-matchday.php:100
+#: includes/meta-boxes/joomsport-meta-tournament.php:36
+msgid "Posts"
+msgstr "Posts"
+
+#: includes/meta-boxes/joomsport-meta-player.php:48
+#: includes/meta-boxes/joomsport-meta-team.php:45
+msgid "Select Season"
+msgstr "Select Season"
+
+#: includes/meta-boxes/joomsport-meta-player.php:73
+#: includes/meta-boxes/joomsport-meta-team.php:70
+msgid "First name"
+msgstr "First name"
+
+#: includes/meta-boxes/joomsport-meta-player.php:81
+#: includes/meta-boxes/joomsport-meta-team.php:78
+#: includes/pages/joomsport-page-settings.php:589
+msgid "Last name"
+msgstr "Last name"
+
+#: includes/meta-boxes/joomsport-meta-player.php:140
+#: includes/meta-boxes/joomsport-meta-player.php:147
+#: includes/meta-boxes/joomsport-meta-player.php:154
+#: includes/meta-boxes/joomsport-meta-team.php:190
+#: includes/meta-boxes/joomsport-meta-team.php:197
+#: includes/meta-boxes/joomsport-meta-team.php:204
+#: includes/posts/joomsport-post-player.php:126
+#: includes/posts/joomsport-post-player.php:127
+#: includes/posts/joomsport-post-player.php:128
+#: includes/posts/joomsport-post-team.php:133
+#: includes/posts/joomsport-post-team.php:134
+#: includes/posts/joomsport-post-team.php:135
+msgid "No season selected"
+msgstr "No season selected"
+
+#: includes/meta-boxes/joomsport-meta-season.php:82
+#: includes/meta-boxes/joomsport-meta-season.php:83
+#: includes/taxonomies/joomsport-taxonomy-club.php:26
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:27
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:28
+msgid "Parent"
+msgstr "Parent"
+
+#: includes/meta-boxes/joomsport-meta-season.php:96
+msgid "Order"
+msgstr "Order"
+
+#: includes/meta-boxes/joomsport-meta-season.php:128
+msgid "Home"
+msgstr "Home"
+
+#: includes/meta-boxes/joomsport-meta-season.php:131
+msgid "Away"
+msgstr "Away"
+
+#: includes/meta-boxes/joomsport-meta-season.php:139
+msgid "Won points"
+msgstr "Won points"
+
+#: includes/meta-boxes/joomsport-meta-season.php:157
+msgid "Draw points"
+msgstr "Draw points"
+
+#: includes/meta-boxes/joomsport-meta-season.php:175
+msgid "Lost points"
+msgstr "Lost points"
+
+#: includes/meta-boxes/joomsport-meta-season.php:196
+msgid "Enable extra time"
+msgstr "Enable extra time"
+
+#: includes/meta-boxes/joomsport-meta-season.php:209
+msgid "Won points in extra time"
+msgstr "Won points in extra time"
+
+#: includes/meta-boxes/joomsport-meta-season.php:218
+msgid "Lost points in extra time"
+msgstr "Lost points in extra time"
+
+#: includes/meta-boxes/joomsport-meta-season.php:295
+msgid "Hide"
+msgstr "Hide"
+
+#: includes/meta-boxes/joomsport-meta-season.php:296
+msgid "Show"
+msgstr "Show"
+
+#: includes/meta-boxes/joomsport-meta-season.php:304
+msgid "Emblem"
+msgstr "Emblem"
+
+#: includes/meta-boxes/joomsport-meta-season.php:373
+#: includes/meta-boxes/joomsport-meta-season.php:384
+msgid "Place"
+msgstr "Place"
+
+#: includes/meta-boxes/joomsport-meta-season.php:392
+msgid "Add color"
+msgstr "Add color"
+
+#: includes/meta-boxes/joomsport-meta-season.php:408
+#: includes/posts/joomsport-post-season.php:87
+msgid "Points"
+msgstr "Points"
+
+#: includes/meta-boxes/joomsport-meta-season.php:409
+msgid "Win Percent"
+msgstr "Win Percent"
+
+#: includes/meta-boxes/joomsport-meta-season.php:410
+msgid "Goal difference"
+msgstr "Goal difference"
+
+#: includes/meta-boxes/joomsport-meta-season.php:411
+msgid "Goal scored"
+msgstr "Goal scored"
+
+#: includes/meta-boxes/joomsport-meta-season.php:413
+msgid "Win games"
+msgstr "Win games"
+
+#: includes/meta-boxes/joomsport-meta-season.php:416
+msgid "Descending"
+msgstr "Descending"
+
+#: includes/meta-boxes/joomsport-meta-season.php:417
+msgid "Ascending"
+msgstr "Ascending"
+
+#: includes/meta-boxes/joomsport-meta-season.php:423
+msgid "Compare games when participants have equal rank"
+msgstr "Compare games when participants have equal rank"
+
+#: includes/meta-boxes/joomsport-meta-season.php:449
+msgid "The first ranking criteria is Points number."
+msgstr "The first ranking criteria is Points number."
+
+#: includes/meta-boxes/joomsport-meta-season.php:451
+msgid ""
+"If participants have equal points then system will compare their games for:"
+msgstr ""
+"If participants have equal points then system will compare their games for:"
+
+#: includes/meta-boxes/joomsport-meta-season.php:455
+msgid "Points acquired"
+msgstr "Points acquired"
+
+#: includes/meta-boxes/joomsport-meta-season.php:456
+msgid "Goal Difference"
+msgstr "Goal Difference"
+
+#: includes/meta-boxes/joomsport-meta-season.php:457
+msgid "Goals Scored"
+msgstr "Goals Scored"
+
+#: includes/meta-boxes/joomsport-meta-season.php:474
+msgid "Enable registration"
+msgstr "Enable registration"
+
+#: includes/meta-boxes/joomsport-meta-season.php:489
+msgid "Limit the number of participants"
+msgstr "Limit the number of participants"
+
+#: includes/meta-boxes/joomsport-meta-season.php:500
+msgid "to"
+msgstr "to"
+
+#: includes/meta-boxes/joomsport-meta-season.php:511
+msgid "Start registration"
+msgstr "Start registration"
+
+#: includes/meta-boxes/joomsport-meta-season.php:520
+msgid "End registration"
+msgstr "End registration"
+
+#: includes/meta-boxes/joomsport-meta-season.php:562
+#, php-format
+msgid "There are no participants. Create new one on  %s Participant list %s"
+msgstr "There are no participants. Create new one on  %s Participant list %s"
+
+#: includes/meta-boxes/joomsport-meta-season.php:587
+#, php-format
+msgid ""
+"There are no game stages available. Create new one on  %s Game Stages list %s"
+msgstr ""
+"There are no game stages available. Create new one on  %s Game Stages list %s"
+
+#: includes/meta-boxes/joomsport-meta-season.php:600
+msgid "Create new group"
+msgstr "Create new group"
+
+#: includes/meta-boxes/joomsport-meta-season.php:603
+msgid "Add participants and save season to add groups"
+msgstr "Add participants and save season to add groups"
+
+#: includes/meta-boxes/joomsport-meta-season.php:786
+msgid "Title"
+msgstr "Title"
+
+#: includes/meta-boxes/joomsport-meta-season.php:787
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:21
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:54
+msgid "Tournament"
+msgstr "Tournament"
+
+#: includes/meta-boxes/joomsport-meta-team.php:183
+#, php-format
+msgid "There are no venues created yet. Create it in %s Venue menu %s."
+msgstr "There are no venues created yet. Create it in %s Venue menu %s."
+
+#: includes/meta-boxes/joomsport-meta-tournament.php:35
+#: includes/pages/joomsport-page-settings.php:229
+msgid "Tournament type"
+msgstr "Tournament type"
+
+#: includes/meta-boxes/joomsport-meta-tournament.php:50
+#: includes/pages/joomsport-page-settings.php:91
+msgid "Single"
+msgstr "Single"
+
+#: includes/meta-boxes/joomsport-meta-tournament.php:50
+#: includes/pages/joomsport-page-extrafields.php:109
+#: includes/pages/joomsport-page-extrafields.php:576
+#: includes/pages/joomsport-page-settings.php:90
+#: includes/posts/joomsport-post-team.php:28
+#: includes/posts/joomsport-post-team.php:29
+#: sportleague/views/default/widgets/players.php:17
+msgid "Team"
+msgstr "Team"
+
+#: includes/meta-boxes/joomsport-meta-venue.php:38
+msgid "Venue address"
+msgstr "Venue address"
+
+#: includes/meta-boxes/joomsport-meta-venue.php:46
+msgid "Latitude"
+msgstr "Latitude"
+
+#: includes/meta-boxes/joomsport-meta-venue.php:54
+msgid "Longitude"
+msgstr "Longitude"
+
+#: includes/pages/joomsport-page-events.php:342
+msgid "Event type"
+msgstr "Event type"
+
+#: includes/pages/joomsport-page-events.php:352
+#: includes/pages/joomsport-page-events.php:809
+#: includes/pages/joomsport-page-extrafields.php:110
+#: includes/pages/joomsport-page-extrafields.php:577
+#: includes/posts/joomsport-post-match.php:24
+#: includes/posts/joomsport-post-match.php:25
+msgid "Match"
+msgstr "Match"
+
+#: includes/pages/joomsport-page-events.php:354
+#: includes/pages/joomsport-page-events.php:812
+#: includes/pages/joomsport-page-events.php:817
+msgid "Sum of events"
+msgstr "Sum of events"
+
+#: includes/pages/joomsport-page-events.php:556
+#: includes/pages/joomsport-page-extrafields.php:329
+#: includes/pages/joomsport-page-stages.php:278
+msgid "Item was successfully saved"
+msgstr "Item was successfully saved"
+
+#: includes/pages/joomsport-page-events.php:558
+#: includes/pages/joomsport-page-extrafields.php:331
+#: includes/pages/joomsport-page-stages.php:280
+msgid "There was an error while saving item"
+msgstr "There was an error while saving item"
+
+#: includes/pages/joomsport-page-events.php:563
+#: includes/pages/joomsport-page-extrafields.php:336
+#: includes/pages/joomsport-page-stages.php:285
+msgid "Item was successfully updated"
+msgstr "Item was successfully updated"
+
+#: includes/pages/joomsport-page-events.php:565
+#: includes/pages/joomsport-page-stages.php:287
+msgid "There was an error while updating item"
+msgstr "There was an error while updating item"
+
+#: includes/pages/joomsport-page-events.php:580
+#: includes/pages/joomsport-page-extrafields.php:362
+#: includes/pages/joomsport-page-stages.php:304
+msgid "Item not found"
+msgstr "Item not found"
+
+#: includes/pages/joomsport-page-events.php:774
+msgid "Remove image"
+msgstr "Remove image"
+
+#: includes/pages/joomsport-page-events.php:793
+#: includes/pages/joomsport-page-extrafields.php:560
+#: includes/pages/joomsport-page-stages.php:368
+msgid "Name is required"
+msgstr "Name is required"
+
+#: includes/pages/joomsport-page-events.php:818
+msgid "Average of events"
+msgstr "Average of events"
+
+#: includes/pages/joomsport-page-extrafields.php:89
+msgid "Field Type"
+msgstr "Field Type"
+
+#: includes/pages/joomsport-page-extrafields.php:99
+#: includes/pages/joomsport-page-extrafields.php:585
+msgid "Text Field"
+msgstr "Text Field"
+
+#: includes/pages/joomsport-page-extrafields.php:100
+#: includes/pages/joomsport-page-extrafields.php:586
+msgid "Radio Button"
+msgstr "Radio Button"
+
+#: includes/pages/joomsport-page-extrafields.php:101
+#: includes/pages/joomsport-page-extrafields.php:587
+msgid "Text Area"
+msgstr "Text Area"
+
+#: includes/pages/joomsport-page-extrafields.php:102
+#: includes/pages/joomsport-page-extrafields.php:588
+msgid "Select Box"
+msgstr "Select Box"
+
+#: includes/pages/joomsport-page-extrafields.php:103
+#: includes/pages/joomsport-page-extrafields.php:589
+msgid "Link"
+msgstr "Link"
+
+#: includes/pages/joomsport-page-extrafields.php:118
+msgid "Unublished"
+msgstr "Unublished"
+
+#: includes/pages/joomsport-page-extrafields.php:119
+msgid "Published"
+msgstr "Published"
+
+#: includes/pages/joomsport-page-extrafields.php:227
+msgid "Extra Field"
+msgstr "Extra Field"
+
+#: includes/pages/joomsport-page-extrafields.php:595
+msgid "Registered only"
+msgstr "Registered only"
+
+#: includes/pages/joomsport-page-help.php:21
+msgid "Support"
+msgstr "Support"
+
+#: includes/pages/joomsport-page-help.php:22
+msgid "About"
+msgstr "About"
+
+#: includes/pages/joomsport-page-help.php:35
+msgid "Documentation"
+msgstr "Documentation"
+
+#: includes/pages/joomsport-page-help.php:40
+msgid "JoomSport User manual"
+msgstr "JoomSport User manual"
+
+#: includes/pages/joomsport-page-help.php:46
+msgid "FAQ"
+msgstr "FAQ"
+
+#: includes/pages/joomsport-page-help.php:50
+msgid "Answers to the most commonly asked questions"
+msgstr "Answers to the most commonly asked questions"
+
+#: includes/pages/joomsport-page-help.php:55
+msgid "Live Chat"
+msgstr "Live Chat"
+
+#: includes/pages/joomsport-page-help.php:59
+msgid "JoomSport live chat is available"
+msgstr "JoomSport live chat is available"
+
+#: includes/pages/joomsport-page-help.php:69
+msgid "Forum"
+msgstr "Forum"
+
+#: includes/pages/joomsport-page-help.php:73
+msgid "Officially supported multilingual forums"
+msgstr "Officially supported multilingual forums"
+
+#: includes/pages/joomsport-page-help.php:78
+msgid "HelpDesk"
+msgstr "HelpDesk"
+
+#: includes/pages/joomsport-page-help.php:82
+msgid "Service for technical and general enquiries"
+msgstr "Service for technical and general enquiries"
+
+#: includes/pages/joomsport-page-help.php:92
+msgid "Product information"
+msgstr "Product information"
+
+#: includes/pages/joomsport-page-help.php:98
+msgid "Edition"
+msgstr "Edition"
+
+#: includes/pages/joomsport-page-help.php:106
+msgid "Active version"
+msgstr "Active version"
+
+#: includes/pages/joomsport-page-help.php:115
+msgid "Latest version"
+msgstr "Latest version"
+
+#: includes/pages/joomsport-page-help.php:141
+msgid "Copyright"
+msgstr "Copyright"
+
+#: includes/pages/joomsport-page-help.php:155
+msgid "Main site"
+msgstr "Main site"
+
+#: includes/pages/joomsport-page-help.php:170
+msgid "Developer"
+msgstr "Developer"
+
+#: includes/pages/joomsport-page-help.php:185
+msgid "License"
+msgstr "License"
+
+#: includes/pages/joomsport-page-help.php:200
+msgid "Trademarks"
+msgstr "Trademarks"
+
+#: includes/pages/joomsport-page-settings.php:131
+msgid "Moderator adds player to team"
+msgstr "Moderator adds player to team"
+
+#: includes/pages/joomsport-page-settings.php:132
+msgid "Moderator invites player to team"
+msgstr "Moderator invites player to team"
+
+#: includes/pages/joomsport-page-settings.php:142
+#: includes/pages/joomsport-page-settings.php:168
+msgid "Additional fields"
+msgstr "Additional fields"
+
+#: includes/pages/joomsport-page-settings.php:156
+msgid "Player statistics list"
+msgstr "Player statistics list"
+
+#: includes/pages/joomsport-page-settings.php:157
+msgid "Player photos"
+msgstr "Player photos"
+
+#: includes/pages/joomsport-page-settings.php:222
+#: includes/pages/joomsport-page-settings.php:547
+#: includes/posts/joomsport-post-match.php:80
+#: includes/posts/joomsport-post-venue.php:67
+msgid "General"
+msgstr "General"
+
+#: includes/pages/joomsport-page-settings.php:240
+msgid "Date format"
+msgstr "Date format"
+
+#: includes/pages/joomsport-page-settings.php:257
+msgid "Enable match comments"
+msgstr "Enable match comments"
+
+#: includes/pages/joomsport-page-settings.php:273
+msgid "Enable Club"
+msgstr "Enable Club"
+
+#: includes/pages/joomsport-page-settings.php:289
+msgid "Enable venue"
+msgstr "Enable venue"
+
+#: includes/pages/joomsport-page-settings.php:305
+msgid "Enable JoomSport branding"
+msgstr "Enable JoomSport branding"
+
+#: includes/pages/joomsport-page-settings.php:321
+msgid "Quick matchday creation"
+msgstr "Quick matchday creation"
+
+#: includes/pages/joomsport-page-settings.php:327
+msgid "Field"
+msgstr "Field"
+
+#: includes/pages/joomsport-page-settings.php:330
+msgid "Show on page"
+msgstr "Show on page"
+
+#: includes/pages/joomsport-page-settings.php:417
+msgid "Team highlighting"
+msgstr "Team highlighting"
+
+#: includes/pages/joomsport-page-settings.php:423
+msgid "Highlight selected teams in season standings"
+msgstr "Highlight selected teams in season standings"
+
+#: includes/pages/joomsport-page-settings.php:437
+msgid "Highlight color"
+msgstr "Highlight color"
+
+#: includes/pages/joomsport-page-settings.php:447
+msgid "Select teams"
+msgstr "Select teams"
+
+#: includes/pages/joomsport-page-settings.php:481
+msgid "Custom match statuses"
+msgstr "Custom match statuses"
+
+#: includes/pages/joomsport-page-settings.php:489
+msgid "Custom status name"
+msgstr "Custom status name"
+
+#: includes/pages/joomsport-page-settings.php:492
+msgid "\tShorten name"
+msgstr "\tShorten name"
+
+#: includes/pages/joomsport-page-settings.php:555
+msgid "Enable player registration"
+msgstr "Enable player registration"
+
+#: includes/pages/joomsport-page-settings.php:566
+msgid "Player can join any team"
+msgstr "Player can join any team"
+
+#: includes/pages/joomsport-page-settings.php:578
+#: includes/pages/joomsport-page-settings.php:637
+#: includes/pages/joomsport-page-settings.php:900
+#: includes/pages/joomsport-page-settings.php:925
+msgid "Registration fields"
+msgstr "Registration fields"
+
+#: includes/pages/joomsport-page-settings.php:581
+#: includes/pages/joomsport-page-settings.php:640
+#: includes/pages/joomsport-page-settings.php:903
+#: includes/pages/joomsport-page-settings.php:928
+msgid "Enable"
+msgstr "Enable"
+
+#: includes/pages/joomsport-page-settings.php:584
+#: includes/pages/joomsport-page-settings.php:643
+#: includes/pages/joomsport-page-settings.php:906
+#: includes/pages/joomsport-page-settings.php:931
+msgid "Required"
+msgstr "Required"
+
+#: includes/pages/joomsport-page-settings.php:606
+msgid "Country"
+msgstr "Country"
+
+#: includes/pages/joomsport-page-settings.php:628
+msgid "Player extra fields"
+msgstr "Player extra fields"
+
+#: includes/pages/joomsport-page-settings.php:664
+#: includes/pages/joomsport-page-settings.php:951
+msgid ""
+"Attention! This Extra Field is not published and it will not display on "
+"Front End"
+msgstr ""
+"Attention! This Extra Field is not published and it will not display on "
+"Front End"
+
+#: includes/pages/joomsport-page-settings.php:672
+#: includes/pages/joomsport-page-settings.php:958
+msgid ""
+"There are no extra fields assigned to this section. Create new one on <a "
+"href='index.php?option=com_joomsport&task=fields_list'>Extra fields list</a>"
+msgstr ""
+"There are no extra fields assigned to this section. Create new one on <a "
+"href='index.php?option=com_joomsport&task=fields_list'>Extra fields list</a>"
+
+#: includes/pages/joomsport-page-settings.php:686
+msgid "Moderator permissions"
+msgstr "Moderator permissions"
+
+#: includes/pages/joomsport-page-settings.php:693
+msgid "Moderator can edit players?"
+msgstr "Moderator can edit players?"
+
+#: includes/pages/joomsport-page-settings.php:704
+msgid "Teams per accaunt"
+msgstr "Teams per accaunt"
+
+#: includes/pages/joomsport-page-settings.php:708
+msgid "Players per account"
+msgstr "Players per account"
+
+#: includes/pages/joomsport-page-settings.php:715
+msgid "Required to be JoomSport player to create team"
+msgstr "Required to be JoomSport player to create team"
+
+#: includes/pages/joomsport-page-settings.php:727
+msgid "Invite option"
+msgstr "Invite option"
+
+#: includes/pages/joomsport-page-settings.php:740
+msgid "Can invite unregistered players"
+msgstr "Can invite unregistered players"
+
+#: includes/pages/joomsport-page-settings.php:753
+msgid "Can invite players to match"
+msgstr "Can invite players to match"
+
+#: includes/pages/joomsport-page-settings.php:766
+msgid "Can create matches via Front End"
+msgstr "Can create matches via Front End"
+
+#: includes/pages/joomsport-page-settings.php:781
+msgid "Can mark match as played"
+msgstr "Can mark match as played"
+
+#: includes/pages/joomsport-page-settings.php:797
+msgid "Own team"
+msgstr "Own team"
+
+#: includes/pages/joomsport-page-settings.php:800
+msgid "Opposite team"
+msgstr "Opposite team"
+
+#: includes/pages/joomsport-page-settings.php:805
+msgid "Can edit match score"
+msgstr "Can edit match score"
+
+#: includes/pages/joomsport-page-settings.php:823
+msgid "Can edit player events"
+msgstr "Can edit player events"
+
+#: includes/pages/joomsport-page-settings.php:841
+msgid "Can edit match events"
+msgstr "Can edit match events"
+
+#: includes/pages/joomsport-page-settings.php:857
+msgid "Can edit squad"
+msgstr "Can edit squad"
+
+#: includes/pages/joomsport-page-settings.php:880
+msgid "Team registration"
+msgstr "Team registration"
+
+#: includes/pages/joomsport-page-settings.php:886
+msgid "Enable team registration"
+msgstr "Enable team registration"
+
+#: includes/pages/joomsport-page-settings.php:916
+msgid "Team extra fields"
+msgstr "Team extra fields"
+
+#: includes/pages/joomsport-page-settings.php:972
+msgid "Team tournament"
+msgstr "Team tournament"
+
+#: includes/pages/joomsport-page-settings.php:979
+msgid "Can edit players"
+msgstr "Can edit players"
+
+#: includes/pages/joomsport-page-settings.php:988
+msgid "Can edit teams"
+msgstr "Can edit teams"
+
+#: includes/pages/joomsport-page-settings.php:998
+msgid "Can remove player from season"
+msgstr "Can remove player from season"
+
+#: includes/pages/joomsport-page-settings.php:1006
+msgid "Can remove teams from season"
+msgstr "Can remove teams from season"
+
+#: includes/pages/joomsport-page-settings.php:1015
+msgid "Can add existing team to season"
+msgstr "Can add existing team to season"
+
+#: includes/pages/joomsport-page-settings.php:1030
+msgid "Single tournament"
+msgstr "Single tournament"
+
+#: includes/pages/joomsport-page-settings.php:1037
+msgid "Can add existing participant to season"
+msgstr "Can add existing participant to season"
+
+#: includes/pages/joomsport-page-settings.php:1046
+msgid "Can edit participant"
+msgstr "Can edit participant"
+
+#: includes/pages/joomsport-page-settings.php:1055
+msgid "Can remove participant from season"
+msgstr "Can remove participant from season"
+
+#: includes/pages/joomsport-page-settings.php:1073
+msgid "Team page"
+msgstr "Team page"
+
+#: includes/pages/joomsport-page-settings.php:1077
+msgid "Overview tab settings"
+msgstr "Overview tab settings"
+
+#: includes/pages/joomsport-page-settings.php:1087
+msgid "Display standings position"
+msgstr "Display standings position"
+
+#: includes/pages/joomsport-page-settings.php:1100
+msgid "Display team form block"
+msgstr "Display team form block"
+
+#: includes/pages/joomsport-page-settings.php:1113
+msgid "Display match results block"
+msgstr "Display match results block"
+
+#: includes/pages/joomsport-page-settings.php:1126
+msgid "Display next matches block"
+msgstr "Display next matches block"
+
+#: includes/pages/joomsport-page-settings.php:1139
+msgid "Players tab settings"
+msgstr "Players tab settings"
+
+#: includes/pages/joomsport-page-settings.php:1144
+msgid "Show empty players tab"
+msgstr "Show empty players tab"
+
+#: includes/pages/joomsport-page-settings.php:1155
+msgid "Order players by (including player extra fields, player events)"
+msgstr "Order players by (including player extra fields, player events)"
+
+#: includes/pages/joomsport-page-settings.php:1163
+msgid "Show in player tab"
+msgstr "Show in player tab"
+
+#: includes/pages/joomsport-page-settings.php:1180
+msgid "Calendar page"
+msgstr "Calendar page"
+
+#: includes/pages/joomsport-page-settings.php:1198
+#: includes/pages/joomsport-page-settings.php:1249
+msgid "Enable player list button"
+msgstr "Enable player list button"
+
+#: includes/pages/joomsport-page-settings.php:1213
+msgid "Enable matches search"
+msgstr "Enable matches search"
+
+#: includes/pages/joomsport-page-settings.php:1226
+msgid "Matchday name on calendar"
+msgstr "Matchday name on calendar"
+
+#: includes/pages/joomsport-page-settings.php:1243
+msgid "Season standings page"
+msgstr "Season standings page"
+
+#: includes/pages/joomsport-page-settings.php:1264
+msgid "Match page"
+msgstr "Match page"
+
+#: includes/pages/joomsport-page-settings.php:1270
+msgid "Player extra field (select box type) for ordering in squad tab"
+msgstr "Player extra field (select box type) for ordering in squad tab"
+
+#: includes/pages/joomsport-page-settings.php:1285
+msgid "Image settings"
+msgstr "Image settings"
+
+#: includes/pages/joomsport-page-settings.php:1291
+msgid "Logo height for all lists"
+msgstr "Logo height for all lists"
+
+#: includes/pages/joomsport-page-settings.php:1299
+msgid "Participant logo height for match page"
+msgstr "Participant logo height for match page"
+
+#: includes/pages/joomsport-page-settings.php:1308
+msgid "Default photo width"
+msgstr "Default photo width"
+
+#: includes/pages/joomsport-page-settings.php:1320
+msgid "Players settings"
+msgstr "Players settings"
+
+#: includes/pages/joomsport-page-settings.php:1326
+msgid "Enable links for player logos"
+msgstr "Enable links for player logos"
+
+#: includes/pages/joomsport-page-settings.php:1337
+msgid "Enable links for player names"
+msgstr "Enable links for player names"
+
+#: includes/pages/joomsport-page-settings.php:1348
+msgid "Show played matches statistic"
+msgstr "Show played matches statistic"
+
+#: includes/pages/joomsport-page-settings.php:1363
+msgid "Team settings"
+msgstr "Team settings"
+
+#: includes/pages/joomsport-page-settings.php:1369
+msgid "Enable links for team logos"
+msgstr "Enable links for team logos"
+
+#: includes/pages/joomsport-page-settings.php:1380
+msgid "Enable links for team names"
+msgstr "Enable links for team names"
+
+#: includes/pages/joomsport-page-settings.php:1391
+msgid "Enable links for highlighted team only"
+msgstr "Enable links for highlighted team only"
+
+#: includes/pages/joomsport-page-settings.php:1412
+msgid "Save changes"
+msgstr "Save changes"
+
+#: includes/posts/joomsport-post-match.php:27
+msgid "Add Match"
+msgstr "Add Match"
+
+#: includes/posts/joomsport-post-match.php:28
+msgid "Add New Match"
+msgstr "Add New Match"
+
+#: includes/posts/joomsport-post-match.php:29
+#: includes/posts/joomsport-post-player.php:32
+#: includes/posts/joomsport-post-season.php:47
+#: includes/posts/joomsport-post-team.php:33
+#: includes/posts/joomsport-post-venue.php:31
+msgid "Edit"
+msgstr "Edit"
+
+#: includes/posts/joomsport-post-match.php:30
+msgid "Edit Match"
+msgstr "Edit Match"
+
+#: includes/posts/joomsport-post-match.php:31
+msgid "New Match"
+msgstr "New Match"
+
+#: includes/posts/joomsport-post-match.php:32
+#: includes/posts/joomsport-post-match.php:33
+msgid "View Match"
+msgstr "View Match"
+
+#: includes/posts/joomsport-post-match.php:34
+msgid "Search Match"
+msgstr "Search Match"
+
+#: includes/posts/joomsport-post-match.php:35
+msgid "No Match found"
+msgstr "No Match found"
+
+#: includes/posts/joomsport-post-match.php:36
+msgid "No Match found in trash"
+msgstr "No Match found in trash"
+
+#: includes/posts/joomsport-post-match.php:37
+msgid "Parent Match"
+msgstr "Parent Match"
+
+#: includes/posts/joomsport-post-match.php:39
+msgid "This is where you can add new match."
+msgstr "This is where you can add new match."
+
+#: includes/posts/joomsport-post-match.php:60
+msgid "back to"
+msgstr "back to"
+
+#: includes/posts/joomsport-post-match.php:78
+msgid "Score & Points"
+msgstr "Score & Points"
+
+#: includes/posts/joomsport-post-match.php:79
+msgid "About match"
+msgstr "About match"
+
+#: includes/posts/joomsport-post-match.php:82
+msgid "Player Events"
+msgstr "Player Events"
+
+#: includes/posts/joomsport-post-match.php:84
+msgid "Match Statistic"
+msgstr "Match Statistic"
+
+#: includes/posts/joomsport-post-match.php:88
+msgid "Line Up"
+msgstr "Line Up"
+
+#: includes/posts/joomsport-post-match.php:89
+msgid "Substitutes"
+msgstr "Substitutes"
+
+#: includes/posts/joomsport-post-player.php:30
+msgid "Add Player"
+msgstr "Add Player"
+
+#: includes/posts/joomsport-post-player.php:31
+msgid "Add New Player"
+msgstr "Add New Player"
+
+#: includes/posts/joomsport-post-player.php:33
+msgid "Edit Player"
+msgstr "Edit Player"
+
+#: includes/posts/joomsport-post-player.php:34
+msgid "New Player"
+msgstr "New Player"
+
+#: includes/posts/joomsport-post-player.php:35
+#: includes/posts/joomsport-post-player.php:36
+msgid "View Player"
+msgstr "View Player"
+
+#: includes/posts/joomsport-post-player.php:37
+msgid "Search Player"
+msgstr "Search Player"
+
+#: includes/posts/joomsport-post-player.php:38
+msgid "No Player found"
+msgstr "No Player found"
+
+#: includes/posts/joomsport-post-player.php:39
+msgid "No Player found in trash"
+msgstr "No Player found in trash"
+
+#: includes/posts/joomsport-post-player.php:40
+msgid "Parent Player"
+msgstr "Parent Player"
+
+#: includes/posts/joomsport-post-player.php:42
+msgid "This is where you can add new player."
+msgstr "This is where you can add new player."
+
+#: includes/posts/joomsport-post-player.php:69
+msgid "Personal"
+msgstr "Personal"
+
+#: includes/posts/joomsport-post-player.php:70
+msgid "About player"
+msgstr "About player"
+
+#: includes/posts/joomsport-post-player.php:75
+#: includes/posts/joomsport-post-team.php:86
+msgid "Bonuses"
+msgstr "Bonuses"
+
+#: includes/posts/joomsport-post-player.php:78
+msgid "Assigned teams"
+msgstr "Assigned teams"
+
+#: includes/posts/joomsport-post-player.php:82
+#: includes/posts/joomsport-post-team.php:88
+msgid "Extra fields assigned to the season"
+msgstr "Extra fields assigned to the season"
+
+#: includes/posts/joomsport-post-season.php:45
+msgid "Add Season"
+msgstr "Add Season"
+
+#: includes/posts/joomsport-post-season.php:46
+msgid "Add New Season"
+msgstr "Add New Season"
+
+#: includes/posts/joomsport-post-season.php:48
+msgid "Edit Season"
+msgstr "Edit Season"
+
+#: includes/posts/joomsport-post-season.php:49
+msgid "New Season"
+msgstr "New Season"
+
+#: includes/posts/joomsport-post-season.php:50
+#: includes/posts/joomsport-post-season.php:51
+msgid "View Season"
+msgstr "View Season"
+
+#: includes/posts/joomsport-post-season.php:52
+msgid "Search Season"
+msgstr "Search Season"
+
+#: includes/posts/joomsport-post-season.php:53
+msgid "No Season found"
+msgstr "No Season found"
+
+#: includes/posts/joomsport-post-season.php:54
+msgid "No Season found in trash"
+msgstr "No Season found in trash"
+
+#: includes/posts/joomsport-post-season.php:55
+msgid "Parent Season"
+msgstr "Parent Season"
+
+#: includes/posts/joomsport-post-season.php:57
+msgid "This is where you can add new season."
+msgstr "This is where you can add new season."
+
+#: includes/posts/joomsport-post-season.php:86
+msgid "Attributes"
+msgstr "Attributes"
+
+#: includes/posts/joomsport-post-season.php:90
+msgid "Season rules"
+msgstr "Season rules"
+
+#: includes/posts/joomsport-post-season.php:94
+msgid "Standings columns"
+msgstr "Standings columns"
+
+#: includes/posts/joomsport-post-season.php:95
+msgid "Highlight team places"
+msgstr "Highlight team places"
+
+#: includes/posts/joomsport-post-season.php:96
+msgid "Ranking"
+msgstr "Ranking"
+
+#: includes/posts/joomsport-post-season.php:102
+msgid "Groups"
+msgstr "Groups"
+
+#: includes/posts/joomsport-post-season.php:334
+#: includes/posts/joomsport-post-season.php:483
+#: includes/posts/joomsport-post-season.php:536
+msgid "Add shortcode"
+msgstr "Add shortcode"
+
+#: includes/posts/joomsport-post-season.php:563
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:120
+msgid "Select Tournament"
+msgstr "Select Tournament"
+
+#: includes/posts/joomsport-post-team.php:31
+msgid "Add Team"
+msgstr "Add Team"
+
+#: includes/posts/joomsport-post-team.php:32
+msgid "Add New Team"
+msgstr "Add New Team"
+
+#: includes/posts/joomsport-post-team.php:34
+msgid "Edit Team"
+msgstr "Edit Team"
+
+#: includes/posts/joomsport-post-team.php:35
+msgid "New Team"
+msgstr "New Team"
+
+#: includes/posts/joomsport-post-team.php:36
+#: includes/posts/joomsport-post-team.php:37
+msgid "View Team"
+msgstr "View Team"
+
+#: includes/posts/joomsport-post-team.php:38
+msgid "Search Team"
+msgstr "Search Team"
+
+#: includes/posts/joomsport-post-team.php:39
+msgid "No Team found"
+msgstr "No Team found"
+
+#: includes/posts/joomsport-post-team.php:40
+msgid "No Team found in trash"
+msgstr "No Team found in trash"
+
+#: includes/posts/joomsport-post-team.php:41
+msgid "Parent Team"
+msgstr "Parent Team"
+
+#: includes/posts/joomsport-post-team.php:43
+msgid "This is where you can add new team."
+msgstr "This is where you can add new team."
+
+#: includes/posts/joomsport-post-team.php:70
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/posts/joomsport-post-team.php:71
+msgid "Set logo"
+msgstr "Set logo"
+
+#: includes/posts/joomsport-post-team.php:72
+msgid "Remove logo"
+msgstr "Remove logo"
+
+#: includes/posts/joomsport-post-team.php:73
+msgid "Use as logo"
+msgstr "Use as logo"
+
+#: includes/posts/joomsport-post-team.php:80
+msgid "About team"
+msgstr "About team"
+
+#: includes/posts/joomsport-post-team.php:81
+msgid "Assign to season"
+msgstr "Assign to season"
+
+#: includes/posts/joomsport-post-team.php:85
+msgid "Players"
+msgstr "Players"
+
+#: includes/posts/joomsport-post-team.php:90
+msgid "Home venue"
+msgstr "Home venue"
+
+#: includes/posts/joomsport-post-venue.php:29
+msgid "Add Venue"
+msgstr "Add Venue"
+
+#: includes/posts/joomsport-post-venue.php:30
+msgid "Add New Venue"
+msgstr "Add New Venue"
+
+#: includes/posts/joomsport-post-venue.php:32
+msgid "Edit Venue"
+msgstr "Edit Venue"
+
+#: includes/posts/joomsport-post-venue.php:33
+msgid "New Venue"
+msgstr "New Venue"
+
+#: includes/posts/joomsport-post-venue.php:34
+#: includes/posts/joomsport-post-venue.php:35
+msgid "View Venue"
+msgstr "View Venue"
+
+#: includes/posts/joomsport-post-venue.php:36
+msgid "Search Venue"
+msgstr "Search Venue"
+
+#: includes/posts/joomsport-post-venue.php:37
+msgid "No Venue found"
+msgstr "No Venue found"
+
+#: includes/posts/joomsport-post-venue.php:38
+msgid "No Venue found in trash"
+msgstr "No Venue found in trash"
+
+#: includes/posts/joomsport-post-venue.php:39
+msgid "Parent Venue"
+msgstr "Parent Venue"
+
+#: includes/posts/joomsport-post-venue.php:41
+msgid "This is where you can add new venue."
+msgstr "This is where you can add new venue."
+
+#: includes/posts/joomsport-post-venue.php:68
+msgid "Venue description"
+msgstr "Venue description"
+
+#: includes/taxonomies/joomsport-taxonomy-club.php:21
+msgid "Edit Club"
+msgstr "Edit Club"
+
+#: includes/taxonomies/joomsport-taxonomy-club.php:22
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:23
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:24
+msgid "View"
+msgstr "View"
+
+#: includes/taxonomies/joomsport-taxonomy-club.php:23
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:24
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:25
+msgid "Update"
+msgstr "Update"
+
+#: includes/taxonomies/joomsport-taxonomy-club.php:27
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:28
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:29
+msgid "Parent:"
+msgstr "Parent:"
+
+#: includes/taxonomies/joomsport-taxonomy-club.php:28
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:29
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:30
+msgid "Search"
+msgstr "Search"
+
+#: includes/taxonomies/joomsport-taxonomy-club.php:29
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:30
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:31
+msgid "No results found."
+msgstr "No results found."
+
+#: includes/taxonomies/joomsport-taxonomy-club.php:112
+msgid "Select Club"
+msgstr "Select Club"
+
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:22
+msgid "Edit Matchday"
+msgstr "Edit Matchday"
+
+#: includes/taxonomies/joomsport-taxonomy-matchday.php:137
+msgid "Select Matchday"
+msgstr "Select Matchday"
+
+#: includes/taxonomies/joomsport-taxonomy-tournament.php:23
+msgid "Edit Tournament"
+msgstr "Edit Tournament"
+
+#: sportleague/base/wordpress/models/model-jsport-venue.php:47
+msgid "Address"
+msgstr "Address"

@@ -1,0 +1,2 @@
+AuthName "Directorio Privado, para continuar ingrese credenciales"
+AuthUserFile "/home3/gambess/.htpasswds/public_html/montpe/wp-admin/passwd"

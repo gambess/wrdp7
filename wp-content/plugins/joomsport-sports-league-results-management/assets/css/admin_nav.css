@@ -1,0 +1,41 @@
+fieldset.item {
+	margin: 10px 10px 0;
+	border-top: 1px solid;
+	color: #aaa;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+fieldset.item-1 {
+	margin-top: 0;
+}
+fieldset.item > legend { 
+	padding: 0 5px;
+}
+#adminmenu .wp-submenu fieldset.item ~ li.group {
+	border-left: 3px solid;
+	margin-top: 1px;
+}
+fieldset.item-1, #adminmenu .wp-submenu fieldset.item ~ li.group-1,
+#adminmenu .wp-submenu li.group-1 > a:hover,
+#adminmenu .wp-submenu li.group-1 > a:focus {
+color: #64b5f6;
+}
+fieldset.item-2, #adminmenu .wp-submenu fieldset.item ~ li.group-2,
+#adminmenu .wp-submenu li.group-2 > a:hover,
+#adminmenu .wp-submenu li.group-2 > a:focus {
+color: #dce775;
+}
+fieldset.item-3, #adminmenu .wp-submenu fieldset.item ~ li.group-3,
+#adminmenu .wp-submenu li.group-3 > a:hover,
+#adminmenu .wp-submenu li.group-3 > a:focus {
+color: #ffb74d;
+}
+#adminmenu .wp-submenu fieldset.item ~ li.current {
+	border-left: 2px solid;
+}
+#adminmenu .wp-submenu fieldset.item ~ li.current,
+#adminmenu .wp-submenu li.current> a {
+	color: #fff!important;
+}

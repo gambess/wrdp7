@@ -1,0 +1,26 @@
+#joomsport-container .jstblevwid {width: 100%; max-width: 100%}
+.jstblevwid td.jsaligncenter{
+    text-align: center;
+}
+#joomsport-container .jstblevwid td:first-child{
+    padding: 3px 0px;
+}
+#joomsport-container .jstblevwid th {
+	border-bottom: 2px solid #ddd;
+	padding: 5px;
+	padding-left: 10px;
+	background-color: #fff;
+	background-image: none;
+}
+#joomsport-container .jstblevwid tr {
+	border-bottom: 1px solid #ddd;
+}
+#joomsport-container .jstblevwid tr:last-child {
+	border-bottom: none;
+}
+#joomsport-container .jstblevwid tr:nth-of-type(odd) {
+	background-color: #ffffff;
+}
+#joomsport-container .jstblevwid tr:nth-of-type(even) {
+	background-color: #f9f9f9;
+}

@@ -1,0 +1,702 @@
+# Translation of the WordPress plugin Soccer Info 1.5 by Szilard Mihaly.
+# Copyright (C) 2014 Szilard Mihaly
+# This file is distributed under the same license as the Soccer Info package.
+# SZILARD MIHALY <OFFICE@MIHALYSOFT.COM>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Soccer Info 1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-19 14:13+0200\n"
+"PO-Revision-Date: 2016-02-19 14:24+0200\n"
+"Last-Translator: Szilard Mihaly <office@mihalysoft.com>\n"
+"Language-Team: Mihaly Soft <office@mihalysoft.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: soccer-info-admin.class.php:96
+msgid "<noscript>Javascript must be enabled, thank you.</noscript>"
+msgstr "<noscript>A Javascript be kell legyen kapcsolva, köszi.</noscript>"
+
+#: soccer-info-admin.class.php:106
+#: soccer-info.php:154
+#, php-format
+msgid "Soccer Info %s for WordPress"
+msgstr "Soccer Info %s"
+
+#: soccer-info-admin.class.php:138
+msgid "Settings Updated"
+msgstr "Beállítások elmentve"
+
+#: soccer-info-admin.class.php:156
+msgid "Settings Updated to the default values"
+msgstr "Az alapértelmezett beállítások visszaállítása sikeres volt"
+
+#: soccer-info-admin.class.php:167
+msgid "About this Plugin:"
+msgstr "Erről a Pluginról:"
+
+#: soccer-info-admin.class.php:168
+msgid "Soccer Info lets you display ranking tables, fixtures and results of major soccer leagues without any hassles."
+msgstr "A Soccer Info plugin segítségével könnyedén kilistázhatod a különböző labdarúgó ligák tabelláit, a soron következő mérkőzések pontos időpontját illetve a legutóbbi eredményeket."
+
+#: soccer-info-admin.class.php:170
+msgid "translator_name"
+msgstr ""
+
+#: soccer-info-admin.class.php:172
+msgid "Translated by:"
+msgstr "Fordította:"
+
+#: soccer-info-admin.class.php:173
+msgid "translator_url"
+msgstr ""
+
+#: soccer-info-admin.class.php:213
+#, php-format
+msgid "Downloaded %s times"
+msgstr "Letöltve %s alkalommal"
+
+#: soccer-info-admin.class.php:218
+#: soccer-info-admin.class.php:226
+#, php-format
+msgid "(Average rating based on %s ratings)"
+msgstr "(Átlag érték %s szavazt alapján)"
+
+#: soccer-info-admin.class.php:220
+msgid "5 stars"
+msgstr "5 csillag"
+
+#: soccer-info-admin.class.php:221
+msgid "4 stars"
+msgstr "4 csillag"
+
+#: soccer-info-admin.class.php:222
+msgid "3 stars"
+msgstr "3 csillag"
+
+#: soccer-info-admin.class.php:223
+msgid "2 stars"
+msgstr "2 csillag"
+
+#: soccer-info-admin.class.php:224
+msgid "1 star"
+msgstr "1 csillag"
+
+#: soccer-info-admin.class.php:226
+msgid "rate"
+msgstr "rangsorol"
+
+#: soccer-info-admin.class.php:237
+#, php-format
+msgid "a newer version is available: %s"
+msgstr "elérhető egy új verzió: %s"
+
+#: soccer-info-admin.class.php:239
+#, php-format
+msgid "A newer version of Soccer Info is available: %s"
+msgstr "Elérhető a Soccer Info egy újabb verziója: %s"
+
+#: soccer-info-admin.class.php:242
+msgid "(latest version)"
+msgstr "(legfrissebb verzió)"
+
+#: soccer-info-admin.class.php:248
+msgid "Version:"
+msgstr "Verzió:"
+
+#: soccer-info-admin.class.php:249
+msgid "Changelog"
+msgstr "Módosítások jegyzéke"
+
+#: soccer-info-admin.class.php:250
+msgid "FAQ"
+msgstr "GyIK"
+
+#: soccer-info-admin.class.php:251
+msgid "Rate This"
+msgstr "Szavazz"
+
+#: soccer-info-admin.class.php:252
+msgid "Support"
+msgstr "Támogasd"
+
+#: soccer-info-admin.class.php:253
+#: soccer-info.php:144
+msgid "Donate"
+msgstr "Adakozz"
+
+#: soccer-info-admin.class.php:271
+msgid "Frequently Asked Questions:"
+msgstr "Gyakran ismételt kérdések:"
+
+#: soccer-info-admin.class.php:272
+msgid ""
+"\n"
+"<h4>I've just activated Soccer Info, what do I need to do now?</h4>\n"
+"<p>\n"
+"You are now able to add the shortcodes that displays the tables (fixtures or results) to any of your posts or pages.<br /> \n"
+"For example: <strong>[soccer-info id='1' type='table' /]</strong><br />\n"
+"That means you want to display the raking <em>`table`</em> (type) of the soccer league with the <em>id=1</em> (Spanish Primera Division)<br />\n"
+"You will find the whole list of the soccer leagues supported by the plugin on the <strong>`Settings` > `Soccer Info`</strong> page.\n"
+"</p>\n"
+"<h4>I don't know how to use shortcodes, what should I do then?</h4>\n"
+"<p>\n"
+"For your confort, we added a function to the post/page editor that automatically generates and inserts the shortcodes for you. You will be prompted to select the league (and some other info) and then just click `Insert`<br />\n"
+"It sounds easy. Isn't is?\n"
+"</p>\n"
+"<h4>Does this plugin have a widget?</h4>\n"
+"<p>\n"
+"Yes, and it's easy to use.\n"
+"</p>\n"
+"<h4>I have a another question. Where can I ask that?</h4>\n"
+"<p>\n"
+"For more information, check out the plugin's website: <a href='http://www.mihalysoft.com/wordpress-plugins/soccer-info/' target='_blank'>Soccer Info</a>\n"
+"</p>"
+msgstr ""
+"\n"
+"<h4>Most aktiváltam a Soccer Info plugint, mi a következő lépés?</h4>\n"
+"<p>\n"
+"Mostmár hozzáadhatod a tabellák (következő mérkőzések vagy eredmények) rövid kódjait (shortcodejait) bármely oldalhoz illetve bejegyzéshez.<br /> \n"
+"Például: <strong>[soccer-info id='1' type='table' /]</strong><br />\n"
+"Ez azt jelenti, hogy az <em>id=1</em> (Spanyol Primera Divízió) tabelláját (type=<em>`table`</em>) akarod listázni.<br />\n"
+"A plugin által támogatott foci ligák listáját a <strong>`Beállítások` > `Soccer Info`</strong> oldalon találod.\n"
+"</p>\n"
+"<h4>Nem tudom, hogy kell használni a shortcodeokat, ez esetben mi a teendő?</h4>\n"
+"<p>\n"
+"A kényelem érdekében, létrehoztunk egy funkciót az oldal illetve a bejegyzés szerkesztő felületen, amely autómatikusan beilleszti a shortcodeokat minden további erőfeszítés nélkül. Egy külön ezt a célt szólgáló ablakban kiválaszthatod a ligát illetve az egyéb beállításokat, majd megnyomod az `Beilleszt` gombot.<br />\n"
+"Egyszerűen hangzik, nemde?\n"
+"</p>\n"
+"<h4>Rendelkezik widgettel ez a plugin?</h4>\n"
+"<p>\n"
+"Igen, és könnyű a használata.\n"
+"</p>\n"
+"<h4>Volna egyéb kérdésem. Hol tehetem fel?</h4>\n"
+"<p>\n"
+"További információért látogasd meg a plugin weboldalát: <a href='http://www.mihalysoft.com/wordpress-plugins/soccer-info/' target='_blank'>Soccer Info</a>\n"
+"</p>"
+
+#: soccer-info-admin.class.php:295
+msgid "Supported Leagues:"
+msgstr "Támogatott Ligák:"
+
+#: soccer-info-admin.class.php:322
+msgid "Options"
+msgstr "Beállítások"
+
+#: soccer-info-admin.class.php:324
+msgid "Description..."
+msgstr "Leírás..."
+
+#: soccer-info-admin.class.php:331
+msgid "Timezone"
+msgstr "Időzóna"
+
+#: soccer-info-admin.class.php:377
+#: soccer-info-admin.class.php:382
+msgid "Date Format"
+msgstr "Dátum formátum"
+
+#: soccer-info-admin.class.php:384
+msgid "l, F j, Y"
+msgstr "Y. F j.  l"
+
+#: soccer-info-admin.class.php:385
+msgid "F j, Y"
+msgstr "Y. F j."
+
+#: soccer-info-admin.class.php:386
+msgid "Y/m/d"
+msgstr ""
+
+#: soccer-info-admin.class.php:387
+msgid "m/d/Y"
+msgstr ""
+
+#: soccer-info-admin.class.php:388
+msgid "d/m/Y"
+msgstr ""
+
+#: soccer-info-admin.class.php:398
+msgid "Custom:"
+msgstr "Egyéni:"
+
+#: soccer-info-admin.class.php:399
+msgid "Documentation on date and time formatting."
+msgstr "Dátumformázási segítség (angol)."
+
+#: soccer-info-admin.class.php:406
+#: soccer-info-admin.class.php:411
+msgid "Time Format"
+msgstr "Idő formátum"
+
+#: soccer-info-admin.class.php:413
+msgid "g:i a"
+msgstr ""
+
+#: soccer-info-admin.class.php:414
+msgid "g:i A"
+msgstr ""
+
+#: soccer-info-admin.class.php:415
+msgid "H:i"
+msgstr ""
+
+#: soccer-info-admin.class.php:430
+msgid "PRO Code (links removal)"
+msgstr "PRO Code (linkek törlése)"
+
+#: soccer-info-admin.class.php:435
+msgid "Contribution"
+msgstr "Támogatás"
+
+#: soccer-info-admin.class.php:437
+msgid "PRO code"
+msgstr ""
+
+#: soccer-info-admin.class.php:437
+msgid "Enter the PRO Code to remove the links of the teams."
+msgstr "Add meg a PRO Code-ot a csapatok linkjeinek az eltávolítására."
+
+#: soccer-info-admin.class.php:438
+msgid "If you do not have a PRO Code yet, please follow the <a href=\"http://www.mihalysoft.com/wordpress-plugins/soccer-info/soccer-info-pro-code/\" target=\"_blank\"><strong>instructions here</strong></a>."
+msgstr "Ha még nincs PRO Code-od, kérlek, kattints a következő linkre és <a href=\"http://www.mihalysoft.com/wordpress-plugins/soccer-info/soccer-info-pro-code/\" target=\"_blank\"><strong>kövesd az utasításokat</strong></a>."
+
+#: soccer-info-admin.class.php:454
+msgid "Update options"
+msgstr "Módosítások mentése"
+
+#: soccer-info-admin.class.php:455
+msgid "Do you really want to reset your configuration?"
+msgstr "Valóban vissza szeretnéd állítani az alapértelmezett beállításokat?"
+
+#: soccer-info-admin.class.php:455
+msgid "Reset options"
+msgstr "Alapértelmezett beállítások"
+
+#: soccer-info-admin.class.php:556
+#: js/tinymce/window.php:114
+msgid "Soccer Info"
+msgstr ""
+
+#: soccer-info-widgets.class.php:41
+msgid "Display a league's Ranking Table, Next Fixtures and Latest Results"
+msgstr "Mutatja a labdarúgó ligák tabelláit, következő mérkőzéseit és utóbbi eredményeit."
+
+#: soccer-info-widgets.class.php:164
+#: js/tinymce/window.php:63
+msgid "Title:"
+msgstr "Cím:"
+
+#: soccer-info-widgets.class.php:170
+msgid "Show:"
+msgstr "Mutasd:"
+
+#: soccer-info-widgets.class.php:175
+msgid "Table"
+msgstr "Tabella"
+
+#: soccer-info-widgets.class.php:176
+msgid "Next Fixtures"
+msgstr "Következő mérkőzések"
+
+#: soccer-info-widgets.class.php:177
+msgid "Latest Results"
+msgstr "Legutóbbi eredmények"
+
+#: soccer-info-widgets.class.php:184
+#: js/tinymce/window.php:35
+msgid "Style:"
+msgstr "Stílus:"
+
+#: soccer-info-widgets.class.php:189
+#: js/tinymce/window.php:41
+msgid "Minimal"
+msgstr "Minimális"
+
+#: soccer-info-widgets.class.php:190
+#: js/tinymce/window.php:42
+msgid "Blue - Light"
+msgstr "Kék - Halvány"
+
+#: soccer-info-widgets.class.php:191
+#: js/tinymce/window.php:43
+msgid "Blue - Dark"
+msgstr "Kék - Sötét"
+
+#: soccer-info-widgets.class.php:192
+#: js/tinymce/window.php:44
+msgid "Green - Light"
+msgstr "Zöld - Halvány"
+
+#: soccer-info-widgets.class.php:193
+#: js/tinymce/window.php:45
+msgid "Green - Dark"
+msgstr "Zöld - Sötét"
+
+#: soccer-info-widgets.class.php:194
+#: js/tinymce/window.php:46
+msgid "Red - Light"
+msgstr "Piros - Halvány"
+
+#: soccer-info-widgets.class.php:195
+#: js/tinymce/window.php:47
+msgid "Red - Dark"
+msgstr "Piros - Sötét"
+
+#: soccer-info-widgets.class.php:202
+msgid "Select League:"
+msgstr "Válassz Ligát:"
+
+#: soccer-info-widgets.class.php:216
+msgid "Columns (#,Team,MP,W,D,L,F,A,G,P):"
+msgstr "Oszlopok (#,Team,MP,W,D,L,F,A,G,P):"
+
+#: soccer-info-widgets.class.php:222
+#: js/tinymce/window.php:57
+msgid "Limit:"
+msgstr ""
+
+#: soccer-info-widgets.class.php:228
+#: js/tinymce/window.php:59
+msgid "Width:"
+msgstr "Szélesség:"
+
+#: soccer-info-widgets.class.php:235
+msgid "Highlighted team:"
+msgstr "Kiemelt csapat:"
+
+#: soccer-info-widgets.class.php:241
+msgid "Show only this team:"
+msgstr "Csak ezt a csapatot:"
+
+#: soccer-info-widgets.class.php:253
+msgid "Hide widget style."
+msgstr "Ne mutasd a widget stílusát."
+
+#: soccer-info.php:136
+#: soccer-info.php:143
+#: soccer-info.php:154
+msgid "Settings"
+msgstr "Beállítások"
+
+#: soccer-info.php:154
+msgid "Please donate to keep this plugin FREE. If you find this plugin useful, please consider making a small donation to help contribute to my time invested and to further development. Thanks for your kind support!"
+msgstr ""
+
+#: soccer-info.php:399
+msgid "Something went wrong!"
+msgstr "Valami rosszul sült el!"
+
+#: soccer-info.php:895
+msgid "#"
+msgstr ""
+
+#: soccer-info.php:896
+#: soccer-info.php:907
+msgid "Team"
+msgstr "Csapat"
+
+#: soccer-info.php:897
+msgid "MP"
+msgstr "LM"
+
+#: soccer-info.php:898
+msgid "W"
+msgstr "Gy"
+
+#: soccer-info.php:899
+msgid "D"
+msgstr "D"
+
+#: soccer-info.php:900
+msgid "L"
+msgstr "V"
+
+#: soccer-info.php:901
+msgid "F"
+msgstr "RG"
+
+#: soccer-info.php:902
+msgid "A"
+msgstr "KG"
+
+#: soccer-info.php:903
+msgid "G"
+msgstr "GK"
+
+#: soccer-info.php:904
+#: soccer-info.php:935
+msgid "P"
+msgstr "P"
+
+#: soccer-info.php:906
+msgid "Rank"
+msgstr "Pozíció"
+
+#: soccer-info.php:908
+msgid "Matches played"
+msgstr "Lejátszott mérkőzések"
+
+#: soccer-info.php:909
+msgid "Wins"
+msgstr "Győzelem"
+
+#: soccer-info.php:910
+msgid "Draws"
+msgstr "Döntetlen"
+
+#: soccer-info.php:911
+msgid "Losses"
+msgstr "Vereség"
+
+#: soccer-info.php:912
+msgid "Goals for"
+msgstr "Rúgott gólok"
+
+#: soccer-info.php:913
+msgid "Goals against"
+msgstr "Kapott gólok"
+
+#: soccer-info.php:914
+msgid "Goal difference"
+msgstr "Gólkülönbség"
+
+#: soccer-info.php:915
+#: soccer-info.php:937
+msgid "Points"
+msgstr "Pontok"
+
+#: soccer-info.php:925
+msgid "YC"
+msgstr "SL"
+
+#: soccer-info.php:927
+msgid "Yellow Cards"
+msgstr "Sárga lap"
+
+#: soccer-info.php:930
+msgid "RC"
+msgstr "PL"
+
+#: soccer-info.php:932
+msgid "Red Cards"
+msgstr "Piros lap"
+
+#: soccer-info.php:1597
+msgid "-- None --"
+msgstr "-- Nincs --"
+
+#: js/tinymce/window.php:53
+msgid "Choose a style"
+msgstr "Válassz stílust"
+
+#: js/tinymce/window.php:64
+msgid "It shows before the table"
+msgstr "Ez jelenik meg a táblázat előtt."
+
+#: js/tinymce/window.php:67
+msgid "Highlight:"
+msgstr "Kiemelt:"
+
+#: js/tinymce/window.php:73
+msgid "Highlighted team"
+msgstr "Kiemelt csapat:"
+
+#: js/tinymce/window.php:78
+msgid "Only 1 team:"
+msgstr "Csak 1 csapat:"
+
+#: js/tinymce/window.php:84
+msgid "Show only this team"
+msgstr "Csak ezt a csapatot mutasd"
+
+#: js/tinymce/window.php:89
+msgid "Show icon:"
+msgstr "Mutasd ay ikont:"
+
+#: js/tinymce/window.php:95
+msgid "None"
+msgstr "Egyiksem"
+
+#: js/tinymce/window.php:96
+msgid "Icon"
+msgstr "Ikon"
+
+#: js/tinymce/window.php:102
+msgid "Choose a size"
+msgstr "Válassz méretet"
+
+#: js/tinymce/window.php:132
+msgid "Tables"
+msgstr "Tabellák"
+
+#: js/tinymce/window.php:133
+msgid "Fixtures"
+msgstr "Mérkőzések"
+
+#: js/tinymce/window.php:134
+msgid "Results"
+msgstr "Eredmények"
+
+#: js/tinymce/window.php:143
+#: js/tinymce/window.php:215
+#: js/tinymce/window.php:255
+msgid "League:"
+msgstr "Liga:"
+
+#: js/tinymce/window.php:160
+msgid "Columns:"
+msgstr "Oszlopok:"
+
+#: js/tinymce/window.php:161
+msgid "You may use: #,Team,MP,W,D,L,F,A,G,P"
+msgstr "Ezeket használhatod: #,Team,MP,W,D,L,F,A,G,P"
+
+#: js/tinymce/window.php:208
+msgid "Display the table for the chosen league."
+msgstr "Mutatja a kiválasztott liga tabelláját."
+
+#: js/tinymce/window.php:248
+msgid "Display all fixtures for the chosen league or only those for a selected team."
+msgstr "Mutatja a kiválasztott liga következő mérkőzéseinek az időpontját (vagy csak a kiválasztott csapatét)"
+
+#: js/tinymce/window.php:288
+msgid "Display the last results for the chosen league or only those for a selected team."
+msgstr "Mutatja a kiválasztott liga legutóbbi eredményeit (vagy csak a kiválasztott csapatét)"
+
+#: js/tinymce/window.php:293
+msgid "Cancel"
+msgstr "Visszavon"
+
+#: js/tinymce/window.php:296
+msgid "Insert"
+msgstr "Beszúr"
+
+#~ msgid "Coming soon..."
+#~ msgstr "Hamarosan!"
+
+#~ msgid "Predictions"
+#~ msgstr "Tippek"
+
+#~ msgid "My Active Predictions"
+#~ msgstr "Aktuális tippjeim"
+
+#~ msgid "My Archives"
+#~ msgstr "Korábbi tippjeim"
+
+#~ msgid "Summary"
+#~ msgstr "Statisztikám"
+
+#~ msgid "I do not have yet any predictions."
+#~ msgstr "Még nincs archivált tippem."
+
+#~ msgid ""
+#~ "There aren't any ongoing match predictions. Please check my <a href=\"%s"
+#~ "\">Archives</a>"
+#~ msgstr ""
+#~ "Jelenleg nincs folyamatban levő tippem. Nézd meg a <a href=\"%s\">Korábbi "
+#~ "tippjeimet</a> és statisztikámat."
+
+#~ msgid "I do not have yet any statistics."
+#~ msgstr "Nincs statisztika."
+
+#~ msgid "You must be logged in to predict."
+#~ msgstr "A tippeléshez be kell jelentkezni."
+
+#~ msgid "No matches available in this championship."
+#~ msgstr "Nincs mérkőzés ebben a bajnokságban."
+
+#~ msgid "Save"
+#~ msgstr "Mentés"
+
+#~ msgid "Penalty"
+#~ msgstr "Tizenegyes"
+
+#~ msgid "shootout"
+#~ msgstr "rúgás"
+
+#~ msgid "Prediction saved"
+#~ msgstr "Tippelés elmentve"
+
+#~ msgid "Match score must be numeric"
+#~ msgstr "Az eredmény csak számokból állhat"
+
+#~ msgid "You can only enter penalties for a draw"
+#~ msgstr "Csak döntetlen esetén adhatod meg a tizenegyeseket."
+
+#~ msgid "Missing match. Prediction not saved."
+#~ msgstr "Hiányzó mérkőzés. A tipped nincs elmentve."
+
+#~ msgid "Error saving prediction"
+#~ msgstr "Hiba keletkezett a tippelés mentésekor"
+
+#~ msgid ""
+#~ "Some, or all, of your predictions are too late and will not be counted."
+#~ msgstr "Valamelyik tipped túl későn érkezett, ezért nem vesszük számításba."
+
+#~ msgid "No data to save"
+#~ msgstr "Nincs mentésre szánt adat"
+
+#~ msgid "Next prediction deadline in"
+#~ msgstr "A következő tippelés határideje"
+
+#~ msgid "Too Late - Prediction deadline passed"
+#~ msgstr "Túl késő - a tippelés határideje lejárt"
+
+#~ msgid "Won"
+#~ msgstr "Győzelem"
+
+#~ msgid "Pts"
+#~ msgstr "Po"
+
+#~ msgid "Penalties"
+#~ msgstr "Tizenegyesek"
+
+#~ msgid "pen."
+#~ msgstr "tiz."
+
+#~ msgid "Extra Time"
+#~ msgstr "Hosszabbítás"
+
+#~ msgid "a.e.t."
+#~ msgstr "hossz."
+
+#~ msgid "Match"
+#~ msgstr "Mérkőzés"
+
+#~ msgid "Score"
+#~ msgstr "Eredmény"
+
+#~ msgid "Prediction"
+#~ msgstr "Tipp"
+
+#~ msgid "Team A"
+#~ msgstr "A csapat"
+
+#~ msgid "Goals A"
+#~ msgstr "A csapat gólok"
+
+#~ msgid "Penalties A"
+#~ msgstr "A tizenegyes"
+
+#~ msgid "Team B"
+#~ msgstr "B csapat"
+
+#~ msgid "Goals B"
+#~ msgstr "B csapat gólok"
+
+#~ msgid "Penalties B"
+#~ msgstr "B tizenegyes"
+
+#~ msgid "Match finished"
+#~ msgstr "Befejezett mérkőzés"

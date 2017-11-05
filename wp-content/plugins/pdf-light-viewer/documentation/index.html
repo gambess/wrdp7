@@ -1,0 +1,1159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>WordPress PDF Light Viewer Plugin & Pro Addon Documentation for version 1.3.19 & pro 0.1.4</title>
+
+	<link rel="stylesheet" href="css/pure.css" />
+	<link rel="stylesheet" href="css/prism.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.4/css/simple-line-icons.min.css" />
+
+	<!--[if lt IE 9]>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+	<![endif]-->
+
+	<style>
+		.pure-button.pure-button-primary {
+            font-size: normal;
+			padding: 3px 6px;
+        }
+	</style>
+</head>
+<body>
+
+	<div id="layout">
+		<!-- Menu toggle -->
+		<a href="#menu" id="menuLink" class="menu-link">
+			<!-- Hamburger icon -->
+			<span></span>
+		</a>
+
+		<div id="menu">
+			<div class="pure-menu pure-menu-open">
+				<a class="logo" href="http://pdf-light-viewer.wp.teamlead.pw/">
+					<span>PDF Light Viewer</span>
+					<span>and PRO Addon</span>
+					<span>Documentation</span>
+				</a>
+
+				<ul>
+					<li><a href="#main">
+						<span class="title">About & Features</span>
+						<span class="question">What did you get?</span>
+					</a></li>
+					<li><a href="#install">
+						<span class="title">Installation & Contents</span>
+						<span class="question">How to install?</span>
+					</a></li>
+					<li><a href="#quick">
+						<span class="title">Quick start guide</span>
+						<span class="question">How to hit the ground running?</span>
+					</a></li>
+					<li><a href="#setup">
+						<span class="title">Set Up</span>
+						<span class="question">Where to start?</span>
+					</a></li>
+					<li><a href="#use">
+						<span class="title">Usage</span>
+						<span class="question">How to use?</span>
+					</a></li>
+					<li><a href="#advanced">
+						<span class="title">Advanced usage</span>
+						<span class="question">Are you developer?</span>
+					</a></li>
+					<li><a href="#support">
+						<span class="title">Support</span>
+						<span class="question">Need support?</span>
+					</a></li>
+					<li><a href="#credits">
+						<span class="title">Credits</span>
+						<span class="question">Sources used</span>
+					</a></li>
+					<li><a href="#changelog">
+						<span class="title">Changelog</span>
+						<span class="question"></span>
+					</a></li>
+				</ul>
+			</div>
+		</div>
+
+
+
+
+
+
+		<div id="main" class="doc-section">
+			<div class="header">
+				<div class="logo-header"></div>
+				<h1>WordPress PDF Light Viewer Plugin v1.3.19<br />& <span class="pure-button pure-button-primary">PRO</span> Addon v0.1.4<br/>Documentation</h1>
+				<h2>What did you get?</h2>
+			</div>
+
+			<div class="content">
+				<h4 class="content-subhead">About</h4>
+				<p>
+					Thank you for usign the <a target="_blank" href="http://pdf-light-viewer.wp.teamlead.pw/">WordPress PDF Light Viewer Plugin</a>.
+				</p>
+				<p>This plugin gives you an ability to embed PDF files to your Wordpress sites.</p>
+				<p>You could add unlimited amount of PDF of any size without performance issues.</p>
+				<p>Added PDF could be embedded as flipbooks on frontend.</p>
+				<p><span class="pure-button pure-button-primary">PRO</span> Addon is not required but it adds some useful features (marked with <span class="pure-button pure-button-primary">PRO</span> here) which you can check in this documentation or on the <a target="_blank" href="http://pdf-light-viewer.wp.teamlead.pw/pro/">Addon's page</a>.</p>
+				<blockquote>
+					Please note that <span class="pure-button pure-button-primary">PRO</span> Addon is not standalone plugin and it requires <a href="https://wordpress.org/plugins/pdf-light-viewer/" target="_blank">PDF Light Viewer free plugin</a>.
+				</blockquote>
+
+				<h4 class="content-subhead">Features</h4>
+				<ul>
+					<li>Unlimited PDF files.</li>
+					<li>Unlimited PDF file size without site performance issues.</li>
+					<li>Turn.js flipbook integrated.</li>
+					<li>Dashboard flipbook preview.</li>
+					<li>Slider thumbnails navigation integrated.</li>
+					<li>Lazy loading pages integrated.</li>
+					<li>Pages zoom feature.</li>
+					<li>Pages fulscreen feature (for modern browsers).</li>
+					<li>s2member compatible.</li>
+					<li>Developer-friendly.</li>
+					<li>Well-documented.</li>
+					<li>Fully translatable to any language using .po files.</li>
+					<li>Supports wordpress multisites</li>
+					<li>Responsive design</li>
+					<li>Clear default look</li>
+					<li>CLI integration</li>
+					<li>Bulk PDF Import</li>
+					<li>Downloading and per-page downloading</li>
+				</ul>
+
+				<h4 class="content-subhead"><span class="pure-button pure-button-primary">PRO</span> Features</h4>
+				<ul>
+					<li>Single separate PDF page.</li>
+					<li>Regular Wordpress PDF Archive page with 2 templates.</li>
+					<li>One-page PDF Archive page with 2 templates.</li>
+					<li>PDF Archive page by shortcode on custom page or frontpage.</li>
+					<li>PDF Categories.</li>
+					<li>Simple PDF page search.</li>
+					<li>Document printing.</li>
+					<li>Per-page printing.</li>
+					<li>SEO friendly mode.</li>
+				</ul>
+
+				<h4 class="content-subhead">What next?</h4>
+				<p>Check <a href="#install">Installation</a> section to know how to install the plugin.</p>
+			</div>
+		</div>
+
+
+
+
+
+		<div id="install" class="doc-section">
+			<div class="header">
+				<h1>Installation</h1>
+				<h2>How to install?</h2>
+			</div>
+
+			<div class="content">
+				<h4 class="content-subhead">Installation steps</h4>
+
+				<h4>Regular installation</h4>
+				<ol>
+					<li><s>Get the package</s> Ok, you got the plugin package :)</li>
+					<li>Upload plugin package with WordPress <code>http://yoursite.com/wp-admin/plugin-install.php?tab=upload</code> or WordPress Multisite <code>http://yoursite.com/wp-admin/network/plugin-install.php?tab=upload</code></li>
+					<li>Activate <code>PDF Light Viewer Plugin</code> on the WordPress Plugins page <code>http://yoursite.com/wp-admin/plugins.php</code></li>
+					<li><span class="pure-button pure-button-primary">PRO</span> Tip: Activate <code>PDF Light Viewer Pro Addon</code> on the WordPress Plugins page <code>http://yoursite.com/wp-admin/plugins.php</code></li>
+					<li>That's all! You can start from <a href="#quick">Quick start guide</a></li>
+					<li>After plugin activation please go to plugin's settings on the page <code>http://yoursite.com/wp-admin/options-general.php?page=pdf-light-viewer</code> to <a href="#setup">Set Up</a> the plugin.</li>
+					<li><span class="pure-button pure-button-primary">PRO</span> Tip: Settings of the PRO functions are placed on the main plugin Settings page.</li>
+				</ol>
+
+				<h4>cPanel installation</h4>
+				<ol>
+					<li>Upload plugin package through the cPanel File Manager to the <code>/wp-content/plugins/</code></li>
+					<li>Extract plugin package contents to the <code>/wp-content/plugins/</code> folder</li>
+					<li>Activate <code>PDF Light Viewer Plugin</code> on the WordPress Plugins page <code>http://yoursite.com/wp-admin/plugins.php</code></li>
+					<li><span class="pure-button pure-button-primary">PRO</span> Tip: Activate <code>PDF Light Viewer Pro Addon</code> on the WordPress Plugins page <code>http://yoursite.com/wp-admin/plugins.php</code></li>
+					<li>That's all! You can start from <a href="#quick">Quick start guide</a></li>
+					<li>After plugin activation please go to plugin's settings on the page <code>http://yoursite.com/wp-admin/options-general.php?page=pdf-light-viewer</code> to <a href="#setup">Set Up</a> the plugin.</li>
+					<li><span class="pure-button pure-button-primary">PRO</span> Tip: Settings of the PRO functions are placed on the main plugin Settings page.</li>
+				</ol>
+
+				<h4>FTP installation</h4>
+				<ol>
+					<li>Unpack the plugin package with any archiving tool, which supports <a href="http://en.wikipedia.org/wiki/Zip_%28file_format%29" target="_blank">ZIP file format</a></li>
+					<li>Upload files folder to the <code>/wp-content/plugins/</code> to the server with any FTP client application, for example <a href="https://filezilla-project.org/" target="_blank">FileZilla</a></li>
+					<li>Activate <code>PDF Light Viewer Plugin</code> on the WordPress Plugins page <code>http://yoursite.com/wp-admin/plugins.php</code></li>
+					<li><span class="pure-button pure-button-primary">PRO</span> Tip: Activate <code>PDF Light Viewer Pro Addon</code> on the WordPress Plugins page <code>http://yoursite.com/wp-admin/plugins.php</code></li>
+					<li>That's all! You can start from <a href="#quick">Quick start guide</a></li>
+					<li>After plugin activation please go to plugin's settings on the page <code>http://yoursite.com/wp-admin/options-general.php?page=pdf-light-viewer</code> to <a href="#setup">Set Up</a> the plugin.</li>
+					<li><span class="pure-button pure-button-primary">PRO</span> Tip: Settings of the PRO functions are placed on the main plugin Settings page.</li>
+				</ol>
+
+				<blockquote>
+					More about WordPress <a href="http://codex.wordpress.org/Managing_Plugins" target="_blank">Plugins Management</a>
+				</blockquote>
+
+				<h4 class="content-subhead">What next?</h4>
+				<p>Check <a href="#quick">Quick start guide</a> section to see quick examples of plugin's usage.</p>
+			</div>
+		</div>
+
+
+
+
+		<div id="quick" class="doc-section">
+			<div class="header">
+				<h1>Quick start guide</h1>
+				<h2>How to hit the ground running?</h2>
+			</div>
+
+			<div class="content">
+
+				<p>First of all you need to check plugin requirements.</p>
+
+				<h4 class="content-subhead">Requirements</h4>
+
+				<ul>
+					<li>PHP 5.3 or higher</li>
+					<li>ImageMagick PHP extension OR GraphicsMagick PHP extension</li>
+					<li>Imagick PECL library OR Gmagick PECL library</li>
+					<li>GhostScript support</li>
+					<li>Writable upload folder <code>wp-content/uploads/pdf-light-viewer</code></li>
+					<li>(optional) <a href="http://wp-cli.org/" target="_blank">WP CLI</a> if you plan to use plugin from the <abbr title="Command Line Interface">CLI</abbr></li>
+				</ul>
+
+				<h4 class="content-subhead"><span class="pure-button pure-button-primary">PRO</span> Requirements</h4>
+
+				<ul>
+					<li>PDF Light Viewer installed and activated</li>
+					<li>Specific version on PDF Light Viewer</li>
+				</ul>
+
+				<p>After activation plugin will create new post type for PDF files. You'll see pointer notification near it's menu item.</p>
+				<p><img src="img/screenshots/activation-notifications.jpeg" alt="Activation notifications" /></p>
+
+				<p>Also right after activation, plugin will check requirements and will notify you about checking results. If requirements are met, notification will show up and disappear.</p>
+				<p>But if some requirements are not met, you'll see constant error notification. Follow the link in the notification to see details on the settings page.</p>
+				<p><img src="img/screenshots/activation-error-notification.jpeg" alt="Error notification" /></p>
+
+				<p>You can find WordPress PDF Light Viewer Plugin settings page by following url address like this one <code>http://yoursite.com/wp-admin/options-general.php?page=pdf-light-viewer</code></p>
+				<p>If some requirement is not met, you will see it on settings page</p>
+				<p><img src="img/screenshots/settings-requirements-are-not-met.jpeg" alt="Requirements are not met" /></p>
+
+				<p><span class="pure-button pure-button-primary">PRO</span> Tip: Settings and requirements for PRO Addon could be found on the same page</p>
+				<p><img src="img/screenshots/requirements-pro.jpeg" alt="PRO Requirements" /></p>
+
+				<h4 class="content-subhead">ImageMagick/GraphicsMagick support</h4>
+
+				<blockquote>
+					<p>The ImageMagick/GraphicsMagick package and Imagick/Gmagick library are required for PDF Light Viewer plugin to work. Not supported in current context means that the Imagick library is not installed or turned off on the server. To make plugin work you will need to install it or to turn it on.</p>
+					<p><a href="http://en.wikipedia.org/wiki/ImageMagick" target="_blank">ImageMagick</a> is the image manipulation library for PHP. ImageMagick is a server software and currently not included into the plugin.</p>
+					<p>To make it work, someone, you, your server administrator or your hosting provider, should install (or enable, if it's already installed) this software on your server. If your site is maintained by some administrator, he or she already knows how to install ImageMagick and Imagick libraries. Otherwise the installation could be done through cPanel in some cases and you could try to install it.</p>
+					<p>Sometimes your hosting provider could restrict installation of additional software. In this case you can contact them for further instructions and details.</p>
+					<p>To install ImageMagick manually please visit <a href="http://php.net/manual/en/imagick.setup.php" target="_blank">this installation guide</a>.</p>
+				</blockquote>
+
+				<h4 class="content-subhead">GhostScript support</h4>
+
+				<blockquote cite="Noticed by Alexander">
+					<p>The GhostScript package is required for PDF Light Viewer plugin to work. To make plugin work you will need to install it on the server.</p>
+					<p><a href="https://en.wikipedia.org/wiki/Ghostscript" target="_blank">GhostScript</a> is the application to work with PDF files. GhostScript is a server software and currently not included into the plugin.</p>
+					<p>To make it work, someone, you, your server administrator or your hosting provider, should install this software on your server. If your site is maintained by some administrator, he or she already knows how to install GhostScript.</p>
+					<p>To install GhostScript manually please visit <a href="http://ghostscript.com/doc/current/Install.htm" target="_blank">this installation guide</a>.</p>
+					<p>
+						<b>Big thanks to <i>Alexander</i> for this notice.</b>
+					</p>
+					<p><b>GhostScript is required for Imagick PDF Support. For cases, when you are sure that GhostScript is installed, but it was not detected by the plugin correctly you can disable this requirement in plugin's settings.</b></p>
+				</blockquote>
+
+				<h4 class="content-subhead">What next?</h4>
+				<p>Check <a href="#setup">Set Up</a> section to know more about plugin global settings.</p>
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+		<div id="setup" class="doc-section">
+			<div class="header">
+				<h1>Set up</h1>
+				<h2>Where to start?</h2>
+			</div>
+
+			<div class="content">
+				<h4 class="content-subhead">Main Settings</h4>
+
+				<p>
+					You can find WordPress PDF Light Viewer Plugin settings, requirements and documentation on the page <code>http://yoursite.com/wp-admin/options-general.php?page=pdf-light-viewer</code>
+				</p>
+				<p>In settings you can hide the new PDF post type from the admin menu. This is useful, when you uploaded PDF files not often and do not want to unnecessary item to take the space of the screen.</p>
+				<p><img src="img/screenshots/settings.jpeg" alt="Settings" /></p>
+				<p>You can turn it on again at any moment.</p>
+
+				<p>
+					Also in setting you can turn off checking of GhostScript installation for cases when plugin cannot recognize the version.
+				</p>
+
+				<h4 class="content-subhead"><span class="pure-button pure-button-primary">PRO</span> Settings</h4>
+				<p><img src="img/screenshots/settings-pro.jpeg" alt="Settings" /></p>
+				<p>
+					You can show PDF single pages on your site. For this check options <code>Make PDFs public available</code>.
+				</p>
+				<p>
+					To show PDFs archive check <code>Post type has archive</code> option in addition to <code>Make PDFs public available</code>.
+				</p>
+				<p>
+					Change url slug for PDF pages in setting <code>Public PDFs rewrite slug</code>
+				</p>
+				<p>Options <code>Use custom post type archive template from plugin</code> and <code>Use custom post type single template from plugin</code> may be unchecked if you want to customize Single and Archive page templates.</p>
+
+				<h4 class="content-subhead">What next?</h4>
+				<p>Check <a href="#use">Usage</a> section to know more about use cases.</p>
+			</div>
+		</div>
+
+
+
+
+
+
+		<div id="use" class="doc-section">
+			<div class="header">
+				<h1>Usage</h1>
+				<h2>How to use?</h2>
+			</div>
+
+			<div class="content">
+				<div class="content-subhead">The process of publishing PDF files is the following:</div>
+					<ol>
+						<li>User uploads PDF document</li>
+						<li>PDF document is parsed by the plugin</li>
+						<li>User stays on the site until the document is parsed</li>
+						<li>User adds the wordpress shortcode, produced by the plugin, to the page or post</li>
+						<li>
+							<span class="pure-button pure-button-primary">PRO</span> User can open Single PDF page to have PDF flipbook there.
+						</li>
+					</ol>
+
+				<div class="content-subhead">Importing PDF file</div>
+
+					<p>You can go to PDFs menu item to see the list of imported PDF files.</p>
+					<p><img src="img/screenshots/pdf-files-in-menu.jpeg" alt="PDF Files in menu" /></p>
+
+					<p>If you just installed the plugin the list will be empty. Go ahead and import first PDF document by clicking <code>Import PDF</code> button.</p>
+					<p>Importing of PDF is similar to the creating regular WordPress post or page but there are some differences.</p>
+					<p><img src="img/screenshots/importing-pdf.jpeg" alt="Importing PDF" /></p>
+
+					<p>You can specify the title for the PDF. It's for internal use only, it wouldn't be shown in the default shortcode.</p>
+					<p><span class="pure-button pure-button-primary">PRO</span> Tip: The title will be shown on Archive and Single pages.</p>
+
+					<p>You're available to change some importing options such as:</p>
+					<ul>
+						<li>
+							JPEG compression quality
+						</li>
+						<li>
+							JPEG resolution
+						</li>
+					</ul>
+					<p>Changing these options will affect importing process.</p>
+					<p>To import PDF file choose the file from the Media Library and check the checkbox <code>Enable import</code></p>
+
+					<p>Click <code>Publish</code> to start the import.</p>
+
+					<p><img src="img/screenshots/import-scheduled.jpeg" alt="Import scheduled" /></p>
+
+					<p>We moved the import process to the background, so you could continue to do other things on the site if needed.</p>
+					<p>The import process doesn't use the WP Cron functionality. It's triggered by browser's background (AJAX) call. We could not rely on WP Cron functionality because some servers (we faced that problem with Hostgator) doesn't allow loopback requests.</p>
+					<p>The import process will work from any admin interface page.</p>
+					<p>It will work until you leave the admin interface and will continue when you come back.</p>
+
+					<blockquote>
+						<p>Anyway, please note, that import of large PDF files (50 pages and more) will take some time.</p>
+					</blockquote>
+
+					<blockquote>
+						<p>Also, please note, that import of large PDF files will take some server resources (memory usage, CPU time, etc.). Usage of these resources depends on PDF file size, number of pages, initial PDF resolution, etc.</p>
+						<p>That's why we separated the import process by pages.</p>
+						<p>Please, use carefully.</p>
+					</blockquote>
+
+					<p>The import time depends on the server. Anyway, you can check import progress in notification at the top of the page, or on the PDF list page.</p>
+					<p><img src="img/screenshots/import-progress.jpeg" alt="PDF List Page" /></p>
+
+					<p>After import, the first page will be set as featured image of the PDF file post.</p>
+					<p>
+						<span class="pure-button pure-button-primary">PRO</span> Tip: Featured image will be shown on PDF Archive page.
+					</p>
+
+				<div class="content-subhead">Re-importing PDF file</div>
+
+					<p>To re-import PDF file, choose the new file from the Media Library and check the checkbox <code>Enable import</code></p>
+
+					<p>Click <code>Update</code> to start the import.</p>
+
+					<blockquote>
+						<p>Please note, that all previously imported pages of this document will be deleted from the disk. This operation cannot be undone.</p>
+					</blockquote>
+
+				<div class="content-subhead">Updating PDF file</div>
+
+					<p>If you just need to change the name of the PDF file or some of the Output options, you leave the option <code>Enable import</code> unchecked. Without checking this checkbox import wouldn't be triggered.</p>
+
+				<div class="content-subhead">Deleting PDF file</div>
+
+					<p>If you will permanently delete PDF file post, all previews will be also deleted.</p>
+					<blockquote>
+						<p>Please note, that this operation cannot be undone.</p>
+					</blockquote>
+
+				<div class="content-subhead">Output Options</div>
+					<p>You can change different output options such as:</p>
+					<ul>
+						<li>Hide thumbnail navigation</li>
+						<li>Force one-page layout - usually book will be shown in two-pages layout when the page is wider than 800px. This setting will force one-page layout always.</li>
+						<li>Max book width</li>
+						<li>Max book height</li>
+						<li>Limit book height by the viewport in fullscreen mode - plugin will try to fit the screen height</li>
+					</ul>
+
+				<div class="content-subhead"><span class="pure-button pure-button-primary">PRO</span> Output Options</div>
+					<p>You can change different Output options such as:</p>
+					<ul>
+						<li>Enable search engine optimization - in this case links of thumbnail navigation will open "real" pages with PDF text included in the invisible &lt;noscript&gt; tag for SEO.</li>
+					</ul>
+					<p><img src="img/screenshots/toolbar-search-pro.jpeg" alt="Toolbar Search PRO" /></p>
+					<blockquote>
+						<p>Please note, that SEO friendly mode and simple search will work only if PDF contains text and it was successfully parsed from the file during the import.</p>
+						<p>If you've imported PDFs in PDF Light Viewer plugin without PRO Addon, then you'll need to re-import those files to make SEO friendly mode and search functions work.</p>
+					</blockquote>
+
+				<div class="content-subhead">Toolbar Options</div>
+					<p>You can change different output options such as:</p>
+					<ul>
+						<li>Allow download - download button to download the whole PDF document</li>
+						<li>Alternate download link - if not set, then "PDF File" will be used</li>
+						<li>Allow per-page download - separate pages could be downloaded</li>
+						<li>Per-page download format - you can choose JPEG or PDF</li>
+						<li>Hide fullscreen button</li>
+						<li>Disable page zoom - toggle mouse-over zoom function</li>
+						<li>Show toolbar next and previous page arrows</li>
+						<li>Show toolbar go to page control</li>
+						<li>Show page numbers</li>
+					</ul>
+
+				<div class="content-subhead"><span class="pure-button pure-button-primary">PRO</span> Output Options</div>
+					<p>You can change different Toolbar options such as:</p>
+					<ul>
+						<li>Enable search through the PDF - autocomplete ajax search of the text content of the PDF document</li>
+						<li>Allow document printing</li>
+						<li>Allow per-page printing</li>
+					</ul>
+					<p><img src="img/screenshots/toolbar-search-pro.jpeg" alt="Toolbar Search PRO" /></p>
+					<blockquote>
+						<p>Please note, that SEO friendly mode and simple search will work only if PDF contains text and it was successfully parsed from the file during the import.</p>
+						<p>If you've imported PDFs in PDF Light Viewer plugin without PRO Addon, then you'll need to re-import those files to make SEO friendly mode and search functions work.</p>
+					</blockquote>
+
+				<div class="content-subhead">Changing permissions</div>
+
+					<p>In the <code>Permissions</code> section you can add limits for different user roles for this file.</p>
+					<p>If you'll choose <code>Anonymous</code> user role and set limit to 3, then on the Front of the site anonymous users will see only first 3 pages of the PDF file.</p>
+
+				<div class="content-subhead">Shortcodes</div>
+					<p>
+						After import you can add PDF files with shortcodes anywhere in your post or page. You can copy shortcodes from PDFs list page or compose them manually.
+					</p>
+					<p><img src="img/screenshots/pdf-list-page.jpeg" alt="PDF List Page" /></p>
+
+				<div class="content-subhead">Preview</div>
+
+					<p>After import file you could preview your file exactly how it will be shown with help of shortcode on the frontend.</p>
+					<p><img src="img/screenshots/pdf-preview.jpeg" alt="PDF List Page" /></p>
+
+				<div class="content-subhead">Visual Composer</div>
+					<p>
+						In case when you're using Visual Composer plugin, the better approach would be to map PDF Light Viewer shortcode.
+					</p>
+					<p><img src="img/screenshots/visual-composer-shortcode-map.jpeg" alt="Map Shortcode" /></p>
+
+					<p>
+						After mapping you can go to the page, when you want to have your PDF document and insert it there like shown below:
+					</p>
+					<p><img src="img/screenshots/visual-composer-shortcode-select.jpeg" alt="Shortcode Select" /></p>
+					<p><img src="img/screenshots/visual-composer-set-up-shortcode.jpeg" alt="Shortcode Set Up" /></p>
+
+				<h4 class="content-subhead">What next?</h4>
+				<p>Check <a href="#advanced">Advanced Usage</a> section to get full control on the plugin functionality and look and feel.</p>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div id="advanced" class="doc-section">
+			<div class="header">
+				<h1>Advanced Usage</h1>
+				<h2>Are you developer?</h2>
+			</div>
+
+			<div class="content">
+				<p>
+					So you're developer or maybe just want to know more about the plugin.
+					We take care about you, no matter, whether you get our plugin from the client
+					or bought it for your purposes. You don't need to change anything inside the plugin (at least we hope so).
+				</p>
+
+				<p>
+					You will have full control on the plugin right from other plugin,
+					or theme, or whatever you use in your wordpress.
+				</p>
+
+				<div class="content-subhead">Code control</div>
+				<p>
+					You can override any of plugins classes somewhere before the <code>after_setup_theme</code> action:
+				</p>
+				<ul>
+					<li>
+						<code>PdfLightViewer_Plugin</code> - some main functions
+					</li>
+					<li>
+						<code>PdfLightViewer_AssetsController</code> - css and js assets including
+					</li>
+					<li>
+						<code>PdfLightViewer_AdminController</code> - admin functions
+					</li>
+					<li>
+						<code>PdfLightViewer_FrontController</code> - frontend functions
+					</li>
+					<li>
+						<code>PdfLightViewer_PdfController</code> - custom PDF post type and related functions
+					</li>
+				</ul>
+
+				<p>
+					<span class="pure-button pure-button-primary">PRO</span> Tip: PRO Addon has similar file structure and can be overrided in the similar way.
+				</p>
+
+				<div class="content-subhead">Templates control</div>
+
+				<p>
+					You can create <code>shortcode-pdf-light-viewer.php</code> in your theme
+					or copy it from <code>templates</code> folder to your theme folder
+					to override all default plugin template for frontend.
+				</p>
+
+				<p>
+					<span class="pure-button pure-button-primary">PRO</span> Tip: To override Archive, Single pages or even Printing view you could copy to your theme folder files <code>archive-pdf_lv.php</code>, <code>single-pdf_lv.php</code> or <code>print-pdf_lv.php</code> accordingly.
+				</p>
+
+				<div class="content-subhead">Plugin Output</div>
+				<p>
+					Shortcode <code>[pdf-light-viewer]</code>
+					as well as <code>PdfLightViewer_FrontController::display_pdf_book($atts = array())</code>
+					has following parameters:
+				</p>
+				<ul>
+					<li>
+						<code>id</code> (required), this is ID of the PDF post, you can
+					</li>
+					<li>
+						<code>template</code> (optional), you can specify template name to override default. Template name can be any, that accepted by <a href="http://codex.wordpress.org/Function_Reference/get_template_part" target="_blank">get_template_part()</a> function.
+					</li>
+				</ul>
+
+				<p>
+					You could call class method <code>PdfLightViewer_FrontController::display_pdf_book($atts = array())</code>
+					directly instead of using shortcode <code>[pdf-light-viewer]</code>.
+				</p>
+
+				<p>
+					Shortcode <code>[pdf-light-viewer-enqueue-assets]</code>
+					as well as <code>PdfLightViewer_AssetsController::frontendEnqueue()</code>
+					has no parameters.
+					It should be mainly used to enqueue assets when PDF flipbook shortcode is injected with widgets.
+					It should be inserted before main PDF flipbook shortcode.
+				</p>
+
+				<p>
+					<span class="pure-button pure-button-primary">PRO</span>
+					Shortcode <code>[pdf-light-viewer-archive]</code>
+					as well as <code>PdfLightViewerPro_FrontController::display_pdf_archive($atts = array())</code>
+					has following parameters:</p>
+				</p>
+				<ul>
+					<li>
+						<code>title</code> (optional), custom title above the archive
+					</li>
+					<li>
+						<code>categories</code> (optional), you can specify category slugs separated by commas "," - for example <code>[pdf-light-viewer-archive categories="top,featured"]</code>.
+					</li>
+					<li>
+						<code>template</code> (optional), you can specify template name to override default. Available options are:
+						<ul>
+							<li><code>(empty or not set)</code> - Material masonry (default)</li>
+							<li><code>masonry-full-thumbs</code> - Masonry full thumbnails</li>
+							<li><code>one-page-with-list-nav</code> - One page with list navigation</li>
+							<li><code>one-page-with-thumbs-nav</code> - One page with thumbnails navigation</li>
+						</ul>
+					</li>
+				</ul>
+
+				<div class="content-subhead">WordPress Hooks (actions and filters)</div>
+
+				<div>
+					<b>Filters:</b>
+				</div>
+
+				<ul>
+					<li>
+						<div>
+							<b>
+								Conditional assets filter
+							</b>
+						</div>
+						<ul>
+							<li>
+								Filter: <code>PDF_LIGHT_VIEWER_PLUGIN.':should_enqueue_frontend_assets'</code>
+							</li>
+							<li>
+								<p>Expected result: Boolean</p>
+								<p>When <code>true</code>, the plugin will include assets even if it cannot detect PDF Light viewer shortcodes.</p>
+							</li>
+							<li>
+								<div>Example (compatible with php 5.3+):</div>
+
+<pre><code class="language-php">add_filter(PDF_LIGHT_VIEWER_PLUGIN.':should_enqueue_frontend_assets', function() {
+	return true; // add your custom logic here
+});
+</code></pre>
+							</li>
+							<li>
+								Conditions: Should be added before <a target="_blank" href="https://codex.wordpress.org/Plugin_API/Action_Reference/wp_enqueue_scripts">wp_enqueue_scripts</a> hook is triggered.
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+				<div class="content-subhead">CLI usage</div>
+				<p>
+					You can work with plugin from command line interface. PDF Light Viewer integrated with great <a href="http://wp-cli.org/" target="_blank">WP CLI</a>, thus the plugin requires WP CLI to work in command line.
+				</p>
+				<p>
+					Command <code>wp pdf-light-viewer</code> has following subcommands:
+				</p>
+				<ul>
+					<li>
+						<p><code>bulk-import</code> - Bulk PDF import</p>
+						<p>Options:</p>
+						<ul>
+							<li>
+								<code>source-dir</code> required, source directory to import PDF files
+							</li>
+							<li>
+								<code>jpeg-compression-quality</code> optional, jpeg compression quality, default 60
+							</li>
+							<li>
+								<code>jpeg-resolution</code> optional, jpeg resolution, default 300
+							</li>
+							<li>
+								<code>post-status</code> optional, PDF post status, default "draft"
+							</li>
+							<li>
+								<code>import-pdf-file</code> flag, if set then import PDF file to Wordpress media library
+							</li>
+						</ul>
+						<hr />
+						<p>Example:</p>
+						<p>
+<pre><code class="language-sh">$ cd /path/to/your/wordpress
+$ wp pdf-light-viewer bulk-import --source-dir="/path/to/pdfs" --jpeg-compression-quality=60 --jpeg-resolution=300 --post-status=publish --import-pdf-file
+</code></pre>
+						</p>
+						<p>or you can specify wordpress' path via option:</p>
+						<p>
+							<pre><code class="language-sh">$ wp pdf-light-viewer bulk-import --source-dir="/path/to/pdfs" --jpeg-compression-quality=60 --jpeg-resolution=300 --post-status=publish --import-pdf-file --path="/path/to/your/wordpress"</code></pre>
+						</p>
+					</li>
+				</ul>
+
+				<h4 class="content-subhead">What next?</h4>
+				<p>Check <a href="#support">Support</a> section to get in touch with our support team.</p>
+			</div>
+		</div>
+
+
+
+
+
+
+
+		<div id="support" class="doc-section">
+			<div class="header">
+				<h1>Support</h1>
+				<h2>Need support?</h2>
+			</div>
+
+			<div class="content">
+				<p>To  contact us please use support forum at <a href="http://support.wp.teamlead.pw" target="_blank">http://support.wp.teamlead.pw</a> or email <a href="mailto:support@teamlead.pw">support@teamlead.pw</a></p>
+				<p>We will appreciate your votes - <a href="https://wordpress.org/support/view/plugin-reviews/pdf-light-viewer?rate=5#postform" target="_blank">Vote for us!</a>.</p>
+				<p><span class="pure-button pure-button-primary">PDF Light Viewer Pro Addon</span> can be <a href="http://codecanyon.net/item/pdf-light-viewer-pro-addon/14089505" target="_blank">purchased</a> on Codecanyon separately.</p>
+				<p>Also please find us on CodeCanyon: <a href="http://codecanyon.net/user/teamlead-power/portfolio">http://codecanyon.net/user/teamlead-power/portfolio</a></p>
+				<p><a href="https://support.wp.teamlead.pw/knowledge-base/" target="_blank">Knowledge Base</a></p>
+			</div>
+		</div>
+
+
+		<div id="credits" class="doc-section">
+			<div class="header">
+				<h1>Credits</h1>
+				<h2>Sources used</h2>
+			</div>
+
+			<div class="content">
+				<blockquote>
+					<ul>
+						<li>
+							Icons &copy; <a href="http://thesabbir.github.io/simple-line-icons/" target="_blank">Simple line icons&nbsp;<span class="icons icon-link"></span></a>
+						</li>
+						<li>
+							Logo Icons &copy; <a href="https://www.iconfinder.com/Re66y" target="_blank">Gregor Cresnar&nbsp;<span class="icons icon-link"></span></a>
+						</li>
+						<li>
+							CSS Framework &copy; <a href="http://purecss.io/" target="_blank">Pure.css&nbsp;<span class="icons icon-link"></span></a>
+						</li>
+						<li>
+							Flipbook &copy; <a href="http://www.turnjs.com/" target="_blank">Turn.js&nbsp;<span class="icons icon-link"></span></a>
+						</li>
+						<li>
+							Lazy Load &copy; <a href="http://www.appelsiini.net/projects/lazyload" target="_blank">Lazy Load Plugin for jQuery&nbsp;<span class="icons icon-link"></span></a>
+						</li>
+						<li>
+							Slider &copy; <a href="http://bxslider.com/" target="_blank">bxSlider&nbsp;<span class="icons icon-link"></span></a>
+						</li>
+						<li>
+							Fullscreen &copy; <a href="https://github.com/kayahr/jquery-fullscreen-plugin/" target="_blank">jQuery Fullscreen Plugin&nbsp;<span class="icons icon-link"></span></a>
+						</li>
+						<li>
+							Zoom &copy; <a href="http://www.jacklmoore.com/zoom/" target="_blank">jQuery Zoom&nbsp;<span class="icons icon-link"></span></a>
+						</li>
+						<li>
+							Grid &copy; <a href="http://isotope.metafizzy.co/" target="_blank">Isotope&nbsp;<span class="icons icon-link"></span></a>
+						</li>
+						<li>
+							Printing &copy; <a href="https://github.com/posabsolute/jQuery-printPage-plugin" target="_blank">jQuery PrintPage plugin&nbsp;<span class="icons icon-link"></span></a>
+						</li>
+						<li>
+							Metaboxes &copy; <a href="https://github.com/WebDevStudios/CMB2" target="_blank">CMB2&nbsp;<span class="icons icon-link"></span></a>
+						</li>
+					</ul>
+				</blockquote>
+			</div>
+		</div>
+
+
+		<div id="changelog" class="doc-section">
+			<div class="header">
+				<h1>Changelog</h1>
+			</div>
+
+			<div class="content">
+
+				<h3>PDF Light Viewer</h3>
+
+                <h4 class="content-subhead">1.3.19 - 2017-09-11</h4>
+				<ul>
+					<li>First page thumbnail bug fix</li>
+                </ul>
+
+                <h4 class="content-subhead">1.3.18 - 2017-07-27</h4>
+				<ul>
+					<li>PDF support improvement</li>
+                </ul>
+
+                <h4 class="content-subhead">1.3.17 - 2017-03-29</h4>
+				<ul>
+					<li>Private PDFs fix</li>
+                </ul>
+
+				<h4 class="content-subhead">1.3.16 - 2017-02-10</h4>
+				<ul>
+					<li>Fix for ghostscript usage during the import (for wrong resolution issue)</li>
+					<li>Setting to force two-pages layout for some screen sizes</li>
+					<li>Enable/disable Zoom interactively</li>
+					<li>Zoom magnify option</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.15 - 2017-01-19</h4>
+				<ul>
+					<li>Stop import possibility</li>
+					<li>Assets enqueue improvement</li>
+					<li>Added French translation (R. Valentin)</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.14 - 2016-11-25</h4>
+				<ul>
+					<li>Add setting to turn on/off url flipbook navigation</li>
+					<li>JS function to recalculate sizes</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.13 - 2016-11-18</h4>
+				<ul>
+					<li>fix PHP 5.3 compatibility</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.12 - 2016-11-16</h4>
+				<ul>
+					<li>Added shortcode to enqueue assets in widgets</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.11 - 2016-11-11</h4>
+				<ul>
+					<li>Added assets limit conditions and filter</li>
+					<li>GraphicsMagick: Low quality for resulting images fix</li>
+					<li>Improve page images preloading</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.10 - 2016-10-03</h4>
+				<ul>
+					<li>Option to adjust result images size</li>
+					<li>Fixed bug with resulting image quality</li>
+					<li>Mobile styles improvements</li>
+					<li>Fixed php error when server has no Imagick/Gmagick</li>
+					<li>Fixed javascript bug in IE</li>
+					<li>Changed file upload field to prevent url pasting</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.9 - 2016-09-11</h4>
+				<ul>
+					<li>fix PHP 5.3 compatibility</li>
+					<li>preload page images</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.8 - 2016-09-02</h4>
+				<ul>
+					<li>Improved and fixed Gmagick support</li>
+					<li>Added control for imagemagick/graphicsmagick switching</li>
+					<li>Improved single page PDF download</li>
+					<li>Added maximum viewer height setting</li>
+					<li>Added go to page functionality</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.7 - 2016-08-25</h4>
+				<ul>
+					<li>Post including logic improved</li>
+					<li>Settings page help small improvements</li>
+					<li>Smallfix for function type</li>
+					<li>Documentation update</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.6 - 2016-08-19</h4>
+				<ul>
+					<li>Make password protection work</li>
+					<li>Single page PDF download</li>
+					<li>Fixing minor php errors</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.5 - 2016-07-31</h4>
+				<ul>
+					<li>Adjustable viewer height</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.4 - 2016-07-08</h4>
+				<ul>
+					<li>CLI import fix</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.3 - 2016-06-24</h4>
+				<ul>
+					<li>CMB2 compatibility pull request merged</li>
+					<li>toolbar fix</li>
+					<li>pre-page download fix</li>
+					<li>fullscreen fix</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.2 - 2016-06-22</h4>
+				<ul>
+					<li>per page download in toolbar</li>
+					<li>page numbers bugfixing</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.1 - 2016-06-21</h4>
+				<ul>
+					<li>GraphicsMagick alternative support</li>
+					<li>Page numbers in toolbar</li>
+					<li>Control arrows in toolbar</li>
+				</ul>
+
+				<h4 class="content-subhead">1.3.0 - 2016-06-07</h4>
+				<ul>
+					<li>CMB to CMB2 dependency upgrade</li>
+					<li>imagetragick notification added</li>
+					<li>hide button for welcome notification</li>
+					<li>templates structure improvements</li>
+					<li>added import of only specific pages</li>
+					<li>per-page downloading</li>
+				</ul>
+
+				<h4 class="content-subhead">1.2.7 - 2016-04-27</h4>
+				<ul>
+					<li>added maximum book width setting</li>
+					<li>fix PHP 5.3 compatibility</li>
+					<li>improved fullscreen mode</li>
+				</ul>
+
+
+				<h4 class="content-subhead">1.2.6 - 2016-04-22</h4>
+				<ul>
+					<li>Simple Line Icons conflict fix</li>
+					<li>fix for compatibility with Magazon and other themes</li>
+					<li>Smart Manager compatibility fix</li>
+					<li>Mailpoet compatibility</li>
+				</ul>
+
+				<h4 class="content-subhead">1.2.5 - 2016-04-14</h4>
+				<ul>
+					<li>improve colors and/or colorspaces of resulting images</li>
+				</ul>
+
+				<h4 class="content-subhead">1.2.4 - 2016-03-21</h4>
+				<ul>
+					<li>option to display with a single page layout only</li>
+					<li>hide top toolbar when there are no icons</li>
+					<li>categories for PDFs</li>
+					<li>additional template to display thumbnail carousel at the top instead of the bottom</li>
+					<li>enhance full screen function in Chrome and IE</li>
+				</ul>
+
+				<h4 class="content-subhead">1.2.3 - 2016-01-20</h4>
+				<ul>
+					<li>
+						integration with WP CLI
+					</li>
+					<li>
+						added CLI command bulk-import
+					</li>
+					<li>
+						fixed missing font-awesome css
+					</li>
+					<li>
+						icons compatibility fix
+					</li>
+				</ul>
+
+				<h4 class="content-subhead">1.2.2 - 2015-12-25</h4>
+				<ul>
+					<li>
+						fixing issue with 404 links in pagination
+					</li>
+				</ul>
+
+				<h4 class="content-subhead">1.2.1 - 2015-12-18</h4>
+				<ul>
+					<li>bugfixing pro addon compatibility</li>
+					<li>design improvements</li>
+				</ul>
+
+				<h4 class="content-subhead">1.2.0 - 2015-12-14</h4>
+				<ul>
+					<li>PHP 5.3 is now required instead of PHP 5.2</li>
+					<li>Design improvements</li>
+					<li>Changed icon set from FontAwesome to Simple Line Icons</li>
+					<li>Fixed admin notifications handling</li>
+					<li>Refactoring, improved code logic</li>
+					<li>Added compatibility with PRO Addon</li>
+				</ul>
+
+				<h4 class="content-subhead">1.1.7 - 2015-12-05</h4>
+				<ul>
+					<li>Fixed bug when 2nd page in a 2-page pdf not displayed in thumbnails</li>
+					<li>Pages limit bug</li>
+					<li>Fixed typos</li>
+				</ul>
+
+				<h4 class="content-subhead">1.1.6 - 2015-11-22</h4>
+				<ul>
+					<li>Improvements for lazy loading pages</li>
+					<li>Enabled zoom for fullscreen mode</li>
+					<li>Improvements to detect GhosScript installation on Unix-like systems</li>
+					<li>Improvements for settings page</li>
+				</ul>
+
+				<h4 class="content-subhead">1.1.5 - 2015-09-03</h4>
+				<ul>
+					<li>Fixes for compability with themes/plugins which are using humanmade/Custom-Meta-Boxes</li>
+				</ul>
+
+				<h4 class="content-subhead">1.1.4 - 2015-09-03</h4>
+				<ul>
+					<li>Fixed bug for metaboxes on Import page (when Import page shows only title)</li>
+				</ul>
+
+				<h4 class="content-subhead">1.1.3 - 2015-08-04</h4>
+				<ul>
+					<li>Added responsiveness for tablet and phones</li>
+					<li>Improved fullscreen mode</li>
+					<li>Hiding fullscreen button for browsers without Fullscreen API support</li>
+					<li>Fixing lazyload issues - thanks to Amit for reporting the issue</li>
+					<li>Some interface improvements - thanks to zipzit</li>
+					<li>BX Slider wrong path #3 - fixed</li>
+					<li>pdf-light-viewer template is not functional from user's theme. #5 - fixed</li>
+				</ul>
+
+				<h4 class="content-subhead">1.1.1-1.1.2 - 2015-07-15</h4>
+				<ul>
+					<li>Added information about GhostScript to the documentation - thanks to Alexander</li>
+					<li>Improved requirements section</li>
+				</ul>
+
+				<h4 class="content-subhead">1.1.0 - 2015-06-02</h4>
+				<ul>
+					<li>Improved CMYK PDF import</li>
+					<li>Improved admin import status messages</li>
+					<li>Added landscape PDF support</li>
+					<li>Fixed some bugs with images sizing</li>
+					<li>Increased default image sizes</li>
+					<li>Added page zoom for flipbooks</li>
+					<li>Added compability for 2 or more instances of plugin on the same page</li>
+					<li>Added options to disable zoom and fullscreen</li>
+					<li>Updated client side libraries</li>
+				</ul>
+
+				<h4 class="content-subhead">1.0.1 - 2015-01-14</h4>
+				<ul>
+					<li>Fixed PHP errors</li>
+					<li>Added docs explanation for Visual Composer How-To and "Imagick is not supported" requirement error</li>
+				</ul>
+
+				<h4 class="content-subhead">1.0.0</h4>
+				<ul>
+					<li>The plugin released</li>
+				</ul>
+
+
+
+
+				<h3>PDF Light Viewer Pro Addon</h3>
+
+				<h4 class="content-subhead">0.1.4 - 2016-09-02</h4>
+				<ul>
+					<li>Main plugin 1.3.8 support</li>
+					<li>Imrpoved one-page layouts navigation</li>
+				</ul>
+
+				<h4 class="content-subhead">0.1.3 - 2016-08-25</h4>
+				<ul>
+					<li>New one page archive layout with categories list navigation</li>
+					<li>New one page archive layout with categories thumbs navigation</li>
+					<li>Categories Images plugin integration</li>
+				</ul>
+
+				<h4 class="content-subhead">0.1.2 - 2016-07-08</h4>
+				<ul>
+					<li>PDF text import improvement with Ghostscript</li>
+				</ul>
+
+				<h4 class="content-subhead">0.1.1 - 2016-06-22</h4>
+				<ul>
+					<li>category pages</li>
+					<li>category menu</li>
+				</ul>
+
+				<h4 class="content-subhead">0.1.0 - 2016-06-07</h4>
+				<ul>
+					<li>per-page printing</li>
+					<li>archive view with full PDF thumbnails</li>
+				</ul>
+
+				<h4 class="content-subhead">0.0.7 - 2016-04-28</h4>
+				<ul>
+					<li>php 5.3 compatibility fix</li>
+				</ul>
+
+				<h4 class="content-subhead">0.0.6 - 2016-04-22</h4>
+				<ul>
+					<li>archive shortcode categories parameter</li>
+				</ul>
+
+				<h4 class="content-subhead">0.0.5 - 2016-04-06</h4>
+				<ul>
+					<li>archive template view fix</li>
+				</ul>
+
+				<h4 class="content-subhead">0.0.4 - 2016-01-28</h4>
+				<ul>
+					<li>php 5.3 compatibility fix</li>
+				</ul>
+
+				<h4 class="content-subhead">0.0.3 - 2016-01-25</h4>
+				<ul>
+					<li>added shortcode to display PDF archive on single post/page</li>
+				</ul>
+
+				<h4 class="content-subhead">0.0.2 - 2015-12-18</h4>
+				<ul>
+					<li>pdf printing bugfixing</li>
+					<li>archive page bugfixing and improvements</li>
+					<li>design improvements</li>
+				</ul>
+
+				<h4 class="content-subhead">0.0.1 - 2015-12-14</h4>
+				<ul>
+					<li>Added printing function</li>
+					<li>Added simple search</li>
+					<li>Added PDF text import for SEO</li>
+					<li>Added PDF Archive page</li>
+					<li>Added PDF Single page</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="changelog" class="doc-section">
+			<div class="header">
+				<h1>Authors</h1>
+			</div>
+
+			<div class="content">
+
+				<ul>
+					<li><a href="http://teamlead.pw" target="_blank">TeamLead Power</a></li>
+					<li><a href="http://github.com/antongorodezkiy/" target="_blank">antongorodezkiy</a></li>
+				</ul>
+
+			</div>
+
+			<div class="header">
+				<h2>Contributors</h2>
+			</div>
+
+			<div class="content">
+				<ul>
+					<li>Alexander</li>
+					<li><a href="https://github.com/zipzit" target="_blank">zipzit</a></li>
+					<li><a href="https://github.com/orthographic-pedant" target="_blank">orthographic-pedant</a></li>
+					<li><a href="https://github.com/jtsternberg" target="_blank">jtsternberg</a></li>
+					<li><a href="https://wordpress.org/support/users/soobahkdo/" target="_blank">SooBahkDo</a></li>
+					<li>R. Valentin</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/prism.js"></script>
+	<script type="text/javascript" src="js/jquery-scrollspy.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+/* ADMIN CSS */
+
+.pdf-light-viewer-admin-settings {
+    .clear {
+        clear: both;
+    }
+    
+    .hidden {
+        display: hidden;
+    }
+    
+    .pdf-light-viewer-bl {
+        background: url("../img/fabric_of_squares_gray.png");
+        
+        border-radius: 0px 6px 6px 6px;
+        box-shadow: 0px 2px 5px rgba(0,0,0,.3);
+        margin: 15px 10px;
+        
+        .in {
+            padding: 15px 30px;
+        }
+        
+        .hdr {
+            padding: 3px 30px;
+            height:40px;
+            line-height:38px;
+            border-bottom: 1px ridge #fff;
+            background: #FE876D;
+            border-radius: 0px 6px 0 0;
+            margin: 0;
+            
+            h3,
+            h3 a {
+                color: #fff;
+                font-size: 18px;
+                font-family: sans-serif;
+                margin: 0;
+            }
+        }
+    }
+    
+    label {
+        line-height: 30px;
+    }
+    
+    .nobutton {
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    
+    h2,
+    h3 {
+        margin-bottom: 0;
+        line-height:38px;
+        font-weight: normal;
+    }
+    
+    .pdf-light-viewer-select {
+        padding:3px;
+        
+        li {
+            height: 17px;
+            padding: 3px;
+            margin: 3px;
+        }
+        
+        input {
+            display: block;
+            width: 99.5%;
+        }
+    }
+    
+    .pdf-light-viewer-iframe {
+        width: 100%;
+        height: 450px;
+    }
+    
+    
+    code {
+        background: #DEDDD8;
+        box-shadow: 0 0 2px rgba(0,0,0,0.3) inset;
+        border-radius: 3px;
+        padding: 0 5px;
+        font-size: 12px;
+        color: #332D2E;
+        display: inline-block;
+    }
+    
+    a {
+        color: #FE876D;
+    }
+    
+    blockquote {
+        border-left: 3px solid #FE876D;
+        padding: 10px 0 10px 15px;
+    }
+    
+    .logo {
+        text-align: center;
+        padding: 230px 0 15px;
+        background: url('../img/logo.png') no-repeat 50% 15px;
+        color: #FE876D;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+    }
+    
+    textarea {
+        min-height: 100px;
+        resize: vertical;
+    }
+    
+    .tip {
+        text-decoration: none;
+        border-bottom: 1px dotted #FE876D;
+    }
+}
+
+
+
+
+.ui-widget-overlay {
+	position: fixed;
+	background: rgba(0,0,0,0.3);
+}
+
+
+.pure-form input[type="text"], .pure-form input[type="password"], .pure-form input[type="email"], .pure-form input[type="url"], .pure-form input[type="date"], .pure-form input[type="month"], .pure-form input[type="time"], .pure-form input[type="datetime"], .pure-form input[type="datetime-local"], .pure-form input[type="week"], .pure-form input[type="number"], .pure-form input[type="search"], .pure-form input[type="tel"], .pure-form input[type="color"], .pure-form select, .pure-form textarea {
+	padding: 4px;
+}
+
+.pdf-light-viewer-shortcodes-wizard .shortcode-selected-post {
+	display: inline-block;
+}
+
+.settings-pure-form .pure-control-group label {
+	width: 320px;
+}
+
+.settings-pure-form .pure-control-group label.inline {
+    width: auto;
+}
+
+.settings-pure-form .pure-control-group ul {
+	min-width: 320px;
+	display: inline-block;
+    margin: 0 1em 0 0;
+   
+    vertical-align: middle;
+}
+
+.settings-pure-form .pure-control-group ul label {
+	width: auto;
+	text-align: left;
+}
+
+.pdf-light-viewer-override-setting {
+	display: none;
+}
+
+
+.pdf-light-viewer-admin-settings .select-with-previews {
+	display: inline-block;
+	vertical-align: middle;
+	zoom: 1;
+	*display: inline;
+	margin: 0;
+}
+
+.pdf-light-viewer-admin-settings .select-with-previews.widefat {
+	display: block;
+	width: auto;
+}
+
+.pdf-light-viewer-admin-settings legend {
+	font-size: 18px;
+	color: #666;
+	border-bottom: 1px solid #999;
+	margin-top: 30px;
+}
+
+	.pdf-light-viewer-admin-settings legend .fa {
+		margin-right: 12px;
+	}
+
+
+.pdf-light-viewer-requirement-success {
+	color: YellowGreen;
+}
+
+.pdf-light-viewer-requirement-fail {
+	color: OrangeRed;
+}
+
+
+.pdf-light-viewer-dashboard-page-preview {
+	width: 100%;
+}
+
+
+.wp-admin.post-type-pdf_lv {
+    .postbox-container .cmb-row,
+    .postbox-container .cmb2-wrap > .cmb-field-list > .cmb-row {
+        margin-bottom: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

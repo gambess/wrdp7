@@ -1,0 +1,166 @@
+// main: style.scss
+.widget {
+	word-wrap: break-word;
+}
+.sidebar .widget {
+	margin-bottom: 40px;
+	.widget-title {
+		font-size: 15px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin-bottom: 13px;
+		font-weight: 700;
+	}
+	ul {
+		list-style: none;
+		padding: 0px;
+		&:after {
+			clear: both;
+		    content: ".";
+		    display: block;
+		    height: 0;
+		    visibility: hidden;
+		}
+	}
+	a {
+		color: $text;
+		font-size: 14px;
+		&:hover {
+			color: $primary;
+			text-decoration: underline;
+		}
+	}
+}
+
+/* Search
+------------------------------*/
+.sidebar .widget .search-form{
+	.search-field {
+		width: 100% !important;
+		@include rem('padding', 10px 15px);
+	}
+	.search-submit {
+		padding: 12px 23px 12px;
+		width: 93%;
+	}
+}
+
+/* Recent Comment
+------------------------------*/
+.widget_recent_comments {
+	ul {
+		margin-top: 25px;
+		li {
+			margin-bottom: 20px;
+			padding-bottom: 20px;
+			border-bottom: 1px solid $border;
+		}
+		a {
+			font-style: italic;
+		}
+	}
+	.comment-author-link a {
+		font-weight: bold;
+		font-style: normal;
+	}
+}
+
+/* Recent Categories, Archive, Meta
+------------------------------*/
+.widget-area .widget_categories ul,
+.widget-area .widget_archive ul,
+.widget-area .widget_meta ul{
+	@extend .clearfix !optional;
+}
+
+
+.widget-area .widget_categories li, .widget-area .widget_archive li, .widget-area .widget_meta li {
+    float: left;
+    margin-bottom: 0;
+    width: 50%;
+    @include for(small-screens) {
+		width: 50%;
+	}
+	@include for(medium-screens) {
+		width: 100%;
+		float: none;
+	}
+    @include for(large-screens) {
+		width: 50%;
+		float: left;
+	}
+}
+
+.widget_recent_entries {
+	ul li {
+		margin: 0px;
+		padding: 10px 0px 10px 0px;
+		border-bottom: 1px solid $border;
+	}
+}
+
+/* Tags */
+.widget_tag_cloud a {
+    border: 1px solid #e9e9e9;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 13px !important;
+    margin-bottom: 5px;
+    padding: 2.5px 10px 3px;
+}
+
+/* Business Text Widget */
+.contact-info-item {
+	margin-bottom: 13px;
+	.contact-text {
+		display: block;
+		float: left;
+		width: 130px;
+		font-size: 14px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin-top: 2px;
+		position: relative;
+	}
+	.contact-value {
+		display: block;
+		margin-left: 135px;
+	}
+}
+.contact-info-item .contact-text {
+	width: 30px;
+	i {
+		font-size: 16px;
+	}
+	i.fa-envelope {
+		font-size: 12px;
+		position: relative;
+		top: -3px;
+	}
+	i.fa-fax {
+		font-size: 14px;
+		position: relative;
+		top: -3px;
+	}
+}
+
+.contact-info-item .contact-value {
+	margin-left: 35px;
+}
+
+.contact-info-box img {
+	margin-bottom: 30px;
+}
+ul.hours {
+	li {
+		border-top: 1px dotted rgba(255, 255, 255, 0.1);
+		padding: 5px 0px 1px;
+	}
+	li:first-child {
+		border-top: none;
+	}
+	span {
+		float: right;
+		font-weight: bold;
+	}
+}

@@ -1,0 +1,74 @@
+.b2s-dashboard-h4{
+    font-weight: 700;
+    font-size: 20px !important;
+}
+.b2s-dashboard-h5{
+    font-size: 26px;  
+}
+.b2s-dashboard-h6{
+    font-size: 18px;  
+}
+.form-inline .form-control {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto !important;
+    min-width: 250px;
+}
+@media(max-width: 430px) {
+    .form-inline .form-control {
+        display: inline-block;
+        vertical-align: middle;
+        width: auto !important;
+        min-width: 100px;
+    }
+}
+@media(min-width: 1440px) {
+    .b2s-btn-width-70{
+        width: 70% !important; 
+    }
+}
+
+.b2s-info-sm{
+    margin-top: 5px;
+    font-size: 9px;
+}
+
+.b2s-btn-link{
+    text-decoration: underline;
+}
+.thumbnail {
+    border:0 none !important;
+    margin-bottom: 0px !important;
+}
+
+.b2s-feature-img-with-90{
+    max-width: 90px !important;
+}
+
+.label {
+    font-size: 90% !important;
+}
+.b2s-padding-bottom-50{
+    margin-bottom: 50px;
+}
+
+.b2s-wdith-35{
+    width: 35px;
+}
+
+.b2s-well{
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 19px;
+}
+.b2s-loading-area-faq{
+    text-align: center;
+}
+
+.b2s-dashoard-btn-phone{
+    cursor: default !important;
+}

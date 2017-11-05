@@ -1,0 +1,209 @@
+
+body .fc-state-default{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    background-image: none;
+    text-shadow: none;
+    box-shadow: none;
+}
+body .b2s-calendar-header{
+    display: flex;
+    padding-bottom: 2px;
+}
+body .b2s-calendar-body > img{
+    float: right;
+    height: 28px;
+    width: 28px;
+}
+body .b2s-calendar-header .fc-content{
+    padding-left: 2px;
+}
+body .b2s-calendar-body{
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 1px;
+    border-radius: 2px;
+    padding: 2px;
+}
+body .b2s-calendar-body::after{
+    content: "";
+    clear:both;
+    display: block;
+}
+body .fc-content{
+    display: block;
+    width: 100%;
+}
+body .fc-time{
+    display: block;
+    padding-right: 2px;
+    text-align: right;
+    float:right;
+}
+.network-name{
+    font-weight: bold;
+}
+.network-profile{
+    margin-bottom: 5px;
+}
+.b2s-post-item-thumb {
+    width: 5%;
+    margin-right: 8px;
+}
+
+.b2s-post-item-thumb img {
+    border-radius: 50%;
+    width: 48px;
+}
+
+.b2s-post-item-details {
+    width: 93%;
+}
+
+.b2s-post-item-details, .b2s-post-item-thumb {
+    float: left;
+}
+.b2s-post-item-details h4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 3px 3px 3px 0px;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.fb-url-image, .xing-url-image, .linkedin-url-image, .tw-url-image, .b2s-image-border {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 1px dashed #bdbfc2;
+    box-shadow: none;
+    padding: 5px;
+}
+textarea.form-control {
+    height: auto;
+}
+.fb-textarea-input, .tw-textarea-input, .xing-textarea-input, .linkedin-textarea-input {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.125;
+    width: 100%;
+    border: medium none;
+    border-radius: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: helvetica,arial,sans-serif;
+}
+.b2s-post-item-details-item-message-input{
+    min-height: 100px;
+}
+.b2s-post-item-details-url-image{
+    cursor: pointer;
+}
+.b2s-user-network-settings-post-format-area label > input {
+    visibility: hidden;
+    position: absolute;
+}
+.b2s-settings-checked + img {
+    border: 3px solid #79b232 !important;
+}
+.b2s-image-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: block;
+    float: left;
+    height: 200px;
+    line-height: 1.42857;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    overflow: hidden;
+    padding: 4px;
+    transition: border 0.2s ease-in-out 0s;
+    width: 185px;
+}
+.b2s-image-item-thumb {
+    height: 150px;
+}
+.b2s-image-change-all-network,.b2s-upload-image-free-version,.b2s-image-change-this-network{
+    margin-right: 5px !important;
+}
+.b2s-image-remove-btn {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    font-weight: 700 !important;
+}
+.b2s-calendar-delete{
+    cursor: pointer;
+}
+.b2s-btn-label-premium{
+    color: #fff;
+    text-decoration: none !important;
+    cursor: default !important;
+}
+.b2s-btn-label-premium:hover{
+    color: #fff;
+    text-decoration: none !important;
+    cursor: default !important;
+}
+.b2s-post-item  .label-success{
+    display: none;
+}
+body .fc-day-grid-event .fc-content{
+    white-space: normal;
+}
+
+@media(max-width: 425px)
+{
+    .b2s-calendar-body{
+        display: none;
+    }
+}
+
+@media(max-width: 350px)
+{
+    body .fc-time{
+        font-size: 8px;
+    }
+}
+
+.b2s-loading-area {
+    width: 100% !important;
+}
+
+.og_title, .og_desc, .card_desc, .card_title, .b2s-post-item-details-item-title-input, .b2s-select{
+    margin-bottom: 8px !important;
+}
+
+.b2s-post-item-info-area {
+    font-size: 11px !important;
+}
+
+.b2s-post-ship-item-full-text, .b2s-post-ship-item-message-delete, .b2s-post-ship-item-network-settings, .b2s-post-ship-item-post-format{
+    line-height: 1.5 !important;
+    padding: 0 1px 3px !important;
+}
+
+.b2s-load-info-meta-tag-modal{
+    margin-top: 8px !important;
+    display: block !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.b2s-post-item-details-tag-add-div {
+    border: 0px !important;
+    box-shadow: 0px 0px 0px #000 !important;
+}
+
+.b2s-post-item-details-tag-input-elem {
+    margin: 2px 4px;
+    max-width: 145px !important;
+}

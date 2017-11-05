@@ -1,0 +1,79 @@
+/*Custom*/
+@media(max-width: 767px) {
+    .filterHide {
+        display: none;
+    }
+    .form-inline button { 
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.error{
+    border: 1px solid #FF0000 !important;
+}
+
+.b2s-box-sched-time-input{
+    width: 90px !important;
+}
+.b2s-box-sched-time-area{
+    margin-left: 100px;
+}
+.b2s-box-sched-time-area-label{
+    font-size: 12px;
+    margin-bottom: 1px !important;
+    font-weight: 600;
+}
+.b2s-settings-sched-time-info, .b2s-settings-time-zone-info{
+    margin-top: 30px;
+    font-size: 13px;
+    font-style:italic;
+}
+
+.nav > li > a{
+    padding: 10px 15px !important;
+}
+
+hr{
+    margin-top: 0px!important;
+}
+
+.b2s-display-inline{
+    display: inline !important;
+}
+
+.b2s-user-time-zone-label{
+    padding-right: 10px;
+}
+
+@media(min-width: 768px) {
+    .b2s-settings-time-zone-info{
+        padding-left: 130px;
+    }
+}
+
+.b2s-auto-post-publish-label, .b2s-auto-post-update-label{
+    font-style:italic;   
+}
+
+.b2s-post-type-list{
+    float: left;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+.b2s-post-type-select-btn{
+    padding: 0 0 1px !important;
+}
+
+.b2s-input-margin-bottom-5{
+    margin-bottom: 5px;
+}
+
+.font-gray{
+    color: #9B9B9B !important;
+}
+
+.b2s-post-item-network-image{
+    height: 16px;
+    width: 16px;
+}

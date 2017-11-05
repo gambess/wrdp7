@@ -1,0 +1,560 @@
+# Translation of the WordPress plugin Soccer Info 1.4 by Szilard Mihaly.
+# Copyright (C) 2013 Szilard Mihaly
+# This file is distributed under the same license as the Soccer Info package.
+# SZILARD MIHALY <OFFICE@MIHALYSOFT.COM>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Soccer Info 1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-10 19:22+0200\n"
+"PO-Revision-Date: 2014-04-01 21:53+0200\n"
+"Last-Translator: Szilard Mihaly <office@mihalysoft.com>\n"
+"Language-Team: Mihaly Soft <office@mihalysoft.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: soccer-info-admin.class.php:96
+msgid "<noscript>Javascript must be enabled, thank you.</noscript>"
+msgstr "<noscript>Javascript doit être activé, merci.</noscript>"
+
+#: soccer-info-admin.class.php:107
+#, php-format
+msgid "Soccer Info %s for WordPress"
+msgstr "Soccer Info %s pour WordPress"
+
+#: soccer-info-admin.class.php:129
+msgid "Settings Updated"
+msgstr "Réglages mis à jour"
+
+#: soccer-info-admin.class.php:147
+msgid "Settings Updated to the default values"
+msgstr "Réglages restaurés aux valeurs par défaut"
+
+#: soccer-info-admin.class.php:158
+msgid "About this Plugin:"
+msgstr "A propos de ce plugin"
+
+#: soccer-info-admin.class.php:159
+msgid "Soccer Info lets you display ranking tables, fixtures and results of major soccer leagues without any hassles."
+msgstr "Soccer Info vous permet d'afficher les classements, les rencontres et les résultats des principaux championnats sans la moindre contrainte."
+
+#: soccer-info-admin.class.php:161
+msgid "translator_name"
+msgstr "Stan du site \"Papinade\""
+
+#: soccer-info-admin.class.php:163
+msgid "Translated by:"
+msgstr "Traduit par :"
+
+#: soccer-info-admin.class.php:164
+msgid "translator_url"
+msgstr ""
+
+#: soccer-info-admin.class.php:177
+msgid "Frequently Asked Questions:"
+msgstr "Foire Aux Questions :"
+
+#: soccer-info-admin.class.php:178
+msgid ""
+"\n"
+"<h4>I've just activated Soccer Info, what do I need to do now?</h4>\n"
+"<p>\n"
+"You are now able to add the shortcodes that displays the tables (fixtures or results) to any of your posts or pages.<br /> \n"
+"For example: <strong>[soccer-info id='1' type='table' /]</strong><br />\n"
+"That means you want to display the raking <em>`table`</em> (type) of the soccer league with the <em>id=1</em> (Spanish Primera Division)<br />\n"
+"You will find the whole list of the soccer leagues supported by the plugin on the <strong>`Settings` > `Soccer Info`</strong> page.\n"
+"</p>\n"
+"<h4>I don't know how to use shortcodes, what should I do then?</h4>\n"
+"<p>\n"
+"For your confort, we added a function to the post/page editor that automatically generates and inserts the shortcodes for you. You will be prompted to select the league (and some other info) and then just click `Insert`<br />\n"
+"It sounds easy. Isn't is?\n"
+"</p>\n"
+"<h4>Does this plugin have a widget?</h4>\n"
+"<p>\n"
+"Yes, and it's easy to use.\n"
+"</p>\n"
+"<h4>I have a another question. Where can I ask that?</h4>\n"
+"<p>\n"
+"For more information, check out the plugin's website: <a href='http://www.mihalysoft.com/wordpress-plugins/soccer-info/' target='_blank'>Soccer Info</a>\n"
+"</p>"
+msgstr ""
+"\n"
+"<h4>Je viens d'activer Soccer Infos, que dois-je faire maintenant ?</h4>\n"
+"<p>\n"
+"Vous pouvez maintenant ajouter les différents codes qui permettent d'afficher les tableaux (classements, résultats et rencontres) dans n'importe quel article ou page.<br /> \n"
+"Par exemple : <strong>[soccer-info id='1' type='table' /]</strong><br />\n"
+"Cela signifie que vous souhaitez afficher le classement <em>`table`</em> (type) du championnat avec l'<em>id=1</em> (Première division espagnole)<br />\n"
+" Vous trouverez la liste complète des championnats supportés par le plugin sur la page <strong>`Settings` > `Soccer Info`</strong>.\n"
+"</p>\n"
+"<h4>Je ne sais pas comment utiliser ces codes, que dois-je faire du coup ?</h4>\n"
+"<p>\n"
+"Pour votre confort, nous avons ajouté une fonction à l'éditeur d'article / de page qui génère et insère automatiquement les codes pour vous. Choisissez la ligue et les différents réglages qui vous intéressent puis cliquez sur 'Insérer'<br />\n"
+"Facile, non ?\n"
+"</p>\n"
+"<h4>Ce plugin a-t-il un widget ?</h4>\n"
+"<p>\n"
+"Oui, et il est facile d'utilisation.\n"
+"</p>\n"
+"<h4>J'ai une autre question. Où puis-je la poser ?</h4>\n"
+"<p>\n"
+"Pour davantage d'informations, jetez un coup d'oeil au site du plugin :<a href='http://www.mihalysoft.com/wordpress-plugins/soccer-info/' target='_blank'>Soccer Info</a>\n"
+"</p>"
+
+#: soccer-info-admin.class.php:201
+msgid "Supported Leagues:"
+msgstr "Championnats supportés :"
+
+#: soccer-info-admin.class.php:223
+msgid "Options"
+msgstr "Options"
+
+#: soccer-info-admin.class.php:225
+msgid "Description..."
+msgstr "Description …"
+
+#: soccer-info-admin.class.php:232
+msgid "Timezone"
+msgstr "Fuseau horaire"
+
+#: soccer-info-admin.class.php:278
+#: soccer-info-admin.class.php:283
+msgid "Date Format"
+msgstr "Format de la date"
+
+#: soccer-info-admin.class.php:285
+msgid "l, F j, Y"
+msgstr "l, F j, Y"
+
+#: soccer-info-admin.class.php:286
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: soccer-info-admin.class.php:287
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: soccer-info-admin.class.php:288
+msgid "m/d/Y"
+msgstr "m/d/Y"
+
+#: soccer-info-admin.class.php:289
+msgid "d/m/Y"
+msgstr "d/m/Y"
+
+#: soccer-info-admin.class.php:299
+msgid "Custom:"
+msgstr "Personnalisé :"
+
+#: soccer-info-admin.class.php:300
+msgid "Documentation on date and time formatting."
+msgstr "Documentation sur le format de la date et de l'heure."
+
+#: soccer-info-admin.class.php:307
+#: soccer-info-admin.class.php:312
+msgid "Time Format"
+msgstr "Format de l'heure"
+
+#: soccer-info-admin.class.php:314
+msgid "g:i a"
+msgstr ""
+
+#: soccer-info-admin.class.php:315
+msgid "g:i A"
+msgstr ""
+
+#: soccer-info-admin.class.php:316
+msgid "H:i"
+msgstr ""
+
+#: soccer-info-admin.class.php:338
+msgid "Update options"
+msgstr "Sauvegarder les options"
+
+#: soccer-info-admin.class.php:339
+msgid "Do you really want to reset your configuration?"
+msgstr "Voulez-vous vraiment restaurer votre configuration ?"
+
+#: soccer-info-admin.class.php:339
+msgid "Reset options"
+msgstr "Remettre à zéro les options"
+
+#: soccer-info-admin.class.php:440
+#: js/tinymce/window.php:97
+msgid "Soccer Info"
+msgstr ""
+
+#: soccer-info-widgets.class.php:41
+msgid "Display a league's Ranking Table, Next Fixtures and Latest Results"
+msgstr "Affiche le classement d'un championnat, les prochaines rencontres et les derniers résultats"
+
+#: soccer-info-widgets.class.php:164
+#: js/tinymce/window.php:63
+msgid "Title:"
+msgstr "Titre"
+
+#: soccer-info-widgets.class.php:170
+msgid "Show:"
+msgstr "Afficher :"
+
+#: soccer-info-widgets.class.php:175
+msgid "Table"
+msgstr "Table"
+
+#: soccer-info-widgets.class.php:176
+msgid "Next Fixtures"
+msgstr "Prochaines rencontres"
+
+#: soccer-info-widgets.class.php:177
+msgid "Latest Results"
+msgstr "Derniers résultats"
+
+#: soccer-info-widgets.class.php:184
+#: js/tinymce/window.php:35
+msgid "Style:"
+msgstr "Style :"
+
+#: soccer-info-widgets.class.php:189
+#: js/tinymce/window.php:41
+msgid "Minimal"
+msgstr "Léger"
+
+#: soccer-info-widgets.class.php:190
+#: js/tinymce/window.php:42
+msgid "Blue - Light"
+msgstr "Bleur - Clair"
+
+#: soccer-info-widgets.class.php:191
+#: js/tinymce/window.php:43
+msgid "Blue - Dark"
+msgstr "Bleu - Foncé"
+
+#: soccer-info-widgets.class.php:192
+#: js/tinymce/window.php:44
+msgid "Green - Light"
+msgstr "Vert - Clair"
+
+#: soccer-info-widgets.class.php:193
+#: js/tinymce/window.php:45
+msgid "Green - Dark"
+msgstr "Vert - Foncé"
+
+#: soccer-info-widgets.class.php:194
+#: js/tinymce/window.php:46
+msgid "Red - Light"
+msgstr "Rouge - Clair"
+
+#: soccer-info-widgets.class.php:195
+#: js/tinymce/window.php:47
+msgid "Red - Dark"
+msgstr "Rouge - Foncé"
+
+#: soccer-info-widgets.class.php:202
+msgid "Select League:"
+msgstr "Sélectionnez le championnat :"
+
+#: soccer-info-widgets.class.php:216
+msgid "Columns (#,Team,MP,W,D,L,F,A,G,P):"
+msgstr "Colonnes (#,Team,MP,W,D,L,F,A,G,P):"
+
+#: soccer-info-widgets.class.php:222
+#: js/tinymce/window.php:57
+msgid "Limit:"
+msgstr ""
+
+#: soccer-info-widgets.class.php:228
+#: js/tinymce/window.php:59
+msgid "Width:"
+msgstr "Largeur :"
+
+#: soccer-info-widgets.class.php:235
+msgid "Highlighted team:"
+msgstr "Equipe mise en avant :"
+
+#: soccer-info-widgets.class.php:241
+msgid "Show only this team:"
+msgstr "Montrer uniquement cette équipe :"
+
+#: soccer-info-widgets.class.php:253
+msgid "Hide widget style."
+msgstr "Cacher le style du widget."
+
+#: soccer-info.php:505
+msgid "#"
+msgstr ""
+
+#: soccer-info.php:506
+#: soccer-info.php:517
+msgid "Team"
+msgstr "Equipe"
+
+#: soccer-info.php:507
+msgid "MP"
+msgstr "MJ"
+
+#: soccer-info.php:508
+msgid "W"
+msgstr "V"
+
+#: soccer-info.php:509
+msgid "D"
+msgstr "N"
+
+#: soccer-info.php:510
+msgid "L"
+msgstr "D"
+
+#: soccer-info.php:511
+msgid "F"
+msgstr "Pour"
+
+#: soccer-info.php:512
+msgid "A"
+msgstr "Contre"
+
+#: soccer-info.php:513
+msgid "G"
+msgstr "Diff."
+
+#: soccer-info.php:514
+msgid "P"
+msgstr "Pts"
+
+#: soccer-info.php:516
+msgid "Rank"
+msgstr "Classement"
+
+#: soccer-info.php:518
+msgid "Matches played"
+msgstr "Matchs joués"
+
+#: soccer-info.php:519
+msgid "Wins"
+msgstr "Victoires"
+
+#: soccer-info.php:520
+msgid "Draws"
+msgstr "Nuls"
+
+#: soccer-info.php:521
+msgid "Losses"
+msgstr "Défaites"
+
+#: soccer-info.php:522
+msgid "Goals for"
+msgstr "Buts Pour"
+
+#: soccer-info.php:523
+msgid "Goals against"
+msgstr "Buts Contre"
+
+#: soccer-info.php:524
+msgid "Goal difference"
+msgstr "Différence de buts"
+
+#: soccer-info.php:525
+msgid "Points"
+msgstr "Points"
+
+#: soccer-info.php:841
+msgid "-- None --"
+msgstr "-- Aucun --"
+
+#: js/tinymce/window.php:53
+msgid "Choose a style"
+msgstr "Choisissez un style"
+
+#: js/tinymce/window.php:64
+msgid "It shows before the table"
+msgstr "Apparaît avant le classement"
+
+#: js/tinymce/window.php:67
+msgid "Highlight:"
+msgstr "Surlignez"
+
+#: js/tinymce/window.php:73
+msgid "Highlighted team"
+msgstr "Equipe surlignée"
+
+#: js/tinymce/window.php:78
+msgid "Only 1 team:"
+msgstr "Uniquement 1 équipe :"
+
+#: js/tinymce/window.php:84
+msgid "Show only this team"
+msgstr "Uniquement le classement de cette équipe"
+
+#: js/tinymce/window.php:110
+msgid "Tables"
+msgstr "Classement"
+
+#: js/tinymce/window.php:111
+msgid "Fixtures"
+msgstr "Rencontres"
+
+#: js/tinymce/window.php:112
+msgid "Results"
+msgstr "Résultats"
+
+#: js/tinymce/window.php:121
+#: js/tinymce/window.php:193
+#: js/tinymce/window.php:233
+msgid "League:"
+msgstr "Ligue :"
+
+#: js/tinymce/window.php:138
+msgid "Columns:"
+msgstr "Colonnes :"
+
+#: js/tinymce/window.php:139
+msgid "You may use: #,Team,MP,W,D,L,F,A,G,P"
+msgstr "Vous pouvez utiliser: #,Team,MP,W,D,L,F,A,G,P"
+
+#: js/tinymce/window.php:186
+msgid "Display the table for the chosen league."
+msgstr "Afficher le classement du championnat sélectionné."
+
+#: js/tinymce/window.php:226
+msgid "Display all fixtures for the chosen league or only those for a selected team."
+msgstr "Afficher toutes les rencontres pour le championnat choisi ou uniquement pour l'équipe sélectionnée."
+
+#: js/tinymce/window.php:266
+msgid "Display the last results for the chosen league or only those for a selected team."
+msgstr "Afficher les derniers résultats du championnat choisi ou de l'équipe sélectionnée."
+
+#: js/tinymce/window.php:271
+msgid "Cancel"
+msgstr "Annuler"
+
+#: js/tinymce/window.php:274
+msgid "Insert"
+msgstr "Insérer"
+
+#~ msgid "Coming soon..."
+#~ msgstr "Hamarosan!"
+
+#~ msgid "Predictions"
+#~ msgstr "Tippek"
+
+#~ msgid "My Active Predictions"
+#~ msgstr "Aktuális tippjeim"
+
+#~ msgid "My Archives"
+#~ msgstr "Korábbi tippjeim"
+
+#~ msgid "Summary"
+#~ msgstr "Statisztikám"
+
+#~ msgid "I do not have yet any predictions."
+#~ msgstr "Még nincs archivált tippem."
+
+#~ msgid ""
+#~ "There aren't any ongoing match predictions. Please check my <a href=\"%s"
+#~ "\">Archives</a>"
+#~ msgstr ""
+#~ "Jelenleg nincs folyamatban levő tippem. Nézd meg a <a href=\"%s\">Korábbi "
+#~ "tippjeimet</a> és statisztikámat."
+
+#~ msgid "I do not have yet any statistics."
+#~ msgstr "Nincs statisztika."
+
+#~ msgid "You must be logged in to predict."
+#~ msgstr "A tippeléshez be kell jelentkezni."
+
+#~ msgid "No matches available in this championship."
+#~ msgstr "Nincs mérkőzés ebben a bajnokságban."
+
+#~ msgid "Save"
+#~ msgstr "Mentés"
+
+#~ msgid "Penalty"
+#~ msgstr "Tizenegyes"
+
+#~ msgid "shootout"
+#~ msgstr "rúgás"
+
+#~ msgid "Prediction saved"
+#~ msgstr "Tippelés elmentve"
+
+#~ msgid "Match score must be numeric"
+#~ msgstr "Az eredmény csak számokból állhat"
+
+#~ msgid "You can only enter penalties for a draw"
+#~ msgstr "Csak döntetlen esetén adhatod meg a tizenegyeseket."
+
+#~ msgid "Missing match. Prediction not saved."
+#~ msgstr "Hiányzó mérkőzés. A tipped nincs elmentve."
+
+#~ msgid "Error saving prediction"
+#~ msgstr "Hiba keletkezett a tippelés mentésekor"
+
+#~ msgid ""
+#~ "Some, or all, of your predictions are too late and will not be counted."
+#~ msgstr "Valamelyik tipped túl későn érkezett, ezért nem vesszük számításba."
+
+#~ msgid "No data to save"
+#~ msgstr "Nincs mentésre szánt adat"
+
+#~ msgid "Next prediction deadline in"
+#~ msgstr "A következő tippelés határideje"
+
+#~ msgid "Too Late - Prediction deadline passed"
+#~ msgstr "Túl késő - a tippelés határideje lejárt"
+
+#~ msgid "Won"
+#~ msgstr "Győzelem"
+
+#~ msgid "Pts"
+#~ msgstr "Po"
+
+#~ msgid "Penalties"
+#~ msgstr "Tizenegyesek"
+
+#~ msgid "pen."
+#~ msgstr "tiz."
+
+#~ msgid "Extra Time"
+#~ msgstr "Hosszabbítás"
+
+#~ msgid "a.e.t."
+#~ msgstr "hossz."
+
+#~ msgid "Match"
+#~ msgstr "Mérkőzés"
+
+#~ msgid "Score"
+#~ msgstr "Eredmény"
+
+#~ msgid "Prediction"
+#~ msgstr "Tipp"
+
+#~ msgid "Team A"
+#~ msgstr "A csapat"
+
+#~ msgid "Goals A"
+#~ msgstr "A csapat gólok"
+
+#~ msgid "Penalties A"
+#~ msgstr "A tizenegyes"
+
+#~ msgid "Team B"
+#~ msgstr "B csapat"
+
+#~ msgid "Goals B"
+#~ msgstr "B csapat gólok"
+
+#~ msgid "Penalties B"
+#~ msgstr "B tizenegyes"
+
+#~ msgid "Match finished"
+#~ msgstr "partido terminado"

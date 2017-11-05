@@ -1,0 +1,605 @@
+/*tabs*/
+#modalAj {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+.ui-dialog{
+    z-index: 101;
+}
+div.jswarningbox{
+    background-color: #efe7b8;
+    color: #c00;
+    border-top: 3px solid #f0dc7e;
+    border-bottom: 3px solid #f0dc7e;
+    padding-left: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+div.jswarningbox p{
+    margin: 9px;
+}  
+.jsrespdiv10 .tabdiv{
+    background-color: transparent;
+    border:0px;
+    padding:0px;
+}
+.jhelpicons{
+    display: inline-table;
+    width:20%;
+    vertical-align: top;
+    line-height: normal;
+}
+.jhelpicons img{
+    width: auto;
+    max-width: 50px;
+    background-color: #f9f9f9;
+    border-radius: 50px;
+    padding: 10px;
+    border: 1px solid #cfcfcf;
+}
+.jhelpdescr{
+    display:inline-table;
+    margin-left: 20px;
+    vertical-align: middle;
+    width:60%;
+    line-height: normal;
+}
+.jsLinks {
+    cursor: pointer;
+    line-height: 70px;
+}
+
+label.jsradiodivlabel{
+    vertical-align: top;
+}
+div.jsradiodiv{
+    margin-top:4px;
+    display: inline-block;
+}
+.jsdadicon{
+    cursor: move;
+}
+.jsdadicondel{
+    width:30px;
+}
+#joomsportContainerBE .fa-trash{
+    color:red;
+}
+#seltable .ui-state-default{
+    background: none;
+}
+#joomsportContainerBE input[type="text"]{
+    border-radius: 3px;
+    line-height: 25px;
+    width: 20em;
+}
+
+table.jsminwdhtd >tbody> tr>td:first-child,table.jsminwdhtd > tr>td:first-child{
+    min-width:150px;
+    padding-right: 10px;
+}
+.jsev-img-container img{
+    //max-width: 150px;
+}
+.col-extra-time{
+    min-width:100px;
+}
+.jsOverXdiv{
+    overflow-x: auto;
+}
+.widget-content .JSshrtPop label{
+    display: block;
+}
+.JSshrtPop label{
+    min-width:140px;
+    display:inline-block;
+    line-height: 40px;
+}
+#TB_ajaxContent .JSshrtPop p.jsw_switch{
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+}
+.JSshrtPop .jsw_switch label{
+    min-width: auto;
+}
+p.jsw_switch{
+    overflow:hidden;
+}
+.tabdiv tr.ui-state-default{
+    background: none;
+    border:0px;
+}
+.jsw50{
+    float:left;
+    width:50%;
+}
+[aria-describedby~="jsGroupsdialog"]{
+    overflow:visible!important;
+}
+#jsGroupsdialog{
+    overflow: visible;
+    height: auto!important;
+}
+.panel-wrap {
+  background: #fff;
+  padding-left: 153px;
+}
+ul.mgl-tabs {
+  background: #f5f5f5;
+  line-height: 1em;
+  float: left;
+  width: 145px;
+  margin: 0 0 0 -153px;
+  position: relative;
+  padding: 10px 0px 10px 0px;
+  border-right: 1px solid #eaeaea;
+}
+ul.mgl-tabs li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+ul.mgl-tabs li a {
+  padding: 10px;
+  line-height: 18px!important;
+  margin: 0;
+  display: block;
+  background: #f5f5f5;
+  text-decoration: none;
+  border-bottom: 1px solid #f5f5f5;
+  border-top: 1px solid #eaeaea;
+}
+ul.mgl-tabs li:first-child a {
+
+  border-top: 0px;
+}
+ul.mgl-tabs li.active a {
+  border-color: #DFDFDF;
+  position: relative;
+  background-color: #fff;
+  color: #555;
+  margin: 0 -1px 0 0;
+}
+
+input.mglScore{
+    width:  50px;
+}
+span.mgl-icon-remove{
+      display: inline-block;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  border-radius: 7px;
+  background-color: #f00;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+/*responsive*/
+.jsrespdiv2{
+    width: 18%;
+    float:left;
+}
+.jsrespdiv10{
+    width: 80%;
+    float:left;
+}
+.jsrespdiv10 table.table td input{
+    margin-bottom:0px;
+}
+.jsrespdiv10 table.table td{
+    vertical-align:middle;
+}
+.jsrespdiv10 table.table td input[type="checkbox"]{
+    margin: 0px;
+    margin-top: -4px;
+}
+.jsrespmargin2{
+    margin-right:2%;
+}
+.jsrespdiv12{
+    width: 100%;
+}
+.jsrespdiv8{
+    width:65%;
+    float:left;
+}
+.jsrespdiv4{
+    width: 33%;
+    float:left;
+}
+.jsrespmarginleft2{
+    margin-left:2%;
+}
+
+.respmenucoll{
+    display:none;
+    float:right;
+    margin-right: 20px;
+    cursor:pointer;
+}
+.jsrespdiv6{
+    width:49%;
+    float:left;
+}
+/*New 4.0.1*/
+.jsBEheader{
+    background: #f9f9f9;
+    border-radius: 2px 2px 0 0;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+}
+.jsBepanel {
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 25px;
+    border-radius: 3px;
+
+}
+.jsBEsettings{
+    padding: 1em;
+}
+.magicleague_options_panel{
+    overflow:hidden;
+}
+@media (max-width: 900px) {
+    .jsrespdiv8{
+        width: 100%;
+        float:none;
+    }
+    .jsrespdiv4{
+        width: 100%;
+        float:none;
+    }
+    .jsrespdiv6{
+        width: 100%;
+        float:none;
+    }
+    .jsrespmarginleft2{
+        margin-left:0px;
+    }
+    
+} 
+@media (max-width: 1024px) {
+    .jsw50{
+        float:none;
+        width:100%;
+    }
+}
+@media screen and (max-width: 782px) {
+    #joomsportContainerBE .jstable, #joomsportContainerBE .jstable-cell,  #joomsportContainerBE .jstable-row{
+        display:block;
+    }
+    #joomsportContainerBE input[type="text"]{
+        width: 100%;
+    }
+}    
+
+
+/* tab box */
+	.tab-box {
+		margin:0px !important;
+		position:relative;
+                border-bottom: 1px solid #cfcfcf;
+
+		//overflow:hidden;
+		padding:0px;
+                height:51px;
+                margin-bottom: 20px;
+	}
+        .tab-box:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+		 .tab-box li a, .tab-box li a span {
+			display:block;
+			text-decoration:none !important;
+		}
+		 .tab-box li {
+			//line-height:50px;
+			float:left;
+                        border-right: 1px solid #ccc;
+                        border-top: 1px solid #ccc;
+			list-style:none;
+                        margin: 0px;
+                        background-color: #f9f9f9;
+			//padding:0px 25px;
+			
+		}
+                .tab-box li:first-child {
+                    border-left: 1px solid #ccc;
+                }    
+                .tab-box li a{
+			line-height:40px;
+                        display:block;
+			padding:0px 25px;
+			border-top: 5px solid #f9f9f9;
+                        padding-bottom: 5px;
+		}
+		.tab-box li:hover {
+
+			
+		}
+			 .tab-box li:hover a {
+
+				background-color:transparent !important;
+			}
+				 .tab-box li:hover a span {
+
+				}
+		.tab-box li.active {
+                    background-color: #fff;
+                    height:51px;
+		}
+			 .tab-box li.active a {
+				border-top:5px solid #5c3022;
+
+			}
+				 .tab-box li.active a span {
+
+				}
+			 .tab-box li a {
+
+			}
+				 .tab-box li a span {
+
+
+					cursor:pointer;
+
+					
+				}
+	/*--------*/
+	
+	/* tab image */
+	 .tab-box li a span img {
+		position:relative;
+		top:2px;
+		
+		margin-right:5px;
+	}
+	 .tab-box li:hover a span img,  .tab-box li.active a span img  {
+		background-position:-16px 0;
+	}
+	 .tab-box li a span .photo {
+		background-position:0 -20px;
+	}
+	 .tab-box li:hover a span .photo, .tab-box li.active a span .photo {
+		background-position:-16px -20px;
+	}
+	 .tab-box li a span .players {
+		background-position:0 -40px;
+	}
+	 .tab-box li:hover a span .players, .tab-box li.active a span .players {
+		background-position:-16px -40px;
+	}
+	 .tab-box li a span .star {
+		background-position:0 -60px;
+	}
+	 .tab-box li:hover a span .star, .tab-box li.active a span .star {
+		background-position:-16px -60px;
+	}
+	 .tab-box li a span .statistic {
+		background-position:0 -80px;
+	}
+	 .tab-box li:hover a span .statistic, .tab-box li.active a span .statistic {
+		background-position:-16px -80px;
+	}
+	 .tab-box li a span .table {
+		background-position:0 -100px;
+	}
+	 .tab-box li:hover a span .table, .tab-box li.active a span .table {
+		background-position:-16px -100px;
+	}
+        .tabdiv{
+            border: 1px solid #cfcfcf;
+            border-top:none;
+            padding:20px;
+            background-color: #fff;
+            margin-bottom:20px;
+            
+        }
+        .tabdiv.visuallyhidden { 
+            position: absolute; 
+            overflow: hidden; 
+            clip: rect(0 0 0 0); 
+            height: 1px; width: 1px; 
+            margin: -1px; padding: 0; border: 0; 
+          }
+        
+	/*----------*/
+
+/*--------------*/
+
+/* radioboxes */
+.jsw_switch label{
+    text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #333;
+	background-color: #f5f5f5;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border: 1px solid #bbb;
+	border-bottom-color: #a2a2a2;
+	/*-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;*/
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+.jsfw-enable, .jsfw-disable, .jsfw-enable span, .jsfw-disable span { display: block; float: left; }
+.jsfw-enable span, .jsfw-disable span { line-height: 30px; display: block; background-repeat: no-repeat; font-weight: bold; }
+.jsfw-enable span { padding: 0 10px; }
+.jsfw-disable span { padding: 0 10px; }
+.jsfw-disable.selected { background-color: #942a25; }
+.jsfw-disable.selected span {  color: #fff; }
+.jsfw-enable.selected { background-color: #378137; }
+.jsfw-enable.selected span {color: #fff; }
+.jsw_switch label { cursor: pointer; }
+.jsw_switch input { display: none; }
+.jsw_switch label.jsfw-first{
+    border-radius: 3px 0px 0px 3px;
+
+}
+
+.jsportWizzardDivCenter .jsfw-disable.selected { background-color: #378137; }
+
+.jsfw-enable-dsb, .jsfw-disable-dsb, .jsfw-enable-dsb span, .jsfw-disable-dsb span { display: block; float: left; }
+.jsfw-enable-dsb span, .jsfw-disable-dsb span { line-height: 30px; display: block; background-repeat: no-repeat; font-weight: bold; }
+.jsfw-enable-dsb span { padding: 0 10px; }
+.jsfw-disable-dsb span { padding: 0 10px; }
+.jsfw-disable-dsb.selected { background-color: gray; }
+.jsfw-disable-dsb.selected span {  color: #fff; }
+.jsfw-enable-dsb.selected { background-color: gray; }
+.jsfw-enable-dsb.selected span {color: #fff; }
+.jsw_switch label.jsfw-last{
+    border-radius: 0px 3px 3px 0px;
+    border-left: none;
+}
+.jsOvContainer{
+    width:100%;
+    overflow: hidden;
+}
+.wp-editor-container .mce-i-joomsport_shortcodes_button{
+    background-image:url('../images/cup.png');
+}
+
+div.jstable{
+    display:table;
+    width:100%;
+}
+div.jstable-row{
+    display: table-row;
+}
+div.jstable-cell{
+    display: table-cell;
+    padding:5px 10px;
+    vertical-align: middle;
+}
+.jsSettingsPage{
+    margin-top: 15px;
+}
+.jsSettingsPage p.jsw_switch{
+    margin:0.3em 0;
+}
+.jsRemoveMB .postbox{
+    border:0px;
+    background: transparent;
+    box-shadow: none;
+}
+.jsRemoveMB .hndle,body #post-body-content.jsRemoveMB .handlediv{
+    display: none;
+}
+body .ui-button-icon-only .ui-icon {
+    left: 50%;
+    margin-left: -8px;
+        position: absolute;
+    top: 50%;
+    margin-top: -8px;
+}
+.jsHelpinfoTbl td{
+    padding-right: 15px;
+}
+div.jslinktopro{
+    padding:10px;
+    text-align: center;
+}
+.jslinktopro.jscenterpage{
+    position:absolute;
+    top:40%;
+    left:40%;
+}
+.jsknchange{
+    color: green;
+    cursor: pointer;
+}
+.jswp_social i{
+    font-size: 1.3em;
+    color:#0B1991;
+}
+.jswp_social i:hover{
+    color:#0073aa;
+}    
+
+#joomsportContainerBE .jsBoxStatDIv input[type="text"]{
+    width:55px;
+}
+.jsBoxStatDIv th, .jsBoxStatDIv td{
+    border:1px solid #aaa;
+    padding:3px 5px;
+}
+.jsBoxStatDIv{
+    border-collapse: collapse;
+}
+fieldset.screen-options { padding-bottom: 20px; }
+.jsTblEvnts th{
+    text-align: left;
+}
+.ui-dialog .ui-dialog-buttonpane button { height: auto; }
+.ui-resizable-se { position: absolute!important; }
+body[class*="post-type-joomsport"] .ui-dialog .ui-dialog-content { height: auto!important; }
+.ui-dialog .ui-dialog-titlebar-close:before { content: none!important; }
+
+.jsportWizzardDiv h1{
+    text-align: center;
+}
+.jsportWizzardDivInner{
+    margin: 0 auto;
+    width:400px;
+}
+.jsportWizzardDivCenter{
+    text-align: center;
+}
+
+.jsportWizzardDiv fieldset { background: #fff none repeat scroll 0 0; border: 1px solid #ccc; border-radius: 3px; margin-top: 12px; padding: 10px; }
+
+#joomsport_match_score_form_meta_box div.jstable { width: auto; }
+#joomsport_match_score_form_meta_box div.jstable-row > div.jstable-cell:first-child { width: auto!important; min-width: 120px; }
+//#joomsport_match_score_form_meta_box div.jstable-row > div.jstable-cell { display: inline-block; }
+#joomsport_match_score_form_meta_box div.jstable-row > div.jstable-cell:first-child + div + div { display: table-cell; }
+.taxonomy-joomsport_matchday #edittag{
+    max-width:100%;
+}
+.jsportPopUl{
+    padding: 0px 10px;
+}
+.jsportPopUl textarea{
+    width:100%;
+    margin-top:3px;
+    display:none;
+}
+.jsportPopUl input[type=radio]{
+    margin-top:2px;
+}
+#jsportPopSend{
+    float:right;
+}
+.joomsportPopupPolicy{
+    text-align:center;
+}
+.joomsportPopupPolicy a{
+    font-size: 85%;
+    color:#aaa;
+}
+.JSshrtPopPlayerList>div>label{
+    width:200px;
+}

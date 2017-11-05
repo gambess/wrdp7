@@ -1,0 +1,637 @@
+# Translation of the WordPress plugin Soccer Info 1.4 by Szilard Mihaly.
+# Copyright (C) 2013 Szilard Mihaly
+# This file is distributed under the same license as the Soccer Info package.
+# SZILARD MIHALY <OFFICE@MIHALYSOFT.COM>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Soccer Info 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-06 17:17+0200\n"
+"PO-Revision-Date: 2015-03-03 21:14+0100\n"
+"Last-Translator: Szilard Mihaly <office@mihalysoft.com>\n"
+"Language-Team: Mihaly Soft <office@mihalysoft.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.7.4\n"
+"Language: da_DK\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: soccer-info-admin.class.php:96
+msgid "<noscript>Javascript must be enabled, thank you.</noscript>"
+msgstr "<noscript>Javascript er påkrævet, tak.</noscript>"
+
+#: soccer-info-admin.class.php:106 soccer-info.php:146
+#, php-format
+msgid "Soccer Info %s for WordPress"
+msgstr "Fodbold Info %s til WordPress"
+
+#: soccer-info-admin.class.php:133
+msgid "Settings Updated"
+msgstr "Indstillinger opdateret"
+
+#: soccer-info-admin.class.php:151
+msgid "Settings Updated to the default values"
+msgstr "Indstillinger er nulstillet"
+
+#: soccer-info-admin.class.php:162
+msgid "About this Plugin:"
+msgstr "Om dette Plugin:"
+
+#: soccer-info-admin.class.php:163
+msgid ""
+"Soccer Info lets you display ranking tables, fixtures and results of major "
+"soccer leagues without any hassles."
+msgstr ""
+"Fodbold Info kan vise ligatabeller og kampprogram for alle større ligaer "
+"uden problemer."
+
+#: soccer-info-admin.class.php:165
+msgid "translator_name"
+msgstr "Ole Panhardt Christensen"
+
+#: soccer-info-admin.class.php:167
+msgid "Translated by:"
+msgstr "Oversat af:"
+
+#: soccer-info-admin.class.php:168
+msgid "translator_url"
+msgstr "http://olepanhardt.dk"
+
+#: soccer-info-admin.class.php:208
+#, php-format
+msgid "Downloaded %s times"
+msgstr "Downloaded %s gange"
+
+#: soccer-info-admin.class.php:213 soccer-info-admin.class.php:221
+#, php-format
+msgid "(Average rating based on %s ratings)"
+msgstr "(Gennemsnitlig bedømmelse baseret på %s bedømmelser)"
+
+#: soccer-info-admin.class.php:215
+msgid "5 stars"
+msgstr "5 stjerner"
+
+#: soccer-info-admin.class.php:216
+msgid "4 stars"
+msgstr "4 stjerner"
+
+#: soccer-info-admin.class.php:217
+msgid "3 stars"
+msgstr "3 stjerner"
+
+#: soccer-info-admin.class.php:218
+msgid "2 stars"
+msgstr "2 stjerner"
+
+#: soccer-info-admin.class.php:219
+msgid "1 star"
+msgstr "1 stjerne"
+
+#: soccer-info-admin.class.php:221
+msgid "rate"
+msgstr "bedøm"
+
+#: soccer-info-admin.class.php:232
+#, php-format
+msgid "a newer version is available: %s"
+msgstr "en nyere version er tilgængelig: %s"
+
+#: soccer-info-admin.class.php:234
+#, php-format
+msgid "A newer version of Soccer Info is available: %s"
+msgstr "En nyere version af Soccer Info er tilgængelig : %s"
+
+#: soccer-info-admin.class.php:237
+msgid "(latest version)"
+msgstr "(seneste version)"
+
+#: soccer-info-admin.class.php:243
+msgid "Version:"
+msgstr "Version:"
+
+#: soccer-info-admin.class.php:244
+msgid "Changelog"
+msgstr "Ændringslog"
+
+#: soccer-info-admin.class.php:245
+msgid "FAQ"
+msgstr "FAQ"
+
+#: soccer-info-admin.class.php:246
+msgid "Rate This"
+msgstr "Bedøm dette"
+
+#: soccer-info-admin.class.php:247
+msgid "Support"
+msgstr "Støt"
+
+#: soccer-info-admin.class.php:248 soccer-info.php:136
+msgid "Donate"
+msgstr "Donér"
+
+#: soccer-info-admin.class.php:253
+msgid "Contribute:"
+msgstr "Bidrag:"
+
+#: soccer-info-admin.class.php:254 soccer-info.php:146
+msgid ""
+"Please donate to keep this plugin FREE. If you find this plugin useful, "
+"please consider making a small donation to help contribute to my time "
+"invested and to further development. Thanks for your kind support!"
+msgstr ""
+"Donér venligst for at holde dette plugin GRATIS. Hvis du finder dette plugin "
+"nyttigt, så overvej venligst at sende en lille donation for at bidrage til "
+"min invisterede tid, og videre udvikling. Tak for din støtte!"
+
+#: soccer-info-admin.class.php:265
+msgid "Frequently Asked Questions:"
+msgstr "Ofte stillede spørgsmål:"
+
+#: soccer-info-admin.class.php:266
+msgid ""
+"\n"
+"<h4>I've just activated Soccer Info, what do I need to do now?</h4>\n"
+"<p>\n"
+"You are now able to add the shortcodes that displays the tables (fixtures or "
+"results) to any of your posts or pages.<br /> \n"
+"For example: <strong>[soccer-info id='1' type='table' /]</strong><br />\n"
+"That means you want to display the raking <em>`table`</em> (type) of the "
+"soccer league with the <em>id=1</em> (Spanish Primera Division)<br />\n"
+"You will find the whole list of the soccer leagues supported by the plugin "
+"on the <strong>`Settings` > `Soccer Info`</strong> page.\n"
+"</p>\n"
+"<h4>I don't know how to use shortcodes, what should I do then?</h4>\n"
+"<p>\n"
+"For your confort, we added a function to the post/page editor that "
+"automatically generates and inserts the shortcodes for you. You will be "
+"prompted to select the league (and some other info) and then just click "
+"`Insert`<br />\n"
+"It sounds easy. Isn't is?\n"
+"</p>\n"
+"<h4>Does this plugin have a widget?</h4>\n"
+"<p>\n"
+"Yes, and it's easy to use.\n"
+"</p>\n"
+"<h4>I have a another question. Where can I ask that?</h4>\n"
+"<p>\n"
+"For more information, check out the plugin's website: <a href='http://www."
+"mihalysoft.com/wordpress-plugins/soccer-info/' target='_blank'>Soccer Info</"
+"a>\n"
+"</p>"
+msgstr ""
+
+#: soccer-info-admin.class.php:289
+msgid "Supported Leagues:"
+msgstr "Understøttede ligaer:"
+
+#: soccer-info-admin.class.php:316
+msgid "Options"
+msgstr "Indstillinger"
+
+#: soccer-info-admin.class.php:318
+msgid "Description..."
+msgstr "Beskrivelse..."
+
+#: soccer-info-admin.class.php:325
+msgid "Timezone"
+msgstr "Tidszone"
+
+#: soccer-info-admin.class.php:371 soccer-info-admin.class.php:376
+msgid "Date Format"
+msgstr "Datoformat"
+
+#: soccer-info-admin.class.php:378
+msgid "l, F j, Y"
+msgstr ""
+
+#: soccer-info-admin.class.php:379
+msgid "F j, Y"
+msgstr ""
+
+#: soccer-info-admin.class.php:380
+msgid "Y/m/d"
+msgstr ""
+
+#: soccer-info-admin.class.php:381
+msgid "m/d/Y"
+msgstr ""
+
+#: soccer-info-admin.class.php:382
+msgid "d/m/Y"
+msgstr ""
+
+#: soccer-info-admin.class.php:392
+msgid "Custom:"
+msgstr "Andet:"
+
+#: soccer-info-admin.class.php:393
+msgid "Documentation on date and time formatting."
+msgstr "Dokumentation om dato og tidsformatering"
+
+#: soccer-info-admin.class.php:400 soccer-info-admin.class.php:405
+msgid "Time Format"
+msgstr "Tidsformat"
+
+#: soccer-info-admin.class.php:407
+msgid "g:i a"
+msgstr ""
+
+#: soccer-info-admin.class.php:408
+msgid "g:i A"
+msgstr ""
+
+#: soccer-info-admin.class.php:409
+msgid "H:i"
+msgstr ""
+
+#: soccer-info-admin.class.php:424 soccer-info-admin.class.php:429
+#: soccer-info-admin.class.php:435
+msgid "Contribution"
+msgstr "Donation"
+
+#: soccer-info-admin.class.php:435
+msgid "I have donated to help contribute for the development of this plugin. "
+msgstr "Jeg har doneret for at støtte udviklingen af dette plugin."
+
+#: soccer-info-admin.class.php:450
+msgid "Update options"
+msgstr "Opdater indstillinger"
+
+#: soccer-info-admin.class.php:451
+msgid "Do you really want to reset your configuration?"
+msgstr "Vil du virkelig nulstille dine indstillinger?"
+
+#: soccer-info-admin.class.php:451
+msgid "Reset options"
+msgstr "Nulstil indstillinger"
+
+#: soccer-info-admin.class.php:552 js/tinymce/window.php:97
+msgid "Soccer Info"
+msgstr "Fodbold info"
+
+#: soccer-info-widgets.class.php:41
+msgid "Display a league's Ranking Table, Next Fixtures and Latest Results"
+msgstr "Vis en ligatabel og kampprogram."
+
+#: soccer-info-widgets.class.php:164 js/tinymce/window.php:63
+msgid "Title:"
+msgstr "Titel:"
+
+#: soccer-info-widgets.class.php:170
+msgid "Show:"
+msgstr "Vis:"
+
+#: soccer-info-widgets.class.php:175
+msgid "Table"
+msgstr "Ligatabel"
+
+#: soccer-info-widgets.class.php:176
+msgid "Next Fixtures"
+msgstr "Kommende kampe"
+
+#: soccer-info-widgets.class.php:177
+msgid "Latest Results"
+msgstr "Seneste resultater"
+
+#: soccer-info-widgets.class.php:184 js/tinymce/window.php:35
+msgid "Style:"
+msgstr "Tema:"
+
+#: soccer-info-widgets.class.php:189 js/tinymce/window.php:41
+msgid "Minimal"
+msgstr "Minimalt"
+
+#: soccer-info-widgets.class.php:190 js/tinymce/window.php:42
+msgid "Blue - Light"
+msgstr "Blå - Lys"
+
+#: soccer-info-widgets.class.php:191 js/tinymce/window.php:43
+msgid "Blue - Dark"
+msgstr "Blå - Mørk"
+
+#: soccer-info-widgets.class.php:192 js/tinymce/window.php:44
+msgid "Green - Light"
+msgstr "Grøn - Lys"
+
+#: soccer-info-widgets.class.php:193 js/tinymce/window.php:45
+msgid "Green - Dark"
+msgstr "Green - Mørk"
+
+#: soccer-info-widgets.class.php:194 js/tinymce/window.php:46
+msgid "Red - Light"
+msgstr "Rød - Lys"
+
+#: soccer-info-widgets.class.php:195 js/tinymce/window.php:47
+msgid "Red - Dark"
+msgstr "Rød - Mørk"
+
+#: soccer-info-widgets.class.php:202
+msgid "Select League:"
+msgstr "Vælg liga:"
+
+#: soccer-info-widgets.class.php:216
+msgid "Columns (#,Team,MP,W,D,L,F,A,G,P):"
+msgstr "Kolonner (#,Hold,KS,V,U,T,F,I,F,P):"
+
+#: soccer-info-widgets.class.php:222 js/tinymce/window.php:57
+msgid "Limit:"
+msgstr "Grænse:"
+
+#: soccer-info-widgets.class.php:228 js/tinymce/window.php:59
+msgid "Width:"
+msgstr "Bredde:"
+
+#: soccer-info-widgets.class.php:235
+msgid "Highlighted team:"
+msgstr "Fremhævet hold:"
+
+#: soccer-info-widgets.class.php:241
+msgid "Show only this team:"
+msgstr "Vis kun dette hold:"
+
+#: soccer-info-widgets.class.php:253
+msgid "Hide widget style."
+msgstr "Skjul widget tema."
+
+#: soccer-info.php:128 soccer-info.php:135 soccer-info.php:146
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: soccer-info.php:745
+msgid "#"
+msgstr "#"
+
+#: soccer-info.php:746 soccer-info.php:757
+msgid "Team"
+msgstr "Hold"
+
+#: soccer-info.php:747
+msgid "MP"
+msgstr "KS"
+
+#: soccer-info.php:748
+msgid "W"
+msgstr "V"
+
+#: soccer-info.php:749
+msgid "D"
+msgstr "U"
+
+#: soccer-info.php:750
+msgid "L"
+msgstr "T"
+
+#: soccer-info.php:751
+msgid "F"
+msgstr "F"
+
+#: soccer-info.php:752
+msgid "A"
+msgstr "I"
+
+#: soccer-info.php:753
+msgid "G"
+msgstr "F"
+
+#: soccer-info.php:754
+msgid "P"
+msgstr "P"
+
+#: soccer-info.php:756
+msgid "Rank"
+msgstr "Nummer"
+
+#: soccer-info.php:758
+msgid "Matches played"
+msgstr "Kampe spillet"
+
+#: soccer-info.php:759
+msgid "Wins"
+msgstr "Vundne"
+
+#: soccer-info.php:760
+msgid "Draws"
+msgstr "Uafgjort"
+
+#: soccer-info.php:761
+msgid "Losses"
+msgstr "Tabte"
+
+#: soccer-info.php:762
+msgid "Goals for"
+msgstr "Mål for"
+
+#: soccer-info.php:763
+msgid "Goals against"
+msgstr "Mål imod"
+
+#: soccer-info.php:764
+msgid "Goal difference"
+msgstr "Målforskel"
+
+#: soccer-info.php:765
+msgid "Points"
+msgstr "Point"
+
+#: soccer-info.php:1227
+msgid "-- None --"
+msgstr "--Ingen--"
+
+#: js/tinymce/window.php:53
+msgid "Choose a style"
+msgstr "Vælg et tema"
+
+#: js/tinymce/window.php:64
+msgid "It shows before the table"
+msgstr "Det bliver vist før tabellen"
+
+#: js/tinymce/window.php:67
+msgid "Highlight:"
+msgstr "Fremhæv:"
+
+#: js/tinymce/window.php:73
+msgid "Highlighted team"
+msgstr "Fremhævet hold"
+
+#: js/tinymce/window.php:78
+msgid "Only 1 team:"
+msgstr "Kun 1 hold:"
+
+#: js/tinymce/window.php:84
+msgid "Show only this team"
+msgstr "Vis kun dette hold"
+
+#: js/tinymce/window.php:115
+msgid "Tables"
+msgstr "Ligatabel"
+
+#: js/tinymce/window.php:116
+msgid "Fixtures"
+msgstr "Kommende program"
+
+#: js/tinymce/window.php:117
+msgid "Results"
+msgstr "Resultater"
+
+#: js/tinymce/window.php:126 js/tinymce/window.php:198
+#: js/tinymce/window.php:238
+msgid "League:"
+msgstr "Liga:"
+
+#: js/tinymce/window.php:143
+msgid "Columns:"
+msgstr "Colonner:"
+
+#: js/tinymce/window.php:144
+msgid "You may use: #,Team,MP,W,D,L,F,A,G,P"
+msgstr "Du må bruge: #,Team,MP,W,D,L,F,A,G,P"
+
+#: js/tinymce/window.php:191
+msgid "Display the table for the chosen league."
+msgstr "Vis tabellen for den valgte liga."
+
+#: js/tinymce/window.php:231
+msgid ""
+"Display all fixtures for the chosen league or only those for a selected team."
+msgstr "Vis alle kampe for den valgte liga, eller kun for det valgte hold."
+
+#: js/tinymce/window.php:271
+msgid ""
+"Display the last results for the chosen league or only those for a selected "
+"team."
+msgstr ""
+"Vis det seneste resultat for den valgte liga, eller kun for det valgte hold."
+
+#: js/tinymce/window.php:276
+msgid "Cancel"
+msgstr "Annuller"
+
+#: js/tinymce/window.php:279
+msgid "Insert"
+msgstr "Indsæt"
+
+msgid "Coming soon..."
+msgstr "Kommer snart..."
+
+msgid "Predictions"
+msgstr "Forudsigelser"
+
+msgid "My Active Predictions"
+msgstr "Mine aktive forudsigelser"
+
+msgid "My Archives"
+msgstr "Mit arkiv"
+
+msgid "Summary"
+msgstr "Resumé"
+
+msgid "I do not have yet any predictions."
+msgstr "Jeg har ingen forudsigelser."
+
+msgid ""
+"There aren't any ongoing match predictions. Please check my <a href=\"%s"
+"\">Archives</a>"
+msgstr ""
+"Der er ingen aktive kampforudsigelser. Se venligst mit <a href=\"%s\">arkiv</"
+"a>."
+
+msgid "I do not have yet any statistics."
+msgstr "Jeg har ingen statistik endnu."
+
+msgid "You must be logged in to predict."
+msgstr "Du skal være logget ind for at forudsige."
+
+msgid "No matches available in this championship."
+msgstr "Ingen kampe tilgængelige i denne liga."
+
+msgid "Save"
+msgstr "Gem"
+
+msgid "Penalty"
+msgstr "Straffespark"
+
+msgid "shootout"
+msgstr " "
+
+msgid "Prediction saved"
+msgstr "Forudsigelse gemt"
+
+msgid "Match score must be numeric"
+msgstr "Kampresultat skal være et tal"
+
+msgid "You can only enter penalties for a draw"
+msgstr "Du kan kun indtaste straffespark for et uafgjort resultat"
+
+msgid "Missing match. Prediction not saved."
+msgstr "Kamp mangler. Forudsigelse er ikke gemt."
+
+msgid "Error saving prediction"
+msgstr "Fejl, kunne ikke gemme forudsigelse."
+
+msgid "Some, or all, of your predictions are too late and will not be counted."
+msgstr ""
+"Nogle, eller alle, af dine forudsigelser er for sene og vil ikke blive talt "
+"med."
+
+msgid "No data to save"
+msgstr "Ingenting at gemme"
+
+msgid "Next prediction deadline in"
+msgstr "Næste forudsigelsesfrist om"
+
+msgid "Too Late - Prediction deadline passed"
+msgstr "For sent - Forudsigelsesfristen er passeret"
+
+msgid "Won"
+msgstr "Vundet"
+
+msgid "Pts"
+msgstr "Point"
+
+msgid "Penalties"
+msgstr "Straffespark"
+
+msgid "pen."
+msgstr "str."
+
+msgid "Extra Time"
+msgstr "Overtid"
+
+msgid "a.e.t."
+msgstr "o.t."
+
+msgid "Match"
+msgstr "Kamp"
+
+msgid "Score"
+msgstr "Stilling"
+
+msgid "Prediction"
+msgstr "Forudsigelse"
+
+msgid "Team A"
+msgstr "Hold A"
+
+msgid "Goals A"
+msgstr "Mål A"
+
+msgid "Penalties A"
+msgstr "Straffespark A"
+
+msgid "Team B"
+msgstr "Hold B"
+
+msgid "Goals B"
+msgstr "Mål B"
+
+msgid "Penalties B"
+msgstr "Straffespark B"
+
+msgid "Match finished"
+msgstr "Kampen er slut"

@@ -1,0 +1,2606 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blog2Social V3 - Development Modus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-25 12:18+0200\n"
+"PO-Revision-Date: Fri Jul 21 2017 11:19:06 GMT+0200\n"
+"Last-Translator: admin <s.buerger@adenion.de>\n"
+"Language-Team: French (France) <translate@tips02.fr>\n"
+"Language: French (France)\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: fr_FR\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-SearchPath-0: .."
+
+#. Name of the plugin
+msgid "Blog2Social: Social Media Auto Post & Scheduler"
+msgstr "Blog2Social: Social Media Auto Post & Scheduler"
+
+#: ../views/b2s/html/header.phtml:10
+msgid ""
+"To use all features of Blog2Social, PHP version 5.5.3 or higher is required. "
+"Our support assists you as of PHP version 5.5.3. See also:"
+msgstr ""
+"Pour utiliser toutes les fonctionnalités de Blog2Social, la version 5.5.3 ou "
+"ultérieure de PHP est requise. Notre support vous aide à partir de la "
+"version 5.5.3 de PHP. Voir également:"
+
+#: ../views/b2s/html/header.phtml:11
+msgid "Technical requirements for Blog2Social"
+msgstr "Exigences techniques pour Blog2Social"
+
+#: ../includes/B2S/Network/Item.php:44 ../includes/B2S/Ship/Navbar.php:32
+msgid "Default"
+msgstr "Standard"
+
+#: ../includes/B2S/Network/Item.php:44
+msgid "Show all"
+msgstr "Montre tout"
+
+#: ../includes/B2S/Network/Item.php:45 ../includes/B2S/Network/Item.php:122
+msgid "My profile"
+msgstr "Mon profil"
+
+#: ../includes/B2S/Network/Item.php:47
+msgid "Your profiles:"
+msgstr "plus de profils:"
+
+#: ../includes/B2S/Network/Item.php:102
+msgid "Connections"
+msgstr "Les liaisons"
+
+#: ../includes/B2S/Network/Item.php:107 ../includes/B2S/Network/Item.php:145 ..
+#: /includes/B2S/Network/Item.php:147 ../includes/B2S/Settings/Item.php:183 ..
+#: /includes/B2S/Settings/Item.php:196 ../includes/B2S/Settings/Item.php:213 ..
+#: /includes/B2S/Settings/Item.php:261 ../includes/B2S/Ship/Portale.php:34 ..
+#: /includes/Init.php:309
+msgid "Profile"
+msgstr "Profil"
+
+#: ../includes/B2S/Network/Item.php:110 ../includes/B2S/Network/Item.php:110 ..
+#: /includes/B2S/Network/Item.php:171 ../includes/B2S/Network/Item.php:173 ..
+#: /includes/B2S/Settings/Item.php:197 ../includes/B2S/Settings/Item.php:214 ..
+#: /includes/B2S/Settings/Item.php:264 ../includes/B2S/Ship/Portale.php:31 ..
+#: /includes/B2S/Ship/Portale.php:31 ../includes/Init.php:309
+msgid "Page"
+msgstr "Page"
+
+#: ../includes/B2S/Network/Item.php:110 ../includes/B2S/Ship/Portale.php:31
+msgid "You want to connect a network page?"
+msgstr "Vous voulez connecter une page d'un réseau ?"
+
+#: ../includes/B2S/Network/Item.php:110 ../includes/B2S/Network/Item.php:113 ..
+#: /includes/B2S/Settings/Item.php:63 ../includes/B2S/Ship/Image.php:58 ..
+#: /includes/B2S/Ship/Image.php:64 ../includes/B2S/Ship/Item.php:440 ..
+#: /includes/B2S/Ship/Portale.php:28 ../includes/B2S/Ship/Portale.php:31 ..
+#: /includes/MetaBox.php:88 ../views/b2s/network.php:36 ../views/b2s/settings.php:
+#: 39 ../views/b2s/settings.php:61 ../views/b2s/ship.php:17 ..
+#: /views/b2s/html/post.navbar.phtml:7
+msgid "PREMIUM"
+msgstr "PREMIUM"
+
+#: ../includes/B2S/Network/Item.php:113 ../includes/B2S/Network/Item.php:113 ..
+#: /includes/B2S/Network/Item.php:197 ../includes/B2S/Network/Item.php:199 ..
+#: /includes/B2S/Settings/Item.php:198 ../includes/B2S/Settings/Item.php:215 ..
+#: /includes/B2S/Settings/Item.php:268 ../includes/B2S/Ship/Portale.php:28 ..
+#: /includes/B2S/Ship/Portale.php:28 ../includes/Init.php:309
+msgid "Group"
+msgstr "Groupe"
+
+#: ../includes/B2S/Network/Item.php:113 ../includes/B2S/Ship/Portale.php:28
+msgid "You want to connect a social media group?"
+msgstr "Vous voulez connecter un groupe de réseau social ?"
+
+#: ../includes/B2S/Network/Item.php:158 ../includes/B2S/Network/Item.php:210
+msgid "Authorization is interrupted since"
+msgstr "L'autorisation est interrompue depuis"
+
+#: ../includes/B2S/Network/Item.php:160 ../includes/B2S/Network/Item.php:187 ..
+#: /includes/B2S/Network/Item.php:213
+msgid "To reactivate this social media connection,"
+msgstr "Pour réactiver cette connexion aux réseaux sociaux,"
+
+#: ../includes/B2S/Network/Item.php:160 ../includes/B2S/Network/Item.php:187 ..
+#: /includes/B2S/Network/Item.php:213 ../includes/B2S/Ship/Image.php:19
+msgid "please upgrade"
+msgstr "Mise à niveau"
+
+#: ../includes/B2S/Network/Item.php:184
+msgid "Authorization is interrupted  since"
+msgstr "L'autorisation est interrompue depuis"
+
+#: ../includes/B2S/Post/Filter.php:34
+msgid "all authors"
+msgstr "Tous les auteurs"
+
+#: ../includes/B2S/Post/Filter.php:49 ../includes/B2S/Post/Item.php:185 ..
+#: /includes/B2S/Ship/Save.php:174 ../includes/PRG/Post/Filter.php:41 ..
+#: /includes/PRG/Post/Item.php:97 ../views/b2s/ship.php:12
+msgid "published"
+msgstr "publié"
+
+#: ../includes/B2S/Post/Filter.php:49 ../includes/B2S/Post/Item.php:185 ..
+#: /includes/PRG/Post/Filter.php:41 ../includes/PRG/Post/Item.php:97 ..
+#: /views/b2s/ship.php:12
+msgid "scheduled"
+msgstr "planifié"
+
+#: ../includes/B2S/Post/Filter.php:49 ../includes/B2S/Post/Item.php:185 ..
+#: /includes/PRG/Post/Item.php:97 ../views/b2s/ship.php:12
+msgid "draft"
+msgstr "brouillon"
+
+#: ../includes/B2S/Post/Filter.php:50
+msgid "all statuses"
+msgstr "tous statuts"
+
+#: ../includes/B2S/Post/Filter.php:61 ../includes/B2S/Post/Filter.php:73
+msgid "newest first"
+msgstr "Les plus récents en premier"
+
+#: ../includes/B2S/Post/Filter.php:61 ../includes/B2S/Post/Filter.php:73
+msgid "oldest first"
+msgstr "Les plus anciens en premier"
+
+#: ../includes/B2S/Post/Filter.php:86
+msgid "all categories & tags"
+msgstr "tous catégories & balises"
+
+#: ../includes/B2S/Post/Filter.php:108 ../includes/PRG/Post/Filter.php:53
+msgid "all post types"
+msgstr "tous types de postes"
+
+#: ../includes/B2S/Post/Filter.php:129 ../includes/PRG/Post/Filter.php:74
+msgid "Search Title"
+msgstr "Rechercher titre"
+
+#: ../includes/B2S/Post/Filter.php:149
+msgid "hide calendar"
+msgstr "cacher calendrier"
+
+#: ../includes/B2S/Post/Filter.php:149 ../includes/B2S/Post/Filter.php:149
+msgid "show calendar"
+msgstr "montrer calendrier"
+
+#: ../includes/B2S/Post/Filter.php:152 ../includes/PRG/Post/Filter.php:85
+msgid "sort"
+msgstr "Tri"
+
+#: ../includes/B2S/Post/Filter.php:153 ../includes/PRG/Post/Filter.php:86
+msgid "reset"
+msgstr "réinitialiser"
+
+#: ../includes/B2S/Post/Filter.php:158
+msgid "selected date"
+msgstr "choisi date"
+
+#: ../includes/B2S/Post/Filter.php:158
+msgid "scheduled post(s)"
+msgstr "prévu postes"
+
+#: ../includes/B2S/Post/Item.php:188
+msgid "You have no posts published or scheduled."
+msgstr "Vous n'avez aucun article publié ou planifié."
+
+#: ../includes/B2S/Post/Item.php:210
+msgid "last shared on social media"
+msgstr "dernier partagé on le réseau social"
+
+#: ../includes/B2S/Post/Item.php:218
+msgid "Share on Social Media"
+msgstr "Partager sur les réseaux sociaux"
+
+#: ../includes/B2S/Post/Item.php:220 ../includes/PRG/Post/Item.php:129
+msgid "Author"
+msgstr "Auteur"
+
+#: ../includes/B2S/Post/Item.php:220 ../views/b2s/ship.php:29
+msgid "on blog"
+msgstr "sur le blog"
+
+#: ../includes/B2S/Post/Item.php:237 ../views/b2s/ship.php:216 ../views/b2s/ship.
+#: php:218
+msgid "Re-share this post"
+msgstr "Re-partager cet article"
+
+#: ../includes/B2S/Post/Item.php:238 ../includes/B2S/Post/Item.php:261
+msgid "Details"
+msgstr "Détails"
+
+#: ../includes/B2S/Post/Item.php:240
+msgid "shared social media posts"
+msgstr "articles partagés sur les réseaux sociaux"
+
+#: ../includes/B2S/Post/Item.php:240
+msgid "latest share by"
+msgstr "dernier partage par"
+
+#: ../includes/B2S/Post/Item.php:263
+msgid "scheduled social media posts"
+msgstr "articles planifié sur les réseaux sociaux"
+
+#: ../includes/B2S/Post/Item.php:263
+msgid "next share by"
+msgstr "prochain partagé par"
+
+#: ../includes/B2S/Post/Item.php:370 ../includes/B2S/Post/Item.php:433
+msgid "select all"
+msgstr "tous choisir"
+
+#: ../includes/B2S/Post/Item.php:372 ../includes/B2S/Settings/Item.php:81 ..
+#: /views/b2s/dashboard.php:118
+msgid "Auto-Posting"
+msgstr "Auto-publication"
+
+#: ../includes/B2S/Post/Item.php:373
+msgid "show"
+msgstr "afficher"
+
+#: ../includes/B2S/Post/Item.php:376
+msgid "sharing in progress by"
+msgstr "le partage en cours par"
+
+#: ../includes/B2S/Post/Item.php:376
+msgid "shared by"
+msgstr "partagé par"
+
+#: ../includes/B2S/Post/Item.php:398 ../includes/B2S/Post/Item.php:412
+msgid "You want to delete a publish post entry?"
+msgstr "Vous voulez supprimer une entrée de publication?"
+
+#: ../includes/B2S/Post/Item.php:399 ../includes/B2S/Post/Item.php:413
+msgid "delete from reporting"
+msgstr "supprimer des rapports"
+
+#: ../includes/B2S/Post/Item.php:403
+msgid "re-share"
+msgstr "re-partage"
+
+#: ../includes/B2S/Post/Item.php:444
+msgid "scheduled by"
+msgstr "planifié par"
+
+#: ../includes/B2S/Post/Item.php:447 ../includes/B2S/Post/Item.php:460
+msgid "delete scheduling"
+msgstr "effacer planifié"
+
+#: ../includes/B2S/Post/Item.php:451
+msgid "You want to change the time for your scheduled post?"
+msgstr "Vous souhaitez modifier l'heure de votre annonce?"
+
+#: ../includes/B2S/Post/Item.php:452
+msgid "change time"
+msgstr "changer l'heure"
+
+#: ../includes/B2S/Settings/Item.php:66
+msgid "Account"
+msgstr "Compte"
+
+#: ../includes/B2S/Settings/Item.php:69 ../views/b2s/settings.php:146
+msgid "Personal Time Zone"
+msgstr "Fuseau horaire personnel"
+
+#: ../includes/B2S/Settings/Item.php:73 ../includes/B2S/Settings/Item.php:82 ..
+#: /includes/B2S/Settings/Item.php:118 ../includes/B2S/Settings/Item.php:120 ..
+#: /includes/MetaBox.php:17 ../includes/MetaBox.php:68 ../views/b2s/network.php:
+#: 18 ../views/b2s/settings.php:41 ../views/b2s/settings.php:64 ../views/b2s/ship.
+#: php:54 ../views/b2s/ship.php:131 ../views/b2s/ship.php:214
+msgid "Info"
+msgstr "Info"
+
+#: ../includes/B2S/Settings/Item.php:75
+msgid "Timezone for Scheduling"
+msgstr "Fuseau horaire pour l'ordonnancement"
+
+#: ../includes/B2S/Settings/Item.php:75
+msgid "User"
+msgstr "Utilisateur"
+
+#: ../includes/B2S/Settings/Item.php:82
+msgid "What post type of items do you want load the Auto-Poster?"
+msgstr "Quel type d'article voulez-vous charger l'auto-affiche?"
+
+#: ../includes/B2S/Settings/Item.php:88
+msgid "new posts"
+msgstr "Nouveaux messages"
+
+#: ../includes/B2S/Settings/Item.php:89 ../includes/B2S/Settings/Item.php:99
+msgid "Unselect all"
+msgstr "Tout déselectionner"
+
+#: ../includes/B2S/Settings/Item.php:89 ../includes/B2S/Settings/Item.php:99
+msgid "Select all"
+msgstr "Tout sélectionner"
+
+#: ../includes/B2S/Settings/Item.php:98
+msgid "updating existing posts"
+msgstr "Mise à jour des messages existants"
+
+#: ../includes/B2S/Settings/Item.php:110
+msgid "Save"
+msgstr "sauvegarder"
+
+#: ../includes/B2S/Settings/Item.php:117
+msgid "Content"
+msgstr "Contenu"
+
+#: ../includes/B2S/Settings/Item.php:118
+msgid "use b2s.pm Link Shortener"
+msgstr "utiliser b2s.pm Lien Shortener"
+
+#: ../includes/B2S/Settings/Item.php:120
+msgid "allow shortcodes in my post"
+msgstr "permettre à shortcodes dans mon post"
+
+#: ../includes/B2S/Settings/Item.php:132
+msgid "Did you know?"
+msgstr "Le saviez-vous?"
+
+#: ../includes/B2S/Settings/Item.php:133
+msgid ""
+"Beginning with Premium Pro, you can change the custom post format photo post "
+"or link post for each individual social media post and channel (profile, "
+"page, group), deviate from the default settings."
+msgstr ""
+"À partir de Premium Pro, vous pouvez modifier la publication personnalisée "
+"du post-format ou le lien pour chaque publication et chaque chaîne de médias "
+"sociaux (profil, page, groupe), s'écarter des paramètres par défaut."
+
+#: ../includes/B2S/Settings/Item.php:133
+msgid "Upgrade to Premium Pro now."
+msgstr "Passez à Premium Pro dès maintenant."
+
+#: ../includes/B2S/Settings/Item.php:147 ../includes/B2S/Settings/Item.php:187 ..
+#: /includes/B2S/Settings/Item.php:226 ../views/b2s/html/footer.phtml:109
+msgid "Link Post"
+msgstr "Lien Post"
+
+#: ../includes/B2S/Settings/Item.php:151 ../views/b2s/html/footer.phtml:110
+msgid ""
+"The link post format displays posts title, link address and the first one or "
+"two sentences of the post. The networks scan this information from your META "
+"or OpenGraph. Link posts display the post image, you selected in your "
+"WordPress. In case, you have not selected a post image, some networks "
+"display the first image detected on your page. The image links to your blog "
+"post."
+msgstr ""
+"Le format lien article affiche le titre des articles, l'adresse du lien et "
+"la première ou deux premières phrases de l’article. Les réseaux récupèrent "
+"ces informations à partir de vos données META ou OpenGraph. Les liens "
+"articles  affichent l'image que vous avez sélectionnée dans WordPress. Dans "
+"le cas où vous n'avez pas sélectionné une image, certains réseaux affichent "
+"la première image détectée sur votre page. L'image se rattache à votre "
+"article."
+
+#: ../includes/B2S/Settings/Item.php:154 ../includes/B2S/Settings/Item.php:204 ..
+#: /includes/B2S/Settings/Item.php:226 ../views/b2s/html/footer.phtml:114
+msgid "Photo Post"
+msgstr "Article photo"
+
+#: ../includes/B2S/Settings/Item.php:158
+msgid ""
+"A photo or image post displays the selected image in the one-page preview of "
+"Blog2Social and your comment above the image. The image links to the image "
+"view on your image gallery in the respective network. Blog2Social adds the "
+"link to your post in your comment. The main benefit of photo posts is that "
+"your image is uploaded to your personal image albums or gallery. In Facebook "
+"you can edit the album’s name with a description of your choice."
+msgstr ""
+"Une publication photo ou d'image affiche l'image que vous avez sélectionné "
+"dans l'aperçu d'une page de Blog2Social et votre commentaire au-dessus de "
+"l'image. L'image est liée à la vue d'image de votre galerie d'images sur le "
+"réseau respectif. Blog2Social ajoute le lien vers votre article dans votre "
+"commentaire. Le principal avantage des publications photos ou images est que "
+"votre image est téléchargée dans vos albums ou galeries d'images "
+"personnelles. Dans Facebook, vous pouvez modifier le nom de l'album avec une "
+"description de votre choix."
+
+#: ../includes/B2S/Settings/Item.php:183
+msgid "All"
+msgstr "Tout"
+
+#: ../includes/B2S/Settings/Item.php:275 ../views/b2s/post.sched.php:24
+msgid "Uhr"
+msgstr "regarder"
+
+#: ../includes/B2S/Settings/Item.php:279
+msgid "Best times to post"
+msgstr "Meilleures heures pour publier"
+
+#: ../includes/B2S/Settings/Item.php:292 ../views/b2s/settings.php:47 ..
+#: /views/b2s/ship.php:49 ../views/b2s/ship.php:341 ../views/b2s/html/footer.
+#: phtml:191
+msgid "You want to schedule your posts and use the Best Time Scheduler?"
+msgstr ""
+"Vous voulez planifier vos articles et utiliser le meilleur créneau horaire "
+"de publication?"
+
+#: ../includes/B2S/Settings/Item.php:294 ../views/b2s/post.sched.php:90 ..
+#: /views/b2s/settings.php:49 ../views/b2s/settings.php:83 ../views/b2s/settings.
+#: php:96 ../views/b2s/settings.php:104 ../views/b2s/ship.php:438
+msgid "save"
+msgstr "sauver"
+
+#: ../includes/B2S/Settings/Item.php:299
+msgid "Sorry, we can not load your data at the moment..."
+msgstr "Désolé, nous ne pouvons pas charger vos données pour l'instant..."
+
+#: ../includes/B2S/Ship/Image.php:16
+msgid "The images file types .jpg and .png are allowed. Please try another."
+msgstr ""
+"Les types de fichiers d'images .jpg et .png sont autorisés. Veuillez essayer "
+"un autre."
+
+#: ../includes/B2S/Ship/Image.php:17
+msgid ""
+"You need a higher user role to upload an image on this blog. Please contact "
+"your administrator."
+msgstr ""
+"Vous avez besoin d'un rôle d'utilisateur plus élevé pour télécharger une "
+"image sur ce blog. Veuillez contacter votre administrateur."
+
+#: ../includes/B2S/Ship/Image.php:18
+msgid "To select an individual image from your media library,"
+msgstr ""
+"Pour sélectionner une image individuelle à partir de votre bibliothèque "
+"multimédia,"
+
+#: ../includes/B2S/Ship/Image.php:24
+msgid ""
+"The best size for images in social media posts are between: 667-1000px x 523-"
+"1000px. Blog2Social will automatically resize your image according to "
+"network requirements."
+msgstr ""
+"La meilleure taille pour les images dans les publications des réseaux "
+"sociaux se situe entre: 667-1000px x 523-1000px. Blog2Social redimensionne "
+"automatiquement votre image en fonction des exigences du réseau."
+
+#: ../includes/B2S/Ship/Image.php:48
+msgid "No images are included in your post."
+msgstr "Aucune image n'est incluse dans votre publication."
+
+#: ../includes/B2S/Ship/Image.php:54
+msgid "Apply image for all networks"
+msgstr "Appliquer l'image pour tous les réseaux"
+
+#: ../includes/B2S/Ship/Image.php:56 ../includes/B2S/Ship/Image.php:58
+msgid "Apply image for this network"
+msgstr "Appliquer l'image pour ce réseau"
+
+#: ../includes/B2S/Ship/Image.php:62 ../includes/B2S/Ship/Image.php:64
+msgid "Image upload / Mediathek"
+msgstr "Téléchargement de l'image"
+
+#: ../includes/B2S/Ship/Image.php:68
+msgid "Select or upload an image from mediathek"
+msgstr "Téléchargez une image de votre mediathek"
+
+#: ../includes/B2S/Ship/Image.php:69
+msgid "Use image"
+msgstr "Utiliser l'image"
+
+#: ../includes/B2S/Ship/Item.php:77
+msgid "Network does not support image for profiles"
+msgstr "Le réseau ne supporte pas d'image pour les profils"
+
+#: ../includes/B2S/Ship/Item.php:78
+msgid "Network defines image by link"
+msgstr "Le réseau définit l'image par lien"
+
+#: ../includes/B2S/Ship/Item.php:80
+msgid "Supported HTML tags"
+msgstr "Balises HTML supportées"
+
+#: ../includes/B2S/Ship/Item.php:81 ../includes/B2S/Ship/Item.php:126
+msgid "Network does not support emojis"
+msgstr "Le réseau ne prend pas en charge les emojis"
+
+#: ../includes/B2S/Ship/Item.php:110
+msgid "Text only"
+msgstr "Texte seulement"
+
+#: ../includes/B2S/Ship/Item.php:111 ../includes/B2S/Ship/Item.php:115 ..
+#: /includes/B2S/Ship/Item.php:148 ../includes/B2S/Ship/Item.php:152 ..
+#: /includes/B2S/Ship/Item.php:172 ../includes/B2S/Ship/Item.php:176
+msgid "characters"
+msgstr "caractères"
+
+#: ../includes/B2S/Ship/Item.php:125
+msgid "Network does not support image for pages"
+msgstr "Le réseau ne supporte pas d'image sur les pages"
+
+#: ../includes/B2S/Ship/Item.php:204
+msgid "post format"
+msgstr "Format de publication"
+
+#: ../includes/B2S/Ship/Item.php:213
+msgid "Insert full-text"
+msgstr "Insérer du texte plein"
+
+#: ../includes/B2S/Ship/Item.php:215
+msgid "Delete text"
+msgstr "Effacer le texte"
+
+#: ../includes/B2S/Ship/Item.php:250 ../includes/B2S/Ship/Item.php:268 ..
+#: /includes/B2S/Ship/Item.php:286 ../includes/B2S/Ship/Item.php:304 ..
+#: /includes/B2S/Ship/Item.php:319
+msgid "Write something about your post..."
+msgstr "Ecrivez quelque-chose à propos de votre article..."
+
+#: ../includes/B2S/Ship/Item.php:257 ../includes/B2S/Ship/Item.php:275 ..
+#: /includes/B2S/Ship/Item.php:293 ../includes/B2S/Ship/Item.php:346
+msgid "Change image for this network"
+msgstr "Changer l'image pour ce réseau"
+
+#: ../includes/B2S/Ship/Item.php:333
+msgid "required"
+msgstr "nécessaire"
+
+#: ../includes/B2S/Ship/Item.php:353 ../includes/B2S/Ship/Item.php:355
+msgid "Link"
+msgstr "Lien"
+
+#: ../includes/B2S/Ship/Item.php:403
+msgid "The Headline..."
+msgstr "L'entête..."
+
+#: ../includes/B2S/Ship/Item.php:408
+msgid "Hashtags"
+msgstr "Hashtags"
+
+#: ../includes/B2S/Ship/Item.php:438
+msgid "Share Now"
+msgstr "Partager maintenant"
+
+#: ../includes/B2S/Ship/Item.php:441 ../views/b2s/ship.php:377
+msgid "Schedule post once"
+msgstr "Planifier l'article une fois"
+
+#: ../includes/B2S/Ship/Item.php:443 ../views/b2s/ship.php:380
+msgid "Schedule post recurrently"
+msgstr "Planifié l'article de manière récurrente"
+
+#: ../includes/B2S/Ship/Item.php:468
+msgid "Duration"
+msgstr "Durée"
+
+#: ../includes/B2S/Ship/Item.php:469 ../includes/B2S/Ship/Item.php:484
+msgid "Date"
+msgstr "Date"
+
+#: ../includes/B2S/Ship/Item.php:470 ../includes/B2S/Ship/Item.php:485
+msgid "Time"
+msgstr "Heure"
+
+#: ../includes/B2S/Ship/Item.php:471
+msgid "Days"
+msgstr "Jours"
+
+#: ../includes/B2S/Ship/Item.php:479
+msgid "Week"
+msgstr "Semaine"
+
+#: ../includes/B2S/Ship/Item.php:479
+msgid "Weeks"
+msgstr "Semaines"
+
+#: ../includes/B2S/Ship/Item.php:489
+msgid "Mon"
+msgstr "Lu"
+
+#: ../includes/B2S/Ship/Item.php:490
+msgid "Tue"
+msgstr "Ma"
+
+#: ../includes/B2S/Ship/Item.php:491
+msgid "Wed"
+msgstr "Me"
+
+#: ../includes/B2S/Ship/Item.php:492
+msgid "Thu"
+msgstr "Je"
+
+#: ../includes/B2S/Ship/Item.php:493
+msgid "Fri"
+msgstr "Ve"
+
+#: ../includes/B2S/Ship/Item.php:494
+msgid "Sat"
+msgstr "Sa"
+
+#: ../includes/B2S/Ship/Item.php:495
+msgid "Sun"
+msgstr "Di"
+
+#: ../includes/B2S/Ship/Item.php:500
+msgid "delete"
+msgstr "supprimer"
+
+#: ../includes/B2S/Ship/Item.php:501
+msgid "Add Posting Time"
+msgstr "Ajouter une heure d'envoi"
+
+#: ../includes/B2S/Ship/Item.php:507
+msgid "Apply Settings To All Networks"
+msgstr "Appliquer les réglages à tous les réseaux"
+
+#: ../includes/B2S/Ship/Item.php:508
+msgid "Save Settings As Default"
+msgstr "Sauver ces réglages comme défaut"
+
+#: ../includes/B2S/Ship/Save.php:175
+msgid "view social media post"
+msgstr "Voir les médias sociaux"
+
+#: ../includes/B2S/Ship/Save.php:184
+msgid "scheduled on"
+msgstr "Planifié le"
+
+#: ../includes/B2S/User/Info.php:11
+msgid "Number of shared posts"
+msgstr "Nombre d'articles partagés"
+
+#: ../includes/B2S/User/Info.php:14
+msgid "Number of scheduled posts"
+msgstr "Nombre d'articles planifiés"
+
+#: ../includes/Init.php:107
+msgid "Manually share on Social Media"
+msgstr "Partagez manuellement les médias sociaux"
+
+#: ../includes/Init.php:116
+msgid "Auto-Post on Social Media"
+msgstr "Auto-poste sur les médias sociaux"
+
+#: ../includes/Init.php:281
+msgid "This post will be shared into your social media on"
+msgstr "Ce post sera partagé dans vos médias sociaux sur"
+
+#: ../includes/Init.php:281 ../includes/Init.php:283
+msgid "show details"
+msgstr "afficher les détails"
+
+#: ../includes/Init.php:283
+msgid "This post will be shared on social media in 2-3 minutes!"
+msgstr "Votre post sera partagé sur les médias sociaux en 2-3 minutes!"
+
+#: ../includes/Init.php:287
+msgid ""
+"Please, make sure that your post are publish on this blog on this moment. "
+"Then you can auto post your post with Blog2social."
+msgstr ""
+"S'il vous plaît, assurez-vous que votre post sont publier sur ce blog à ce "
+"moment. Ensuite, vous pouvez auto publier votre message avec Blog2social."
+
+#: ../includes/Init.php:290 ../includes/MetaBox.php:71
+msgid ""
+"There are no authorizations for your selected profile. Please, authorize "
+"with a social network or select a other profile."
+msgstr ""
+"Il n'existe aucune autorisation pour votre profil sélectionné. Autoriser "
+"avec un réseau social ou sélectionner un autre profil."
+
+#: ../includes/Init.php:302
+msgid "Upgrade to Premium"
+msgstr "Passer à la version premium"
+
+#: ../includes/Init.php:310
+msgid "Your post could not be posted."
+msgstr "Votre article ne peut être posté."
+
+#: ../includes/Init.php:311
+msgid "Your authorization has expired. Please check your authorization."
+msgstr "Votre autorisation a expiré. Vérifiez votre autorisation, svp."
+
+#: ../includes/Init.php:312
+msgid "The network has marked the post as spam or abusive."
+msgstr "Le réseau a marqué l'article comme spam ou abusif."
+
+#: ../includes/Init.php:313
+msgid ""
+"We don't have the permission to publish your post. Please check your "
+"authorization."
+msgstr ""
+"Nous n'avons pas la permission de publier votre article. Vérifiez votre "
+"autorisation, svp."
+
+#: ../includes/Init.php:314
+msgid ""
+"Your authorization is interrupted. Please check your authorization. Please "
+"see <a target=\"_blank\" href=\"https://www.blog2social."
+"com/en/faq/category/9/troubleshooting-for-error-messages.html\">FAQ</a>."
+msgstr ""
+"Votre autorisation ne fonctionne plus. Vérifiez-la, svp. Veuille consulter "
+"la <a target=\"_blank\" href=\"https://www.blog2social."
+"com/en/faq/category/9/troubleshooting-for-error-messages.html\">FAQ</a>, svp."
+
+#: ../includes/Init.php:315
+msgid "Your limit is reached for today."
+msgstr "Votre limite quotidienne est atteinte."
+
+#: ../includes/Init.php:316
+msgid "Your post could not be posted, because your image is not available."
+msgstr "Votre article ne peut pas être publié parce que l'image n'est pas disponible."
+
+#: ../includes/Init.php:317
+msgid ""
+"The network has blocked your account. Please see <a target=\"_blank\" "
+"href=\"https://www.blog2social.com/en/faq/category/9/troubleshooting-for-"
+"error-messages.html\">FAQ</a>."
+msgstr ""
+"Le réseau a bloqué votre compte. Veuillez voir la <a target=\"_blank\" "
+"href=\"https://www.blog2social.com/en/faq/category/9/troubleshooting-for-"
+"error-messages.html\">FAQ</a>, svp."
+
+#: ../includes/Init.php:318
+msgid ""
+"The number of images is reached. Please see <a target=\"_blank\" href=\"https:"
+"//www.blog2social.com/en/faq/category/9/troubleshooting-for-error-messages."
+"html\">FAQ</a>."
+msgstr ""
+"Le nombre d'images est atteint. Veuillez lire la <a target=\"_blank\" "
+"href=\"https://www.blog2social.com/en/faq/category/9/troubleshooting-for-"
+"error-messages.html\">FAQ</a>, svp."
+
+#: ../includes/Init.php:319
+msgid "Your limit has temporarily reached for this network."
+msgstr "Votre limite est temporairement atteinte pour ce réseau."
+
+#: ../includes/Init.php:320
+msgid ""
+"The network can not publish special characters such as Emoji. Please see <a "
+"target=\"_blank\" href=\"https://www.blog2social."
+"com/en/faq/category/9/troubleshooting-for-error-messages.html\">FAQ</a>."
+msgstr ""
+"Le réseau ne peut pas publier de caractères spéciaux tels que Emoji. Voir <a "
+"target=\"_blank\" href=\"https://www.blog2social."
+"com/en/faq/category/9/troubleshooting-for-error-messages.html\">FAQ</a>."
+
+#: ../includes/Init.php:321
+msgid "Your post is a duplicate."
+msgstr "Votre message est un duplicata."
+
+#: ../includes/Init.php:322
+msgid "The network are required a public url to your post."
+msgstr "Le réseau doit avoir une url publique à votre poste."
+
+#: ../includes/Init.php:323
+msgid "The network says, that your group is not exisits."
+msgstr "Le réseau dit que votre groupe n'existe pas."
+
+#: ../includes/Init.php:380 ../includes/Init.php:410
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: ../includes/Init.php:381 ../includes/Init.php:381 ../includes/Init.php:417
+msgid "Posts & Sharing"
+msgstr "Messages et partage"
+
+#: ../includes/Init.php:382 ../includes/Init.php:382 ../includes/Init.php:424 ..
+#: /views/b2s/network.php:17
+msgid "Networks"
+msgstr "Réseaux"
+
+#: ../includes/Init.php:383 ../includes/Init.php:383 ../includes/Init.php:430 ..
+#: /views/b2s/ship.php:52 ../views/b2s/ship.php:265
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../includes/Init.php:384 ../includes/Init.php:384 ../includes/Init.php:436
+msgid "PR-Service"
+msgstr "Service - PR"
+
+#: ../includes/Init.php:401
+msgid "Blog2Social"
+msgstr "Blog2Social"
+
+#: ../includes/Init.php:656 ../includes/Init.php:809
+msgid "or"
+msgstr "ou"
+
+#: ../includes/Init.php:656 ../includes/Init.php:809
+msgid "back to install plugins"
+msgstr "retour à l'installation des plugins"
+
+#: ../includes/MetaBox.php:18 ../includes/MetaBox.php:72
+msgid ""
+"Your post is still on draft or pending status. Please make sure that your "
+"post is published or scheduled to be published on this blog. You can then "
+"auto-post or schedule and customize your social media posts with Blog2Social."
+msgstr ""
+"S'il vous plaît, assurez-vous que votre post sont publier ou futured sur ce "
+"blog. Ensuite, vous pouvez planifier et personnaliser votre post avec "
+"Blog2social."
+
+#: ../includes/MetaBox.php:19
+msgid "Customize & Schedule Social Media Posts"
+msgstr "Personnaliser et planifier des messages sur les réseaux sociaux"
+
+#: ../includes/MetaBox.php:25
+msgid "Blog2Social: Customize & Schedule Social Media Posts"
+msgstr "Blog2Social: personnaliser et planifier les publications"
+
+#: ../includes/MetaBox.php:28
+msgid ""
+"Customize and schedule your social media posts on the one page preview for "
+"all your selected networks: tailor your posts with individual comments, "
+"#hashtags or @handles and schedule your posts for the best times to post, "
+"for multiple times or re-share recurrently for more visibility and "
+"engagement with your community."
+msgstr ""
+"Personnalisez et planifiez vos messages sur les réseaux sociaux sur l'aperçu "
+"d'une page pour tous vos réseaux sélectionnés: personnalisez vos posts avec "
+"des commentaires individuels, #hashtags ou @handles et planifiez vos posts "
+"pour les meilleurs moments pour publier, pour plusieurs fois ou pour re-"
+"partager périodiquement pour Plus de visibilité et d'engagement avec votre "
+"communauté."
+
+#: ../includes/MetaBox.php:46 ../views/b2s/html/header.phtml:24
+msgid "Please see FAQ"
+msgstr "Voir les FAQ"
+
+#: ../includes/MetaBox.php:53
+msgid "last auto-post:"
+msgstr "dernier auto-post:"
+
+#: ../includes/MetaBox.php:69 ../views/b2s/ship.php:498 ../views/b2s/html/header.
+#: phtml:29
+msgid "The connection to the server failed. Try again!"
+msgstr "Erreur: la connexion au serveur a échoué. Réessayer!"
+
+#: ../includes/MetaBox.php:70 ../views/b2s/html/header.phtml:23
+msgid ""
+"WordPress uses heartbeats by default, Blog2Social as well. Please enable "
+"heartbeats for using Blog2Social!"
+msgstr ""
+"WordPress utilise des battements de coeur par défaut, Blog2Social ainsi. "
+"Veuillez activer les battements de coeur pour utiliser Blog2Social!"
+
+#: ../includes/MetaBox.php:71 ../includes/MetaBox.php:145
+msgid "Network settings"
+msgstr "Paramètres réseau:"
+
+#: ../includes/MetaBox.php:73
+msgid ""
+"Notice: Please make sure, that your website address is reachable. The Social "
+"Networks do not allow postings from local installations."
+msgstr ""
+"Remarque: Veuillez vous assurer que l'adresse de votre site Web est "
+"joignable. Les réseaux sociaux n'autorisent pas les écritures "
+"d'installations locales."
+
+#: ../includes/MetaBox.php:85
+msgid "enable Auto-Posting"
+msgstr "Activer la fonction de comptabilisation automatique"
+
+#: ../includes/MetaBox.php:95 ../views/b2s/network.php:48 ../views/b2s/network.
+#: php:150 ../views/b2s/post.php:37 ../views/b2s/post.publish.php:40 ..
+#: /views/b2s/post.sched.php:48 ../views/b2s/ship.php:153 ../views/b2s/ship.php:
+#: 497 ../views/prg/html/header.phtml:81
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: ../includes/MetaBox.php:103 ../views/b2s/html/footer.phtml:236
+msgid "Blog2Social: Social Media Auto-Posting"
+msgstr "Blog2Social: Auto-affichage des médias sociaux"
+
+#: ../includes/MetaBox.php:107 ../views/b2s/html/footer.phtml:240
+msgid ""
+"You have 2 general options to define the date and time to share your blog "
+"posts on social media with the Auto-Poster:"
+msgstr ""
+"Vous avez 2 options générales pour definir la date et l’heure pour partager "
+"vos articles sur les réseaux sociaux avec la publication auto:"
+
+#: ../includes/MetaBox.php:108 ../views/b2s/html/footer.phtml:241
+msgid "1. Immediately after publishing your blog post"
+msgstr "1. 1.	Immédiatement après la publication de vos articles"
+
+#: ../includes/MetaBox.php:109 ../views/b2s/html/footer.phtml:242
+msgid ""
+"Published blog posts: If you publish your blog post with click on publish in "
+"your WordPress post editor, Blog2Social will automatically share your social "
+"media post immediately."
+msgstr ""
+"si vous publiez vos articles en cliquant sur “publier” dans votre éditeur "
+"WordPress, Blog2Social les partagera automatiquement  immédiatement."
+
+#: ../includes/MetaBox.php:110 ../views/b2s/html/footer.phtml:243
+msgid ""
+"Scheduled blog posts: If you schedule your blog post with click on schedule "
+"in your WordPress post editor, Blog2Social will share your social media post "
+"on the publishing date of your blog post."
+msgstr ""
+"Articles planifiés : si vous planifiez vos articles en cliquant sur "
+"“planifier” dans votre éditeur WordPress, Blog2Social partagera vos articles "
+"sur les réseaux sociaux aux moments de leurs publications sur votre site."
+
+#: ../includes/MetaBox.php:111 ../views/b2s/html/footer.phtml:244
+msgid ""
+"2. Schedule your social media posts for a specific date and time If you want "
+"to share your post at a particular date and time, different from your "
+"publishing date, select the option at scheduled times and set any date and "
+"time to share your post on social media."
+msgstr ""
+"2.Planifiez la publication sur les réseaux sociaux à une date et une heure "
+"spécifique Si vous voulez partager vos articles à une date et une heure "
+"particulière, sélectionnez l’option à une heure planifiée et réglez la date "
+"et l’heure que vous souhaitez pour partager vos articles sur les réseaux "
+"sociaux.\n"
+
+#: ../includes/MetaBox.php:115 ../views/b2s/html/footer.phtml:249
+msgid "You want to auto-post your blog post?"
+msgstr "Vous voulez auto-afficher votre blog?"
+
+#: ../includes/MetaBox.php:116 ../includes/Notice.php:29 ../views/b2s/network.php:
+#: 99 ../views/b2s/ship.php:282 ../views/b2s/ship.php:342 ../views/b2s/ship.php:
+#: 388 ../views/b2s/html/footer.phtml:24 ../views/b2s/html/footer.phtml:124 ..
+#: /views/b2s/html/footer.phtml:192 ../views/b2s/html/footer.phtml:250
+msgid "With Blog2Social Premium you can:"
+msgstr "Avec Blog2Social Premium, vous pouvez:"
+
+#: ../includes/MetaBox.php:119 ../includes/Notice.php:30 ../views/b2s/network.php:
+#: 102 ../views/b2s/ship.php:285 ../views/b2s/ship.php:345 ../views/b2s/ship.php:
+#: 391 ../views/b2s/html/footer.phtml:27 ../views/b2s/html/footer.phtml:127 ..
+#: /views/b2s/html/footer.phtml:195 ../views/b2s/html/footer.phtml:253 ..
+#: /views/b2s/html/header.phtml:200
+msgid "Post on pages and groups"
+msgstr "Poster sur les pages et les groupes"
+
+#: ../includes/MetaBox.php:120 ../includes/Notice.php:31 ../views/b2s/network.php:
+#: 103 ../views/b2s/ship.php:286 ../views/b2s/ship.php:346 ../views/b2s/ship.php:
+#: 392 ../views/b2s/html/footer.phtml:28 ../views/b2s/html/footer.phtml:128 ..
+#: /views/b2s/html/footer.phtml:196 ../views/b2s/html/footer.phtml:254
+msgid "Share on multiple profiles, pages and groups"
+msgstr "Partager sur plusieurs profils, pages et groupes"
+
+#: ../includes/MetaBox.php:121 ../includes/Notice.php:32 ../views/b2s/network.php:
+#: 104 ../views/b2s/ship.php:287 ../views/b2s/ship.php:347 ../views/b2s/ship.php:
+#: 393 ../views/b2s/html/footer.phtml:29 ../views/b2s/html/footer.phtml:63 ..
+#: /views/b2s/html/footer.phtml:129 ../views/b2s/html/footer.phtml:197 ..
+#: /views/b2s/html/footer.phtml:255
+msgid "Auto-post and auto-schedule new and updated blog posts"
+msgstr ""
+"Publication automatique et auto-planification des nouveaux articles et ceux "
+"mis à jour"
+
+#: ../includes/MetaBox.php:122 ../includes/Notice.php:33 ../views/b2s/network.php:
+#: 105 ../views/b2s/ship.php:288 ../views/b2s/ship.php:348 ../views/b2s/ship.php:
+#: 394 ../views/b2s/html/footer.phtml:30 ../views/b2s/html/footer.phtml:130 ..
+#: /views/b2s/html/footer.phtml:198 ../views/b2s/html/footer.phtml:256
+msgid "Schedule your posts at the best times on each network"
+msgstr ""
+"Planifiez vos articles aux meilleurs moments pour chaque réseau : une fois, "
+"plusieurs fois ou de manière récurrente"
+
+#: ../includes/MetaBox.php:123 ../includes/Notice.php:34 ../views/b2s/network.php:
+#: 106 ../views/b2s/ship.php:289 ../views/b2s/ship.php:349 ../views/b2s/ship.php:
+#: 395 ../views/b2s/html/footer.phtml:31 ../views/b2s/html/footer.phtml:131 ..
+#: /views/b2s/html/footer.phtml:199 ../views/b2s/html/footer.phtml:257
+msgid ""
+"Best Time Manager: use predefined best time scheduler to auto-schedule your "
+"social media posts"
+msgstr ""
+"Meilleur gestionnaire de temps: utilisez un planificateur de meilleur temps "
+"prédéfini pour organiser automatiquement vos publications sur les réseaux "
+"sociaux"
+
+#: ../includes/MetaBox.php:124 ../includes/Notice.php:35 ../views/b2s/network.php:
+#: 107 ../views/b2s/ship.php:290 ../views/b2s/ship.php:350 ../views/b2s/ship.php:
+#: 396 ../views/b2s/html/footer.phtml:32 ../views/b2s/html/footer.phtml:132 ..
+#: /views/b2s/html/footer.phtml:200 ../views/b2s/html/footer.phtml:258
+msgid "Schedule your post for one time, multiple times or recurrently"
+msgstr "Planifiez votre poste pour une fois, plusieurs fois ou récurrent"
+
+#: ../includes/MetaBox.php:125 ../includes/Notice.php:36 ../views/b2s/network.php:
+#: 108 ../views/b2s/ship.php:291 ../views/b2s/ship.php:351 ../views/b2s/ship.php:
+#: 397 ../views/b2s/html/footer.phtml:33 ../views/b2s/html/footer.phtml:133 ..
+#: /views/b2s/html/footer.phtml:201 ../views/b2s/html/footer.phtml:259
+msgid "Schedule and re-share old posts"
+msgstr "Planifiez et re-partagez les anciens messages"
+
+#: ../includes/MetaBox.php:126 ../includes/Notice.php:37 ../views/b2s/network.php:
+#: 109 ../views/b2s/ship.php:292 ../views/b2s/ship.php:352 ../views/b2s/ship.php:
+#: 398 ../views/b2s/html/footer.phtml:34 ../views/b2s/html/footer.phtml:65 ..
+#: /views/b2s/html/footer.phtml:134 ../views/b2s/html/footer.phtml:202 ..
+#: /views/b2s/html/footer.phtml:260
+msgid "Select link format or image format for your posts"
+msgstr ""
+"Sélectionnez le format de lien ou la publication d’image pour vos "
+"publications"
+
+#: ../includes/MetaBox.php:127 ../includes/Notice.php:38 ../views/b2s/network.php:
+#: 110 ../views/b2s/ship.php:293 ../views/b2s/ship.php:353 ../views/b2s/ship.php:
+#: 399 ../views/b2s/html/footer.phtml:35 ../views/b2s/html/footer.phtml:66 ..
+#: /views/b2s/html/footer.phtml:135 ../views/b2s/html/footer.phtml:203 ..
+#: /views/b2s/html/footer.phtml:261
+msgid "Select individual images per post"
+msgstr "Sélectionnez les images individuelles par article"
+
+#: ../includes/MetaBox.php:128 ../includes/Notice.php:39 ../views/b2s/network.php:
+#: 111 ../views/b2s/ship.php:294 ../views/b2s/ship.php:354 ../views/b2s/ship.php:
+#: 400 ../views/b2s/html/footer.phtml:36 ../views/b2s/html/footer.phtml:136 ..
+#: /views/b2s/html/footer.phtml:204 ../views/b2s/html/footer.phtml:262
+msgid ""
+"Reporting & calendar: keep track of your published and scheduled social "
+"media posts"
+msgstr ""
+"Rapports et calendrier : gardez la trace de vos publications publiées et "
+"programmées"
+
+#: ../includes/MetaBox.php:130 ../views/b2s/network.php:113 ../views/b2s/ship.php:
+#: 296 ../views/b2s/ship.php:356 ../views/b2s/ship.php:402 ..
+#: /views/b2s/html/footer.phtml:38 ../views/b2s/html/footer.phtml:138 ..
+#: /views/b2s/html/footer.phtml:206 ../views/b2s/html/footer.phtml:264 ..
+#: /views/b2s/html/header.phtml:148
+msgid "Upgrade to PREMIUM"
+msgstr "Mettre à jour vers PREMIUM"
+
+#: ../includes/MetaBox.php:132 ../views/b2s/network.php:115 ../views/b2s/ship.php:
+#: 298 ../views/b2s/ship.php:358 ../views/b2s/ship.php:404 ..
+#: /views/b2s/html/footer.phtml:40 ../views/b2s/html/footer.phtml:71 ..
+#: /views/b2s/html/footer.phtml:89 ../views/b2s/html/footer.phtml:140 ..
+#: /views/b2s/html/footer.phtml:208 ../views/b2s/html/footer.phtml:266
+msgid ""
+"or <a href=\"http://service.blog2social.com/trial\" target=\"_blank\">start with "
+"free 30-days-trial of Blog2Social Premium</a> (no payment information needed)"
+msgstr ""
+"ou <a href=\"http://service.blog2social.com/trial\" target=\"_blank\"> commencez "
+"avec 30 jours gratuits de Blog2Social Premium</a>(pas d'information de "
+"paiement requise)"
+
+#: ../includes/MetaBox.php:145
+msgid "Select profile:"
+msgstr "Sélectionner le profil:"
+
+#: ../includes/MetaBox.php:160
+msgid "When do you want to share your post on social media?"
+msgstr "Quand souhaitez-vous partager votre article sur les réseaux sociaux ?"
+
+#: ../includes/MetaBox.php:163
+msgid "immediately after publishing"
+msgstr "Immédiatement après l'édition"
+
+#: ../includes/MetaBox.php:164
+msgid "at scheduled times"
+msgstr "À des heures programmées"
+
+#: ../includes/MetaBox.php:167
+msgid "You want to sched your blog post with Auto-Poster?"
+msgstr "Vous souhaitez planifier votre publication avec Auto-Poster?"
+
+#: ../includes/MetaBox.php:167 ../views/b2s/html/footer.phtml:69 ..
+#: /views/b2s/html/footer.phtml:87
+msgid "Upgrade to PREMIUM PRO"
+msgstr "passer à Premium PRO"
+
+#: ../includes/MetaBox.php:173
+msgid "Select date:"
+msgstr "choisir date:"
+
+#: ../includes/MetaBox.php:179
+msgid "post at"
+msgstr "Poste à"
+
+#: ../includes/MetaBox.php:180
+msgid "my time settings"
+msgstr "Mes réglages d'heures"
+
+#: ../includes/MetaBox.php:181
+msgid ""
+"Note: If you ​have​ not ​specified​ your own times, we automatically provide "
+"you with the best times to post​ on the social networks. You can always "
+"​edit​ your own times in the settings."
+msgstr ""
+"Note : Si vous n’avez pas spécifié vos propres heures, nous vous fournissons "
+"automatiquement les meilleures heures pour publier sur les réseaux sociaux. "
+"Vous pouvez toujours éditer vos propres heures dans les paramètres"
+
+#: ../includes/Notice.php:18
+msgid ""
+"<strong>Rate it!</strong> If you like Blog2Social, please give us a 5 star "
+"rating. I there is anything that does not work for you, please contact us!"
+msgstr ""
+"<strong>Évaluez-le!</strong> Si vous aimez Blog2Social, s'il vous plaît nous "
+"donner un 5 étoiles. I il ya quelque chose qui ne fonctionne pas pour vous, "
+"s'il vous plaît contactez-nous!"
+
+#: ../includes/Notice.php:19 ../views/b2s/html/sidebar.phtml:54
+msgid "RATE BLOG2SOCIAL"
+msgstr "NOTEZ BLOG2SOCIAL"
+
+#: ../includes/Notice.php:20
+msgid "hide"
+msgstr "cacher"
+
+#: ../includes/Notice.php:41
+msgid "Upgrade to Blog2Social Premium"
+msgstr "Passer à la version Blog2Social premium"
+
+#: ../includes/Notice.php:55
+msgid "Top 5 FAQ"
+msgstr "Top 5 des FAQ"
+
+#: ../includes/PRG/Post/Filter.php:31
+msgid "All Authors"
+msgstr "Tous les auteurs"
+
+#: ../includes/PRG/Post/Filter.php:42
+msgid "All Types"
+msgstr "Tous les types"
+
+#: ../includes/PRG/Post/Item.php:100
+msgid "You have no posts published or scheduled"
+msgstr "Vous n'avez aucun article publié ou planifié"
+
+#: ../includes/PRG/Post/Item.php:127
+msgid "Publish on PR-Gateway"
+msgstr "Publier sur la passerelle PR"
+
+#: ../includes/PRG/Post/Item.php:129
+msgid "on Blog"
+msgstr "sur le blog"
+
+#: ../includes/System.php:61
+msgid ""
+"Blog2Social used cURL. cURL is not installed in your PHP installation on "
+"your server. Install cURL and activate Blog2Social again."
+msgstr ""
+"Blog2Social utilisé cURL. CURL n'est pas installé dans votre installation "
+"PHP sur votre serveur. Installez cURL et activez Blog2Social à nouveau."
+
+#: ../includes/System.php:64 ../includes/System.php:70
+msgid ""
+"Please see <a href=\"https://www.blog2social."
+"com/en/faq/content/1/58/en/system-requirements-for-installing-blog2social."
+"html\" target=\"_blank\">FAQ</a>"
+msgstr ""
+"voir la <a href=\"https://www.blog2social.com/en/faq/content/1/58/en/system-"
+"requirements-for-installing-blog2social.html\" target=\"_blank\">FAQ</a>"
+
+#: ../includes/System.php:67
+msgid ""
+"Blog2Social used PHP. Your installed PHP version on your server is not high "
+"enough to use Blog2Social. Update your PHP version on 5.5.3 or higher."
+msgstr ""
+"Blog2Social utilisé PHP. Votre version de PHP installée sur votre serveur "
+"n'est pas assez élevé pour utiliser Blog2Social. Mettez à jour votre version "
+"de PHP 5.5.3 ou plus sur."
+
+#: ../includes/System.php:73
+msgid ""
+"Blog2Social seems to have no permission to write in your WordPress database. "
+"Please make sure to assign Blog2Social the permission to write in the "
+"WordPress database."
+msgstr ""
+"Blog2Social semble n'avoir aucune permission d'écrire dans votre base de "
+"données WordPress. Assurez-vous d'attribuer à Blog2Social la permission "
+"d'écrire dans la base de données WordPress."
+
+#: ../includes/System.php:76
+msgid ""
+"<a href=\"https://www.blog2social.com/en/faq/content/1/58/en/system-"
+"requirements-for-installing-blog2social.html\" target=\"_blank\"> Please find "
+"more Information and help in our FAQ</a>"
+msgstr ""
+"<a href=\"https://www.blog2social.com/en/faq/content/1/58/en/system-"
+"requirements-for-installing-blog2social.html\" target=\"_blank\">voir la  "
+"FAQ</a>"
+
+#. URI of the plugin
+msgid "https://www.blog2social.com"
+msgstr "https://www.blog2social.com"
+
+#. Description of the plugin
+msgid ""
+"Auto publish, schedule & share posts on social media: Facebook, Twitter, "
+"Google+, XING, LinkedIn, Instagram, ... crosspost to pages & groups"
+msgstr ""
+"Auto publish, schedule & share posts on social media: Facebook, Twitter, "
+"Google+, XING, LinkedIn, Instagram, ... crosspost to pages & groups"
+
+#. Author of the plugin
+msgid "Blog2Social, Adenion"
+msgstr "Blog2Social, Adenion"
+
+#: ../views/b2s/dashboard.php:13
+msgid "Get news and updates for promoting your blog on social media"
+msgstr ""
+"Obtenez des nouvelles et des mises à jour pour promouvoir votre blog sur les "
+"réseaux sociaux"
+
+#: ../views/b2s/dashboard.php:18
+msgid "Get updates"
+msgstr "obtenir mises à jour"
+
+#: ../views/b2s/dashboard.php:20
+msgid ""
+"We hate spam, too. We will never sell your email address to any other "
+"company or for any other purpose."
+msgstr ""
+"Nous détestons le spam, aussi. Nous ne vendrons jamais votre adresse de "
+"courrier électronique à aucune autre société ou à toute autre fin."
+
+#: ../views/b2s/dashboard.php:27
+msgid "How to use Blog2Social – Step by Step"
+msgstr "Comment utiliser Blog2Social - étape par étape"
+
+#: ../views/b2s/dashboard.php:28
+msgid ""
+"Learn how to get the most out of Blog2Social to promote your blog on social "
+"media."
+msgstr ""
+"Découvrez comment tirer le meilleur parti de Blog2Social pour promouvoir "
+"votre blog sur les réseaux sociaux."
+
+#: ../views/b2s/dashboard.php:29 ../views/b2s/dashboard.php:85
+msgid "Learn more"
+msgstr "Apprendre encore plus"
+
+#: ../views/b2s/dashboard.php:37
+msgid "Do you need help?"
+msgstr "As-tu besoin d'aide?"
+
+#: ../views/b2s/dashboard.php:38
+msgid "Find answers to common questions in"
+msgstr "Trouver des réponses à des questions courantes"
+
+#: ../views/b2s/dashboard.php:39
+msgid "our FAQ"
+msgstr "notre FAQ"
+
+#: ../views/b2s/dashboard.php:48
+msgid "Loading Top 5 FAQ"
+msgstr "chargement"
+
+#: ../views/b2s/dashboard.php:51
+msgid "Blog2Social FAQ"
+msgstr "Blog2Social FAQ"
+
+#: ../views/b2s/dashboard.php:56
+msgid "Couldn't find your answer?"
+msgstr "Vous n'avez pas trouvé votre réponse?"
+
+#: ../views/b2s/dashboard.php:58
+msgid "Contact Support by Email"
+msgstr "Contacter l'assistance par courriel"
+
+#: ../views/b2s/dashboard.php:60
+msgid "Call us: +49 2181 7569-277"
+msgstr "Appelez-nous: +49 2181 7569-277"
+
+#: ../views/b2s/dashboard.php:62
+msgid "(Call times: from 9:00 a.m. to 5:00 p.m. CET on working days)"
+msgstr "(Heures d'appel: de 9h00 à 5h00. CET les jours ouvrables)"
+
+#: ../views/b2s/dashboard.php:65
+msgid "Follow us:"
+msgstr "Suivez nous:"
+
+#: ../views/b2s/dashboard.php:72
+msgid "Your license: Blog2Social"
+msgstr "Votre licence: Blog2Social"
+
+#: ../views/b2s/dashboard.php:84
+msgid ""
+"Upgrade to Blog2Social Premium to schedule your posts for the best time, "
+"once or recurringly with the Best Time Scheduler and post to pages, groups "
+"and multiple accounts per network."
+msgstr ""
+"Mettez à niveau Blog2Social Premium pour planifier vos posts pour le "
+"meilleur moment, une fois ou de façon récurrente avec le meilleur "
+"planificateur de temps et postez sur des pages, des groupes et plusieurs "
+"comptes par réseau."
+
+#: ../views/b2s/dashboard.php:90 ../views/b2s/html/sidebar.phtml:24
+msgid "Enter license key and change your version"
+msgstr "Entrez la clé de licence et changez votre version"
+
+#: ../views/b2s/dashboard.php:92 ../views/b2s/html/sidebar.phtml:26
+msgid "Activate"
+msgstr "activer"
+
+#: ../views/b2s/dashboard.php:106
+msgid "Network Choice"
+msgstr "Choix du réseau"
+
+#: ../views/b2s/dashboard.php:107
+msgid "Cross-share to all popular social networks"
+msgstr "Cross-share à tous les réseaux sociaux populaires"
+
+#: ../views/b2s/dashboard.php:119
+msgid "Automatically share your posts whenever you publish a new blog post"
+msgstr ""
+"Partagez automatiquement vos messages chaque fois que vous publiez un "
+"nouveau post de blog"
+
+#: ../views/b2s/dashboard.php:130
+msgid "Custom Sharing"
+msgstr "Partage personnalisé"
+
+#: ../views/b2s/dashboard.php:131
+msgid ""
+"Edit or add comments, hashtags or handles. Edit posts in HTML for re-"
+"publishing on blogging networks"
+msgstr ""
+"Modifiez ou ajoutez des commentaires, des hashtags ou des poignées. Modifier "
+"les messages en HTML pour la re-publication sur les réseaux de blogs"
+
+#: ../views/b2s/dashboard.php:142 ../views/b2s/ship.php:383 ..
+#: /views/b2s/html/footer.phtml:174
+msgid "Best Time Scheduler"
+msgstr "Meilleures heures de planification"
+
+#: ../views/b2s/dashboard.php:143
+msgid "Choose pre-defined times to post or edit and define your own time settings"
+msgstr ""
+"Choisissez une période prédéfinie pour afficher ou modifier et définir vos "
+"propres paramètres de temps"
+
+#: ../views/b2s/dashboard.php:154
+msgid "Custom Scheduling"
+msgstr "Planification personnalisée"
+
+#: ../views/b2s/dashboard.php:155
+msgid ""
+"Unlimited scheduling options: once, repeatedly or recurringly to multiple "
+"profiles, pages and groups"
+msgstr ""
+"Options de planification illimitées: une fois, de façon répétée ou "
+"récurrente, sur plusieurs profils, pages et groupes"
+
+#: ../views/b2s/dashboard.php:166
+msgid "One-Step Workflow"
+msgstr "Flux de travail en une étape"
+
+#: ../views/b2s/dashboard.php:167
+msgid "One-page preview editor for all social networks for easy customizing"
+msgstr ""
+"Éditeur d'aperçu d'une page pour tous les réseaux sociaux pour une "
+"personnalisation facile"
+
+#: ../views/b2s/dashboard.php:178
+msgid "Reporting"
+msgstr "Rapport"
+
+#: ../views/b2s/dashboard.php:179
+msgid ""
+"All scheduled and published social media posts with direct links for easy "
+"access or re-sharing"
+msgstr ""
+"Tous les messages médias sociaux programmés et publiés avec des liens "
+"directs pour un accès facile ou un nouveau partage"
+
+#: ../views/b2s/dashboard.php:186
+msgid "Unlock Premium"
+msgstr "Déblocage Premium"
+
+#: ../views/b2s/network.php:22 ../views/b2s/network.php:23 ../views/prg/post.php:
+#: 25 ../views/prg/post.php:26 ../views/b2s/html/post.navbar.phtml:12 ..
+#: /views/b2s/html/post.navbar.phtml:13
+msgid "filter"
+msgstr "Filtrer"
+
+#: ../views/b2s/network.php:28
+msgid "Delete"
+msgstr "Effacer"
+
+#: ../views/b2s/network.php:33 ../views/b2s/network.php:36 ../views/b2s/network.
+#: php:69 ../views/b2s/network.php:92
+msgid "Create new profile"
+msgstr "Créer un nouveau profil"
+
+#: ../views/b2s/network.php:35
+msgid "You want to define a new combination of networks?"
+msgstr "Vous souhaitez définir une nouvelle combinaison de réseaux?"
+
+#: ../views/b2s/network.php:75
+msgid "create"
+msgstr "créer"
+
+#: ../views/b2s/network.php:95
+msgid ""
+"All connected networks will be displayed as default \"Standard\" networks "
+"profile.<br><br>You may define various sets of social media accounts, "
+"profiles, pages or groups for different sharing purposes. For example pre-"
+"select specific set of all your networks for initial sharing and another set "
+"of specific networks for re-sharing your post to. Or, if you have multiple "
+"Twitter accounts or multiple Facebook pages and you want to share your post "
+"to specific accounts or pages only, this feature may come handy for even "
+"faster access to a specific selection of your sharing purposes. You may also "
+"select sets of networks for re-sharing or scheduling your posts once or "
+"recurrently at various days and times and with different comments or images."
+"<br><br> This feature gives you an easier and faster access to an unlimited "
+"number of variations for pre-selected sets of social media accounts for any "
+"sharing and scheduling scheme you may think of.<br><br> You can always "
+"select and remove any account from any of your networks profiles on your "
+"preview page with just a click of your mouse for an easy variation of your "
+"current sharing scheme."
+msgstr ""
+"Tous les réseaux connectés seront affichés comme profils \"Standard\" par "
+"défaut.<br/><br/>Vous pouvez définir différents comptes de réseaux sociaux, "
+"profils, pages ou des groupes à des fins différentes de partage. Par exemple "
+"présélectionner un ensemble spécifique de tous vos réseaux pour un partage "
+"initial et un autre ensemble de réseaux spécifiques pour re-partager votre "
+"article. Ou bien, si vous avez plusieurs comptes Twitter ou plusieurs pages "
+"Facebook et que vous souhaitez partager votre article seulement avec ceux-ci,"
+" cette fonctionnalité peut être pratique pour un accès encore plus rapide à "
+"une sélection spécifique de vos partages. Vous pouvez également sélectionner "
+"des ensembles de réseaux pour le re-partage ou la planification de vos "
+"articles une fois ou de manière récurrente à différents jours et heures et "
+"avec divers commentaires ou différentes images.<br/>Cette fonction vous "
+"donne un accès plus facile et plus rapide à un nombre illimité des "
+"variations pour des jeux pré-sélectionnés de comptes de médias sociaux pour "
+"tout projet de partage et de planification, possibles et imaginables."
+"<br/><br>Vous pouvez toujours sélectionner et retirer n'importe quel compte "
+"de vos profils de réseaux sur votre page d'aperçu avec un simple clic de "
+"votre souris pour une variante facile de votre système de partage de courant."
+
+#: ../views/b2s/network.php:98
+msgid "You want to add another network profile, pages or groups?"
+msgstr "Vous souhaitez ajouter un nouveau profil de réseau, pages ou groupes ?"
+
+#: ../views/b2s/network.php:127
+msgid "Delete Profile"
+msgstr "Effacer le profil"
+
+#: ../views/b2s/network.php:130
+msgid "Do you really want to delete this profile"
+msgstr "Souhaitez-vous vraiment supprimer ce profil ?"
+
+#: ../views/b2s/network.php:133 ../views/b2s/post.publish.php:74 ..
+#: /views/b2s/post.sched.php:111 ../views/prg/ship.php:92
+msgid "NO"
+msgstr "NON"
+
+#: ../views/b2s/network.php:134 ../views/b2s/network.php:162 ../views/b2s/post.
+#: publish.php:75 ../views/b2s/post.sched.php:112
+msgid "YES, delete"
+msgstr "OUI, effacer"
+
+#: ../views/b2s/network.php:144
+msgid "Delete Authorization"
+msgstr "Retirer l'autorisation"
+
+#: ../views/b2s/network.php:153
+msgid "Do you really want to delete this authorization"
+msgstr "Voulez-vous réellement enlever cette autorisation"
+
+#: ../views/b2s/network.php:156
+msgid "You have still set up scheduled posts for this network:"
+msgstr "Vous avez toujours configuré des messages programmés pour ce réseau:"
+
+#: ../views/b2s/network.php:157
+msgid "scheduled posts"
+msgstr "Messages programmés"
+
+#: ../views/b2s/network.php:163
+msgid "View schedule posts for this profile"
+msgstr "Voir les messages de l'horaire pour ce profil"
+
+#: ../views/b2s/post.publish.php:65
+msgid "Delete entries from the reporting"
+msgstr "supprimer les entrées du rapport"
+
+#: ../views/b2s/post.publish.php:68
+msgid "You are sure, you want to delete entries from the reporting?"
+msgstr "Vous êtes sûr, vous voulez supprimer les entrées du rapport?"
+
+#: ../views/b2s/post.publish.php:70 ../views/b2s/post.sched.php:107
+msgid "Number of entries"
+msgstr "Nombre d'entrées"
+
+#: ../views/b2s/post.sched.php:74
+msgid "Change Time"
+msgstr "Changer l'heure"
+
+#: ../views/b2s/post.sched.php:102
+msgid "Delete entries form the scheduling"
+msgstr "Supprimer les entrées de la planification"
+
+#: ../views/b2s/post.sched.php:105
+msgid "You are sure, you want to delete entries from the scheduling?"
+msgstr "Vous êtes sûr, vous voulez supprimer les entrées de la planification?"
+
+#: ../views/b2s/settings.php:17
+msgid "save..."
+msgstr "sauver..."
+
+#: ../views/b2s/settings.php:22
+msgid "General"
+msgstr "Général"
+
+#: ../views/b2s/settings.php:25
+msgid "Best Time Settings"
+msgstr "Meilleurs réglages d'heures"
+
+#: ../views/b2s/settings.php:28
+msgid "Network Settings"
+msgstr "Paramètres réseau"
+
+#: ../views/b2s/settings.php:37 ../views/b2s/ship.php:439
+msgid "My Time Settings"
+msgstr "Mes réglages d'heures"
+
+#: ../views/b2s/settings.php:48
+msgid "Reset predefined best time settings"
+msgstr "Réinitialiser les réglages de la meilleure heure"
+
+#: ../views/b2s/settings.php:58
+msgid "Post format"
+msgstr "Format de publication"
+
+#: ../views/b2s/settings.php:68
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../views/b2s/settings.php:71
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../views/b2s/settings.php:132
+msgid "Allow shortcodes in my post"
+msgstr "permettre à shortcodes dans mon post"
+
+#: ../views/b2s/settings.php:135
+msgid ""
+"Shortcodes are used by some wordpress plugins like Elementor, Visual "
+"Composer and Content Builder. When a shortcode is inserted in a WordPress "
+"post or page, it is replaced with some other content when you publish the "
+"article on your blog. In other words, a shortcode instructs WordPress to "
+"find a special command that is placed in square brackets ([]) and replace it "
+"with the appropriate dynamic content by a plugin you use.<br><br>Activate "
+"this feature, if you should use dynamic elements in your articles."
+msgstr ""
+"Les codes courts sont utilisés par certains plugins wordpress tels que "
+"Elementor, Visual Composer et Content Builder. Lorsqu'un code court est "
+"inséré dans une publication ou une page de WordPress, il est remplacé par un "
+"autre contenu lorsque vous publiez l'article sur votre blog. En d'autres "
+"termes, un code court demande à WordPress de trouver une commande spéciale "
+"placée entre crochets ([]) et de le remplacer par le contenu dynamique "
+"approprié par un plugin que vous utilisez. <br> <br> Activez cette "
+"fonctionnalité, si vous le souhaitez Utilisez des éléments dynamiques dans "
+"vos articles."
+
+#: ../views/b2s/settings.php:149
+msgid ""
+"Blog2Social applies the scheduled time settings based on the time zone "
+"defined in the general settings of your WordPress. You can select a user-"
+"specific time zone that deviates from the Wordpress system time zone for "
+"your social media scheduling.<br><br>Select the desired time zone from the "
+"drop-down menu."
+msgstr ""
+"Blog2Social applique les paramètres d'heure programmés en fonction du fuseau "
+"horaire défini dans les paramètres généraux de votre WordPress. Vous pouvez "
+"sélectionner un fuseau horaire spécifique à l'utilisateur qui s'écarte du "
+"fuseau horaire du système Wordpress pour votre programmation de médias "
+"sociaux. <br> <br> Sélectionnez le fuseau horaire souhaité dans le menu "
+"déroulant."
+
+#: ../views/b2s/ship.php:27
+msgid "Social Media Scheduling & Sharing"
+msgstr "Planification et partage sur les réseaux sociaux"
+
+#: ../views/b2s/ship.php:28 ../views/prg/ship.php:41 ../views/prg/ship.php:43 ..
+#: /views/prg/html/form.phtml:26 ../views/prg/html/form.phtml:28
+msgid "Title"
+msgstr "Titre"
+
+#: ../views/b2s/ship.php:38
+msgid "scroll to bottom"
+msgstr "Faire défiler vers le bas"
+
+#: ../views/b2s/ship.php:43
+msgid "You want to load your time settings?"
+msgstr "Vous voulez charger vos paramètres de temps?"
+
+#: ../views/b2s/ship.php:44
+msgid "Load My Time Settings"
+msgstr "Charger mes paramètres de temps"
+
+#: ../views/b2s/ship.php:50
+msgid "Load Best Time Scheduler"
+msgstr "Load Best Time Scheduler"
+
+#: ../views/b2s/ship.php:84
+msgid "Social Accounts"
+msgstr "Comptes de réseaux sociaux"
+
+#: ../views/b2s/ship.php:104
+msgid "Add more..."
+msgstr "Ajouter plus..."
+
+#: ../views/b2s/ship.php:106
+msgid "Profiles | Pages | Groups"
+msgstr "Profils | Pages | Groupes"
+
+#: ../views/b2s/ship.php:129
+msgid "Save Network Selection"
+msgstr "Enregistrer la sélection du réseau"
+
+#: ../views/b2s/ship.php:138
+msgid "network connected"
+msgstr "Réseau connecté"
+
+#: ../views/b2s/ship.php:139
+msgid "requires image"
+msgstr "Nécessite une image"
+
+#: ../views/b2s/ship.php:140
+msgid "refresh authorization"
+msgstr "Autorisation de rafraîchissement"
+
+#: ../views/b2s/ship.php:163
+msgid ""
+"Notice:<br><p>Please make sure, that your website address is reachable. The "
+"Social Networks do not allow postings from local installations.</p>"
+msgstr ""
+"Note :<br/><p>Veuillez vérifier, svp, que l'adresse de votre site web est "
+"joignable. Les réseaux sociaux n'autorise pas l'envoi depuis un réseau local."
+"</p>"
+
+#: ../views/b2s/ship.php:165
+msgid "change website address"
+msgstr "changer l'adresse du site web"
+
+#: ../views/b2s/ship.php:182
+msgid "First, connect or select network before posting"
+msgstr "Connectez-vous ou sélectionnez un réseau avant l'envoi"
+
+#: ../views/b2s/ship.php:184
+msgid "connect"
+msgstr "connecter"
+
+#: ../views/b2s/ship.php:192
+msgid "scroll to top"
+msgstr "faire défiler vers le haut"
+
+#: ../views/b2s/ship.php:193 ../views/b2s/ship.php:197
+msgid "Share"
+msgstr "Partager"
+
+#: ../views/b2s/ship.php:206
+msgid "Time zone"
+msgstr "Fuseau horaire"
+
+#: ../views/b2s/ship.php:220
+msgid "Share new post on Social Media"
+msgstr "Partager le nouvel article sur les réseaux sociaux"
+
+#: ../views/b2s/ship.php:242
+msgid "Connect for"
+msgstr "Connecter sur"
+
+#: ../views/b2s/ship.php:258
+msgid "Time Scheduling"
+msgstr "Heure de la planification"
+
+#: ../views/b2s/ship.php:262
+msgid ""
+"You have not yet defined personal time settings. To edit personal time "
+"settings click on the Blog2Social Settings on the left-hand menu and select "
+"Best Time Settings to change the predefined time settings to your own "
+"preferences."
+msgstr ""
+"Vous n'avez pas encore défini les paramètres de temps personnels. Pour "
+"modifier les paramètres de l'heure personnelle, cliquez sur les paramètres "
+"du Blog2Social dans le menu de gauche et sélectionnez Best Time Settings "
+"pour modifier les paramètres de temps prédéfinis selon vos préférences."
+
+#: ../views/b2s/ship.php:275
+msgid "Re-share this Post"
+msgstr "Re-partager cet article"
+
+#: ../views/b2s/ship.php:278
+msgid ""
+"You can re-share your post for a different sharing purpose, or to share on a "
+"different choice of networks, profiles, pages or groups, or with different "
+"comments or images, or if you want to share your blog post images to image "
+"networks only, or re-share them at different times. You may vary your "
+"comments and images in order to produce more variations of your social media "
+"posts to share more often without sharing the same message over and over "
+"again. Whatever your choose to do for re-sharing your post, you can simply "
+"click \"Re-share this post\" and you will be led to the preview page where "
+"your can select your networks and edit your texts, comments or images "
+"according to your current sharing preferences."
+msgstr ""
+"Vous pouvez re-partager votre article à des fins de partage différent, ou le "
+"partager sur différents choix de réseaux, profils, pages ou groupes, ou avec "
+"différents commentaires ou images, ou si vous voulez partager vos images "
+"d'article de blog à des réseaux d'images seulement ou le re-partager à des "
+"moments différents. Vous pouvez varier vos commentaires et images afin de "
+"produire plus de variations de vos articles à destination des réseaux "
+"sociaux afin de ne pas partager encore et toujours le même article. Quel que "
+"soit votre choix pour re-partager votre article, vous pouvez cliquer "
+"simplement sur \"Re-partager cet article\" et vous serez dirigé vers la page "
+"d'aperçu où vous pourrez sélectionner vos réseaux et modifier vos textes, "
+"commentaires ou images en fonction de vos préférences de partage."
+
+#: ../views/b2s/ship.php:281
+msgid "You want re-share your blog post?"
+msgstr "Vous voulez re-partager votre blog?"
+
+#: ../views/b2s/ship.php:309
+msgid "Save Network Settings"
+msgstr "Sauver les paramètres de réseaux"
+
+#: ../views/b2s/ship.php:312
+msgid ""
+"You can save your current network settings as \"Standard\" network settings "
+"for any future sharing activities or as a \"Profile\" to choose from (Premium)."
+"<br><br>Your Standard selection will show as activated upon pressing the "
+"\"share on social media\" button on the right hand side bar. You can change "
+"these settings any time per click, or choose another network profile "
+"(Premium).<br><br>You can also pre-define various different sets of networks,"
+" for specific social media accounts, target groups, contents or sharing "
+"purposes. For example you can define a specific set of networks for sharing "
+"your posts images only or for re-sharing your evergreen content on a "
+"recurring basis. On the preview-page you may edit your selected or pre-"
+"selected networks anytime by simply clicking on the respective network "
+"account to select or remove an account from the current sharing scheme."
+msgstr ""
+"Vous pouvez enregistrer vos paramètres réseau actuels comme paramètres "
+"réseau \"standard\" pour toutes les activités de partage futures ou comme un "
+"\"profil\" à choisir (Premium).<br/>Votre sélection standard apparaîtra comme "
+"activé lorsque vous appuierez sur le bouton \"partage sur les réseaux "
+"sociaux\" sur la barre latérale de droite. Vous pouvez modifier ces "
+"paramètres à tout moment par clic, ou choisir un autre profil réseau "
+"(Premium).<br/>Vous pouvez également pré-définir différents ensembles de "
+"réseaux, pour des comptes spécifiques de réseaux sociaux, des groupes cibles,"
+" des contenus ou à des fins de partage . Par exemple, vous pouvez définir un "
+"ensemble spécifique de réseaux pour partager vos images d'articles "
+"uniquement ou pour re-partager votre contenu persistant sur une base "
+"récurrente. Sur la page d'aperçu vous pouvez modifier vos réseaux "
+"sélectionnés ou pré-sélectionnés à tout moment en cliquant simplement sur le "
+"compte de réseau respectif pour sélectionner ou supprimer un compte du "
+"partage courant."
+
+#: ../views/b2s/ship.php:324
+msgid "Your blog post is not yet published on your Wordpress!"
+msgstr "Votre message de blog n'est pas encore publié sur votre Wordpress!"
+
+#: ../views/b2s/ship.php:327
+msgid "At least one of your selected networks is set to \"Share Now\""
+msgstr "Au moins un de vos réseaux sélectionnés est réglé sur \"Partager maintenant\""
+
+#: ../views/b2s/ship.php:331
+msgid "Schedule your post"
+msgstr "Planifiez votre message"
+
+#: ../views/b2s/ship.php:334
+msgid "Ignore & share"
+msgstr "Ignorer & partager"
+
+#: ../views/b2s/ship.php:371
+msgid "Need to schedule your posts?"
+msgstr "Besoin d'organiser vos articles?"
+
+#: ../views/b2s/ship.php:374
+msgid "Blog2Social Premium covers everything you need."
+msgstr "Blog2Social Premium couvre tout ce dont vous avez besoin."
+
+#: ../views/b2s/ship.php:378
+msgid ""
+"You want to publish a post on a specific date? No problem! Just enter your "
+"desired date and you are ready to go!"
+msgstr ""
+"Vous souhaitez publier une publication à une date spécifique? Pas de "
+"problème! Entrez simplement votre date souhaitée et vous êtes prêt à partir!"
+
+#: ../views/b2s/ship.php:381
+msgid ""
+"You have a timeless contribution that everyone must have seen? Plan your "
+"publications once as an appointment."
+msgstr ""
+"Vous avez une contribution intemporelle que tout le monde doit avoir vu? "
+"Planifiez vos publications une fois en rendez-vous."
+
+#: ../views/b2s/ship.php:384
+msgid ""
+"You get too few responses in social media? Maybe there was just no one there "
+"who could have seen your contribution. Plan the release with the Best Times "
+"Manager of Blog2Social at the peak times of social media. Your fanbase is "
+"now listening."
+msgstr ""
+"Vous obtenez trop peu de réponses dans les médias sociaux? Peut-être qu'il "
+"n'y avait personne là-bas qui aurait pu voir votre contribution. Planifiez "
+"la sortie avec Best Times Manager de Blog2Social aux heures de pointe des "
+"médias sociaux. Votre fanbase écoute maintenant."
+
+#: ../views/b2s/ship.php:417
+msgid "Select image for"
+msgstr "Sélectionnez l'image pour"
+
+#: ../views/b2s/ship.php:460
+msgid "Choose your"
+msgstr "Choisi ton"
+
+#: ../views/b2s/ship.php:460
+msgid "Post Format"
+msgstr "Format de publication"
+
+#: ../views/b2s/ship.php:462
+msgid "for:"
+msgstr "pour:"
+
+#: ../views/b2s/ship.php:477
+msgid ""
+"Define the default settings for the custom post format for all of your "
+"Facebook accounts on the Blog2Social settings section."
+msgstr ""
+"Définissez les paramètres par défaut pour le format de publication "
+"personnalisé pour tous vos comptes Facebook dans la section des paramètres "
+"Blog2Social."
+
+#: ../views/b2s/ship.php:480
+msgid ""
+"Define the default settings for the custom post format for all of your "
+"Twitter accounts on the Blog2Social settings section."
+msgstr ""
+"Définissez les paramètres par défaut pour le format de publication "
+"personnalisé pour tous vos comptes Twitter sur la section des paramètres de "
+"Blog2Social."
+
+#: ../views/notice.php:12
+msgid "Connection is broken..."
+msgstr "Connexion rompue..."
+
+#: ../views/notice.php:14
+msgid ""
+"The connection to your server has been interrupted. Please make sure that "
+"your blog is reachable. If your server does not respond or is too slow, "
+"Blog2Social cannot connect to the internet. Try again later or contact your "
+"webmaster, if this error message persists."
+msgstr ""
+"264/5000\n"
+"La connexion à votre serveur a été interrompue. Assurez-vous que votre blog "
+"est accessible. Si votre serveur ne répond pas ou est trop lent, Blog2Social "
+"ne peut pas se connecter à Internet. Essayez plus tard ou contactez votre "
+"webmaster, si ce message d'erreur persiste."
+
+#: ../views/notice.php:17
+msgid "Update..."
+msgstr "Mise à jour..."
+
+#: ../views/notice.php:19
+msgid ""
+"<b> A new version of Blog2Social is available. </b> Update now <br> "
+"Blog2Social to continue to use the latest version of the plugin."
+msgstr ""
+"<b> Une nouvelle version de Blog2Social est disponible </b> Mettez à jour "
+"maintenant<br/>Blog2Social pour continuer à utiliser la dernière version de "
+"ce plugin."
+
+#: ../views/notice.php:23
+msgid "Update Blog2Social"
+msgstr "Mettre à jour Blog2Social"
+
+#: ../views/notice.php:26
+msgid "Unknown error"
+msgstr "Erreur inconnue"
+
+#: ../views/notice.php:28
+msgid "<b> An unknown error occurred! </b> <br>  Please contact our support!"
+msgstr "<b> Une erreur est survenue ! </b><br/>Contactez le support, svp !"
+
+#: ../views/prg/login.php:14
+msgid "Login failed. Please check your username and a password!"
+msgstr "Connexion échouée. Vérifiez votre nom et mot de passe, svp."
+
+#: ../views/prg/login.php:20
+msgid "Login failed. Please check your server settings. OpenSSL must be enabled on."
+msgstr ""
+"Connexion échouée. Veuillez vérifier les paramètres de votre serveur, svp. "
+"OpenSSL doit être activé."
+
+#: ../views/prg/login.php:23
+msgid "E-Mail or Username"
+msgstr "E-Mail ou nom d'utilisateur"
+
+#: ../views/prg/login.php:24
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../views/prg/login.php:27
+msgid "Sign in"
+msgstr "Se connecter"
+
+#: ../views/prg/login.php:29
+msgid "create account"
+msgstr "créer un compte"
+
+#: ../views/prg/login.php:29
+msgid "reset password"
+msgstr "réinitialiser le mot de passe"
+
+#: ../views/prg/login.php:35
+msgid "Test PR-Gateway for free"
+msgstr "Tester la passerelle PR gratuitement"
+
+#: ../views/prg/login.php:36
+msgid "1x publish press release <br> 1x publish report <br> 1x promote event"
+msgstr ""
+"1 x publication communiqué de presse<br/>1 x rapport de publication<br/>1 x "
+"promotion d'évènement"
+
+#: ../views/prg/login.php:38
+msgid ""
+"The press distribution PR gateway automatically publish your press releases "
+"and events with one click.Publish your message over 250 portals."
+msgstr ""
+"La passerelle de distribution de presse de PR publie automatiquement vos "
+"communiqués de presse et des événements de votre message vers plus de 250 "
+"portails avec un click.Publish."
+
+#: ../views/prg/login.php:41
+msgid "Start your 14-Day Free Trial"
+msgstr "Commencez votre essai gratuit de 14 jours"
+
+#: ../views/prg/ship.php:34
+msgid "Select Image"
+msgstr "Sélectionner une image"
+
+#: ../views/prg/ship.php:45 ../views/prg/ship.php:47
+msgid "Copyright"
+msgstr "Copyright"
+
+#: ../views/prg/ship.php:66
+msgid "Save As Draft"
+msgstr "Sauver comme brouillon"
+
+#: ../views/prg/ship.php:67
+msgid "Publish"
+msgstr "Publier"
+
+#: ../views/prg/ship.php:85
+msgid "Please Note"
+msgstr "Noter svp"
+
+#: ../views/prg/ship.php:88
+msgid ""
+"It may incur charges for publishing on PR-Gateway. Sent press releases can "
+"not be withdrawn. If you want your press release to be published now?"
+msgstr ""
+"La publication sur la passerelle PR peut entraîner des frais. Les "
+"communiqués de presse envoyés ne peuvent pas être retirées. Voulez-vous "
+"publier maintenant votre communiqué de presse ?"
+
+#: ../views/prg/ship.php:91
+msgid "Yes, I accept"
+msgstr "Oui, j'accepte"
+
+#: ../views/b2s/html/footer.phtml:4
+msgid "We never store your data from your social media profiles."
+msgstr ""
+"Nous ne conservons jamais les données issues des profils de vos réseaux "
+"sociaux."
+
+#: ../views/b2s/html/footer.phtml:8 ../views/prg/html/footer.phtml:8 ..
+#: /views/prg/html/header.phtml:40
+msgid "Post"
+msgstr "Article"
+
+#: ../views/b2s/html/footer.phtml:9 ../views/prg/html/footer.phtml:9
+msgid "Job"
+msgstr "Job"
+
+#: ../views/b2s/html/footer.phtml:10 ../views/prg/html/footer.phtml:10
+msgid "Event"
+msgstr "Evènement"
+
+#: ../views/b2s/html/footer.phtml:21
+msgid "Upgrade to Blog2Social for Premium"
+msgstr "Mettre à jour Blog2Social vers Premium"
+
+#: ../views/b2s/html/footer.phtml:51
+msgid "Upgrade to Blog2Social for PREMIUM PRO"
+msgstr "Passez à Blog2Social pour PREMIUM PRO"
+
+#: ../views/b2s/html/footer.phtml:54
+msgid ""
+"You can select different combinations of networks and save them for "
+"different sharing purposes."
+msgstr ""
+"Vous pouvez sélectionner différentes combinaisons de réseaux et les "
+"sauvegarder à des fins de partages différentes."
+
+#: ../views/b2s/html/footer.phtml:57
+msgid ""
+"With Blog2Social Premium PRO you can save your preferred network "
+"combinations for future reference and choose individual names for each "
+"network combination. Use specific network combinations for recurring sharing "
+"purposes or campaigns, e.g. for initial sharing new blog posts, for re-"
+"sharing evergreen content or for sharing images or videos. Select your "
+"preferred network combination fast and easily for your next social sharing "
+"activity. You can also connect multiple profiles, pages and groups per "
+"network in one network set"
+msgstr ""
+"Avec Blog2Social Premium PRO, vous pouvez enregistrer vos combinaisons de "
+"réseaux préférées pour une référence future et choisir des noms individuels "
+"pour chaque combinaison de réseau.\n"
+"Utilisez des combinaisons de réseaux spécifiques à des fins de partage "
+"récurrents ou des campagnes, par exemple Pour le partage initial de nouveaux "
+"articles de blog, pour le partage de contenu à feuilles persistantes ou pour "
+"le partage d'images ou de vidéos. Sélectionnez votre combinaison de réseau "
+"préférée rapidement et facilement pour votre prochaine activité de partage "
+"social. Vous pouvez également connecter plusieurs profils, pages et groupes "
+"par réseau dans un ensemble de réseaux."
+
+#: ../views/b2s/html/footer.phtml:60
+msgid "With Blog2Social PREMIUM PRO you can also:"
+msgstr "Avec Blog2Social Premium PRO, vous pouvez également:"
+
+#: ../views/b2s/html/footer.phtml:62
+msgid ""
+"Post on LinkedIn pages, XING pages and groups, as well as Facebook and "
+"Google+ pages and groups"
+msgstr ""
+"Poster sur les pages LinkedIn, les pages XING et les groupes, ainsi que les "
+"pages et les groupes Facebook et Google+"
+
+#: ../views/b2s/html/footer.phtml:64
+msgid ""
+"Schedule your posts at the best times on each network: for one time, "
+"multiple times or recurrently"
+msgstr ""
+"Planifiez vos articles aux meilleurs moments pour chaque réseau : une fois, "
+"plusieurs fois ou de manière récurrente"
+
+#: ../views/b2s/html/footer.phtml:67
+msgid ""
+"Reporting and calendar: keep track of your published and scheduled social "
+"media posts"
+msgstr ""
+"Rapports et calendrier : gardez la trace de vos publications publiées et "
+"programmées"
+
+#: ../views/b2s/html/footer.phtml:74
+msgid "Activate Blog2Social PREMIUM PRO."
+msgstr "Activez Blog2Social PREMIUM PRO"
+
+#: ../views/b2s/html/footer.phtml:76
+msgid ""
+"With Blog2Social Premium PRO you can connect pages in LinkedIn and XING as "
+"well as XING groups."
+msgstr ""
+"Avec Blog2Social Premium PRO, vous pouvez vous connecter aux pages LinkedIn "
+"et XING ainsi qu'aux groupes XING."
+
+#: ../views/b2s/html/footer.phtml:79
+msgid "Also included:"
+msgstr "Également compris:"
+
+#: ../views/b2s/html/footer.phtml:81
+msgid "Social media auto-posting and auto-scheduling"
+msgstr "Publication automatique de médias sociaux et planification automatique"
+
+#: ../views/b2s/html/footer.phtml:82
+msgid "Posting to social media pages and groups in Facebook and Google+"
+msgstr "Affichage sur les pages et groupes de médias sociaux dans Facebook et Google+"
+
+#: ../views/b2s/html/footer.phtml:83
+msgid "Sharing on multiple accounts per network"
+msgstr "Partage sur plusieurs comptes par réseau"
+
+#: ../views/b2s/html/footer.phtml:84
+msgid "Best Time Scheduler: schedule once, multiple times or recurringly"
+msgstr ""
+"Best Time Scheduler: planifiez une fois, plusieurs fois ou de façon "
+"récurrente"
+
+#: ../views/b2s/html/footer.phtml:85
+msgid "Reporting with links to already published posts"
+msgstr "Rapports avec des liens vers des publications déjà publiées"
+
+#: ../views/b2s/html/footer.phtml:101
+msgid "Select the preferred custom post format for your posts"
+msgstr ""
+"Sélectionnez le format de publication personnalisé préféré pour vos "
+"publications"
+
+#: ../views/b2s/html/footer.phtml:106
+msgid "You can define your preferred custom post format link post or photo post:"
+msgstr ""
+"Vous pouvez définir votre lien de lien de format de poste personnalisé ou "
+"photo personnalisé préféré:"
+
+#: ../views/b2s/html/footer.phtml:115
+msgid ""
+"A photo or image post displays the selected image in the one-page preview of "
+"Blog2Social and your comment above the image. The image links to the image "
+"view on your image gallery in the respective network. Blog2Social adds the "
+"link to your post in your comment. The main benefit of photo posts is that "
+"your image is uploaded to your personal image albums or gallery. In Facebook "
+"you can edit the albums name with a description of your choice."
+msgstr ""
+"Une publication photo ou d'image affiche l'image que vous avez sélectionné "
+"dans l'aperçu d'une page de Blog2Social et votre commentaire au-dessus de "
+"l'image. L'image est liée à la vue d'image de votre galerie d'images sur le "
+"réseau respectif. Blog2Social ajoute le lien vers votre article dans votre "
+"commentaire. Le principal avantage des publications photos ou images est que "
+"votre image est téléchargée dans vos albums ou galeries d'images "
+"personnelles. Dans Facebook, vous pouvez modifier le nom de l'album avec une "
+"description de votre choix."
+
+#: ../views/b2s/html/footer.phtml:156
+msgid "Did you miss something?"
+msgstr "Avez-vous raté quelque-chose ?"
+
+#: ../views/b2s/html/footer.phtml:159
+msgid "Help us make Blog2Social even better!"
+msgstr "Aidez-nous à améliorer Blog2Social !"
+
+#: ../views/b2s/html/footer.phtml:163
+msgid "submit"
+msgstr "Envoyer"
+
+#: ../views/b2s/html/footer.phtml:177
+msgid ""
+"Blog2Social provides you with a ready-to-use best time scheduler based on "
+"current research on the best times to post on each social network."
+msgstr ""
+"Blog2Social vous offre un planificateur prêt à l'emploi, le meilleur temps, "
+"basé sur les recherches actuelles sur les meilleurs moments pour publier sur "
+"chaque réseau social."
+
+#: ../views/b2s/html/footer.phtml:179
+msgid ""
+"Click Best Time Scheduler in the preview editor to schedule your posts "
+"automatically for the best times to post on each social network."
+msgstr ""
+"Cliquez sur Best Time Scheduler dans l'éditeur de prévisualisation pour "
+"planifier vos messages automatiquement pour les meilleurs moments pour "
+"publier sur chaque réseau social."
+
+#: ../views/b2s/html/footer.phtml:181
+msgid ""
+"You can also define your own personal time settings for posting, if you know "
+"which times work best for your communities. Edit the pre-filled times in the "
+"general settings and click save."
+msgstr ""
+"Vous pouvez également définir vos paramètres de temps personnels pour "
+"l'affichage, si vous savez quelles sont les heures de travail les meilleures "
+"pour vos communautés. Modifiez les temps pré-remplis dans les paramètres "
+"généraux et cliquez sur Enregistrer."
+
+#: ../views/b2s/html/footer.phtml:183
+msgid ""
+"Click My Time Settings in the preview editor to schedule your posts with "
+"your personal best time settings."
+msgstr ""
+"Cliquez sur Mes réglages de temps dans l'éditeur de prévisualisation pour "
+"planifier vos messages avec vos paramètres de meilleur temps personnels."
+
+#: ../views/b2s/html/footer.phtml:185
+msgid ""
+"You can always edit the predefined times in the preview editor for any post "
+"or network and save your new settings as default for future use."
+msgstr ""
+"Vous pouvez toujours modifier les temps prédéfinis dans l'éditeur d'aperçu "
+"pour toute publication ou réseau et enregistrer vos nouveaux paramètres par "
+"défaut pour une utilisation ultérieure."
+
+#: ../views/b2s/html/footer.phtml:187
+msgid ""
+"Blog2Social will also apply your personal time settings, if you enable the "
+"Social Media Auto-Poster and select auto-post at scheduled times. "
+msgstr ""
+"Blog2Social will also apply your personal time settings, if you enable the "
+"Social Media Auto-Poster and select auto-post at scheduled times. "
+
+#: ../views/b2s/html/footer.phtml:220
+msgid "b2s.pm Link Shortener"
+msgstr " b2s.pm Lien Shortener"
+
+#: ../views/b2s/html/footer.phtml:223
+msgid ""
+"The Blog2Social Shortener converts and publishes your links with a short URL "
+"on the social networks.<br>If you choose this option, you avoid that re-"
+"shared posts with the same links will be rejected by the networks. The b2s."
+"pm Shortener generates a new link for each social media post. This feature "
+"is essential if you wish to re-share your posts on the same networks. "
+"Another benefit of the b2s.pm: Shortly, Blog2Social will provide a reporting "
+"feature for your social media posts. So, with the b2s.pm links, you will be "
+"able to see how often the link has been clicked, liked or shared on your "
+"social channels and easily and quickly analyze the performance of your "
+"social media posts.<br>You can disable the b2s.pm Shortener to show your "
+"original URL."
+msgstr ""
+"Le Blog2Social Shortener Convertit et publie votre gauche avec une URL "
+"courte sur les réseaux sociaux. <br> Si vous choisissez cette option, vous "
+"évitez les messages ne re-partage avec le même gauche sera rejetée par les "
+"réseaux. Le gène raccourcisseur de b2s.pm évalue un nouveau lien pour chaque "
+"poste de médias sociaux. Cette fonction est essentielle si vous souhaitez "
+"partager à nouveau vos messages sur les mêmes réseaux. Un autre avantage de "
+"l'b2s.pm: Peu de temps, Blog2Social veut fournir une fonctionnalité de "
+"reporting pour vos messages de médias sociaux. Ainsi, avec l'b2s.pm gauche, "
+"vous serez en mesure de voir combien de fois le lien a été cliqué, aimé ou "
+"partagé sur vos réseaux sociaux et facilement et rapidement analyser les "
+"performances de vos messages de médias sociaux. <br> Vous pouvez désactiver "
+"la b2s.pm Shortener pour montrer votre URL d'origine."
+
+#: ../views/b2s/html/header.phtml:18
+msgid "Thank you. You'll now receive the blog updates from Blog2Social."
+msgstr ""
+"Je vous remercie. Vous recevrez maintenant les mises à jour du blog de "
+"Blog2Social."
+
+#: ../views/b2s/html/header.phtml:36
+msgid "This entry could not be removed. It's not yours!"
+msgstr "Cette entrée ne peut pas être enlevé. Ce n'est pas à toi!"
+
+#: ../views/b2s/html/header.phtml:41
+msgid "This entry was removed successful."
+msgstr "Cette entrée est supprimée avec succès."
+
+#: ../views/b2s/html/header.phtml:50
+msgid "Post was scheduled successfully on your blog!"
+msgstr "Post a été planifié avec succès sur votre blog!"
+
+#: ../views/b2s/html/header.phtml:52
+msgid "Post is published successfully on your blog!"
+msgstr "Post est publié avec succès sur votre blog!"
+
+#: ../views/b2s/html/header.phtml:62 ../views/b2s/html/header.phtml:167
+msgid "Version"
+msgstr "Version"
+
+#: ../views/b2s/html/header.phtml:62
+msgid "is successfully activated."
+msgstr "a été activé avec succès."
+
+#: ../views/b2s/html/header.phtml:67
+msgid "Your entered License Key is invalid. Please contact support!"
+msgstr "La clé de licence saisie est invalide. Contactez le support, svp !"
+
+#: ../views/b2s/html/header.phtml:72
+msgid "Your license key has reached the maximum number of users."
+msgstr "Votre clé de licence a atteint le nombre maximum d'utilisateurs."
+
+#: ../views/b2s/html/header.phtml:79
+msgid "Your authorization was successful."
+msgstr "Votre autorisation est correcte."
+
+#: ../views/b2s/html/header.phtml:84
+msgid "Your profile was saved successful."
+msgstr "Votre profil a été sauvegardé avec succès."
+
+#: ../views/b2s/html/header.phtml:89
+msgid "Your profile could not be saved."
+msgstr "Votre profil n'a pas pu être sauvegardé."
+
+#: ../views/b2s/html/header.phtml:94
+msgid "Your authorization could not be removed."
+msgstr "Votre autorisation ne peut être supprimée."
+
+#: ../views/b2s/html/header.phtml:99
+msgid "Your authorization was removed successful."
+msgstr "Votre autorisation a été supprimée avec succès."
+
+#: ../views/b2s/html/header.phtml:104
+msgid "Thank you! Your feedback has been received."
+msgstr "Merci ! Votre retour d'information a bien été reçu."
+
+#: ../views/b2s/html/header.phtml:109
+msgid "Your feedback could not be delivered."
+msgstr "Votre retour d'information n'a pu être envoyé."
+
+#: ../views/b2s/html/header.phtml:116 ../views/b2s/html/header.phtml:126
+msgid "Your settings were successfully saved."
+msgstr "Vos paramètres ont été sauvegardés avec succès."
+
+#: ../views/b2s/html/header.phtml:121
+msgid "Your settings could not be saved."
+msgstr "Vos paramètres n'ont pu être sauvegardés."
+
+#: ../views/b2s/html/header.phtml:134 ../views/b2s/html/header.phtml:190
+msgid "Test Blog2Social PREMIUM 30 days for free"
+msgstr "Testez Blog2Social PREMIUM 30 jours gratuitement"
+
+#: ../views/b2s/html/header.phtml:134 ../views/b2s/html/header.phtml:223
+msgid "Get Started"
+msgstr "Commencez"
+
+#: ../views/b2s/html/header.phtml:143
+msgid "Your Blog2Social Premium Free Version is activated for "
+msgstr "Votre version Blog2Social Premium gratuite est activée pour "
+
+#: ../views/b2s/html/header.phtml:146
+msgid " Days"
+msgstr " jours"
+
+#: ../views/b2s/html/header.phtml:146
+msgid " today"
+msgstr " aujourd'hui"
+
+#: ../views/b2s/html/header.phtml:156
+msgid "Your Blog2Social FREE-TRIAL Version has expired. Did you like this version?"
+msgstr ""
+"Votre version d'essai gratuit de Blog2Social a expiré. Avez-vous aimé cette "
+"version ?"
+
+#: ../views/b2s/html/header.phtml:157
+msgid "Yes, I want more"
+msgstr "Oui, j'en veux plus"
+
+#: ../views/b2s/html/header.phtml:158
+msgid "No, I had enough"
+msgstr "Non, j'en ai eu assez"
+
+#: ../views/b2s/html/header.phtml:177 ../views/b2s/html/service.phtml:15
+msgid "Plans & Pricing"
+msgstr "Plans & Prix"
+
+#: ../views/b2s/html/header.phtml:178 ../views/b2s/html/service.phtml:16
+msgid "Support"
+msgstr "Support"
+
+#: ../views/b2s/html/header.phtml:196
+msgid ""
+"The free trial can not be started. This blog has been already registered for "
+"the free trial."
+msgstr ""
+"La version gratuite ne peut commencer. Ce blog a déjà été enregistré pour la "
+"version gratuite."
+
+#: ../views/b2s/html/header.phtml:199
+msgid "Social Media Auto-Posting"
+msgstr "Auto-publication des médias sociaux"
+
+#: ../views/b2s/html/header.phtml:201
+msgid "Share on multiple accounts per network"
+msgstr "Partage sur plusieurs comptes par réseau"
+
+#: ../views/b2s/html/header.phtml:202
+msgid "Best Time Scheduler: Schedule once, multiple times or recurringly."
+msgstr ""
+"Best Time Scheduler: Planifiez une fois, plusieurs fois ou de façon "
+"récurrente."
+
+#: ../views/b2s/html/header.phtml:203
+msgid "Reporting with links to all published social media posts"
+msgstr ""
+"Rapports avec des liens vers tous les messages publiés sur les réseaux "
+"sociaux"
+
+#: ../views/b2s/html/header.phtml:206 ../views/prg/html/form.phtml:141 ..
+#: /views/prg/html/form.phtml:143 ../views/prg/html/form.phtml:218 ..
+#: /views/prg/html/form.phtml:220
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: ../views/b2s/html/header.phtml:210 ../views/prg/html/form.phtml:91 ..
+#: /views/prg/html/form.phtml:100 ../views/prg/html/form.phtml:168 ..
+#: /views/prg/html/form.phtml:177
+msgid "First Name"
+msgstr "Prénom"
+
+#: ../views/b2s/html/header.phtml:214 ../views/prg/html/form.phtml:92 ..
+#: /views/prg/html/form.phtml:103 ../views/prg/html/form.phtml:169 ..
+#: /views/prg/html/form.phtml:180
+msgid "Last Name"
+msgstr "Nom"
+
+#: ../views/b2s/html/header.phtml:219
+msgid "No credit card required"
+msgstr "Pas d'information de carte de crédit nécessaire"
+
+#: ../views/b2s/html/post.navbar.phtml:6
+msgid "All Posts"
+msgstr "Tous les articles"
+
+#: ../views/b2s/html/post.navbar.phtml:7
+msgid "Scheduled Posts"
+msgstr "Articles planifiés"
+
+#: ../views/b2s/html/post.navbar.phtml:8
+msgid "Shared Posts"
+msgstr "Articles partagés"
+
+#: ../views/b2s/html/service.phtml:17
+msgid "How to work with Blog2Social"
+msgstr "Comment utiliser Blog2Social"
+
+#: ../views/b2s/html/sidebar.phtml:8
+msgid "Your license"
+msgstr "Votre licence"
+
+#: ../views/b2s/html/sidebar.phtml:37
+msgid "Network Activity (today)"
+msgstr "Activité réseau (aujourd'hui)"
+
+#: ../views/b2s/html/sidebar.phtml:48
+msgid "Rate it!"
+msgstr "Notez-le !"
+
+#: ../views/b2s/html/sidebar.phtml:51
+msgid ""
+"If you like Blog2Social, please give us a 5 star rating. If there is "
+"anything that does not work for you, please contact us!"
+msgstr ""
+"Si vous aimez Blog2Social, s'il vous plaît nous donner un 5 étoiles. I il ya "
+"quelque chose qui ne fonctionne pas pour vous, s'il vous plaît contactez-"
+"nous!"
+
+#: ../views/b2s/html/sidebar.phtml:67
+msgid "GET STARTED"
+msgstr "COMMENCEZ"
+
+#: ../views/b2s/html/sidebar.phtml:78
+msgid "Posts from Blog2Social"
+msgstr "Articles de Blog2Social"
+
+#: ../views/prg/html/form.phtml:7
+msgid "Post a Press Release"
+msgstr "Diffusez un communiqué de presse"
+
+#: ../views/prg/html/form.phtml:11
+msgid "Category"
+msgstr "Catégorie"
+
+#: ../views/prg/html/form.phtml:12
+msgid "Language"
+msgstr "Langue"
+
+#: ../views/prg/html/form.phtml:20
+msgid "German"
+msgstr "Allemand"
+
+#: ../views/prg/html/form.phtml:21
+msgid "English"
+msgstr "Anglais"
+
+#: ../views/prg/html/form.phtml:32 ../views/prg/html/form.phtml:34
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: ../views/prg/html/form.phtml:38 ../views/prg/html/form.phtml:40
+msgid "YouTube-Link"
+msgstr "Lien YouTube"
+
+#: ../views/prg/html/form.phtml:44 ../views/prg/html/form.phtml:46
+msgid "Message"
+msgstr "Message"
+
+#: ../views/prg/html/form.phtml:50
+msgid "Keywords"
+msgstr "Mots-clés"
+
+#: ../views/prg/html/form.phtml:52
+msgid "Keywords with commas (e.g .: Blog2Social, PR-Gateway)"
+msgstr "Mots-clés avec virgules (ex : Blog2Social, Passerelle-PR)"
+
+#: ../views/prg/html/form.phtml:56 ../views/prg/html/form.phtml:58
+msgid "Shortext"
+msgstr "Texte court"
+
+#: ../views/prg/html/form.phtml:69
+msgid "Contact Details"
+msgstr "Détails du contact"
+
+#: ../views/prg/html/form.phtml:74
+msgid "Company"
+msgstr "Société"
+
+#: ../views/prg/html/form.phtml:77
+msgid "Press"
+msgstr "Presse"
+
+#: ../views/prg/html/form.phtml:84 ../views/prg/html/form.phtml:86 ..
+#: /views/prg/html/form.phtml:161 ../views/prg/html/form.phtml:163
+msgid "Name"
+msgstr "Nom"
+
+#: ../views/prg/html/form.phtml:95 ../views/prg/html/form.phtml:172
+msgid "Mrs."
+msgstr "Mme."
+
+#: ../views/prg/html/form.phtml:96 ../views/prg/html/form.phtml:173
+msgid "Mr."
+msgstr "M."
+
+#: ../views/prg/html/form.phtml:107 ../views/prg/html/form.phtml:110 ..
+#: /views/prg/html/form.phtml:184 ../views/prg/html/form.phtml:187
+msgid "Street"
+msgstr "Rue"
+
+#: ../views/prg/html/form.phtml:108 ../views/prg/html/form.phtml:113 ..
+#: /views/prg/html/form.phtml:185 ../views/prg/html/form.phtml:190
+msgid "Number"
+msgstr "Numéro"
+
+#: ../views/prg/html/form.phtml:117 ../views/prg/html/form.phtml:120 ..
+#: /views/prg/html/form.phtml:194 ../views/prg/html/form.phtml:197
+msgid "Zip Code"
+msgstr "Code postal"
+
+#: ../views/prg/html/form.phtml:118 ../views/prg/html/form.phtml:123 ..
+#: /views/prg/html/form.phtml:195 ../views/prg/html/form.phtml:200
+msgid "City"
+msgstr "Ville"
+
+#: ../views/prg/html/form.phtml:127 ../views/prg/html/form.phtml:204
+msgid "Country"
+msgstr "Pays"
+
+#: ../views/prg/html/form.phtml:135 ../views/prg/html/form.phtml:137 ..
+#: /views/prg/html/form.phtml:212 ../views/prg/html/form.phtml:214
+msgid "Phone"
+msgstr "Téléphone"
+
+#: ../views/prg/html/form.phtml:147 ../views/prg/html/form.phtml:149 ..
+#: /views/prg/html/form.phtml:224 ../views/prg/html/form.phtml:226
+msgid "Website"
+msgstr "Site internet"
+
+#: ../views/prg/html/form.phtml:153 ../views/prg/html/form.phtml:155
+msgid "Company Description"
+msgstr "Description de la société"
+
+#: ../views/prg/html/header.phtml:8
+msgid "You are signed out of <b>PR-Gateway</b>!"
+msgstr "Vous vous êtes déconnecté de la <b>Passerelle-PR</b> !"
+
+#: ../views/prg/html/header.phtml:17
+msgid "Your message will now be sent over PR gateway to the press portals!"
+msgstr ""
+"Votre message va maintenant être envoyé à travers la passerelle PR vers les "
+"portails de le presse !"
+
+#: ../views/prg/html/header.phtml:18
+msgid "See all publications for your message live on "
+msgstr "Voir toutes les publications pour votre message en direct sur "
+
+#: ../views/prg/html/header.phtml:20
+msgid "Your message save as draft by PR-Gateway!"
+msgstr "Votre message a été sauvegardé comme brouillon par la Passerelle-PR !"
+
+#: ../views/prg/html/header.phtml:28
+msgid ""
+"Unfortunately your request can not be processed by Blog2Social. Please try "
+"again!"
+msgstr ""
+"Malheureusement votre demande ne peut pas être traitée par Blog2Social. "
+"Réessayez, svp !"
+
+#: ../views/prg/html/header.phtml:34
+msgid "Your message has not been received successfully with us. Please try again!"
+msgstr "Votre message ne nous a pas été transmis. Réessayez, svp !"
+
+#: ../views/prg/html/header.phtml:48
+msgid ""
+"PR-Gateway offers a paid online distribution service for submitting press "
+"releases, articles and social media news to more than 250 news sites, "
+"special interest websites and social news sites. If your blog posts provide "
+"trade or industry information or expert articles (no advertising), you may "
+"submit them to PR-Gateway to turn them into valid online press releases or "
+"online articles and select a specific choice of websites and services to "
+"publish your post."
+msgstr ""
+"La Passerelle-PR offre un service de distribution en ligne payant pour "
+"soumettre des communiqués de presse, des articles et des nouvelles de réseau "
+"sociaux à plus de 250 sites d'information, sites d'intérêt spécialisés et "
+"les sites d'information sociale. Si vos articles de blog fournissent des "
+"informations commerciales, industrielles ou des articles d'experts (pas de "
+"publicité), vous pouvez les soumettre à la Passerelle-PR pour les "
+"transformer en communiqués de presse en ligne valides ou des articles en "
+"ligne et sélectionnez un choix spécifique de sites Web et services pour "
+"publier votre article.."
+
+#: ../views/prg/html/header.phtml:49
+msgid "Register here to open your PR-Gateway account."
+msgstr "Enregistrez-vous ici pour ouvrir votre compte sur la Passerelle-PR."
+
+#: ../views/prg/html/header.phtml:66
+msgid "Logout"
+msgstr "Se déconnecter"

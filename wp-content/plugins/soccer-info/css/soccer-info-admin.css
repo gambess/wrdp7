@@ -1,0 +1,113 @@
+#si_div .form-table th {
+	padding-left: 0px;
+	width: 170px;
+}
+
+			li.si_hint {
+				color:green;
+			}
+			
+			li.si_optimize {
+				color:orange;
+			}
+			
+			li.si_error {
+				color:red;
+			}
+			
+			input.si_warning:hover {
+				background: #ce0000;
+				color: #fff;
+			}
+			
+			a.si_button {
+				padding:4px;
+				display:block;
+				padding-left:25px;
+				background-repeat:no-repeat;
+				background-position:5px 50%;
+				text-decoration:none;
+				border:none;
+			}
+			
+			a.si_button:hover {
+				border-bottom-width:1px;
+			}
+	
+			a.si_donatePayPal {
+				background-image:url(../img/icon-paypal.gif);
+			}
+			
+			a.si_donateAmazon {
+				background-image:url(../img/icon-amazon.gif);
+			}
+			
+			a.si_pluginHome {
+				background-image:url(../img/icon-arne.gif);
+			}
+			
+			a.si_pluginList {
+				background-image:url(../img/icon-email.gif);
+			}
+			
+			a.si_pluginSupport {
+				background-image:url(../img/icon-wordpress.gif);
+			}
+			
+			a.si_pluginBugs {
+				background-image:url(../img/icon-trac.gif);
+			}
+			
+			a.si_resGoogle {
+				background-image:url(../img/icon-google.gif);
+			}
+			
+			a.si_resBing {
+				background-image:url(../img/icon-bing.gif);
+			}
+			
+			div.si-update-nag p {
+				margin:5px;
+			}
+			
+			
+					.si-padded .inside {
+						margin:12px!important;
+					}
+					.si-padded .inside ul {
+						margin:6px 0 12px 0;
+					}
+					
+					.si-padded .inside input {
+						padding:1px;
+						margin:0;
+					}
+	
+						div#moremeta {
+							float:right;
+							width:200px;
+							margin-left:10px;
+						}
+						
+						div#advancedstuff {
+							width:770px;
+						}
+						
+						div#poststuff {
+							margin-top:10px;
+						}
+						fieldset.dbx-box {
+							margin-bottom:5px;
+						}
+						
+						div.si-update-nag {
+							margin-top:10px!important;
+						}
+
+div.si-star-holder { position: relative; height:19px; width:100px; font-size:19px;}
+div.si-star {height: 100%; position:absolute; top:0px; left:0px; background-color: transparent; letter-spacing:1ex; border:none;}
+.si-star1 {width:20%;} .si-star2 {width:40%;} .si-star3 {width:60%;} .si-star4 {width:80%;} .si-star5 {width:100%;}
+.si-star.si-star-rating {background-color: #fc0;}
+.si-star img{display:block; position:absolute; right:0px; border:none; text-decoration:none;}
+div.si-star img {width:19px; height:19px; border-left:1px solid #fff; border-right:1px solid #fff;}
+.si-notice{background-color:#ffffe0;border-color:#e6db55;border-width:1px;border-style:solid;padding:5px;margin:5px 5px 20px;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}

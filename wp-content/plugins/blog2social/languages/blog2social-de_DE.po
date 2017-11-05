@@ -1,0 +1,3243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Social Media Auto Post &amp; Scheduler - "
+"Stable (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu May 18 2017 09:57:01 GMT+0200\n"
+"PO-Revision-Date: Fri Aug 25 2017 13:24:25 GMT+0200\n"
+"Last-Translator: admin <s.buerger@adenion.de>\n"
+"Language-Team: \n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../plugins/blog2social-v-3\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: de_DE"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:55
+msgid ""
+"You have Yoast SEO active. Blog2Social Social Meta Tags overrides the meta "
+"tags from Yoast SEO."
+msgstr ""
+"Du hast Yoast SEO aktiviert. Blog2Social Meta Tags überschreibt die "
+"Metaangaben von Yoast SEO nun."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:61
+msgid ""
+"You currently have both Blog2Social Social Meta Tags and All in One SEO Pack "
+"plugins active. This is no recommended. Please, deactivated the All in One "
+"Seo Social Meta settings."
+msgstr ""
+"Du hast zurzeit Blog2Social Social Meta Tags und das Plugin All in One SEO "
+"Pack aktiv. Das wird nicht empfohlen  Bitte deaktiviere die All-in-One-Seo-"
+"Social-Meta-Einstellungen."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:67
+msgid ""
+"You currently have both Blog2Social Social Meta Tags and Facebook Open Graph,"
+" Google+ and Twitter Card Tags plugins active. This is no recommended. "
+"Please, deactivated the Facebook Open Graph, Google+ and Twitter Card Tags "
+"settings."
+msgstr ""
+"Du hast zurzeit Blog2Social Social Meta Tags und das Plugin Facebook Open "
+"Graph, Google+ and Twitter Card Tags aktiv. Das wird nicht empfohlen  Bitte "
+"deaktiviere die Facebook Open Graph, Google+ and Twitter Card Tags "
+"Einstellungen."
+
+#. Name of the plugin
+msgid "Blog2Social: Social Media Auto Post & Scheduler"
+msgstr "Blog2Social: Social Media Auto Post & Scheduler"
+
+#. #-#-#-#-#  blog2social-code.pot (Social Media Auto Post & Scheduler 4.0.0)
+#. #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  blog2social-code.pot (Social Media Auto Post & Scheduler 4.0.0)
+#. #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://www.blog2social.com"
+msgstr "https://www.blog2social.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Auto publish, schedule & share posts on social media: Facebook, Twitter, "
+"Google+, XING, LinkedIn, Instagram, ... crosspost to pages & groups"
+msgstr ""
+"Auto publish, schedule & share posts on social media: Facebook, Twitter, "
+"Google+, XING, LinkedIn, Instagram, ... crosspost to pages & groups"
+
+#. Author of the plugin/theme
+msgid "Blog2Social, Adenion"
+msgstr "Blog2Social, Adenion"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:44 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Navbar.php:32
+msgid "Default"
+msgstr "Standard"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:44
+msgid "Show all"
+msgstr "alle anzeigen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:45 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:122
+msgid "My profile"
+msgstr "Mein Profil"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:47
+msgid "Your profiles:"
+msgstr "weitere Profile:"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:102
+msgid "Connections"
+msgstr "Verbindungen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:107 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:145 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:147 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:231 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:244 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:261 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:309 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Portale.php:34 ../..
+#: /plugins/blog2social-v-4/includes/Loader.php:365
+msgid "Profile"
+msgstr "Profil"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:110 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:110 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:171 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:173 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:245 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:262 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:312 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Portale.php:31 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Portale.php:31 ../..
+#: /plugins/blog2social-v-4/includes/Loader.php:365
+msgid "Page"
+msgstr "Seite"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:110 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Portale.php:31
+msgid "You want to connect a network page?"
+msgstr "Du möchtest eine Netzwerk-Seite verbinden?"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:110 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:113 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:65 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Image.php:75 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Image.php:82 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:480 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Portale.php:28 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Portale.php:31 ../..
+#: /plugins/blog2social-v-4/includes/MetaBox.php:88 ../../plugins/blog2social-v-
+#: 4/views/b2s/modal.calendar.php:9 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:36 ../../plugins/blog2social-v-4/views/b2s/settings.
+#: php:63 ../../plugins/blog2social-v-4/views/b2s/settings.php:85 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:17 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/post.navbar.phtml:7 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/post.navbar.phtml:9
+msgid "PREMIUM"
+msgstr "PREMIUM"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:113 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:113 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:197 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:199 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:246 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:263 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:316 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Portale.php:28 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Portale.php:28 ../..
+#: /plugins/blog2social-v-4/includes/Loader.php:365
+msgid "Group"
+msgstr "Gruppe"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:113 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Portale.php:28
+msgid "You want to connect a social media group?"
+msgstr "Du möchtest eine Social-Media-Gruppe verbinden?"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:158 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:210
+msgid "Authorization is interrupted since"
+msgstr "Autorisierung ist unterbrochen seit"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:160 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:187 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:213
+msgid "To reactivate this social media connection,"
+msgstr "Um diese Social Media Verbindung zu reaktivieren,"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:160 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:187 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Network/Item.php:213 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Image.php:32
+msgid "please upgrade"
+msgstr "Bitte upgraden"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Network/Item.php:184
+msgid "Authorization is interrupted  since"
+msgstr "Autorisierung ist unterbrochen seit"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:34
+msgid "all authors"
+msgstr "alle Autoren"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:49 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Post/Item.php:185 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Save.php:204 ../..
+#: /plugins/blog2social-v-4/includes/PRG/Post/Filter.php:41 ../..
+#: /plugins/blog2social-v-4/includes/PRG/Post/Item.php:97 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:12
+msgid "published"
+msgstr "veröffentlicht"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:49 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Post/Item.php:185 ../..
+#: /plugins/blog2social-v-4/includes/PRG/Post/Filter.php:41 ../..
+#: /plugins/blog2social-v-4/includes/PRG/Post/Item.php:97 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:12
+msgid "scheduled"
+msgstr "geplant"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:49 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Post/Item.php:185 ../..
+#: /plugins/blog2social-v-4/includes/PRG/Post/Item.php:97 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:12
+msgid "draft"
+msgstr "Entwurf"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:50
+msgid "all statuses"
+msgstr "kein Status"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:61 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Post/Filter.php:73
+msgid "newest first"
+msgstr "neuste zuerst"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:61 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Post/Filter.php:73
+msgid "oldest first"
+msgstr "älteste zuerst"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:86
+msgid "all categories & tags"
+msgstr "alle Kategorien & Schlagwörter"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:108 ../..
+#: /plugins/blog2social-v-4/includes/PRG/Post/Filter.php:53
+msgid "all post types"
+msgstr "alle Typen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:129 ../..
+#: /plugins/blog2social-v-4/includes/PRG/Post/Filter.php:74
+msgid "Search Title"
+msgstr "Suche nach Titel"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:152 ../..
+#: /plugins/blog2social-v-4/includes/PRG/Post/Filter.php:85
+msgid "sort"
+msgstr "sortieren"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:153 ../..
+#: /plugins/blog2social-v-4/includes/PRG/Post/Filter.php:86
+msgid "reset"
+msgstr "zurücksetzen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:158
+msgid "selected date"
+msgstr "ausgewähltes Datum"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Filter.php:158
+msgid "scheduled post(s)"
+msgstr "geplante Beiträge"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:188
+msgid "You have no posts published or scheduled."
+msgstr "Du hast keine Beiträge veröffentlicht oder geplant."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:210
+msgid "last shared on social media"
+msgstr "zuletzt auf Social Media geteilt"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:218
+msgid "Share on Social Media"
+msgstr "auf Social Media teilen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:220 ../..
+#: /plugins/blog2social-v-4/includes/PRG/Post/Item.php:129
+msgid "Author"
+msgstr "Autor"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:220 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:29
+msgid "on blog"
+msgstr "auf dem Blog"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:237 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:214 ../../plugins/blog2social-v-
+#: 4/views/b2s/ship.php:216
+msgid "Re-share this post"
+msgstr "Diesen Beitrag nochmal teilen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:238 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Post/Item.php:261
+msgid "Details"
+msgstr "Details"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:240
+msgid "shared social media posts"
+msgstr "geteilte Beiträge"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:240
+msgid "latest share by"
+msgstr "zuletzt geteilt von"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:263
+msgid "scheduled social media posts"
+msgstr "geplante Beiträge"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:263
+msgid "next share by"
+msgstr "als nächstes geteilt von"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:370 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Post/Item.php:433
+msgid "select all"
+msgstr "alle auswählen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:372 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:83 ../..
+#: /plugins/blog2social-v-4/views/b2s/dashboard.php:118
+msgid "Auto-Posting"
+msgstr "Auto-Posting"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:373
+msgid "show"
+msgstr "ansehen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:376
+msgid "sharing in progress by"
+msgstr "wir geteilt"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:376
+msgid "shared by"
+msgstr "geteilt von"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:398 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Post/Item.php:412
+msgid "You want to delete a publish post entry?"
+msgstr "Du möchtest einen veröffentlichten Beitrag löschen?"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:399 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Post/Item.php:413
+msgid "delete from reporting"
+msgstr "aus Reporting löschen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:403
+msgid "re-share"
+msgstr "erneut teilen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:444
+msgid "scheduled by"
+msgstr "geplant von "
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:447 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Post/Item.php:460
+msgid "delete scheduling"
+msgstr "Planung löschen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:451
+msgid "You want to change the time for your scheduled post?"
+msgstr "Du möchtest die Zeit zu einem geplanten Beitrag ändern?"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Post/Item.php:452
+msgid "change time"
+msgstr "Zeitpunkt ändern"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:68
+msgid "Account"
+msgstr "Konto"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:71 ../..
+#: /plugins/blog2social-v-4/views/b2s/settings.php:173
+msgid "Personal Time Zone"
+msgstr "Persönliche Zeitzone"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:75 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:84 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:120 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:122 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:142 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:144 ../..
+#: /plugins/blog2social-v-4/includes/MetaBox.php:17 ../../plugins/blog2social-v-
+#: 4/includes/MetaBox.php:68 ../../plugins/blog2social-v-4/views/b2s/network.php:
+#: 18 ../../plugins/blog2social-v-4/views/b2s/settings.php:65 ../..
+#: /plugins/blog2social-v-4/views/b2s/settings.php:88 ../../plugins/blog2social-v-
+#: 4/views/b2s/ship.php:54 ../../plugins/blog2social-v-4/views/b2s/ship.php:127 ..
+#: /../plugins/blog2social-v-4/views/b2s/ship.php:212
+msgid "Info"
+msgstr "Info"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:77
+msgid "Timezone for Scheduling"
+msgstr "Zeitzone für die Planung"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:77
+msgid "User"
+msgstr "Benutzer"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:84
+msgid "What post type of items do you want load the Auto-Poster?"
+msgstr "Für welche Beiträge möchtest Du den Autoposter standardmäßig aktivieren?"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:90
+msgid "new posts"
+msgstr "Neue Beiträge"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:91 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:101
+msgid "Unselect all"
+msgstr "Alle abwählen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:91 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:101
+msgid "Select all"
+msgstr "Alle auswählen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:100
+msgid "updating existing posts"
+msgstr "Bestehenden Beitrag aktualisieren"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:112
+msgid "Save"
+msgstr " Speichern"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:119
+msgid "Content"
+msgstr "Inhalt"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:120
+msgid "use b2s.pm Link Shortener"
+msgstr "b2s.pm Link Shortener aktivieren"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:122
+msgid "allow shortcodes in my post"
+msgstr "berücksichtige Shortcodes in meinen Beiträgen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:137
+msgid "Reset all page and post meta data"
+msgstr "Lösche alle Seiten und Beitrags Meta Angaben"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:139
+msgid ""
+"This is a global feature for your blog, which can only be edited by users "
+"with admin rights."
+msgstr ""
+"Dies ist eine globale Einstellung für Deinen Blog, die nur von Usern mit "
+"Admin Rechten bearbeitet werden kann."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:141
+msgid "Meta Tags Settings for Posts and Pages"
+msgstr "Meta Tag Einstellungen für Beiträge und Seiten"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:142
+msgid ""
+"Add Open Graph meta tags to your shared posts or pages, required by Facebook "
+"and other social networks to display your post or page image, title and "
+"description correctly."
+msgstr ""
+"Ergänze Open Graph Meta Tags zu Deinen geteilten Beiträgen/Seiten, damit "
+"Facebook und andere soziale Netzwerke Bilder, Titel und Beschreibung Deines "
+"Beitrag/Seite korrekt darstellen können."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:144
+msgid ""
+"Add Twitter Card meta tags to your shared posts or pages, required by "
+"Twitter to display your post or page image, title and description correctly."
+msgstr ""
+"Ergänze Twitter Card Meta Tags zu Deinen geteilten Beiträgen/Seiten, damit "
+"Twitter Bilder, Titel und Beschreibung Deines Beitrag/Seite korrekt "
+"darstellen kann."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:146
+msgid "Frontpage Settings"
+msgstr "Frontpage Einstellungen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:148
+msgid ""
+"Add the default Open Graph parameters for title, description and image you "
+"want Facebook to display, if you share the frontpage of your blog as link "
+"post (http://www.yourblog.com)"
+msgstr ""
+"Definiere die Default Einstellungen für Titel, Beschreibung und Image für "
+"die Open Graph Parameter bei Facebook, wenn Du die Frontpage Deines Blogs "
+"als Link Post teilst (http://www.DeinBlog.de) "
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:151 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:163 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:28 ../../plugins/blog2social-v-
+#: 4/views/prg/ship.php:41 ../../plugins/blog2social-v-4/views/prg/ship.php:43 ..
+#: /../plugins/blog2social-v-4/views/prg/html/form.phtml:26 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:28
+msgid "Title"
+msgstr "Titel"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:152 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:164
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:153 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:165
+msgid "Image URL"
+msgstr "Bild Url"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:153 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:165 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Image.php:80 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Image.php:82
+msgid "Image upload / Mediathek"
+msgstr "Bild hochladen / Mediathek"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:154
+msgid ""
+"Please note: Facebook supports images with a minimum dimension of 200x200 "
+"pixels and an aspect ratio of 1:1."
+msgstr ""
+"Bitte beachte: Facebook unterstützt Bilder mit einer Mindestgröße von "
+"200x200 Pixel and einem Bildgrößenverhältnis von 1:1."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:160
+msgid ""
+"Add the default Twitter Card parameters for title, description and image you "
+"want Twitter to display, if you share the frontpage of your blog as link "
+"post (http://www.yourblog.com)"
+msgstr ""
+"Definiere die Default Twitter Card Parameter für Titel, Beschreibung und "
+"Image, wenn Du die Frontpage Deines Blogs als Link Post teilst (http://www."
+"DeinBlog.de) "
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:166
+msgid ""
+"Please note: Twitter supports images with a minimum dimension of 144x144 "
+"pixels and a maximum dimension of 4096x4096 pixels and less than 5 BM. The "
+"image will be cropped to a square. Twitter supports JPG, PNG, WEBP and GIF "
+"formats."
+msgstr ""
+"Bitte beachte: Facebook unterstützt Bilder mit einer Mindestgröße von "
+"144x144 Pixel und eine maximale Größe 4096 x 4096 Pixel mit weniger als 5 BM."
+" The Bilder werden auf ein quadratisches Maß übertragen. Twitter unterstützt "
+"die Bildformate JPG, PNG, WEBP und GIF. "
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:180
+msgid "Did you know?"
+msgstr "Wusstest Du schon?"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:181
+msgid ""
+"Beginning with Premium Pro, you can change the custom post format photo post "
+"or link post for each individual social media post and channel (profile, "
+"page, group), deviate from the default settings."
+msgstr ""
+"Beginnend mit Premium Pro Version kannst Du das Beitragsformat zwischen "
+"Bildbeitrag und Linkbeitrag für jeden einzelnen Social Media Post und Kanal "
+"(Profil, Seite, Gruppe) ändern und von den Standardeinstellungen abweichen."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:181
+msgid "Upgrade to Premium Pro now."
+msgstr "Upgrade auf Premium PRO"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:195 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:235 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:274 ../..
+#: /plugins/blog2social-v-4/views/b2s/post.calendar.php:32 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:109
+msgid "Link Post"
+msgstr "Link-Beitrag"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:199 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:110
+msgid ""
+"The link post format displays posts title, link address and the first one or "
+"two sentences of the post. The networks scan this information from your META "
+"or OpenGraph. Link posts display the post image, you selected in your "
+"WordPress. In case, you have not selected a post image, some networks "
+"display the first image detected on your page. The image links to your blog "
+"post."
+msgstr ""
+"Für einen Link-Beitrag übernehmen die sozialen Netzwerke aus den META- oder "
+"OpenGraph-Tags den Titel, die Link-Adresse und die ersten Zeilen Deines "
+"Blogbeitrags. Einige Netzwerke übernehmen das erste Bildauf Deiner Seite, "
+"falls du kein Beitragsbild in WordPress ausgewählt hast. Das Bild verlinkt "
+"automatisch auf Deinen Blogbeitrag."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:202 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:252 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Settings/Item.php:274 ../..
+#: /plugins/blog2social-v-4/views/b2s/post.calendar.php:32 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:114
+msgid "Photo Post"
+msgstr "Bild-Beitrag"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:206
+msgid ""
+"A photo or image post displays the selected image in the one-page preview of "
+"Blog2Social and your comment above the image. The image links to the image "
+"view on your image gallery in the respective network. Blog2Social adds the "
+"link to your post in your comment. The main benefit of photo posts is that "
+"your image is uploaded to your personal image albums or gallery. In Facebook "
+"you can edit the album’s name with a description of your choice."
+msgstr ""
+"Ein Bild-Beitrag zeigt das ausgewählte Bild aus Deinem Blogbeitrag mit "
+"Deinem Kommentar oberhalb des Bildes an. Das Bild verlinkt auf die "
+"Bilderansicht in Deiner Foto-Galerie des betreffenden Netzwerks. Blog2Social "
+"integriert einen Link auf Deinen Blogbeitrag im Kommentar. Der Bild-Beitrag "
+"hat vor allem den Vorteil, dass Dein Bild automatisch in Deinen persönlichen "
+"Fotoalben oder Deiner persönlichen Galerie im Netzwerk gespeichert wird. In "
+"Facebook kannst du den Namen Deiner Alben beliebig anpassen."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:231
+msgid "All"
+msgstr "alle"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:323 ../..
+#: /plugins/blog2social-v-4/views/b2s/post.sched.php:24
+msgid "Uhr"
+msgstr "Uhr"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:327
+msgid "Best times to post"
+msgstr "Beste Zeiten"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:340 ../..
+#: /plugins/blog2social-v-4/views/b2s/settings.php:71 ../../plugins/blog2social-v-
+#: 4/views/b2s/ship.php:49 ../../plugins/blog2social-v-4/views/b2s/ship.php:339 ..
+#: /../plugins/blog2social-v-4/views/b2s/html/footer.phtml:189
+msgid "You want to schedule your posts and use the Best Time Scheduler?"
+msgstr ""
+"Du möchtest die Veröffentlichung Deiner Posts planen und den Beste Zeiten "
+"Manager benutzen?"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:342 ../..
+#: /plugins/blog2social-v-4/views/b2s/post.sched.php:90 ../../plugins/blog2social-
+#: v-4/views/b2s/settings.php:51 ../../plugins/blog2social-v-4/views/b2s/settings.
+#: php:56 ../../plugins/blog2social-v-4/views/b2s/settings.php:73 ../..
+#: /plugins/blog2social-v-4/views/b2s/settings.php:107 ../../plugins/blog2social-
+#: v-4/views/b2s/settings.php:120 ../../plugins/blog2social-v-
+#: 4/views/b2s/settings.php:128 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 436
+msgid "save"
+msgstr "speichern"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Settings/Item.php:347
+msgid "Sorry, we can not load your data at the moment..."
+msgstr "Sorry, derzeit können wir Deine Daten nicht laden. Versuche es erneut."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Image.php:29
+msgid "The images file types .jpg and .png are allowed. Please try another."
+msgstr "Es sind nur .jpg und .png Bilder erlaubt. Bitte wähle ein anderes Bild aus."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Image.php:30 ../..
+#: /plugins/blog2social-v-4/views/b2s/settings.php:15
+msgid ""
+"You need a higher user role to upload an image on this blog. Please contact "
+"your administrator."
+msgstr ""
+"Du brauchst eine höhere Benutzerrolle, um ein Bild auf diesem Blog "
+"hochzuladen. Bitte kontaktiere Deinen Administrator."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Image.php:31
+msgid "To select an individual image from your media library,"
+msgstr "Um ein individuelles Bild aus Deiner Mediathek auszuwählen,"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Image.php:37
+msgid ""
+"The best size for images in social media posts are between: 667-1000px x 523-"
+"1000px. Blog2Social will automatically resize your image according to "
+"network requirements."
+msgstr ""
+"Die optimalen Bildgrößen für Deine Social Media Posts liegen zwischen: 667-"
+"1000px x 523-1000px <br> Blog2Social passt Dein Bild automatisch die Größe "
+"des jeweiligen Netzwerks an."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Image.php:61
+msgid "No images are included in your post."
+msgstr "In dem Beitrag sind keine Bilder hinterlegt"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Image.php:69
+msgid "Apply image for all networks"
+msgstr "Bild für alle Netzwerke übernehmen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Image.php:73 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Image.php:75
+msgid "Apply image for this network"
+msgstr "Bild für dieses Netzwerk übernehmen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Image.php:86 ../..
+#: /plugins/blog2social-v-4/views/b2s/settings.php:151
+msgid "Select or upload an image from mediathek"
+msgstr "Bild aus Mediathek auswählen oder hochladen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Image.php:87 ../..
+#: /plugins/blog2social-v-4/views/b2s/settings.php:152
+msgid "Use image"
+msgstr "Bild verwenden"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:83
+msgid "Network does not support image for profiles"
+msgstr "Netzwerk unterstützt keine Bilder für Profile"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:84
+msgid "Network defines image by link"
+msgstr "Netzwerk wählt selber das Bild aus"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:86
+msgid "Supported HTML tags"
+msgstr "Erlaubte HTML-Elemente"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:87 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:134
+msgid "Network does not support emojis"
+msgstr "Netzwerk unterstützt keine Emojis"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:118
+msgid "Text only"
+msgstr "nur Text"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:119 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:123 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:158 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:162 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:184 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:188
+msgid "characters"
+msgstr "Zeichen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:133
+msgid "Network does not support image for pages"
+msgstr "Netzwerk unterstützt keine Bilder für Seiten"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:216
+msgid "post format"
+msgstr "Postformat"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:225
+msgid "Insert full-text"
+msgstr "ganzen Text einfügen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:227
+msgid "Delete text"
+msgstr "Text löschen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:268 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:293 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:318 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:336 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:351
+msgid "Write something about your post..."
+msgstr "Schreibe etwas..."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:275 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:300 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:325 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:378
+msgid "Change image for this network"
+msgstr "Bild für dieses Netzwerk ändern"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:279
+msgid ""
+"Info: Change Open Graph Meta tags image, title and description for this "
+"network"
+msgstr "Info: Ändere die Open Graph Parameter für diese Netzwerk"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:281 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:306
+msgid ""
+"You want to change your link image, link title and link description for this "
+"network? Click here."
+msgstr "Du möchtest das Bild, den Titel und die Beschreibung ändern?  Hier Klicken."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:285
+msgid "OG Meta title"
+msgstr "OG Titel"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:286
+msgid "OG Meta description"
+msgstr "OG Beschreibung"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:304
+msgid "Info: Change Card Meta tags image, title and description for this network"
+msgstr "Info: Ändere die Twitter Card Parameter für diese Netzwerk"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:310
+msgid "Card Meta title"
+msgstr "Card Titel"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:311
+msgid "Card Meta description"
+msgstr "Card Beschreibung"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:365
+msgid "required"
+msgstr "erforderlich"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:385 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:387
+msgid "Link"
+msgstr "Link"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:443
+msgid "The Headline..."
+msgstr "Die Überschrift..."
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:448
+msgid "Hashtags"
+msgstr "Hashtags"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:478
+msgid "Share Now"
+msgstr "Sofort teilen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:481 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:375
+msgid "Schedule post once"
+msgstr "Beitrag einmal planen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:483
+msgid "Schedule Recurrent Post"
+msgstr "regelmäßig Planen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:508
+msgid "Duration"
+msgstr "Dauer"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:509 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:524 ../..
+#: /plugins/blog2social-v-4/views/b2s/modal.calendar.php:38 ../..
+#: /plugins/blog2social-v-4/views/b2s/modal.calendar.php:43
+msgid "Date"
+msgstr "Startdatum"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:510 ../..
+#: /plugins/blog2social-v-4/includes/B2S/Ship/Item.php:525 ../..
+#: /plugins/blog2social-v-4/views/b2s/modal.calendar.php:39 ../..
+#: /plugins/blog2social-v-4/views/b2s/modal.calendar.php:44
+msgid "Time"
+msgstr "Zeit"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:511
+msgid "Days"
+msgstr "Tage"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:519
+msgid "Week"
+msgstr "Woche"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:519
+msgid "Weeks"
+msgstr "Wochen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:529
+msgid "Mon"
+msgstr "Mo"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:530
+msgid "Tue"
+msgstr "Di"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:531
+msgid "Wed"
+msgstr "Mi"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:532
+msgid "Thu"
+msgstr "Do"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:533
+msgid "Fri"
+msgstr "Fr"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:534
+msgid "Sat"
+msgstr "Sa"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:535
+msgid "Sun"
+msgstr "So"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:540
+msgid "delete"
+msgstr "löschen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:541
+msgid "Add Posting Time"
+msgstr "neue Terminserie anlegen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:547
+msgid "Apply Settings To All Networks"
+msgstr "Planung für alle Netzwerke übernehmen"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Item.php:548
+msgid "Save Settings As Default"
+msgstr "Planung dauerhaft speichern"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Save.php:205
+msgid "view social media post"
+msgstr "Zeige Social Media Beitrag an"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/Ship/Save.php:214
+msgid "scheduled on"
+msgstr "geplant für"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/User/Info.php:11
+msgid "Number of shared posts"
+msgstr "Anzahl geteilter Beiträge"
+
+#: ../../plugins/blog2social-v-4/includes/B2S/User/Info.php:14
+msgid "Number of scheduled posts"
+msgstr "Anzahl der geplanten Posts"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:135
+msgid "Manually share on Social Media"
+msgstr "Manuell auf Social Media teilen"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:144
+msgid "Auto-Post on Social Media"
+msgstr "Automatisch auf Social Media teilen"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:337
+msgid "This post will be shared into your social media on"
+msgstr "Dein Beitrag ist zur Veröffentlichung in den Social Media geplant ab dem"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:337 ../..
+#: /plugins/blog2social-v-4/includes/Loader.php:339
+msgid "show details"
+msgstr "siehe Details"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:339
+msgid "This post will be shared on social media in 2-3 minutes!"
+msgstr "Dein Beitrag wird in ca. 2-3 Minuten in die Social Media eingestellt!"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:343
+msgid ""
+"Please, make sure that your post are publish on this blog on this moment. "
+"Then you can auto post your post with Blog2social."
+msgstr ""
+"Bitte stelle sicher, dass Dein Beitrag in diesem Moment veröffentlicht wurde."
+"  Dann kannst Du Deinen Beitrag automatisch mit Blog2Social posten."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:346 ../..
+#: /plugins/blog2social-v-4/includes/MetaBox.php:71
+msgid ""
+"There are no authorizations for your selected profile. Please, authorize "
+"with a social network or select a other profile."
+msgstr ""
+"Dein ausgewähltes Profil hat keine Autorisierungen.  Bitte, verbinde Dich "
+"mit einem Netzwerk oder wähle ein anderes Profil aus. "
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:358
+msgid "Upgrade to Premium"
+msgstr "Premium freischalten"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:366
+msgid "Your post could not be posted."
+msgstr "Dein Post ist nicht vom Netzwerk veröffentlicht worden."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:367
+msgid "Your authorization has expired. Please check your authorization."
+msgstr "Deine Autorisierung ist abgelaufen. Bitte überprüfe deine Autorisierung."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:368
+msgid "The network has marked the post as spam or abusive."
+msgstr "Das Netzwerk hat Deinen Post als Spam oder missbräuchlich markiert."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:369
+msgid ""
+"We don't have the permission to publish your post. Please check your "
+"authorization."
+msgstr ""
+"Wir haben nicht Deine Erlaubnis, den Post zu veröffentlichen. Bitte "
+"überprüfe deine Autorisierung."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:370
+msgid ""
+"Your authorization is interrupted. Please check your authorization. Please "
+"see <a target=\"_blank\" href=\"https://www.blog2social."
+"com/en/faq/category/9/troubleshooting-for-error-messages.html\">FAQ</a>."
+msgstr ""
+"Die Autorisierung ist unterbrochen. Bitte überprüfe deine Autorisierung. "
+"Siehe <a target=\"_blank\" href=\"https://www.blog2social."
+"com/de/faq/category/9/fehlermeldungen-und-loesungen.html\">FAQ</a>."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:371
+msgid "Your limit is reached for today."
+msgstr "Du hast das Veröffentlichungs-Limit mit Deinem Account für Heute erreicht."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:372
+msgid "Your post could not be posted, because your image is not available."
+msgstr "Das Netzwerk kann Dein Bild nicht verarbeiten."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:373
+msgid ""
+"The network has blocked your account. Please see <a target=\"_blank\" "
+"href=\"https://www.blog2social.com/en/faq/category/9/troubleshooting-for-"
+"error-messages.html\">FAQ</a>."
+msgstr ""
+"Das Netzwerk hat deinen Account blockiert. Siehe <a target=\"_blank\" "
+"href=\"https://www.blog2social.com/de/faq/category/9/fehlermeldungen-und-"
+"loesungen.html\">FAQ</a>."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:374
+msgid ""
+"The number of images is reached. Please see <a target=\"_blank\" href=\"https:"
+"//www.blog2social.com/en/faq/category/9/troubleshooting-for-error-messages."
+"html\">FAQ</a>."
+msgstr ""
+"Die erlaubte Anzahl von Bildern ist erreicht. Siehe <a target=\"_blank\" "
+"href=\"https://www.blog2social.com/de/faq/category/9/fehlermeldungen-und-"
+"loesungen.html\">FAQ</a>."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:375
+msgid "Your limit has temporarily reached for this network."
+msgstr "Du hast das Veröffentlichungs-Limit mit Deinem Account kurzzeitig erreicht."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:376
+msgid ""
+"The network can not publish special characters such as Emoji. Please see <a "
+"target=\"_blank\" href=\"https://www.blog2social."
+"com/en/faq/category/9/troubleshooting-for-error-messages.html\">FAQ</a>."
+msgstr ""
+"Das Netzwerk unterstüzt keine Emojis. Siehe <a target=\"_blank\" href=\"https:"
+"//www.blog2social.com/de/faq/category/9/fehlermeldungen-und-loesungen."
+"html\">FAQ</a>."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:377
+msgid "Your post is a duplicate."
+msgstr "Du kannst auf dem Netzwerke keine Duplikate veröffentlichen."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:378
+msgid "The network are required a public url to your post."
+msgstr "Das Netzwerk fordert, dass Dein Link zu Deinem Beitrag erreichbar ist."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:379
+msgid "The network says, that your group is not exisits."
+msgstr "Das Netzwerk konnte Deine angegebene Gruppe nicht finden."
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:436 ../..
+#: /plugins/blog2social-v-4/includes/Loader.php:467
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:437 ../..
+#: /plugins/blog2social-v-4/includes/Loader.php:437 ../../plugins/blog2social-v-
+#: 4/includes/Loader.php:474
+msgid "Posts & Sharing"
+msgstr "Beiträge"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:438 ../..
+#: /plugins/blog2social-v-4/includes/Loader.php:438 ../../plugins/blog2social-v-
+#: 4/includes/Loader.php:481 ../../plugins/blog2social-v-4/views/b2s/network.php:17
+msgid "Networks"
+msgstr "Netzwerke"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:439 ../..
+#: /plugins/blog2social-v-4/includes/Loader.php:439 ../../plugins/blog2social-v-
+#: 4/includes/Loader.php:487 ../../plugins/blog2social-v-4/views/b2s/ship.php:52 .
+#: ./../plugins/blog2social-v-4/views/b2s/ship.php:263
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:440 ../..
+#: /plugins/blog2social-v-4/includes/Loader.php:440 ../../plugins/blog2social-v-
+#: 4/includes/Loader.php:493
+msgid "PR-Service"
+msgstr "PR-Service"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:458
+msgid "Blog2Social"
+msgstr "Blog2Social"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:758 ../..
+#: /plugins/blog2social-v-4/includes/Loader.php:911
+msgid "or"
+msgstr "oder"
+
+#: ../../plugins/blog2social-v-4/includes/Loader.php:758 ../..
+#: /plugins/blog2social-v-4/includes/Loader.php:911
+msgid "back to install plugins"
+msgstr "zurück zur Pluginübersicht"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:18 ../..
+#: /plugins/blog2social-v-4/includes/MetaBox.php:72
+msgid ""
+"Your post is still on draft or pending status. Please make sure that your "
+"post is published or scheduled to be published on this blog. You can then "
+"auto-post or schedule and customize your social media posts with Blog2Social."
+msgstr ""
+"Bitte stelle sicher, dass Dein Beitrag auf Deinem Blog veröffentlicht oder "
+"geplant ist. Dann kannst Du Deinen Beitrag mit Blog2Social anpassen und "
+"planen."
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:19
+msgid "Customize & Schedule Social Media Posts"
+msgstr "Social Media Posts anpassen & planen"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:25
+msgid "Blog2Social: Customize & Schedule Social Media Posts"
+msgstr "Blog2Social : Beiträge anpassen & planen"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:28
+msgid ""
+"Customize and schedule your social media posts on the one page preview for "
+"all your selected networks: tailor your posts with individual comments, "
+"#hashtags or @handles and schedule your posts for the best times to post, "
+"for multiple times or re-share recurrently for more visibility and "
+"engagement with your community."
+msgstr ""
+"Individualisiere und plane Deine Social Media Posts über die Netzwerk-"
+"Vorschau: Ergänze individuelle Kommentare, #Hashtags oder @Handles für die "
+"verschiedenen Netzwerke und plane Deine Posts für die besten Zeiten, "
+"mehrfach oder wiederholt, um mehr Sichtbarkeit und Feedback von Deiner "
+"Community zu erzielen"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:46 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/header.phtml:32
+msgid "Please see FAQ"
+msgstr "Siehe FAQ"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:53
+msgid "last auto-post:"
+msgstr "letzter Auto-Post:"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:69 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:496 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/header.phtml:37
+msgid "The connection to the server failed. Try again!"
+msgstr ""
+"Eine Verbindung zum Server konnte nicht hergestellt werden. Versuche es "
+"erneut!"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:70 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/header.phtml:31
+msgid ""
+"WordPress uses heartbeats by default, Blog2Social as well. Please enable "
+"heartbeats for using Blog2Social!"
+msgstr ""
+"WordPress verwendet standardmäßig den Heartbeat und Blog2Social auch. "
+"Aktiviere den Heartbeat damit Du Blog2Social problemlos nutzen kannst."
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:71 ../..
+#: /plugins/blog2social-v-4/includes/MetaBox.php:145
+msgid "Network settings"
+msgstr "Netzwerkeinstellungen"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:73
+msgid ""
+"Notice: Please make sure, that your website address is reachable. The Social "
+"Networks do not allow postings from local installations."
+msgstr ""
+"Hinweis: Bitte stelle sicher, dass Dein Blog von außen erreichbar ist. Bei "
+"Fragen wende Dich bitte an unseren Support."
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:85
+msgid "enable Auto-Posting"
+msgstr "Auto-Posting aktivieren"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:95 ../..
+#: /plugins/blog2social-v-4/views/b2s/network.php:48 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:150 ../../plugins/blog2social-v-4/views/b2s/post.
+#: calendar.php:22 ../../plugins/blog2social-v-4/views/b2s/post.php:37 ../..
+#: /plugins/blog2social-v-4/views/b2s/post.publish.php:40 ../..
+#: /plugins/blog2social-v-4/views/b2s/post.sched.php:48 ../../plugins/blog2social-
+#: v-4/views/b2s/ship.php:149 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 495 ../../plugins/blog2social-v-4/views/prg/html/header.phtml:81
+msgid "Loading..."
+msgstr "Lade Daten..."
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:103 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:233
+msgid "Blog2Social: Social Media Auto-Posting"
+msgstr "Blog2Social: Social Media Auto-Posting"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:107 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:237
+msgid ""
+"You have 2 general options to define the date and time to share your blog "
+"posts on social media with the Auto-Poster:"
+msgstr ""
+"Dir stehen grundsätzlich 2 Möglichkeiten zur Verfügung, per Auto-Posting "
+"Deine Blogbeiträge auf Social Media zu teilen: "
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:108 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:238
+msgid "1. Immediately after publishing your blog post"
+msgstr "Sofort nach Veröffentlichung Deines Blogbeitrags "
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:109 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:239
+msgid ""
+"Published blog posts: If you publish your blog post with click on publish in "
+"your WordPress post editor, Blog2Social will automatically share your social "
+"media post immediately."
+msgstr ""
+"Direkt veröffentlichte Blogbeiträge: Wenn Du Deine Blogbeiträge mit Klick "
+"auf “veröffentlichen” im Beitrags-Editor Deines Blogs sofort veröffentlichst,"
+" teilt Blog2Social Deinen Blogbeitrag unmittelbar auf Social Media."
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:110 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:240
+msgid ""
+"Scheduled blog posts: If you schedule your blog post with click on schedule "
+"in your WordPress post editor, Blog2Social will share your social media post "
+"on the publishing date of your blog post."
+msgstr ""
+"Vorgeplante Blogbeiträge: Wenn Du die Veröffentlichung Deines Blogbeitrags "
+"zu einem späteren Zeitpunkt planst und auf “planen” im Beitrags-Editor "
+"Deines Blogs klickst, teilt Blog2Social Deinen Blogbeitrag direkt nach der "
+"Veröffentlichung auf Social Media. "
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:111 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:241
+msgid ""
+"2. Schedule your social media posts for a specific date and time If you want "
+"to share your post at a particular date and time, different from your "
+"publishing date, select the option at scheduled times and set any date and "
+"time to share your post on social media."
+msgstr ""
+"Wenn Du Deinen Blogbeitrag an einem bestimmten Datum und zu bestimmten "
+"Zeiten teilen möchtest, die von der Veröffentlichung Deines Blogbeitrags "
+"abweichen, wähle die Option “zu bestimmten Zeiten” und lege das Datum und "
+"die Uhrzeit fest. "
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:115 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:246
+msgid "You want to auto-post your blog post?"
+msgstr "Du möchtest Deinen Beitrag automatisch posten?"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:116 ../..
+#: /plugins/blog2social-v-4/includes/Notice.php:29 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:99 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 280 ../../plugins/blog2social-v-4/views/b2s/ship.php:340 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:386 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:25 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:124 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:190 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:247 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:332
+msgid "With Blog2Social Premium you can:"
+msgstr "Mit Blog2Social kannst Du:"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:119 ../..
+#: /plugins/blog2social-v-4/includes/Notice.php:30 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:102 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 283 ../../plugins/blog2social-v-4/views/b2s/ship.php:343 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:389 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:28 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:127 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:193 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:250 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:335 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/header.phtml:241
+msgid "Post on pages and groups"
+msgstr "Poste auf Seiten und in Gruppen"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:120 ../..
+#: /plugins/blog2social-v-4/includes/Notice.php:31 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:103 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 284 ../../plugins/blog2social-v-4/views/b2s/ship.php:344 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:390 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:29 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:128 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:194 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:251 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:336
+msgid "Share on multiple profiles, pages and groups"
+msgstr "Auf mehreren Profilen, Seiten und Gruppen teilen"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:121 ../..
+#: /plugins/blog2social-v-4/includes/Notice.php:32 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:104 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 285 ../../plugins/blog2social-v-4/views/b2s/ship.php:345 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:391 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:30 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:64 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:129 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:195 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:252 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:337
+msgid "Auto-post and auto-schedule new and updated blog posts"
+msgstr ""
+" Auto-posten und Auto-planen: Beiträge automatisch bei Veröffentlichung oder "
+"Aktualisierung posten und zeitversetzt planen"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:122 ../..
+#: /plugins/blog2social-v-4/includes/Notice.php:33 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:105 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 286 ../../plugins/blog2social-v-4/views/b2s/ship.php:346 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:392 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:31 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:130 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:196 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:253 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:338
+msgid "Schedule your posts at the best times on each network"
+msgstr "Plane Deine Beiträge zu den besten Zeiten für jedes Netzwerk"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:123 ../..
+#: /plugins/blog2social-v-4/includes/Notice.php:34 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:106 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 287 ../../plugins/blog2social-v-4/views/b2s/ship.php:347 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:393 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:32 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:131 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:197 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:254 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:339
+msgid ""
+"Best Time Manager: use predefined best time scheduler to auto-schedule your "
+"social media posts"
+msgstr " Beste Zeiten Manager: vordefinierte Zeiten für Deine Beiträge nutzen"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:124 ../..
+#: /plugins/blog2social-v-4/includes/Notice.php:35 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:107 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 288 ../../plugins/blog2social-v-4/views/b2s/ship.php:348 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:394 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:33 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:132 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:198 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:255 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:340
+msgid "Schedule your post for one time, multiple times or recurrently"
+msgstr ""
+"Veröffentlichungen zur besten Zeit pro Netzwerk planen: einmalig, mehrmalig "
+"oder nach einem regelmäßigen Muster"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:125 ../..
+#: /plugins/blog2social-v-4/includes/Notice.php:36 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:108 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 289 ../../plugins/blog2social-v-4/views/b2s/ship.php:349 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:395 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:34 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:133 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:199 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:256 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:341
+msgid "Schedule and re-share old posts"
+msgstr "Plane und teile alte Beiträge"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:126 ../..
+#: /plugins/blog2social-v-4/includes/Notice.php:37 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:109 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 290 ../../plugins/blog2social-v-4/views/b2s/ship.php:350 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:396 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:35 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:66 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:134 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:200 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:257 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:342
+msgid "Select link format or image format for your posts"
+msgstr "Link-Posts oder Bild-Posts als Posting-Format für Deine Beiträge auswählen"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:127 ../..
+#: /plugins/blog2social-v-4/includes/Notice.php:38 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:110 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 291 ../../plugins/blog2social-v-4/views/b2s/ship.php:351 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:397 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:36 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:67 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:135 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:201 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:258 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:343
+msgid "Select individual images per post"
+msgstr "Individuelle Bilder für Deine Social Media Posts pro Netzwerk auswählen"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:128 ../..
+#: /plugins/blog2social-v-4/includes/Notice.php:39 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:111 ../../plugins/blog2social-v-4/views/b2s/ship.php:
+#: 292 ../../plugins/blog2social-v-4/views/b2s/ship.php:352 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:398 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:37 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:136 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:202 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:259 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:344
+msgid ""
+"Reporting & calendar: keep track of your published and scheduled social "
+"media posts"
+msgstr ""
+"Reporting & Kalender: Verfolge Deine veröffentlichten und geplanten Social "
+"Media Beiträge"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:130 ../..
+#: /plugins/blog2social-v-4/views/b2s/network.php:113 ../../plugins/blog2social-v-
+#: 4/views/b2s/ship.php:294 ../../plugins/blog2social-v-4/views/b2s/ship.php:354 .
+#: ./../plugins/blog2social-v-4/views/b2s/ship.php:400 ../../plugins/blog2social-
+#: v-4/views/b2s/html/footer.phtml:39 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:138 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:204 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:261 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:346 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/header.phtml:189
+msgid "Upgrade to PREMIUM"
+msgstr "Jetzt auf Premium upgraden"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:132 ../..
+#: /plugins/blog2social-v-4/views/b2s/network.php:115 ../../plugins/blog2social-v-
+#: 4/views/b2s/ship.php:296 ../../plugins/blog2social-v-4/views/b2s/ship.php:356 .
+#: ./../plugins/blog2social-v-4/views/b2s/ship.php:402 ../../plugins/blog2social-
+#: v-4/views/b2s/html/footer.phtml:41 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:72 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:90 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:140 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:206 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:263 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:348
+msgid ""
+"or <a href=\"http://service.blog2social.com/trial\" target=\"_blank\">start with "
+"free 30-days-trial of Blog2Social Premium</a> (no payment information needed)"
+msgstr ""
+"oder <a href=\"http://service.blog2social.com/trial\" target=\"_blank\">starte "
+"Deinen kostenlosen 30-tägigen Test von Blog2Social Premium</a>(keine "
+"Zahlungsinformationen erforderlich)"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:145
+msgid "Select profile:"
+msgstr "Profil auswählen: "
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:160
+msgid "When do you want to share your post on social media?"
+msgstr "Wann möchtest Du Deinen Beitrag auf den Social Media teilen?"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:163
+msgid "immediately after publishing"
+msgstr "sofort nach Veröffentlichung"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:164
+msgid "at scheduled times"
+msgstr "zu geplanten Zeiten"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:167
+msgid "You want to sched your blog post with Auto-Poster?"
+msgstr "Du willst Deinen Blogbeitrag mit dem Autoposter planen?"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:167 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:70 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:88
+msgid "Upgrade to PREMIUM PRO"
+msgstr "Upgrade auf PREMIUM PRO"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:173
+msgid "Select date:"
+msgstr "Datum auswählen:"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:179
+msgid "post at"
+msgstr "beachte"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:180
+msgid "my time settings"
+msgstr "meine Zeit-Einstellungen"
+
+#: ../../plugins/blog2social-v-4/includes/MetaBox.php:181
+msgid ""
+"Note: If you ​have​ not ​specified​ your own times, we automatically provide "
+"you with the best times to post​ on the social networks. You can always "
+"​edit​ your own times in the settings."
+msgstr ""
+"Hinweis: Wenn Du keinen eigenen Zeiten angegeben hast, stellen wir Dir "
+"automatisch die besten Zeiten zur Verfügung, um in die Social Media zu "
+"posten. Du kannst jederzeit Deine eigenen Zeiten unter Einstellungen "
+"bearbeiten."
+
+#: ../../plugins/blog2social-v-4/includes/Notice.php:18
+msgid ""
+"<strong>Rate it!</strong> If you like Blog2Social, please give us a 5 star "
+"rating. I there is anything that does not work for you, please contact us!"
+msgstr ""
+"Wenn Dir Blog2Social gefällt, dann freuen wir uns über eine 5 Sterne "
+"Bewertung. Spreche uns an, wenn Dir ir­gend­was nicht gefällt."
+
+#: ../../plugins/blog2social-v-4/includes/Notice.php:19 ../../plugins/blog2social-
+#: v-4/views/b2s/html/sidebar.phtml:54
+msgid "RATE BLOG2SOCIAL"
+msgstr "Blog2Social jetzt bewerten"
+
+#: ../../plugins/blog2social-v-4/includes/Notice.php:20
+msgid "hide"
+msgstr "ausblenden"
+
+#: ../../plugins/blog2social-v-4/includes/Notice.php:41
+msgid "Upgrade to Blog2Social Premium"
+msgstr "Jetzt auf Blog2Social Premium upgraden"
+
+#: ../../plugins/blog2social-v-4/includes/Notice.php:55
+msgid "Top 5 FAQ"
+msgstr "Top 5 FAQ"
+
+#: ../../plugins/blog2social-v-4/includes/PRG/Post/Filter.php:31
+msgid "All Authors"
+msgstr "alle Autoren"
+
+#: ../../plugins/blog2social-v-4/includes/PRG/Post/Filter.php:42
+msgid "All Types"
+msgstr "alle Typen"
+
+#: ../../plugins/blog2social-v-4/includes/PRG/Post/Item.php:100
+msgid "You have no posts published or scheduled"
+msgstr "Du hast keine Beiträge veröffentlicht oder geplant"
+
+#: ../../plugins/blog2social-v-4/includes/PRG/Post/Item.php:127
+msgid "Publish on PR-Gateway"
+msgstr "Beitrag über PR-Gateway veröffentlichen"
+
+#: ../../plugins/blog2social-v-4/includes/PRG/Post/Item.php:129
+msgid "on Blog"
+msgstr "auf dem Blog"
+
+#: ../../plugins/blog2social-v-4/includes/System.php:61
+msgid ""
+"Blog2Social used cURL. cURL is not installed in your PHP installation on "
+"your server. Install cURL and activate Blog2Social again."
+msgstr ""
+"Blog2Social verwendet cURL. cURL ist nicht in deiner PHP Version auf deinem "
+"Server installiert.  Installiere cURL und aktiviere Blog2Social erneut."
+
+#: ../../plugins/blog2social-v-4/includes/System.php:64 ../../plugins/blog2social-
+#: v-4/includes/System.php:70
+msgid ""
+"Please see <a href=\"https://www.blog2social."
+"com/en/faq/content/1/58/en/system-requirements-for-installing-blog2social."
+"html\" target=\"_blank\">FAQ</a>"
+msgstr ""
+"Siehe <a href=\"https://www.blog2social."
+"com/de/faq/content/1/63/de/systemvoraussetzungen-fuer-die-installation-von-"
+"blog2social.html\" target=\"_blank\">FAQ</a>"
+
+#: ../../plugins/blog2social-v-4/includes/System.php:67
+msgid ""
+"Blog2Social used PHP. Your installed PHP version on your server is not high "
+"enough to use Blog2Social. Update your PHP version on 5.5.3 or higher."
+msgstr ""
+"Blog2Social nutzt PHP.  Deine installierte PHP Version ist nicht hoch genug, "
+"um Blog2Social zu nutzen. Aktualisere Deine PHP Version auf 5.5.3 oder höher."
+" "
+
+#: ../../plugins/blog2social-v-4/includes/System.php:73
+msgid ""
+"Blog2Social seems to have no permission to write in your WordPress database. "
+"Please make sure to assign Blog2Social the permission to write in the "
+"WordPress database."
+msgstr ""
+"Blog2Social hat keine Rechte, um in Deine WordPress Datenbank zu schreiben. "
+"Bitte stelle sicher, dass Blog2Social das Recht eingeräumt wird, in Deine "
+"Wordpress Datenbank zu schreiben."
+
+#: ../../plugins/blog2social-v-4/includes/System.php:76
+msgid ""
+"<a href=\"https://www.blog2social.com/en/faq/content/1/58/en/system-"
+"requirements-for-installing-blog2social.html\" target=\"_blank\"> Please find "
+"more Information and help in our FAQ</a>"
+msgstr ""
+"<a href=\"https://www.blog2social."
+"com/de/faq/content/1/63/de/systemvoraussetzungen-fuer-die-installation-von-"
+"blog2social.html\" target=\"_blank\">Siehe FAQ</a>"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:13
+msgid "Get news and updates for promoting your blog on social media"
+msgstr "Aktuelle Infos zur Blog-Promotion auf Social Media"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:18
+msgid "Get updates"
+msgstr "Updates erhalten"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:20
+msgid ""
+"We hate spam, too. We will never sell your email address to any other "
+"company or for any other purpose."
+msgstr ""
+"Wir mögen auch keinen Spam. Deine E-Mail-Adresse werden wir weder verkaufen "
+"noch anderweitig zweckentfremden. "
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:27
+msgid "How to use Blog2Social – Step by Step"
+msgstr "So funktioniert Blog2Social – Schritt für Schritt"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:28
+msgid ""
+"Learn how to get the most out of Blog2Social to promote your blog on social "
+"media."
+msgstr ""
+"Du erfährst, wie Du Blog2Social optimal nutzt, um Deinen Blog auf Social "
+"Media zu promoten."
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:29 ../..
+#: /plugins/blog2social-v-4/views/b2s/dashboard.php:85
+msgid "Learn more"
+msgstr "mehr erfahren"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:37
+msgid "Do you need help?"
+msgstr "Brauchst Du Unterstützung?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:38
+msgid "Find answers to common questions in"
+msgstr "Antworten auf die häufigsten Fragen findest du in"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:39
+msgid "our FAQ"
+msgstr "unseren FAQ"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:48
+msgid "Loading Top 5 FAQ"
+msgstr "lade Top 5 FAQ"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:51
+msgid "Blog2Social FAQ"
+msgstr "Blog2Social FAQ"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:56
+msgid "Couldn't find your answer?"
+msgstr "Konntest Du Deine Antwort nicht finden?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:58
+msgid "Contact Support by Email"
+msgstr "Support-Team per E-Mail kontaktieren"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:60
+msgid "Call us: +49 2181 7569-277"
+msgstr "Ruf' uns an: +49 2181 7569-277"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:62
+msgid "(Call times: from 9:00 a.m. to 5:00 p.m. CET on working days)"
+msgstr "(Anrufzeiten: Montags bis Freitag von 9:00 bis 17:00 MEZ)"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:65
+msgid "Follow us:"
+msgstr "Folge uns:"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:72
+msgid "Your license: Blog2Social"
+msgstr "Du nutzt Blog2Social"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:84
+msgid ""
+"Upgrade to Blog2Social Premium to schedule your posts for the best time, "
+"once or recurringly with the Best Time Scheduler and post to pages, groups "
+"and multiple accounts per network."
+msgstr ""
+"Mit Blog2Social Premium kannst Du mit dem Beste Zeiten Manager Deine Posts "
+"im Voraus planen, zur einmaligen oder wiederholten Veröffentlichung. Und Du "
+"kannst auf Seiten, in Gruppen und mehreren Accounts pro Netzwerk posten."
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:90 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/sidebar.phtml:24
+msgid "Enter license key and change your version"
+msgstr "Lizenzschlüssel eingeben und Version ändern"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:92 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/sidebar.phtml:26
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:106
+msgid "Network Choice"
+msgstr "Netzwerkauswahl"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:107
+msgid "Cross-share to all popular social networks"
+msgstr "Teilen von Blogbeiträgen auf allen Social Media"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:119
+msgid "Automatically share your posts whenever you publish a new blog post"
+msgstr "Blogbeiträge automatisch beim Veröffentlichen teilen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:130
+msgid "Custom Sharing"
+msgstr "Individualisieren"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:131
+msgid ""
+"Edit or add comments, hashtags or handles. Edit posts in HTML for re-"
+"publishing on blogging networks"
+msgstr ""
+"Posting-Texte ergänzen mit Kommentaren, Hashtags oder Handles. HTML-Editor "
+"für das Posten in Blog-Netzwerken"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:142 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:381 ../../plugins/blog2social-v-
+#: 4/views/b2s/html/footer.phtml:172
+msgid "Best Time Scheduler"
+msgstr "Beste Zeiten Manager"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:143
+msgid "Choose pre-defined times to post or edit and define your own time settings"
+msgstr "Optimaler Zeitpunkt zum Posten voreingestellt und anpassbar"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:154
+msgid "Custom Scheduling"
+msgstr "Veröffentlichungen planen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:155
+msgid ""
+"Unlimited scheduling options: once, repeatedly or recurringly to multiple "
+"profiles, pages and groups"
+msgstr ""
+"Einmalig, mehrmals oder regelmäßig auf mehreren Profilen, Seiten oder "
+"Gruppen posten"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:166
+msgid "One-Step Workflow"
+msgstr "One-Step Workflow"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:167
+msgid "One-page preview editor for all social networks for easy customizing"
+msgstr ""
+"Zentrale Vorschauseite für alle Social Media mit Editor für einfaches "
+"Anpassen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:178
+msgid "Reporting"
+msgstr "Veröffentlichungen anzeigen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:179
+msgid ""
+"All scheduled and published social media posts with direct links for easy "
+"access or re-sharing"
+msgstr ""
+"Alle veröffentlichten und geplanten Social-Media-Posts mit direktem Link zum "
+"einfachen Aufrufen und erneuten Teilen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/dashboard.php:186
+msgid "Unlock Premium"
+msgstr "Premium freischalten"
+
+#: ../../plugins/blog2social-v-4/views/b2s/modal.calendar.php:7
+msgid "Edit Post"
+msgstr "Beitrag bearbeiten"
+
+#: ../../plugins/blog2social-v-4/views/b2s/modal.calendar.php:26
+msgid "This post is blocked by %1"
+msgstr "% 1bearbeitet gerade diesen Beitrag."
+
+#: ../../plugins/blog2social-v-4/views/b2s/modal.calendar.php:57 ../..
+#: /plugins/blog2social-v-4/views/b2s/network.php:28
+msgid "Delete"
+msgstr "löschen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/modal.calendar.php:61
+msgid "Change details"
+msgstr "Änderungen übernehmen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:22 ../..
+#: /plugins/blog2social-v-4/views/b2s/network.php:23 ../../plugins/blog2social-v-
+#: 4/views/prg/post.php:25 ../../plugins/blog2social-v-4/views/prg/post.php:26 ..
+#: /../plugins/blog2social-v-4/views/b2s/html/post.navbar.phtml:13 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/post.navbar.phtml:14
+msgid "filter"
+msgstr "Filter"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:33 ../..
+#: /plugins/blog2social-v-4/views/b2s/network.php:36 ../../plugins/blog2social-v-
+#: 4/views/b2s/network.php:69 ../../plugins/blog2social-v-4/views/b2s/network.php:
+#: 92
+msgid "Create new profile"
+msgstr "neues Profil erstellen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:35
+msgid "You want to define a new combination of networks?"
+msgstr "Du möchtest eine neue Kombination von Netzwerken anlegen?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:75
+msgid "create"
+msgstr "erstellen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:95
+msgid ""
+"All connected networks will be displayed as default \"Standard\" networks "
+"profile.<br><br>You may define various sets of social media accounts, "
+"profiles, pages or groups for different sharing purposes. For example pre-"
+"select specific set of all your networks for initial sharing and another set "
+"of specific networks for re-sharing your post to. Or, if you have multiple "
+"Twitter accounts or multiple Facebook pages and you want to share your post "
+"to specific accounts or pages only, this feature may come handy for even "
+"faster access to a specific selection of your sharing purposes. You may also "
+"select sets of networks for re-sharing or scheduling your posts once or "
+"recurrently at various days and times and with different comments or images."
+"<br><br> This feature gives you an easier and faster access to an unlimited "
+"number of variations for pre-selected sets of social media accounts for any "
+"sharing and scheduling scheme you may think of.<br><br> You can always "
+"select and remove any account from any of your networks profiles on your "
+"preview page with just a click of your mouse for an easy variation of your "
+"current sharing scheme."
+msgstr ""
+"Alle verbundenen Netzwerke werden in der Netzwerk-Übersicht als „Standard“ "
+"angezeigt.<br><br>\n"
+"Du hast die Möglichkeit verschiedene Netzwerk-Kombinationen von Accounts, "
+"Profilen oder Seiten für verschiedene Posting-Zwecke zusammenzustellen und "
+"als Netzwerk-Profile abzuspeichern um für zukünftige Aktivitäten schneller "
+"darauf zugreifen zu können.<br><br>\n"
+"Zum Beispiel, wenn Du den Beitrag bei Veröffentlichung auf allen Netzwerken "
+"teilen möchtest, zum wiederholten Teilen aber nur auf bestimmten Netzwerken. "
+"Oder <br>\n"
+"- wenn Du mehrere Twitter Accounts oder Facebook Seiten hast, auf denen Du "
+"den Beitrag in verschiedenen Rhythmen mit verschiedenen Kommentaren teilen "
+"möchten, oder <br>\n"
+"- wenn Du bestimmte Beiträge nur auf bestimmten Netzwerken teilen möchtest, "
+"oder <br>\n"
+"- wenn Du Deine Beitrags- und Blogartikel Bilder nacheinander nur auf den "
+"Bilder-Netzwerken teilen möchtest.<br><br>\n"
+"Was auch immer Du teilen möchtest und wann auch immer Du Deine Beiträge "
+"teilen möchtest, Blog2Social bietet Dir die Möglichkeiten, durch "
+"verschiedene Netzwerk-Profile noch schneller auf Deine verschiedenen "
+"Netzwerk-Kombinationen zuzugreifen."
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:98
+msgid "You want to add another network profile, pages or groups?"
+msgstr ""
+"Du möchtest ein weiteres Netzwerkprofil anlegen oder auf Seiten und Gruppen "
+"posten?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:127
+msgid "Delete Profile"
+msgstr "Profil löschen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:130
+msgid "Do you really want to delete this profile"
+msgstr "Soll Dein Profil wirklich gelöscht werden?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:133 ../..
+#: /plugins/blog2social-v-4/views/b2s/post.publish.php:74 ../..
+#: /plugins/blog2social-v-4/views/b2s/post.sched.php:111 ../..
+#: /plugins/blog2social-v-4/views/prg/ship.php:92
+msgid "NO"
+msgstr "NEIN"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:134 ../..
+#: /plugins/blog2social-v-4/views/b2s/network.php:162 ../../plugins/blog2social-v-
+#: 4/views/b2s/post.publish.php:75 ../../plugins/blog2social-v-4/views/b2s/post.
+#: sched.php:112
+msgid "YES, delete"
+msgstr "Ja, löschen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:144
+msgid "Delete Authorization"
+msgstr "Autorisierung löschen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:153
+msgid "Do you really want to delete this authorization"
+msgstr "Soll die Autorisierung wirklich löschen werden?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:156
+msgid "You have still set up scheduled posts for this network:"
+msgstr "Du hast noch ausstehende Veröffentlichungen für dieses Netzwerk geplant:"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:157
+msgid "scheduled posts"
+msgstr "geplante Beiträge"
+
+#: ../../plugins/blog2social-v-4/views/b2s/network.php:163
+msgid "View schedule posts for this profile"
+msgstr "Gehe zu geplanten Beiträgen für dieses Profil."
+
+#: ../../plugins/blog2social-v-4/views/b2s/post.calendar.php:59 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:458
+msgid "Choose your"
+msgstr "Wähle Deinen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/post.calendar.php:59 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:458
+msgid "Post Format"
+msgstr "Postformat"
+
+#: ../../plugins/blog2social-v-4/views/b2s/post.calendar.php:61 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:460
+msgid "for:"
+msgstr "für:"
+
+#: ../../plugins/blog2social-v-4/views/b2s/post.calendar.php:80 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:475
+msgid ""
+"Define the default settings for the custom post format for all of your "
+"Facebook accounts on the Blog2Social settings section."
+msgstr ""
+"Definiere das benutzerdefinierte Beitragsformat für alle Deine Twitter-"
+"Konten kannst Du unter den Blog2Social Einstellungen definieren."
+
+#: ../../plugins/blog2social-v-4/views/b2s/post.calendar.php:83 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:478
+msgid ""
+"Define the default settings for the custom post format for all of your "
+"Twitter accounts on the Blog2Social settings section."
+msgstr ""
+"Definiere das benutzerdefinierte Beitragsformat für alle Deine Twitter-"
+"Konten kannst Du unter den Blog2Social Einstellungen definieren."
+
+#: ../../plugins/blog2social-v-4/views/b2s/post.calendar.php:98 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:415
+msgid "Select image for"
+msgstr "Wähle Bild aus für"
+
+#: ../../plugins/blog2social-v-4/views/b2s/post.publish.php:65
+msgid "Delete entries from the reporting"
+msgstr "Einträge aus dem Reporting löschen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/post.publish.php:68
+msgid "You are sure, you want to delete entries from the reporting?"
+msgstr "Bist Du sicher, dass Du Einträge aus dem Reporting löschen möchtest?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/post.publish.php:70 ../..
+#: /plugins/blog2social-v-4/views/b2s/post.sched.php:107
+msgid "Number of entries"
+msgstr "Anzahl der Einträge"
+
+#: ../../plugins/blog2social-v-4/views/b2s/post.sched.php:74
+msgid "Change Time"
+msgstr "Zeitpunkt ändern"
+
+#: ../../plugins/blog2social-v-4/views/b2s/post.sched.php:102
+msgid "Delete entries form the scheduling"
+msgstr "Einträge aus der Planung löschen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/post.sched.php:105
+msgid "You are sure, you want to delete entries from the scheduling?"
+msgstr "Bist Du sicher, dass Du Einträge aus Deiner Planung löschen möchtest?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:25
+msgid "save..."
+msgstr "speichere Daten..."
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:30
+msgid "General"
+msgstr "Allgemein"
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:33
+msgid "Social Meta Data"
+msgstr "Social Meta Angaben"
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:36
+msgid "Best Time Settings"
+msgstr "Zeit-Einstellungen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:39
+msgid "Network Settings"
+msgstr "Netzwerk-Einstellungen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:61 ../..
+#: /plugins/blog2social-v-4/views/b2s/ship.php:437
+msgid "My Time Settings"
+msgstr "Meine Zeit-Einstellungen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:72
+msgid "Reset predefined best time settings"
+msgstr "Voreingestellte beste Zeiten zurücksetzen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:82
+msgid "Post format"
+msgstr "Beitragsformat"
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:92
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:95
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:159
+msgid "Allow shortcodes in my post"
+msgstr "berücksichtige Shortcodes in meinen Beiträgen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:162
+msgid ""
+"Shortcodes are used by some wordpress plugins like Elementor, Visual "
+"Composer and Content Builder. When a shortcode is inserted in a WordPress "
+"post or page, it is replaced with some other content when you publish the "
+"article on your blog. In other words, a shortcode instructs WordPress to "
+"find a special command that is placed in square brackets ([]) and replace it "
+"with the appropriate dynamic content by a plugin you use.<br><br>Activate "
+"this feature, if you should use dynamic elements in your articles."
+msgstr ""
+"Shortcodes werden von einigen WordPress-Plugins wie Elementor, Visual "
+"Composer und Content Builder verwendet. Wenn ein Shortcode in einem "
+"WordPress-Post oder einer Seite eingefügt wird, wird dieser dynamisch durch "
+"andere Inhalte ersetzt, wenn du Deinen Beitrag auf Deinem Wordpress "
+"veröffentlicht. Mit anderen Worten, ein Shortcode weist WordPress an, einen "
+"speziellen Befehl zu finden, der in eckige Klammern gesetzt wird ([]) und "
+"den Inhalt durch ein Plugin zu ersetzen, das Du verwendet.<br><br> Aktiviere "
+"diese Funktion, wenn Du dynamische Elemente in Deinen Beiträgen verwendest."
+
+#: ../../plugins/blog2social-v-4/views/b2s/settings.php:176
+msgid ""
+"Blog2Social applies the scheduled time settings based on the time zone "
+"defined in the general settings of your WordPress. You can select a user-"
+"specific time zone that deviates from the Wordpress system time zone for "
+"your social media scheduling.<br><br>Select the desired time zone from the "
+"drop-down menu."
+msgstr ""
+"Die Zeiteinstellungen zum Planen von Social Media Posts in Blog2Social "
+"basieren auf der Zeitzone, die in den allgemeinen Einstellungen Deines "
+"WordPress festgelegt ist. Du kannst aber auch eine andere Zeitzone als Basis "
+"für die Planung Deiner Social Media Posts festlegen. Wähle dazu die "
+"gewünschte Zeitzone aus dem Drop-Down Menü."
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:27
+msgid "Social Media Scheduling & Sharing"
+msgstr "Beitrag auf Social Media planen und teilen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:38
+msgid "scroll to bottom"
+msgstr "zum Seitenende"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:43
+msgid "You want to load your time settings?"
+msgstr "Du möchtest Deine Zeiten laden?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:44
+msgid "Load My Time Settings"
+msgstr "Meine Zeit-Einstellungen laden"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:50
+msgid "Load Best Time Scheduler"
+msgstr "Beste Zeiten laden"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:83
+msgid "Social Accounts"
+msgstr "Social Media Konten"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:101
+msgid "Add more..."
+msgstr "mehr hinzufügen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:103
+msgid "Profiles | Pages | Groups"
+msgstr "Profile | Seiten | Gruppen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:125
+msgid "Save Network Selection"
+msgstr "Netzwerkauswahl speichern"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:134
+msgid "network connected"
+msgstr "Netzwerk verbunden"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:135
+msgid "requires image"
+msgstr "Bild benötigt"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:136
+msgid "refresh authorization"
+msgstr "Autorisierung aktualisieren"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:159
+msgid ""
+"Notice:<br><p>Please make sure, that your website address is reachable. The "
+"Social Networks do not allow postings from local installations.</p>"
+msgstr ""
+"Hinweis:<br><p>Bitte stelle sicher, dass Deine Webseiten-Adresse von außen "
+"erreichbar ist. Die sozialen Netzwerke erlauben keine Posts von lokalen "
+"Installationen.</p>"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:161
+msgid "change website address"
+msgstr "Webseiten-Adresse ändern"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:178
+msgid "First, connect or select network before posting"
+msgstr ""
+"Verbinde Dich zuerst mit einem Netzwerk oder wähle ein Netzwerk aus, bevor "
+"Du den Beitrag teilst!"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:180
+msgid "connect"
+msgstr "Jetzt mit Netzwerken verbinden"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:188
+msgid "scroll to top"
+msgstr "zum Seitenanfang"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:189 ../../plugins/blog2social-
+#: v-4/views/b2s/ship.php:193
+msgid "Share"
+msgstr "Teilen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:202
+msgid "Time zone"
+msgstr "Zeitzone"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:218
+msgid "Share new post on Social Media"
+msgstr "Teile einen neuen Beitrag auf Social Media"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:240
+msgid "Connect for"
+msgstr "Netzwerke verbinden für"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:256
+msgid "Time Scheduling"
+msgstr "Zeitplanung"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:260
+msgid ""
+"You have not yet defined personal time settings. To edit personal time "
+"settings click on the Blog2Social Settings on the left-hand menu and select "
+"Best Time Settings to change the predefined time settings to your own "
+"preferences."
+msgstr ""
+"Du hast noch keine persönlichen Zeiteinstellungen vorgenommen. Um Deine "
+"persönlichen Zeiteinstellungen vorzunehmen, öffne die \"Einstellungen\" im "
+"Menü von Blog2Social und wähle die \"Zeit-Einstellungen\" aus. Dort kannst Du "
+"die voreingestellten besten Zeiten verändern."
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:273
+msgid "Re-share this Post"
+msgstr "Diesen Beitrag nochmal teilen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:276
+msgid ""
+"You can re-share your post for a different sharing purpose, or to share on a "
+"different choice of networks, profiles, pages or groups, or with different "
+"comments or images, or if you want to share your blog post images to image "
+"networks only, or re-share them at different times. You may vary your "
+"comments and images in order to produce more variations of your social media "
+"posts to share more often without sharing the same message over and over "
+"again. Whatever your choose to do for re-sharing your post, you can simply "
+"click \"Re-share this post\" and you will be led to the preview page where "
+"your can select your networks and edit your texts, comments or images "
+"according to your current sharing preferences."
+msgstr ""
+"Du kannst diesen Blogbeitrag erneut teilen, zum Beispiel, um diesen Beitrag "
+"auf einer anderen Auswahl an Netzwerken oder nur auf bestimmten Profilen, "
+"Seiten und Gruppen neu zu teilen, oder mit anderen Kommentaren, Bildern und "
+"Texten nur auf bestimmten Netzwerke zu teilen, oder um weitere Bilder zum "
+"Blogbeitrag nur an die Bilder-Netzwerke zu senden, oder um Deine Social "
+"Media Posts zu anderen Zeiten zu teilen. So erzielt Du mehr Variationen "
+"Deiner Social Media Posts und kannst Deinen Beitrag öfters posten, um mehr "
+"Aufmerksamkeit und Reichweite zu erzielen, ohne immer wieder die gleiche "
+"Mitteilung zu posten. Was auch immer Du zu teilen wünscht, klicke einfach "
+"auf \"Diesen Beitrag erneut teilen\" und Du wirst erneut zur Vorschau geführt, "
+"wo Deine Netzwerke, Texte und Bilder auswählen oder variieren kannst. "
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:279
+msgid "You want re-share your blog post?"
+msgstr "Du möchtest Deinen Beitrag erneut teilen?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:307
+msgid "Save Network Settings"
+msgstr "Netzwerkeinstellungen speichern"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:310
+msgid ""
+"You can save your current network settings as \"Standard\" network settings "
+"for any future sharing activities or as a \"Profile\" to choose from (Premium)."
+"<br><br>Your Standard selection will show as activated upon pressing the "
+"\"share on social media\" button on the right hand side bar. You can change "
+"these settings any time per click, or choose another network profile "
+"(Premium).<br><br>You can also pre-define various different sets of networks,"
+" for specific social media accounts, target groups, contents or sharing "
+"purposes. For example you can define a specific set of networks for sharing "
+"your posts images only or for re-sharing your evergreen content on a "
+"recurring basis. On the preview-page you may edit your selected or pre-"
+"selected networks anytime by simply clicking on the respective network "
+"account to select or remove an account from the current sharing scheme."
+msgstr ""
+"Du kannst die aktuelle Netzwerk-Auswahl als \"Standard\" Einstellungen "
+"speichern. Diese Netzwerke werden dann als aktiviert auf der rechten "
+"Seitennavigation angezeigt, wenn Du den Button \"Auf Social Media teilen\" "
+"klickst, oder Du kannst die Einstellungen in einem neuen Netzwerk Profil "
+"speichern (Premium).<br><br>Du kannst diesen Blogbeitrag erneut teilen, zum "
+"Beispiel, um diesen Beitrag auf einer anderen Auswahl an Netzwerken oder nur "
+"auf bestimmten Profilen, Seiten und Gruppen neu zu teilen, oder mit anderen "
+"Kommentaren, Bildern und Texten nur auf bestimmten Netzwerke zu teilen, oder "
+"um weitere Bilder zum Blogbeitrag nur an die Bilder-Netzwerke zu senden, "
+"oder um Deine Social Media Posts zu anderen Zeiten zu teilen. So erzielt Du "
+"mehre Variationen Deiner Social Media Posts und kannst Deinen Beitrag öfters "
+"posten, um mehr Aufmerksamkeit und Reichweite zu erzielen, ohne immer wieder "
+"die gleiche Mitteilung zu posten. Was auch immer Du zu teilen wünscht, "
+"klicken Sie einfach auf \"Diesen Beitrag erneut teilen\" und Du wirst erneut "
+"zur Vorschau geführt, wo Du Deine Netzwerke, Texte und Bilder wählen oder "
+"variieren kannst. "
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:322
+msgid "Your blog post is not yet published on your Wordpress!"
+msgstr "Dein Beitrag ist derzeit nicht auf Deinem Wordpress veröffentlicht."
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:325
+msgid "At least one of your selected networks is set to \"Share Now\""
+msgstr "Mindestens ein Netzwerk wurde mit der Option \"Sofort teilen\" ausgewählt."
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:329
+msgid "Schedule your post"
+msgstr "Beitrag planen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:332
+msgid "Ignore & share"
+msgstr "Ignorieren & teilen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:369
+msgid "Need to schedule your posts?"
+msgstr "Du möchtest Deine Beiträge planen?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:372
+msgid "Blog2Social Premium covers everything you need."
+msgstr "Blog2Social Premium deckt alles ab, was Du brauchst."
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:376
+msgid ""
+"You want to publish a post on a specific date? No problem! Just enter your "
+"desired date and you are ready to go!"
+msgstr ""
+"Du möchtest einen Beitrag an einem ganz bestimmten Datum veröffentlichen? "
+"Kein Problem! Stelle einfach Dein Wunschdatum ein und los geht’s!"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:378
+msgid "Schedule post recurrently"
+msgstr "Beitrag mehrfach planen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:379
+msgid ""
+"You have a timeless contribution that everyone must have seen? Plan your "
+"publications once as an appointment."
+msgstr ""
+"Du hast einen zeitlosen Beitrag, den einfach jeder gesehen haben muss? Plane "
+"Deine Veröffentlichungen einmal als Terminserie."
+
+#: ../../plugins/blog2social-v-4/views/b2s/ship.php:382
+msgid ""
+"You get too few responses in social media? Maybe there was just no one there "
+"who could have seen your contribution. Plan the release with the Best Times "
+"Manager of Blog2Social at the peak times of social media. Your fanbase is "
+"now listening."
+msgstr ""
+"Du erhältst zu wenige Reaktionen in den Social Media? Vielleicht war ja "
+"einfach gerade keiner da, der Deinen Beitrag hätte sehen können. Plane die "
+"Veröffentlichung mit dem Beste Zeiten Manager von Blog2Social zu den "
+"Stoßzeiten der Social Media. Deine Fanbase hört jetzt zu."
+
+#: ../../plugins/blog2social-v-4/views/notice.php:12
+msgid "Connection is broken..."
+msgstr "Vebindung ist unterbrochen..."
+
+#: ../../plugins/blog2social-v-4/views/notice.php:14
+msgid ""
+"The connection to your server has been interrupted. Please make sure that "
+"your blog is reachable. If your server does not respond or is too slow, "
+"Blog2Social cannot connect to the internet. Try again later or contact your "
+"webmaster, if this error message persists."
+msgstr ""
+"Die Verbindung auf Deinen Server wurde unterbrochen. Bitte stelle sicher, "
+"dass Dein Blog von außen erreichbar ist.Wenn Dein Server nicht antwortet, "
+"oder die Verbindungsgeschwindigkeit zu niedrig ist, kann Blog2Social sich "
+"nicht mit dem internet verbinden. Versuche es später erneut oder kontaktiere "
+"Deinen Webmaster, wenn dieser Fehler erneut erscheint."
+
+#: ../../plugins/blog2social-v-4/views/notice.php:17
+msgid "Update..."
+msgstr "Aktualisierung..."
+
+#: ../../plugins/blog2social-v-4/views/notice.php:19
+msgid ""
+"<b> A new version of Blog2Social is available. </b> Update now <br> "
+"Blog2Social to continue to use the latest version of the plugin."
+msgstr "<b> Eine neue Version von Blog2Social ist verfügbar </b>"
+
+#: ../../plugins/blog2social-v-4/views/notice.php:23
+msgid "Update Blog2Social"
+msgstr "Aktualisiere Blog2Social"
+
+#: ../../plugins/blog2social-v-4/views/notice.php:26
+msgid "Unknown error"
+msgstr "Unbekannter Fehler"
+
+#: ../../plugins/blog2social-v-4/views/notice.php:28
+msgid "<b> An unknown error occurred! </b> <br>  Please contact our support!"
+msgstr ""
+"<b> Ein unbekannter Fehler ist aufgetreten. </b> <br>  Bitte kontaktiere "
+"unseren Support."
+
+#: ../../plugins/blog2social-v-4/views/prg/login.php:14
+msgid "Login failed. Please check your username and a password!"
+msgstr ""
+" Die Anmeldung zu PR-Gateway ist fehlgeschlagen. Bitte überprüfe Deinen "
+"Benutzernamen und Dein Password!"
+
+#: ../../plugins/blog2social-v-4/views/prg/login.php:20
+msgid "Login failed. Please check your server settings. OpenSSL must be enabled on."
+msgstr ""
+" Die Anmeldung zu PR-Gateway ist fehlgeschlagen. Bitte überprüfen Deine "
+"Server-Einstellungen. OpenSSL muss aktiviert sein. "
+
+#: ../../plugins/blog2social-v-4/views/prg/login.php:23
+msgid "E-Mail or Username"
+msgstr "E-Mail oder Benutzername"
+
+#: ../../plugins/blog2social-v-4/views/prg/login.php:24
+msgid "Password"
+msgstr "Passwort"
+
+#: ../../plugins/blog2social-v-4/views/prg/login.php:27
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: ../../plugins/blog2social-v-4/views/prg/login.php:29
+msgid "create account"
+msgstr "neues Konto erstellen"
+
+#: ../../plugins/blog2social-v-4/views/prg/login.php:29
+msgid "reset password"
+msgstr "Passwort zurücksetzen"
+
+#: ../../plugins/blog2social-v-4/views/prg/login.php:35
+msgid "Test PR-Gateway for free"
+msgstr "PR-Gateway kostenlos und unverbindlich testen"
+
+#: ../../plugins/blog2social-v-4/views/prg/login.php:36
+msgid "1x publish press release <br> 1x publish report <br> 1x promote event"
+msgstr ""
+"1 x Pressemitteilung veröffentlichen <br> 1 x Report abrufen <br>1 x "
+"Veranstaltung bewerben"
+
+#: ../../plugins/blog2social-v-4/views/prg/login.php:38
+msgid ""
+"The press distribution PR gateway automatically publish your press releases "
+"and events with one click.Publish your message over 250 portals."
+msgstr ""
+"Mit dem Presseverteiler PR-Gateway veröffentlicht Du Deine "
+"Pressemitteilungen und Veranstaltungsankündigungen automatisch mit nur einem "
+"Klick auf Deine individuelle Auswahl aus über 250 reichweitenstarken und "
+"zielgruppen-spezifischen kostenlosen Presseportalen, Eventportalen, "
+"internationalen und regionalen Portalen, Social Media und Dokumenten-"
+"Netzwerken."
+
+#: ../../plugins/blog2social-v-4/views/prg/login.php:41
+msgid "Start your 14-Day Free Trial"
+msgstr "Jetzt kostenlos testen"
+
+#: ../../plugins/blog2social-v-4/views/prg/ship.php:34
+msgid "Select Image"
+msgstr "Bild auswählen"
+
+#: ../../plugins/blog2social-v-4/views/prg/ship.php:45 ../../plugins/blog2social-
+#: v-4/views/prg/ship.php:47
+msgid "Copyright"
+msgstr "Copyright"
+
+#: ../../plugins/blog2social-v-4/views/prg/ship.php:66
+msgid "Save As Draft"
+msgstr "als Entwurf speichern"
+
+#: ../../plugins/blog2social-v-4/views/prg/ship.php:67
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: ../../plugins/blog2social-v-4/views/prg/ship.php:85
+msgid "Please Note"
+msgstr "Hinweis"
+
+#: ../../plugins/blog2social-v-4/views/prg/ship.php:88
+msgid ""
+"It may incur charges for publishing on PR-Gateway. Sent press releases can "
+"not be withdrawn. If you want your press release to be published now?"
+msgstr ""
+"Bitte beachte, dass gegebenenfalls Gebühren für die Versendung von "
+"Pressemitteilungen über PR-Gateway anfallen können. Einmal versandte "
+"Pressemitteilungen können nicht mehr zurückgenommen werden. Soll Deine "
+"Pressemitteilung jetzt versendet werden?"
+
+#: ../../plugins/blog2social-v-4/views/prg/ship.php:91
+msgid "Yes, I accept"
+msgstr "Ja,einverstanden"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:4
+msgid "We never store your data from your social media profiles."
+msgstr "Wir speichern keine persönlichen Daten Deiner Social Media Profile."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:8 ../..
+#: /plugins/blog2social-v-4/views/prg/html/footer.phtml:8 ../..
+#: /plugins/blog2social-v-4/views/prg/html/header.phtml:40
+msgid "Post"
+msgstr "Beitrag"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:9 ../..
+#: /plugins/blog2social-v-4/views/prg/html/footer.phtml:9
+msgid "Job"
+msgstr "Stellenanzeige"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:10 ../..
+#: /plugins/blog2social-v-4/views/prg/html/footer.phtml:10
+msgid "Event"
+msgstr "Veranstaltung"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:22
+msgid "Upgrade to Blog2Social for Premium"
+msgstr "Jetzt auf Blog2Social PREMIUM upgraden "
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:52
+msgid "Upgrade to Blog2Social for PREMIUM PRO"
+msgstr "Jetzt auf Blog2Social PREMIUM PRO upgraden "
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:55
+msgid ""
+"You can select different combinations of networks and save them for "
+"different sharing purposes."
+msgstr ""
+"Du kannst für verschiedene Social Media Aktivitäten oder Kampagnen eine "
+"passende Kombination von Netzwerken anlegen und speichern."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:58
+msgid ""
+"With Blog2Social Premium PRO you can save your preferred network "
+"combinations for future reference and choose individual names for each "
+"network combination. Use specific network combinations for recurring sharing "
+"purposes or campaigns, e.g. for initial sharing new blog posts, for re-"
+"sharing evergreen content or for sharing images or videos. Select your "
+"preferred network combination fast and easily for your next social sharing "
+"activity. You can also connect multiple profiles, pages and groups per "
+"network in one network set"
+msgstr ""
+"Mit Blog2Social PREMIUM PRO kannst Du unterschiedliche Kombinationen von "
+"Netzwerken anlegen und individuell benennen. Nutze unterschiedliche Netzwerk-"
+"Kombinationen für Deine Aktivitäten, z.B. für das initiale Teilen von neuen "
+"Blogbeiträgen, für das erneute Teilen Deiner “Evergreen Contents” oder für "
+"das Teilen von Bildern und Videos. Wähle einfach die passende Netzwerk-"
+"Kombination für Deine nächste Aktivität oder Kampagne aus. Du kannst auch "
+"mehrere Social Media Profile, Seiten und Gruppen eines Netzwerks in einer "
+"Kombination verbinden."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:61
+msgid "With Blog2Social PREMIUM PRO you can also:"
+msgstr "Mit blog2Social Premium PRO kannst Du außerdem:"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:63
+msgid ""
+"Post on LinkedIn pages, XING pages and groups, as well as Facebook and "
+"Google+ pages and groups"
+msgstr ""
+"Auf LinkedIn-Seiten, auf XING-Seiten und -Gruppen, sowie auf Seiten und "
+"Gruppen in Facebook und Google+ posten"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:65
+msgid ""
+"Schedule your posts at the best times on each network: for one time, "
+"multiple times or recurrently"
+msgstr ""
+"Veröffentlichungen zur besten Zeit pro Netzwerk planen: einmalig, mehrmalig "
+"oder nach einem regelmäßigen Muster"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:68
+msgid ""
+"Reporting and calendar: keep track of your published and scheduled social "
+"media posts"
+msgstr ""
+"Mit dem Reporting & Kalender Deine bereits veröffentlichten und geplanten "
+"Social Media Post im Blick behalten."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:75
+msgid "Activate Blog2Social PREMIUM PRO."
+msgstr "Aktiviere Blog2Social PREMIUM PRO. "
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:77
+msgid ""
+"With Blog2Social Premium PRO you can connect pages in LinkedIn and XING as "
+"well as XING groups."
+msgstr ""
+"Mit Blog2Social Premium PRO kannst Du auf Seiten in LinkedIn und XING und in "
+"XING-Gruppen posten."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:80
+msgid "Also included:"
+msgstr "Außerdem inklusive"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:82
+msgid "Social media auto-posting and auto-scheduling"
+msgstr "Blogbeiträge auto-posten und auto-planen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:83
+msgid "Posting to social media pages and groups in Facebook and Google+"
+msgstr "Posten auf Social Media Seiten und in Gruppen bei Facebook and Google+ "
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:84
+msgid "Sharing on multiple accounts per network"
+msgstr "Posten in mehreren Accounts pro Netzwerk"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:85
+msgid "Best Time Scheduler: schedule once, multiple times or recurringly"
+msgstr ""
+"Beste Zeiten Manager: Veröffentlichungen einmal, mehrmals oder regelmäßig "
+"planen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:86
+msgid "Reporting with links to already published posts"
+msgstr "Reporting mit Links zu allen veröffentlichten Social Media Posts"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:101
+msgid "Select the preferred custom post format for your posts"
+msgstr "Entscheide Dich für das passende Format für Deine Social Media Posts"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:106
+msgid "You can define your preferred custom post format link post or photo post:"
+msgstr ""
+"Entscheide Dich für das passende Format für Deine Social Media Posts. Link "
+"Post oder Photo Post:"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:115
+msgid ""
+"A photo or image post displays the selected image in the one-page preview of "
+"Blog2Social and your comment above the image. The image links to the image "
+"view on your image gallery in the respective network. Blog2Social adds the "
+"link to your post in your comment. The main benefit of photo posts is that "
+"your image is uploaded to your personal image albums or gallery. In Facebook "
+"you can edit the albums name with a description of your choice."
+msgstr ""
+"Ein Bild-Beitrag zeigt das ausgewählte Bild aus Deinem Blogbeitrag mit "
+"Deinem Kommentar oberhalb des Bildes an. Das Bild verlinkt auf die "
+"Bilderansicht in Deiner Foto-Galerie des betreffenden Netzwerks. Blog2Social "
+"integriert einen Link auf Deinen Blogbeitrag im Kommentar. Der Bild-Beitrag "
+"hat vor allem den Vorteil, dass Dein Bild automatisch in Deinen persönlichen "
+"Fotoalben oder Deiner persönlichen Galerie im Netzwerk gespeichert wird. In "
+"Facebook kannst du den Namen Deiner Alben beliebig anpassen."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:154
+msgid "Did you miss something?"
+msgstr "Was vermisst Du?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:157
+msgid "Help us make Blog2Social even better!"
+msgstr "Helfe uns Blog2Social besser zu machen!"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:161
+msgid "submit"
+msgstr "senden"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:175
+msgid ""
+"Blog2Social provides you with a ready-to-use best time scheduler based on "
+"current research on the best times to post on each social network."
+msgstr ""
+"Blog2Social stellt Dir ein vordefiniertes Zeitschema für die besten Zeiten "
+"zum Teilen auf den verschiedenen Social Media Kanälen zur Verfügung."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:177
+msgid ""
+"Click Best Time Scheduler in the preview editor to schedule your posts "
+"automatically for the best times to post on each social network."
+msgstr ""
+"\n"
+"Click \"Best Time Scheduler\" in the preview editor to schedule your posts "
+"automatically for the best times to post on each social network."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:179
+msgid ""
+"You can also define your own personal time settings for posting, if you know "
+"which times work best for your communities. Edit the pre-filled times in the "
+"general settings and click save."
+msgstr ""
+"Du kannst auch persönliche Zeit-Einstellungen definieren. Ändere dazu die "
+"eingetragenen Zeiten in den allgemeinen Einstellungen, die Du ändern "
+"möchtest und klicke \"speichern\"."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:181
+msgid ""
+"Click My Time Settings in the preview editor to schedule your posts with "
+"your personal best time settings."
+msgstr ""
+"Klicke \"Meine Zeit-Einstellungen\" im Vorschau-Editor, um Deine Social Media "
+"Posts zu Deinen persönlichen Zeit-Einstellungen zu planen."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:183
+msgid ""
+"You can always edit the predefined times in the preview editor for any post "
+"or network and save your new settings as default for future use."
+msgstr ""
+"Alle Zeiteinstellungen lassen sich im Preview-Editor für jeden Post und für "
+"jedes Netzwerk jederzeit individuell ändern oder neu definieren und für alle "
+"zukünftigen Beiträge abspeichern. "
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:185
+msgid ""
+"Blog2Social will also apply your personal time settings, if you enable the "
+"Social Media Auto-Poster and select auto-post at scheduled times. "
+msgstr ""
+"Blog2Social wendet diese persönlichen Zeit-Einstellungen auch an, wenn Du "
+"das Social Media Auto-Posting nutzt und die Veröffentlichung zu geplanten "
+"Zeiten auswählst."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:218
+msgid "b2s.pm Link Shortener"
+msgstr "b2s.pm Linkverkürzer"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:221
+msgid ""
+"The Blog2Social Shortener converts and publishes your links with a short URL "
+"on the social networks.<br>If you choose this option, you avoid that re-"
+"shared posts with the same links will be rejected by the networks. The b2s."
+"pm Shortener generates a new link for each social media post. This feature "
+"is essential if you wish to re-share your posts on the same networks. "
+"Another benefit of the b2s.pm: Shortly, Blog2Social will provide a reporting "
+"feature for your social media posts. So, with the b2s.pm links, you will be "
+"able to see how often the link has been clicked, liked or shared on your "
+"social channels and easily and quickly analyze the performance of your "
+"social media posts.<br>You can disable the b2s.pm Shortener to show your "
+"original URL."
+msgstr ""
+"Mit dem Blog2Social Shortener werden Deine Links umgewandelt und in "
+"verkürzter Form in den Social Media veröffentlicht.<br> Wenn Du diese Option "
+"wählst, vermeidest Du, dass wiederholt veröffentlichte Posts mit gleichen "
+"Links von den Netzwerken abgelehnt werden. Der b2s.pm Shortener generiert "
+"bei jedem Social Media Post einen neuen Link. Diese Funktion ist wichtig, "
+"wenn Sie Ihre Beiträge mehrfach auf den gleichen Netzwerken posten möchten. "
+"<br>Ein weiterer Vorteil der b2s.pm Shortener Links: In Kürze wirst Du die "
+"b2s.pm Links über die Reporting-Funktion von Blog2Social auswerten können. "
+"So kannst Du einfach und schnell das Potenzial Deiner Social Media Posts "
+"über die Reporting-Funktion kalkulieren und sehen, wie häufig der Link in "
+"den verschiedenen Social Media geklickt, gelikt oder geteilt wurde. <br>Sie "
+"können den b2s.pm Shortener deaktivieren, um Ihre eigene URL anzuzeigen."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:278
+msgid "Social Meta Tags Settings"
+msgstr "Meta Tag Einstellungen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:281 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:362
+msgid "Change image, title and description for your post on this network"
+msgstr "Bild, Titel und Beschreibung des Blogbeitrags ändern"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:287
+msgid ""
+"Facebook has changed its policy for posting link posts via plugins or web "
+"applications. Facebook does no longer display the featured or selected image "
+"for your blog post, but only images defined in the Open Graph (OG) Meta Tags "
+"of your blog post. If you have not defined any OG Meta Tags, Facebook "
+"displays a random image from your blog post or blog site. If you have "
+"defined an image in your blog post OG Meta Tags that does not meet the image "
+"size requirements, Facebook also does not displayed your selected image, but "
+"a random image. Please make sure that your image meets the image size "
+"requirements for Facebook."
+msgstr ""
+"Facebook hat die Richtlinien für die Darstellung von geposteten Link Posts "
+"geändert. Facebook stellt nicht mehr standardmäßig das Beitragsbild oder das "
+"ausgewählte Bild für die Postvorschau dar, sondern ausschließlich Bilder, "
+"die über die Open Graph (OG) Meta Tags auf der Webseite des Blogbeitrags "
+"definiert sind. Falls keine OG Meta Tags gesetzt sind, zieht sich Facebook "
+"ein beliebiges Bild des Beitrags oder des Blogs. Erfüllen die in den OG Meta "
+"Tags genannten Images nicht Facebooks Anforderungen an die Bildgröße, wird "
+"ebenfalls ein beliebiges anderes Bild gewählt. \n"
+"Bitte stelle sicher, dass das ausgewählte Bild die Voraussetzungen für die "
+"Bildgrößen auf Facebook erfüllt."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:289
+msgid ""
+"With Blog2Social you can select a featured image or any image you select to "
+"be displayed with your link post. Blog2Social will automatically write the "
+"required parameter in the OG Meta Tags of your blog post, so that your "
+"selected image will be displayed with your link post. If you don't want "
+"Blog2Social to do that, because you have defined your own OG meta tags, "
+"please uncheck this box. Please note that you cannot select a specific image "
+"for your link post without OG meta tags."
+msgstr ""
+"Mit Blog2Social ist es möglich, das Bild für den Link Post gezielt "
+"auszuwählen. Blog2Social übergibt die Daten automatisch als OG Meta Tags "
+"Parameter and die Seite des Blogbeitrags, so dass das Bild als Vorschaubild "
+"zum Link Post korrekt dargestellt wird. \n"
+"Wenn Du nicht willst, dass Blog2Social die OG Meta Tags Deiner Beitragsseite "
+"ändert, dann deaktiviere diese Funktion, indem Du das Kontrollkästchen "
+"deaktivierst. Bitte bedenke, dass dann Facebook die Änderungen, die Du in "
+"der Beitragsvorschau an Bilder, Titel und Beschreibung vornimmst, nicht "
+"übernimmt. "
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:292
+msgid ""
+"Twitter has changed its policy for posting link posts via plugins or web "
+"applications. Twitter does no longer display the featured or selected image "
+"for your blog post, but only images defined in the Twitter Card Meta Tags of "
+"your blog post. If you have not defined any Twitter Card Meta Tags, Twitter "
+"displays a random image from your blog post or blog site. If you have "
+"defined an image in your blog post Twitter Card Meta Tags that does not meet "
+"the image size requirements, Twitter displays a white space for the image of "
+"your link post. Please make sure that your image meets the image size "
+"requirements for Twitter."
+msgstr ""
+"Twitter hat die Richtlinien für die Darstellung von geposteten Link Posts "
+"geändert. Twitter stellt nicht mehr standardmäßig das Beitragsbild oder das "
+"ausgewählte Bild für die Vorschau dar, sondern ausschließlich Bilder, die "
+"über die Twitter Card Meta Tags auf der Webseite des Blogbeitrags definiert "
+"sind. Falls keine Twitter Card Meta Tags gesetzt sind, zieht sich Twitter "
+"ein beliebiges Bild des Beitrags oder des Blogs. Erfüllen die Bilder in den "
+"Twitter Card Meta Tags die Twitter Anforderungen an die Bildgröße nicht, "
+"werden diese nicht angezeigt. Bitte stelle sicher, dass das ausgewählte Bild "
+"die Voraussetzungen für die Bildgrößen auf Twitter erfüllt."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:294
+msgid ""
+"With Blog2Social you can select a featured image or any image you select to "
+"be displayed with your link post. Blog2Social will automatically write the "
+"required parameter in the Twitter Card meta tags of your blog post, so that "
+"your selected image will be displayed with your link post. If you don't want "
+"Blog2Social to do that, because you have defined your own Twitter Card meta "
+"tags, please uncheck this box. Please note that you cannot select a specific "
+"image for your link post without Twitter Card meta tags."
+msgstr ""
+"Mit Blog2Social ist es möglich, das Bild für den Link Post gezielt "
+"auszuwählen. Blog2Social übergibt die Daten automatisch als Twitter Card "
+"Meta Tags Parameter and die Seite des Blogbeitrags, so dass das Bild als "
+"Vorschaubild zum Link Post korrekt dargestellt wird. \n"
+"Wenn Du nicht willst, dass Blog2Social die Twitter Card Meta Tags Deiner "
+"Beitragsseite ändert, dann deaktiviere diese Funktion, indem Du das "
+"Kontrollkästchen deaktivierst. Bitte bedenke, dass dann Twitter die "
+"Änderungen, die Du in der Beitragsvorschau an Bilder, Titel und Beschreibung "
+"vornimmst, nicht übernimmt.   \n"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:297
+msgid ""
+"You can change the image, title and description for your post on Facebook, "
+"by editing the following fields for"
+msgstr ""
+"Du kannst das Bild, den Titel und die Beschreibung für Deinen Post auf "
+"Facebook über die folgenden Felder ändern:"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:300 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:315
+msgid "image"
+msgstr "Bild"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:301 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:316
+msgid "title"
+msgstr "Titel"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:302 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/footer.phtml:317
+msgid "description"
+msgstr "Beschreibung"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:304
+msgid ""
+"Blog2Social will automatically write these information in the Facebook Open "
+"Graph (OG) Meta Tags for Image, Title and Description of your blog post."
+msgstr ""
+"Blog2Social übergibt diese Informationen automatisch an die Facebook Open "
+"Graph (OG) Meta Tag Parameter Deines Blogbeitrags für Image, Title und "
+"Description."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:307
+msgid ""
+"Please note: If this post has already been shared or scheduled previously, "
+"your current changes will also affect the look of previously shared or "
+"scheduled posts, as Facebook always refers to the current Open Graph meta "
+"tags information and automatically updated all existing posts."
+msgstr ""
+"Bitte beachte: Wenn Du diesen Beitrag bereits geteilt oder geplant hast, "
+"haben die aktuellen Änderungen auch Auswirkungen auf Deine bereits geteilten "
+"oder geplanten Beiträge, da Facebook sich immer die aktuellen Facebook OG "
+"Meta Tag Parameter Deiner Beitragsseite zieht und alle vorhandenen Beiträge "
+"mit diesen Informationen automatisch aktualisiert."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:309
+#, php-format
+msgid ""
+"Please note: Your changes will have no effect on your social media posts on "
+"Facebook, if you have manually unchecked the Meta Tag options for Facebook "
+"in your Blog2Social <a target=\"_blank\" href=\"%s\">settings</a>"
+msgstr ""
+"Bitte beachte: Änderungen, die Du hier vornimmst, können von Facebook nicht "
+"berücksichtigt werden, wenn Du in den Blog2Social Meta Tag<a target=\"_blank\" "
+"href=\"%s\">Einstellungen</a>, die Meta Tag Funktion manuell deaktiviert hast."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:312
+msgid ""
+"You can change the image, title and description for your post on Twitter, by "
+"editing the following fields for"
+msgstr ""
+"Du kannst das Bild, den Titel und die Beschreibung für Deinen Post auf "
+"Twitter über die folgenden Felder ändern:"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:319
+msgid ""
+"Blog2Social will automatically write these information in the Twitter Card "
+"Meta Tags for Image, Title and Description of your blog post."
+msgstr ""
+"Blog2Social übergibt diese Informationen automatisch an die Twitter Card "
+"Meta Tag Parameter Deines Blogbeitrags für Image, Title und Description."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:322
+msgid ""
+"Please note: If this post has already been shared or scheduled previously, "
+"your current changes will also affect the look of previously shared or "
+"scheduled posts, as Twitter always refers to the current Twitter Card "
+"information. However, if you have already shared this post, Twitter may "
+"update your current changes within 7 days."
+msgstr ""
+"Bitte beachte: Wenn Du diesen Beitrag bereits geteilt oder geplant hast, "
+"haben die aktuellen Änderungen auch Auswirkungen auf Deine bereits geteilten "
+"oder geplanten Beiträge, da Twitter sich immer die aktuellen Twitter Card "
+"Meta Tags Parameter Deiner Beitragsseite zieht. Wenn Du diesen Beitrag "
+"bereits geteilt hast, kann es bis zu 7 Tagen dauern, bis Twitter die "
+"Änderungen aktualisiert. "
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:324
+#, php-format
+msgid ""
+"Please note: Your changes will have no effect on your social media posts on "
+"Twitter, if you have manually unchecked the Meta Tag options for Twitter in "
+"your <a target=\"_blank\" href=\"%s\">settings</a>"
+msgstr ""
+"Bitte beachte: Änderungen, die Du hier vornimmst, können von Twitter nicht "
+"berücksichtigt werden, wenn Du in den Blog2Social Meta Tag <a "
+"target=\"_blank\" href=\"%s\">Einstellungen </a> die Meta Tag Funktion manuell "
+"deaktiviert hast."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:331
+msgid "You want to change the image, title and description for your post?"
+msgstr "Du möchtest Dein Bild, Titel und Beschreibung für diesen Beitrag ändern?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/footer.phtml:366
+msgid ""
+"You are currently sharing this post as image post. Changes to title and "
+"description Meta Tag parameters will only be supported for link post formats."
+" Please change your post format to link post to make individual changes to "
+"the title and description for your post preview."
+msgstr ""
+"Du hast für diesen Post das Post Format \"Bildbeitrag“ ausgewählt. Änderungen "
+"an den Titel und Beschreibungs Parametern werden nur für das Link Post "
+"Format unterstützt. Bitte ändere das Post Format in Linkbeitrag, um "
+"Änderungen am Titel und der Beschreibung für die Postvorschau vorzunehmen."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:18
+msgid ""
+"To use all features of Blog2Social, PHP version 5.5.3 or higher is required. "
+"Our support assists you as of PHP version 5.5.3. See also:"
+msgstr ""
+"Um alle Funktionen von Blog2Social zu nutzen, wird PHP Version 5.5.3 oder "
+"höher benötigt. Unser Support unterstützt Dich ab PHP Version 5.5.3. Siehe "
+"auch:"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:19
+msgid "Technical requirements for Blog2Social"
+msgstr "Technische Vorraussetzungen für Blog2Social"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:26
+msgid "Thank you. You'll now receive the blog updates from Blog2Social."
+msgstr "Vielen Dank. Ab sofort erhältest Du die Blog-Updates von Blog2Social."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:44
+msgid "You have clear all page and post meta data successful."
+msgstr "Alle Seiten und Beitrags Metangaben sind gelöscht."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:49
+msgid "The page and post meta data could not be removed."
+msgstr "Die Seiten und Beitrags Metangaben können nicht gelöscht werden."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:74
+msgid "This entry could not be removed. It's not yours!"
+msgstr "Der Eintrag kann nicht entfernt werden. Es ist nicht Deiner!"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:79
+msgid "This entry was removed successful."
+msgstr "Der Eintrag wurde entfernt."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:88
+msgid "Post was scheduled successfully on your blog!"
+msgstr "Beitrag wurde erfolgreich auf Deinem Blog geplant!"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:90
+msgid "Post is published successfully on your blog!"
+msgstr "Beitrag wird erfolgreich auf Deinem Blog veröffentlicht!"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:103 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/header.phtml:208
+msgid "Version"
+msgstr "Version"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:103
+msgid "is successfully activated."
+msgstr "wurde erfolgreich aktiviert."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:108
+msgid "Your entered License Key is invalid. Please contact support!"
+msgstr "Dein Lizenzschlüssel ist ungültig. Bitte wende Dich an unseren Support!"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:113
+msgid "Your license key has reached the maximum number of users."
+msgstr "Dein Lizenzschlüssel hat die maximale Anzahl an Benutzern erreicht."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:120
+msgid "Your authorization was successful."
+msgstr "Deine Autorisierung war erfolgreich."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:125
+msgid "Your profile was saved successful."
+msgstr "Dein Profil wurde erfolgreich gespeichert."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:130
+msgid "Your profile could not be saved."
+msgstr "Dein Profil konnte nicht gespeichert werden."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:135
+msgid "Your authorization could not be removed."
+msgstr "Deine Autorisierung konnte nicht entfernt werden."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:140
+msgid "Your authorization was removed successful."
+msgstr "Dein Profil wurde erfolgreich entfernt."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:145
+msgid "Thank you! Your feedback has been received."
+msgstr "Vielen Dank. Dein Hinweis wurde an uns übermittelt."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:150
+msgid "Your feedback could not be delivered."
+msgstr "Dein Hinweis konnte nicht übermittelt werden. Bitte versuche es erneut."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:157 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/header.phtml:167
+msgid "Your settings were successfully saved."
+msgstr "Deine Einstellungen sind gespeichert."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:162
+msgid "Your settings could not be saved."
+msgstr "Deine Einstellungen konnte nicht gespeichert werden. Versuche es erneut."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:175 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/header.phtml:231
+msgid "Test Blog2Social PREMIUM 30 days for free"
+msgstr "Teste Blog2Social PREMIUM 30 Tage kostenlos"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:175 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/header.phtml:264
+msgid "Get Started"
+msgstr "Jetzt loslegen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:184
+msgid "Your Blog2Social Premium Free Version is activated for "
+msgstr "Deine Blog2Social Testphase läuft noch"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:187
+msgid " Days"
+msgstr "Tage"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:187
+msgid " today"
+msgstr "heute"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:197
+msgid "Your Blog2Social FREE-TRIAL Version has expired. Did you like this version?"
+msgstr "Deine Blog2Social Testphase ist abgelaufen. Hat es Dir gefallen?"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:198
+msgid "Yes, I want more"
+msgstr "Ja, ich will mehr"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:199
+msgid "No, I had enough"
+msgstr "Nein, ich habe genug"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:218 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/service.phtml:15
+msgid "Plans & Pricing"
+msgstr "Versionen & Preise"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:219 ../..
+#: /plugins/blog2social-v-4/views/b2s/html/service.phtml:16
+msgid "Support"
+msgstr "Support"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:237
+msgid ""
+"The free trial can not be started. This blog has been already registered for "
+"the free trial."
+msgstr ""
+"Die kostenlose Testphase konnte nicht aktiviert werden. Dieser Blog wurde "
+"bereits für die kostenlose Testzeit freigeschaltet."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:240
+msgid "Social Media Auto-Posting"
+msgstr "Social Media Auto-Posting"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:242
+msgid "Share on multiple accounts per network"
+msgstr "Auf mehreren Profilen, Seiten und Gruppen teilen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:243
+msgid "Best Time Scheduler: Schedule once, multiple times or recurringly."
+msgstr "Beste Zeiten Manager: vordefinierte Zeiten für Deine Beiträge nutzen"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:244
+msgid "Reporting with links to all published social media posts"
+msgstr "Reporting mit Links zu allen veröffentlichten Social Media Posts"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:247 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:141 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:143 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:218 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:220
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:251 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:91 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:100 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:168 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:177
+msgid "First Name"
+msgstr "Vorname"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:255 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:92 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:103 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:169 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:180
+msgid "Last Name"
+msgstr "Nachname"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/header.phtml:260
+msgid "No credit card required"
+msgstr "keine Kreditkarte notwendig"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/post.navbar.phtml:6
+msgid "All Posts"
+msgstr "alle Beiträge"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/post.navbar.phtml:7
+msgid "Scheduled Posts"
+msgstr "geplante Beiträge"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/post.navbar.phtml:8
+msgid "Shared Posts"
+msgstr "geteilte Beiträge"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/post.navbar.phtml:9
+msgid "Calendar"
+msgstr "Kalender"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/service.phtml:17
+msgid "How to work with Blog2Social"
+msgstr "So arbeitest Du mit Blog2Social"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/sidebar.phtml:8
+msgid "Your license"
+msgstr "Deine Lizenz"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/sidebar.phtml:37
+msgid "Network Activity (today)"
+msgstr "Netzwerk Aktivitäten (heute)"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/sidebar.phtml:48
+msgid "Rate it!"
+msgstr "Bewerte Blog2Social"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/sidebar.phtml:51
+msgid ""
+"If you like Blog2Social, please give us a 5 star rating. If there is "
+"anything that does not work for you, please contact us!"
+msgstr ""
+"Wenn Dir Blog2Social gefällt, dann freuen wir uns über eine 5 Sterne "
+"Bewertung. Spreche uns an, wenn Dir ir­gend­was nicht gefällt."
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/sidebar.phtml:67
+msgid "GET STARTED"
+msgstr "Jetzt Affiliate-Partner werden"
+
+#: ../../plugins/blog2social-v-4/views/b2s/html/sidebar.phtml:78
+msgid "Posts from Blog2Social"
+msgstr "Beiträge von Blog2Social"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:7
+msgid "Post a Press Release"
+msgstr "Beitrag als Pressemitteilung veröffentlichen"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:11
+msgid "Category"
+msgstr "Kategorie"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:12
+msgid "Language"
+msgstr "Sprache"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:20
+msgid "German"
+msgstr "Deutsch"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:21
+msgid "English"
+msgstr "Englisch"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:32 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:34
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:38 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:40
+msgid "YouTube-Link"
+msgstr "Youtube-Link"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:44 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:46
+msgid "Message"
+msgstr "Mitteilung"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:50
+msgid "Keywords"
+msgstr "Schlüsselworter"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:52
+msgid "Keywords with commas (e.g .: Blog2Social, PR-Gateway)"
+msgstr "Schlüsselwörter mit Komma getrennt (z.B.: Blog2Social,PR-Gateway)"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:56 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:58
+msgid "Shortext"
+msgstr "Kurzbeschreibung"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:69
+msgid "Contact Details"
+msgstr "Kontaktangaben"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:74
+msgid "Company"
+msgstr "Firmenkontakt"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:77
+msgid "Press"
+msgstr "Pressekontakt"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:84 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:86 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:161 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:163
+msgid "Name"
+msgstr "Name"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:95 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:172
+msgid "Mrs."
+msgstr "Frau"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:96 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:173
+msgid "Mr."
+msgstr "Herr"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:107 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:110 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:184 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:187
+msgid "Street"
+msgstr "Straße"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:108 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:113 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:185 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:190
+msgid "Number"
+msgstr "Nummer"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:117 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:120 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:194 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:197
+msgid "Zip Code"
+msgstr "PLZ"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:118 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:123 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:195 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:200
+msgid "City"
+msgstr "Stadt"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:127 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:204
+msgid "Country"
+msgstr "Land"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:135 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:137 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:212 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:214
+msgid "Phone"
+msgstr "Telefon"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:147 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:149 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:224 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:226
+msgid "Website"
+msgstr "Webseite"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/form.phtml:153 ../..
+#: /plugins/blog2social-v-4/views/prg/html/form.phtml:155
+msgid "Company Description"
+msgstr "Firmenbeschreibung"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/header.phtml:8
+msgid "You are signed out of <b>PR-Gateway</b>!"
+msgstr "Du bist nun bei PR-Gateway abgemeldet!"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/header.phtml:17
+msgid "Your message will now be sent over PR gateway to the press portals!"
+msgstr "Deine Mitteilung wird nun über PR-Gateway an die Presseportale übermittelt!"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/header.phtml:18
+msgid "See all publications for your message live on "
+msgstr "Verfolge live die Veröffentlichungen Deiner Mitteilung unter"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/header.phtml:20
+msgid "Your message save as draft by PR-Gateway!"
+msgstr ""
+"Deine Mitteilung wurde erfolgreich an PR-Gateway übermittelt und als Entwurf "
+"abgelegt!"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/header.phtml:28
+msgid ""
+"Unfortunately your request can not be processed by Blog2Social. Please try "
+"again!"
+msgstr ""
+"Deine Anfrage kann leider vom Blog2Social nicht verarbeitet werden. Bitte "
+"versuche es erneut!"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/header.phtml:34
+msgid "Your message has not been received successfully with us. Please try again!"
+msgstr ""
+"Deine Mitteilung ist bei uns leider nicht erfolglreich eingegangen. Bitte "
+"versuche es erneut!"
+
+#: ../../plugins/blog2social-v-4/views/prg/html/header.phtml:48
+msgid ""
+"PR-Gateway offers a paid online distribution service for submitting press "
+"releases, articles and social media news to more than 250 news sites, "
+"special interest websites and social news sites. If your blog posts provide "
+"trade or industry information or expert articles (no advertising), you may "
+"submit them to PR-Gateway to turn them into valid online press releases or "
+"online articles and select a specific choice of websites and services to "
+"publish your post."
+msgstr ""
+"PR-Gateway bietet einen kostenpflichtigen Distributionservice für "
+"Pressemitteilungen, Blogartikel und Social Media News in einem Netzwerk von "
+"über 250 Fachportalen, Presseportalen und Social News Portalen. Wenn Dein "
+"Blogbeitrag sachliche Brancheninformationen, Fachinformationen, News oder "
+"Tipps beinhaltet (keine Werbung!), kannst Du Deinen Betrag an PR-Gateway "
+"senden, um ihn in Form einer Online-Mitteilung oder eines Online-Artikels "
+"auf ausgewählten kostenfreien und kostenpflichtigen Portale zu "
+"veröffentlichen."
+
+#: ../../plugins/blog2social-v-4/views/prg/html/header.phtml:49
+msgid "Register here to open your PR-Gateway account."
+msgstr "Registriere hier Deinen PR-Gateway Account, kostenlos und unverbindlich."
+
+#: ../../plugins/blog2social-v-4/views/prg/html/header.phtml:66
+msgid "Logout"
+msgstr "Abmelden"

@@ -1,0 +1,86 @@
+<?php require_once (B2S_PLUGIN_DIR . 'includes/B2S/User/Info.php'); ?>
+<!--Sidebar Start-->
+<div class="col-md-3 col-xs-12 del-padding-left pull-right">
+    <div class="panel panel-default">
+        <div class="panel-body b2s-inbox-menu">  
+            <ul>
+                <li class="title">
+                    <span class="glyphicon glyphicon-flag glyphicon-success"></span> <?php _e('Your license', 'blog2social') ?>: 
+                    <span class="b2s-key-name">
+                        <?php
+                        $versionType = unserialize(B2S_PLUGIN_VERSION_TYPE);
+                        if (defined("B2S_PLUGIN_TRAIL_END") && strtotime(B2S_PLUGIN_TRAIL_END) > time()) {
+                            echo 'FREE-TRIAL (' . $versionType[B2S_PLUGIN_USER_VERSION] . ')';
+                        } else {
+                            echo $versionType[B2S_PLUGIN_USER_VERSION];
+                        }
+                        ?>                    
+                    </span>
+                </li>
+            </ul>
+
+            <div class="b2s-key-area">
+                <div class="input-group">
+                    <input class="form-control input-sm b2s-key-area-input" placeholder="<?php _e('Enter license key and change your version', 'blog2social'); ?>" value="" type="text">
+                    <span class="input-group-btn">
+                        <button class="btn btn-success btn-sm b2s-key-area-btn-submit"><?php _e('Activate', 'blog2social'); ?></button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-body b2s-inbox-menu">  
+            <ul>
+                <li class="title">
+                    <span class="glyphicon glyphicon-signal glyphicon-success"></span> <?php _e('Network Activity (today)', 'blog2social'); ?> 
+                </li>
+                <?php echo B2S_User_Info::getStatsTodayHtml(); ?>
+            </ul>
+        </div>
+    </div>
+
+    <div class="panel panel-default hidden-xs hidden-sm">
+        <div class="panel-body b2s-inbox-menu">
+            <ul>
+                <li class="title">
+                    <span class="glyphicon glyphicon-star glyphicon-success"></span> <?php _e('Rate it!', 'blog2social'); ?> 
+                </li>
+                <li>
+                    <p><?php _e("If you like Blog2Social, please give us a 5 star rating. If there is anything that does not work for you, please contact us!", 'blog2social'); ?></p>
+                </li>
+                <li>
+                    <a target="_blank" href="https://wordpress.org/support/plugin/blog2social/reviews/" class="btn btn-success btn-block"><?php _e('RATE BLOG2SOCIAL', 'blog2social') ?></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="panel panel-default hidden-xs hidden-sm">
+        <div class="panel-body">
+            <ul>
+                <li>
+                    <a target="_blank" href="https://service.blog2social.com/affiliate">
+                        <img title="B2S Ads" alt="B2S Affilate" class="img-responsive" src="https://files.blog2social.com/wp/images/<?php echo substr(B2S_LANGUAGE, 0, 2); ?>/affiliate.png">
+                    </a>
+                    <a target="_blank" href="https://service.blog2social.com/affiliate" class="btn btn-success btn-block"><?php _e('GET STARTED', 'blog2social') ?></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="panel panel-default hidden-sm hidden-xs">
+        <div class="panel-body b2s-inbox-menu">  
+            <ul>
+                <li class="title">
+                    <span class="glyphicon glyphicon-bookmark glyphicon-success"></span>
+                    <?php _e('Posts from Blog2Social', 'blog2social'); ?>
+                </li>
+                <?php echo B2S_Notice::getBlogEntries(substr(B2S_LANGUAGE, 0, 2)); ?>
+            </ul>
+        </div>
+    </div>
+</div> 
+
+<!--Sidebar Ende-->

@@ -1,0 +1,227 @@
+.jsSliderContainer .jsmainscroll{
+  position: relative;
+  padding-top: 35px;
+}
+.jsSliderContainer .jsmainscroll .jscaruselcont{
+  margin: 0 auto;
+}
+.jsSliderContainer .jsmainscroll li{
+  height: auto!important;
+  margin:3px;
+  float: left;
+}
+.jsmainscroll table, .jsmainscroll table td{
+  margin-bottom: 0;
+  border: none;
+  padding: 0;
+}
+.jsmainscroll .jsmatchseason, .jsmainscroll .jsmatchdate{
+  padding: 5px;
+  text-align: center;
+  color: #757575;
+  font-size: 13px;
+  font-weight: normal;
+}
+.jsmainscroll .jsmatchseason{
+  padding-bottom: 0;
+  text-transform: uppercase;
+}
+.jsmainscroll .jsmatchdate{
+  min-height: 27px;
+}
+.jsmainscroll .jsmatchdate>a{
+  position: absolute;
+  padding: 0;
+  padding-left: 5px!important;
+}
+.jsmainscroll .jsmatchdate>a>img{
+  display: inline-block;
+  height: 14px;
+  margin-top: -3px;
+}
+.jsmainscroll table .jsScoreDiv,.jsmainscroll table .scoreScrMod{
+  text-transform: uppercase;
+}
+.jsmainscroll table .js_div_particName{
+  display: block;
+  padding: 5px 0;
+  font-size: 14px;
+}
+.jsmainscroll table .jsScoreDiv,.jsmainscroll table .scoreScrMod{
+  text-align: center;
+  color:#3a3f48;
+  font-size: 16px;
+  font-weight: bold;
+}
+.jsmainscroll table .jsScoreDiv{
+  display: inline-block;
+  width: auto;
+  min-width: 80px;
+  padding: 10px 5px;
+  line-height: normal;
+}
+.jsmainscroll table .scoreScrMod{
+  border: 1px solid #cccccc;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+#joomsport-container>.jsmainscroll table .jsScoreDiv a,#joomsport-container>.jsmainscroll table .scoreScrMod a{
+  display: inline-block;
+  min-width: 22px;
+  color:#3a3f48;
+}
+.jsSliderContainer button[class^="js"]{
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border:none;
+  outline: none;
+  padding:0px;
+  background-color: #ddd;
+  z-index: 5;
+}
+.jsSliderContainer button.jsprev{
+  right: 35px; 
+}
+.jsSliderContainer button[class^="js"]:hover{
+  background-color: #ccc;
+}
+.jsSliderContainer button.disabled[class^="js"]{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+  filter: alpha(opacity=35);
+  -moz-opacity: 0.35;
+  -khtml-opacity: 0.35;
+  opacity: 0.35;
+  cursor: not-allowed!important;
+}
+.jsDefaultContainer .jsview1 li .jsmatchseason,.jsmainscroll .jsview2 tr .jsmatchseason{
+  padding-top: 20px;
+}
+.jsmainscroll .jsview1 table.jsMNS {
+  width: auto;
+  margin: 0 auto;
+}
+#joomsport-container>.jsmainscroll .jsview1 table td{
+  padding: 3px 0;
+}
+#joomsport-container>.jsmainscroll .jsview1 table td.jspaddright20{
+  min-width: 110px;
+}
+.jsmainscroll .jsview1 table td.tdminembl{
+  min-width: 40px;
+  text-align: center;
+}
+.jsmainscroll .jsview1 table td.tdminwdt>.js_div_particName{
+  padding: 5px 10px;
+}
+.jsmainscroll .jsview1 table td.jspaddright20+td>.scoreScrMod{
+  margin-left: 10px;
+}
+.jsDefaultContainer .jsview1 li:first-child .jsmatchseason,.jsmainscroll .jsview2 tr:first-child .jsmatchseason{
+  padding-top: 0;
+}
+.jsmainscroll .jsview2 table td{
+  text-align: center;
+}
+.widget .jsmainscroll table a{
+  padding: 0;
+}
+.widget .jsmainscroll .jsview1 table td.jspaddright20+td>.scoreScrMod{
+  margin-left: 5px;
+}
+@media (max-width: 568px){
+  .jsmainscroll .jsview2 table tr,.jsmainscroll .jsview2 table td{
+    display: block;
+  }
+  .jsmainscroll .jsview2 table td.jstdhometeam{
+    display: table;
+    margin: 0 auto;
+  }
+  .jsmainscroll .jsview2 table td.jstdhometeam>.js_div_particName{
+    display: table-header-group;
+  }
+  .jsmainscroll .jsview2 table td.jstdhometeam>.js_div_particName>a{
+    display: block;
+    margin: 5px 0;
+  }
+}
+@media (min-width: 569px){
+  .jsmainscroll .jsmatchseason, .jsmainscroll .jsmatchdate{
+    font-size: 12px;
+  }
+  .jsmainscroll table .js_div_particName{
+    font-size: 13px;
+  }
+  .jsmainscroll table .jsScoreDiv,.jsmainscroll table .scoreScrMod{
+    font-size: 14px;
+  }
+}
+@media (min-width: 569px) and (max-width: 991px){
+  #joomsport-container>.jsmainscroll .jsview2 table{
+    table-layout: fixed;
+  }
+  .jsmainscroll .jsview2 table td.tdminwdt{
+    vertical-align: bottom;
+  }
+}
+@media (min-width: 768px){
+  .widget .jsmainscroll table .js_div_particName{
+    font-size: 14px;
+  }
+  .widget .jsmainscroll .jsview1 table td.tdminwdt>.js_div_particName{
+    padding-right: 0;
+  }
+  .widget .jsmainscroll .jsview1 table td.tdminwdt{
+    min-width: 125px;
+  }
+  .widget .jsmainscroll .jsview1 table td.jspaddright20+td>.scoreScrMod{
+    margin-left: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .widget .jsmainscroll .jsview2 table tr,.widget .jsmainscroll .jsview2 table td{
+    display: block;
+  }
+  .widget .jsmainscroll .jsview2 table td.jstdhometeam{
+    display: table;
+    margin: 0 auto;
+  }
+  .widget .jsmainscroll .jsview2 table td.jstdhometeam>.js_div_particName{
+    display: table-header-group;
+  }
+  .widget .jsmainscroll .jsview2 table td.jstdhometeam>.js_div_particName>a{
+    display: block;
+    margin: 5px 0;
+  }
+}
+@media (min-width: 992px){
+  #joomsport-container>.jsmainscroll .jsview2 table{
+    table-layout: auto!important;
+  }
+  .jsmainscroll .jsview2 table td.tdminwdt{
+    width: 50%;
+    text-align: left;
+  }
+  .jsmainscroll .jsview2 table td.jstdhometeam{
+    direction: rtl;
+    text-align: right;
+  }
+  .jsmainscroll .jsview2 table td.tdminwdt>div{
+    display: inline-block;
+    padding: 0 5px;
+  }
+  .jsmainscroll table .jsScoreDiv{
+    padding: 0 15px;
+  }
+  .widget .jsmainscroll .jsview2 table td.tdminwdt{
+    vertical-align: top;
+    text-align: center;
+  }
+  .widget .jsmainscroll .jsview2 table td.tdminwdt>div{
+    display: block;
+    padding: 0;
+  }
+}

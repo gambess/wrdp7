@@ -1,0 +1,18 @@
+<div class="col-md-3 del-padding-left b2s-support-area hidden-xs hidden-sm">
+    <?php if (isset($_GET['page']) && $_GET['page'] != 'blog2social-ship' && B2S_PLUGIN_USER_VERSION == 0) { ?>
+        <div class="panel panel-default b2s-header-ads-upgrade hidden-xs hidden-sm">
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <a href="<?php echo B2S_Tools::getSupportLink('affiliate'); ?>" target='_blank'>
+                            <img title="B2S Upgrade" alt="B2S Upgrade" class="img-responsive" src="https://files.blog2social.com/wp/images/<?php echo substr(B2S_LANGUAGE, 0, 2); ?>/upgrade.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <?php } ?>
+    <a target="_blank" href="<?php echo B2S_Tools::getSupportLink('affiliate'); ?>" class="btn btn-success btn-block"><?php _e('Plans & Pricing', 'blog2social') ?></a>
+    <a target="_blank" href="<?php echo B2S_Tools::getSupportLink('faq'); ?>" class="btn btn-primary btn-block"><?php _e('Support', 'blog2social') ?></a>
+    <a target="_blank" href="<?php echo B2S_Tools::getSupportLink('howto'); ?>" class="btn btn-success btn-block"><?php _e('How to work with Blog2Social', 'blog2social') ?></a>
+</div>

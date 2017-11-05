@@ -1,0 +1,204 @@
+= Changelog =
+
+Tested up to: 4.8.1
+
+
+= Version 1.2.3 =
+
+Release Date: October 30, 2017
+
+* Enhancements:
+	i)   style.css upgrade
+	ii)  Image size made 100% for blog post
+	iii) Feaured post added in index.php/Default Page
+	iv)	 Default site title and description added in banner.
+
+
+
+
+= Version 1.2.2 =
+
+Release Date: October 25, 2017
+
+* Enhancements:
+	i)  Screenshot size changed to readable text.
+	ii) Background dummy image added for banner.
+	iii) Font color for footer widget
+
+
+
+
+= Version 1.2.1 =
+
+Release Date: October 23, 2017
+
+* Enhancements:
+	i)  MACOSX folder removed
+
+
+
+= Version 1.2.0 =
+
+Release Date: October 23, 2017
+
+* Enhancements:
+	i)  MACOSX folder removed
+
+
+= Version 1.1.9 =
+
+Release Date: October 18, 2017
+
+* Enhancements:
+	i) 	 Copyright message changed
+	ii)	 Removed themoments_admin_header_style() and themoments_admin_header_image() function definations.
+
+* Bug Fixes:
+	i)  Remove default content in Header / Banner section in Customizer.
+
+
+
+
+
+= Version 1.1.8 =
+
+Release Date: October 17, 2017
+
+* Enhancements:
+	i) 	 Removed height and widget attribute in header banner, controlled over CSS.
+	ii)	 Remove themoments_admin_header_style() and themoments_admin_header_image()
+	iii) Changed Wordpress to WordPress in all files
+	iv)	 Remove # as default value for social links.
+	v)	 Change date format to default d M Y
+
+* Bug Fixes:
+	i)  Translation issue fixed in customizer.php
+	ii)	Transalation issue fixed in content-single.php
+
+
+
+= Version 1.1.7 =
+
+Release Date: October 17, 2017
+
+* Enhancements:
+	i) 	 Theme copyright added in readme.txt
+	ii)	 Changed singular placeholder to plural in comments.php
+	iii) Credit added to https://github.com/justintadlock/trt-customizer-pro
+
+
+* Bug Fixes:
+	i)  index.php - Escaping issue fixed
+	ii)	"get_theme_mod()" function properly used
+	iii) Changed esc_html_e() to esc_attr_e() inside HTML attributes
+	iv)	 New RTL is generated, syle-rtl.css. Removed css/rtl.css
+
+
+
+
+
+
+= Version 1.1.6 =
+
+Release Date: October 16, 2017
+
+* Enhancements:
+	i) 	 Theme URI changed to https://thebootstrapthemes.com/downloads/free-photography-bootstrap-wordpress-theme/
+	ii)	 Changed singular placeholder to plural in comments.php
+	iii) Used add_theme_support( 'custom-header' ) instead of "HEADER_TEXTCOLOR".
+	iv)	 Removed tbt-customizer.js and tbt-customizer.css and added "trt-customize-pro" folder for Theme's Pro Version Link
+	v)	 New Files added  "trt-customize-pro"
+	vi)	 Changed page-home.php to template-home.php
+	vii) Screenshot replaced by new image
+
+
+* Bug Fixes:
+	i)  	Prefix issue fixed in Customize_Dropdown_Taxonomies_Control
+	ii) 	Prefix issue fixed in ultrabootsrap_wp_bootstrap_navwalker
+	iii)	Prefix issue fixed for Google Fonts
+	iv)		Replaced "themoments_sanitize_text()" by "sanitize_text_field()" to sanitize simple text field.
+	v)		Menu parameter in wp_nav_menu() removed
+	vi)		index.php L18 - Escaping issue fixed
+	vii)	template-home.php L35 - Translation issue fixed
+	viii)	Copyright format fixed in footer section
+	ix)		Change images from unsplash.com to pixabay.com
+
+
+
+
+= Version 1.1.5 =
+
+Release Date: October 2, 2017
+
+* Enhancements:
+	i) 	Changed Screenshot size to 1200 x 900px
+	ii)	Priority arranged for themeoptions in customizer.php
+
+
+* Bug Fixes:
+	i) Prefixed issue fixed in function.php for rtl.
+	ii)	An additional footer credit link pointing to WordPress.org was added.
+
+
+= Version 1.1.4 =
+
+Release Date: September 18, 2017
+
+* Enhancements:
+	i) Prefixed issue fixed in function.php for style and scripts.
+	ii)	Defined global variable for $post file page-home.php
+	iii)	Code indentation improved.
+	iv)		Fixed portfolio-thumb and used default thumbnail options.
+
+
+* Bug Fixes:
+	i) Language file .pot fixed.
+
+
+= Version 1.1.3 =
+
+Release Date: September 1, 2017
+
+* Enhancements:
+	i) Escaping issue fixed in content-page.
+
+
+= Version 1.1.2 =
+
+Release Date: August 24, 2017
+
+* Enhancements:
+	i) Escaping issue fixed in all pages.
+	ii) URL fixing for pro version page.
+	iii) Filename changed for tbt-customizer.css and tbt-customizer.js.
+
+
+= Version 1.1.1 =
+
+Release Date: August 12, 2017
+
+* Enhancements:
+	i) Adds string translations.
+  	ii) Changelog file properly maintained.
+
+* Bug Fixes:
+	i) Version Number Correction.
+	ii) Proper sanitization of strings and URL's.
+	iii) Prefix issue correction style/scripts in functions.php
+	iv) Removed echo in bloginfo(name).
+	v)	Change from the_excerpt('themoments_excerpt_length') to the_excerpt()
+	vi)	Escaping issue fixed in all pages.
+	vii)	Image license URL property mentioned.
+	viii)	Changelog file properly maintained.
+	ix)	Enqueuing JavaScript files
+	x)	lowercase letters in variable, action, and function names
+	xi)	Code comment removed in customizer.php
+
+
+
+
+= Version 1.1.0 =
+
+Release Date: July 23, 2017
+
+i) Intial version Release

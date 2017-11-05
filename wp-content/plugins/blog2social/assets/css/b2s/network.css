@@ -1,0 +1,52 @@
+/*Custom*/
+@media(max-width: 767px) {
+    .form-inline {
+        display: none;
+    }
+    .filterHide {
+        display: none;
+    }
+    .form-inline button { 
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.error{
+    border: 1px solid #FF0000 !important;
+}
+.b2s-network-auth-btn{
+    margin-left: 2px;
+}
+
+.b2s-network-get-more-btn{
+    text-decoration: underline;
+}
+.b2s-network-auth-count{
+    font-size: 12px;
+    font-style: italic;
+    color: #777;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.not-allow{
+    color: #777 !important;
+    text-decoration: line-through;
+}
+
+.no-allow-info-text{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.b2s-network-mandant-select{
+    min-width: 200px;
+}
+
+.b2s-network-mandant-name{
+    font-size: 12px;
+font-style: italic;
+color: #777;
+font-weight: normal;
+
+}
