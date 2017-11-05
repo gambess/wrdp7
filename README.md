@@ -1,2 +1,3 @@
 # wrdp7
-Código del Wordpress  del SanPa 
+Código Fuente de la página Web de la agrupación
+Desarrollada en PHP y Javascript 
